@@ -2,6 +2,10 @@ import { DestinationCard } from "@/components/custom/destination-card";
 import { Navbar } from "@/components/custom/navbar";
 import React from "react";
 import { IoArrowDown } from "react-icons/io5";
+import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "./utils/data";
+import { HiArrowRight } from "react-icons/hi";
+import { PackageCard } from "@/components/custom/package-card";
+import { Footer } from "@/components/custom/footer";
 
 export default function Home() {
     return (
@@ -60,10 +64,63 @@ export default function Home() {
                     nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare
                     mollitia tenetur, aptent.
                 </p>
-                <div className="mt-9 flex items-start justify-center">
-                    <DestinationCard />
+                <div className="mt-9 flex items-stretch justify-center space-x-8">
+                    {POPULAR_DESTINATIONS.map((d, idx: number) => (
+                        <DestinationCard destination={d} key={idx} />
+                    ))}
+                </div>
+                <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-4 font-medium">
+                    More destinations
+                    <HiArrowRight className="ml-2.5 text-sm" />
+                </button>
+            </div>
+            <hr className="broder-gray-600 border-dashed" />
+            <div className="text-center my-10">
+                <p className="text-6xl modesto text-navy">
+                    CHECKOUT
+                    <br />
+                    OUR PACKAGES
+                </p>
+                <p className="mt-3 max-w-xl mx-auto text-gray-800 font-medium text-center">
+                    Fusce hic augue velit wisi quibusdam pariatur, iusto primis,
+                    nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare
+                    mollitia tenetur, aptent.
+                </p>
+                <div className="mt-10 max-w-4xl mx-auto flex flex-col space-y-8">
+                    {POPULAR_PACKAGES.map((p) => (
+                        <PackageCard p={p} />
+                    ))}
+                </div>
+                <button className="bg-black/90 hover:bg-black transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                    All packages
+                    <HiArrowRight className="ml-2.5 text-sm" />
+                </button>
+            </div>
+            <div className="bg-navy p-16 flex items-center">
+                <div className="w-full">
+                    <p className="text-5xl modesto text-white">
+                        GET READY FOR AN
+                        <br />
+                        UNFORGETTABLE TRIP.
+                    </p>
+                    <p className="mt-7 text-gray-300 font-medium mr-20">
+                        Fusce hic augue velit wisi quibusdam pariatur, iusto
+                        primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+                        Sit ornare mollitia tenetur, aptent.
+                    </p>
+                    <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center text-white rounded-full py-2 px-4 font-medium">
+                        Contact us
+                        <HiArrowRight className="ml-2.5 text-sm" />
+                    </button>
+                </div>
+                <div className="ml-10 w-full">
+                    <img
+                        src="/img/udaivilas.webp"
+                        className="mx-auto h-72 w-auto rounded-md"
+                    />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
