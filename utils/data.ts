@@ -63,7 +63,7 @@ export const TOURS = [
     {
         bg_img_url: "/img/artosuraj.jpg",
         tour_name: "Spiritual Tour of India",
-        duration: "9 days 8 nights",
+        duration: "9 days • 8 nights",
         location: "Amritsar, Punjab",
         min_age: "10+",
         tour_details: `A trip that gives you an opportunity to explore ancient monasteries and shrines of historical and archaeological interests in the heartland of four major towns of the dragon kingdom, Bhutan.\n\nHigh in the mysterious and majestic eastern Himalayas, nestled between Tibetan autonomous region of china and India, lies the small kingdom of Bhutan, increasingly renowned as one of the earth’s precious unspoiled spots. This magical place speaks Buddhist culture in the daily lives of its people and spectacular mountain scenery provides a backdrop to pristine forests and picturesque valleys. The breath-taking landscape is dotted with fluttering prayer flags, colourful farmhouses amidst terraced fields and impressive monasteries clinging to impossible cliffs. A memorable trip that stays with you for a lifetime.`,

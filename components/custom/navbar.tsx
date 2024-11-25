@@ -37,10 +37,10 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                         <NavigationMenu>
                             <NavigationMenuList className="space-x-3">
                                 <NavigationMenuItem>
-                                    <Link href="/docs" legacyBehavior passHref>
+                                    <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
-                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-red-500 text-sm font-medium hover:bg-white/5"
+                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
                                             }
                                         >
                                             Home
@@ -51,7 +51,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     <Link href="/about" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
-                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-red-500 text-sm font-medium hover:bg-white/5"
+                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
                                             }
                                         >
                                             About
@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-gray-100 data-[state=open]:text-red-500 font-medium hover:bg-white/5">
+                                    <NavigationMenuTrigger className="text-gray-100 data-[state=open]:text-blue-500 font-medium hover:bg-white/5">
                                         Collections
                                     </NavigationMenuTrigger>
                                     <NavigationMenuContent>
@@ -105,7 +105,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     <Link href="/docs" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
-                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-red-500 text-sm font-medium hover:bg-white/5"
+                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
                                             }
                                         >
                                             Tours
@@ -116,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     <Link href="/docs" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
-                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-red-500 text-sm font-medium hover:bg-white/5"
+                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
                                             }
                                         >
                                             Contact

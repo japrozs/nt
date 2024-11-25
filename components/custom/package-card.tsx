@@ -14,7 +14,7 @@ export const PackageCard: React.FC<PackageCardProps> = ({ p }) => {
         <div className="flex flex-col md:flex-row shadow-md mx-5 md:mx-0 items-stretch bg-white rounded-2xl border border-gray-200">
             <img
                 src={p.img_url}
-                className="h-36 rounded-t-2xl md:min-w-64 md:w-64 md:h-60 object-cover md:rounded-l-2xl"
+                className="h-36 rounded-t-2xl md:rounded-tr-none md:min-w-64 md:w-64 md:h-60 object-cover md:rounded-l-2xl"
             />
             <div className="w-full p-5 pr-5 md:pr-0 flex items-start bg-white">
                 <TbFlower className="hidden md:block text-emerald-600 mr-3.5 text-2xl mt-1" />

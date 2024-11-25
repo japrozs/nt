@@ -113,7 +113,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                             {TOURS[0].destinations_covered.map(
                                                 (d, idx: number) => (
                                                     <li
-                                                        className="text-smolfont-medium text-gray-700"
+                                                        className="text-smol font-medium text-gray-700"
                                                         key={idx}
                                                     >
                                                         <span className="text-blue-500 font-bold uppercase menlo">
@@ -309,7 +309,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                                     0
                                             }
                                             type="submit"
-                                            label="Log in"
+                                            label="Submit"
                                             className="mt-3"
                                         />
                                     </Form>
@@ -323,7 +323,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                         <p className="text-lg font-semibold mb-0">
                                             Have a question?
                                         </p>
-                                        <p className="text-sm text-gray-500 font-medium mb-3">
+                                        <p className="text-sm text-gray-600 font-medium mb-3">
                                             Do not hesitage to send us an email.
                                             Our team is made up of experts who
                                             are more than hapy to help you.
