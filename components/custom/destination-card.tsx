@@ -13,7 +13,7 @@ export const DestinationCard: React.FC<DestinationCardProps> = ({
             <figure className="relative w-full h-64">
                 <img
                     src={destination.img_url}
-                    alt="Burj Khalifa, Dubai"
+                    alt={destination.city}
                     className={`w-full h-full object-cover ${
                         destination.classname || ""
                     }`}

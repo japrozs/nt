@@ -7,9 +7,9 @@ interface FooterProps {}
 export const Footer: React.FC<FooterProps> = ({}) => {
     return (
         <div className="bg-black ">
-            <div className="py-10 px-16 flex items-stretch text-white">
+            <div className="py-10 px-16 md:flex items-stretch text-white">
                 <div className="w-full mr-10">
-                    <Logo className="ml-auto h-9 w-auto mb-3" />
+                    <Logo className="md:ml-auto h-9 w-auto mb-6" />
                     {/* <p className="mt-4 text-gray-400 font-medium mr-10 text-sm">
                     Urna ratione ante harum provident, eleifend, vulputate
                     molestiae proin fringilla, praesentium magna conubia
@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     <p className="text-gray-300 font-medium menlo">
                         🇮🇳 +91 8800883595
                     </p>
-                    <div className="flex items-center">
+                    <div className="flex items-start">
                         <HiOutlineMail className="text-xl mr-3 text-gray-400" />
                         <a
                             href="mailto:info@nobletravels.com"
@@ -31,7 +31,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                             info@nobletravels.com
                         </a>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-start">
                         <HiOutlineLocationMarker className="text-xl mr-3 text-gray-400" />
                         <p className="text-gray-300 font-medium">
                             9A/1 205 WEA, Karol Bagh, New Delhi

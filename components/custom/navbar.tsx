@@ -21,16 +21,20 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                     <p className="text-white menlo mr-3">contact</p>
                     <p className="text-white menlo">email</p>
                     <div className="ml-auto mr-0 flex items-center">
-                        <p className="text-white menlo">socials</p>
+                        <a href="/tour-details" className="text-white menlo">
+                            socials
+                        </a>
                     </div>
                 </div>
             </div>
             <hr className="border-gray-900 my-2" />
             {/* TODO: make this sticky */}
-            <div className="bg-black pb-2">
+            <div className="bg-black pb-2  ">
                 <div className="flex items-center px-4 max-w-[76rem] mx-auto">
-                    <Logo className="text-white h-9 w-auto" />
-                    <div className="ml-auto mr-0">
+                    <a href="/">
+                        <Logo className="text-white h-9 w-auto" />
+                    </a>
+                    <div className="hidden md:block ml-auto mr-0">
                         <NavigationMenu>
                             <NavigationMenuList className="space-x-3">
                                 <NavigationMenuItem>
@@ -45,7 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href="/docs" legacyBehavior passHref>
+                                    <Link href="/about" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
                                                 "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-red-500 text-sm font-medium hover:bg-white/5"
