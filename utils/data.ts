@@ -3,7 +3,7 @@ export const POPULAR_DESTINATIONS: {
     city: string;
     name: string;
     description: string;
-    classname?: string;
+    object_bottom?: boolean;
 }[] = [
     {
         img_url: "/img/ammy-singh.jpg",
@@ -18,7 +18,7 @@ export const POPULAR_DESTINATIONS: {
         name: "Taj Mahal",
         description:
             "A white marble mausoleum built by Mughal emperor Shah Jahan in memory of his favourite wife",
-        classname: "object-bottom",
+        object_bottom: true,
     },
     {
         img_url: "/img/axp-photography.jpg",

@@ -15,9 +15,8 @@ export const DestinationCard: React.FC<DestinationCardProps> = ({
                     src={destination.img_url}
                     alt={destination.city}
                     className={`w-full h-full object-cover ${
-                        destination.classname || ""
+                        destination.object_bottom && "object-bottom"
                     }`}
-                    loading="lazy"
                 />
             </figure>
 
