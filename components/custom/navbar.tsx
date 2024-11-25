@@ -1,6 +1,3 @@
-import * as React from "react";
-import Link from "next/link";
-import { Logo } from "../ui/logo";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -8,8 +5,10 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
-    navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Link from "next/link";
+import * as React from "react";
+import { Logo } from "../ui/logo";
 
 interface NavbarProps {}
 

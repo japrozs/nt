@@ -1,27 +1,26 @@
+import { Button } from "@/components/custom/button";
+import { Footer } from "@/components/custom/footer";
+import { InputField } from "@/components/custom/input-field";
 import { Navbar } from "@/components/custom/navbar";
-import React from "react";
-import { GrLocation } from "react-icons/gr";
-import { LuCalendarRange, LuTicket } from "react-icons/lu";
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import { CgDetailsMore } from "react-icons/cg";
-import { IoFootsteps } from "react-icons/io5";
-import { TbBrandGooglePhotos, TbListDetails } from "react-icons/tb";
-import { IoMdInformationCircleOutline } from "react-icons/io";
+import { TextField } from "@/components/custom/text-field";
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion";
-import { TOURS } from "./utils/data";
-import { Footer } from "@/components/custom/footer";
-import { RiQuestionLine } from "react-icons/ri";
-import { Form, Formik } from "formik";
-import { InputField } from "@/components/custom/input-field";
-import { Button } from "@/components/custom/button";
-import { TextField } from "@/components/custom/text-field";
 import { EMAIL_REGEXP } from "@/lib/utils";
-import { HiOutlineMail } from "react-icons/hi";
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import { Form, Formik } from "formik";
+import React from "react";
+import { CgDetailsMore } from "react-icons/cg";
+import { GrLocation } from "react-icons/gr";
+import { IoMdInformationCircleOutline } from "react-icons/io";
+import { IoFootsteps } from "react-icons/io5";
+import { LuCalendarRange, LuTicket } from "react-icons/lu";
+import { RiQuestionLine } from "react-icons/ri";
+import { TbListDetails } from "react-icons/tb";
+import { TOURS } from "../utils/data";
 
 interface TourDetailsProps {}
 
@@ -32,14 +31,14 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
             <div
                 className="relative w-full"
                 style={{
-                    height: "30vh", // Ensures the height doesn't exceed 100vh
-                    backgroundImage: `url("${TOURS[0].bg_img_url}")`, // Replace with your image path
+                    height: "30vh",
+                    backgroundImage: `url("${TOURS[0].bg_img_url}")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
             >
                 <div
-                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60" // Darken the image
+                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60"
                     style={{ zIndex: 1 }}
                 />
                 <div
@@ -251,7 +250,8 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                     subject: "",
                                     message: "",
                                 }}
-                                onSubmit={async (values, { setErrors }) => {
+                                onSubmit={async (values) => {
+                                    // onSubmit={async (values, { setErrors }) => {
                                     console.log("values :: ", values);
                                     alert("ok");
                                 }}

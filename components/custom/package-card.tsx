@@ -1,9 +1,8 @@
-import { POPULAR_PACKAGES } from "@/pages/utils/data";
+import { POPULAR_PACKAGES } from "@/utils/data";
 import React from "react";
 import { GrNavigate } from "react-icons/gr";
 import { HiArrowRight } from "react-icons/hi";
 import { LuBuilding, LuCar, LuTicket } from "react-icons/lu";
-import { MdOutlineDirectionsCarFilled } from "react-icons/md";
 import { TbFlower } from "react-icons/tb";
 
 interface PackageCardProps {

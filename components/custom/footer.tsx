@@ -1,6 +1,6 @@
 import React from "react";
-import { Logo } from "../ui/logo";
 import { HiOutlineLocationMarker, HiOutlineMail } from "react-icons/hi";
+import { Logo } from "../ui/logo";
 
 interface FooterProps {}
 

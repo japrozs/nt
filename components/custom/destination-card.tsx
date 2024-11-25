@@ -1,4 +1,4 @@
-import { POPULAR_DESTINATIONS } from "@/pages/utils/data";
+import { POPULAR_DESTINATIONS } from "@/utils/data";
 import React from "react";
 
 interface DestinationCardProps {

@@ -1,5 +1,5 @@
 import { useField } from "formik";
-import React, { InputHTMLAttributes, TextareaHTMLAttributes } from "react";
+import React, { TextareaHTMLAttributes } from "react";
 
 type TextFieldProps = TextareaHTMLAttributes<HTMLTextAreaElement> & {
     name: string;

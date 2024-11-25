@@ -1,11 +1,10 @@
 import { DestinationCard } from "@/components/custom/destination-card";
-import { Navbar } from "@/components/custom/navbar";
-import React from "react";
-import { IoArrowDown } from "react-icons/io5";
-import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "./utils/data";
-import { HiArrowRight } from "react-icons/hi";
-import { PackageCard } from "@/components/custom/package-card";
 import { Footer } from "@/components/custom/footer";
+import { Navbar } from "@/components/custom/navbar";
+import { PackageCard } from "@/components/custom/package-card";
+import { HiArrowRight } from "react-icons/hi";
+import { IoArrowDown } from "react-icons/io5";
+import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
 
 export default function Home() {
     return (
@@ -14,14 +13,14 @@ export default function Home() {
             <div
                 className="relative w-full"
                 style={{
-                    height: "80vh", // Ensures the height doesn't exceed 100vh
-                    backgroundImage: 'url("/img/prasant-kr-dutta.jpg")', // Replace with your image path
+                    height: "80vh",
+                    backgroundImage: 'url("/img/prasant-kr-dutta.jpg")',
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
             >
                 <div
-                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60" // Darken the image
+                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60"
                     style={{ zIndex: 1 }}
                 />
                 <div
@@ -55,7 +54,7 @@ export default function Home() {
                     </div> */}
                 </div>
             </div>
-            <div className="text-center mt-8 md:my-10">
+            <div className="text-center mt-8 mb-10 md:my-10">
                 <p className="px-4 md:px-0 text-5xl md:text-6xl modesto text-navy">
                     POPULAR DESTINATIONS
                 </p>
