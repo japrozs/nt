@@ -55,9 +55,14 @@ export const PackageCard: React.FC<PackageCardProps> = ({ p }) => {
                                 </p>
                             </div>
                         </div>
-                        <button className="ml-auto w-full justify-center md:w-auto mt-5 md:mt-0 md:mr-5 bg-emerald-600/90 hover:bg-emerald-600 transition flex items-center text-sm mx-auto text-white rounded-md py-2 px-6 font-medium">
-                            Learn more
-                            <HiArrowRight className="ml-2.5 text-sm" />
+                        <button className="ml-auto w-full justify-center md:w-auto mt-5 md:mt-0 md:mr-5 bg-emerald-600/90 hover:bg-emerald-600 transition flex items-center text-sm mx-auto text-white rounded-md font-medium">
+                            <a
+                                href={`/tours/${p.slug}`}
+                                className="flex items-center py-2 px-6 "
+                            >
+                                Learn more
+                                <HiArrowRight className="ml-2.5 text-sm" />
+                            </a>
                         </button>
                     </div>
                 </div>

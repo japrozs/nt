@@ -20,7 +20,7 @@ import { IoFootsteps } from "react-icons/io5";
 import { LuCalendarRange, LuTicket } from "react-icons/lu";
 import { RiQuestionLine } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
-import { TOURS } from "../utils/data";
+import { POPULAR_PACKAGES } from "../utils/data";
 
 interface TourDetailsProps {}
 
@@ -32,7 +32,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                 className="relative w-full"
                 style={{
                     height: "30vh",
-                    backgroundImage: `url("${TOURS[0].bg_img_url}")`,
+                    backgroundImage: `url("${POPULAR_PACKAGES[0].tour.bg_img_url}")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -46,7 +46,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                     style={{ zIndex: 2 }}
                 >
                     <h1 className="text-5xl md:text-7xl mb-4 mx-auto modesto w-full md:max-w-sm">
-                        {TOURS[0].tour_name.toUpperCase()}
+                        {POPULAR_PACKAGES[0].tour.tour_name.toUpperCase()}
                     </h1>
                 </div>
             </div>
@@ -55,16 +55,20 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                     <div className="flex flex-wrap items-center space-y-1 md:space-y-0 space-x-3">
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <LuCalendarRange className="text-blue-500 text-lg mr-2.5" />
-                            <p className="font-semibold">{TOURS[0].duration}</p>
+                            <p className="font-semibold">
+                                {POPULAR_PACKAGES[0].tour.duration}
+                            </p>
                         </div>
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <GrLocation className="text-blue-500 text-lg mr-2.5" />
-                            <p className="font-semibold">{TOURS[0].location}</p>
+                            <p className="font-semibold">
+                                {POPULAR_PACKAGES[0].tour.location}
+                            </p>
                         </div>
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <LuTicket className="text-blue-500 text-lg mr-2.5" />
                             <p className="font-semibold">
-                                Min age – {TOURS[0].min_age}
+                                Min age – {POPULAR_PACKAGES[0].tour.min_age}
                             </p>
                         </div>
                     </div>
@@ -98,7 +102,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                         <p
                                             className="text-gray-700 font-medium text-smol"
                                             dangerouslySetInnerHTML={{
-                                                __html: TOURS[0].tour_details.replace(
+                                                __html: POPULAR_PACKAGES[0].tour.tour_details.replace(
                                                     /\n/g,
                                                     "<br />"
                                                 ),
@@ -110,8 +114,8 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                             Destinations covered
                                         </p>
                                         <ul className="px-5 md:pl-0 list-disc space-y-3">
-                                            {TOURS[0].destinations_covered.map(
-                                                (d, idx: number) => (
+                                            {POPULAR_PACKAGES[0].tour.destinations_covered.map(
+                                                (d: any, idx: number) => (
                                                     <li
                                                         className="text-smol font-medium text-gray-700"
                                                         key={idx}
@@ -133,8 +137,8 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                             Itinerary outline
                                         </p>
                                         <ul className="px-5 md:pl-0 mt-1 list-disc space-y-3">
-                                            {TOURS[0].itinerary_outline.map(
-                                                (i, idx: number) => (
+                                            {POPULAR_PACKAGES[0].tour.itinerary_outline.map(
+                                                (i: any, idx: number) => (
                                                     <li
                                                         className="font-medium items-center text-smol text-gray-700"
                                                         key={idx}
@@ -156,8 +160,8 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                             collapsible
                                             className="w-full"
                                         >
-                                            {TOURS[0].detailed_itinerary.map(
-                                                (i, idx: number) => (
+                                            {POPULAR_PACKAGES[0].tour.detailed_itinerary.map(
+                                                (i: any, idx: number) => (
                                                     <AccordionItem
                                                         value={`item ${idx}`}
                                                         className="border-none"
@@ -204,8 +208,8 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                 </TabPanel> */}
                                 <TabPanel>
                                     <div className="pt-4">
-                                        {TOURS[0].important_information.map(
-                                            (i, idx: number) => (
+                                        {POPULAR_PACKAGES[0].tour.important_information.map(
+                                            (i: any, idx: number) => (
                                                 <div key={idx} className="mb-5">
                                                     <p className="text-2xl font-bold mb-3 flex items-center">
                                                         {i.title}
@@ -213,7 +217,7 @@ const TourDetails: React.FC<TourDetailsProps> = ({}) => {
                                                     <ul className="px-5 md:pl-0 list-disc space-y-1.5">
                                                         {i.items.map(
                                                             (
-                                                                item,
+                                                                item: any,
                                                                 k: number
                                                             ) => (
                                                                 <li

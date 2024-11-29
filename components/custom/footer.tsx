@@ -7,7 +7,7 @@ interface FooterProps {}
 export const Footer: React.FC<FooterProps> = ({}) => {
     return (
         <div className="bg-black ">
-            <div className="py-10 px-16 md:flex items-stretch text-white">
+            <div className="py-10 px-8 md:px-16 md:flex items-stretch text-white">
                 <div className="w-full mr-10">
                     <Logo className="md:ml-auto h-9 w-auto mb-6" />
                     {/* <p className="mt-4 text-gray-400 font-medium mr-10 text-sm">
