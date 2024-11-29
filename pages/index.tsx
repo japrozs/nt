@@ -107,10 +107,12 @@ export default function Home() {
                         primis, nec nemo, rutrum. Vestibulum cumque laudantium.
                         Sit ornare mollitia tenetur, aptent.
                     </p>
-                    <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center text-white rounded-full py-2 px-4 font-medium">
-                        Contact us
-                        <HiArrowRight className="ml-2.5 text-sm" />
-                    </button>
+                    <a href="/contact">
+                        <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center text-white rounded-full py-2 px-4 font-medium">
+                            Contact us
+                            <HiArrowRight className="ml-2.5 text-sm" />
+                        </button>
+                    </a>
                 </div>
                 <div className="hidden md:block ml-10 w-full">
                     <img

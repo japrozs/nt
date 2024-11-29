@@ -1,7 +1,9 @@
 import { Footer } from "@/components/custom/footer";
 import { Navbar } from "@/components/custom/navbar";
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
+import { GiStairsGoal } from "react-icons/gi";
+import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
+import { LuTarget } from "react-icons/lu";
 
 interface AboutProps {}
 
@@ -84,7 +86,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     {/* <p className="text-2xl font-bold mb-3 flex items-center">
                         Our values
                     </p> */}
-                    <p className="text-5xl modesto text-black mb-5">
+                    <p className="text-5xl modesto text-navy mb-5">
                         OUR VALUES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
@@ -130,7 +132,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     {/* <p className="text-2xl font-bold mb-3 flex items-center">
                         Our services
                     </p> */}
-                    <p className="text-5xl modesto text-black mb-5">
+                    <p className="text-5xl modesto text-navy mb-5">
                         OUR SERVICES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
@@ -160,11 +162,42 @@ const About: React.FC<AboutProps> = ({}) => {
                     </a>
                 </div>
             </div>
+            <div className="border-b border-gray-200 border-dashed text-center py-16">
+                <div className="flex flex-wrap items-start justify-center space-y-16 md:space-y-0 md:space-x-16">
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <HiOutlineEye className="text-7xl text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">Vision</p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            Our vision is to be known as a company that provides
+                            a high-quality service by creating authentic travel
+                            experiences in the regions covered by us.
+                        </p>
+                    </div>
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <LuTarget className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">Mission</p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            To rejuvenate the world…To inspire moments of
+                            optimism and happiness…To create value and make a
+                            difference in the customer travel experience.
+                        </p>
+                    </div>
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">Goals</p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            We have support for convenient booking services such
+                            as finding ideal locations, saving on bookings, and
+                            finding efficient ways to organize your trip.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
                 {/* <p className="text-2xl font-bold mb-3 flex items-center">
 				Things that make us unique
                 </p> */}
-                <p className="text-5xl uppercase modesto text-black mb-5">
+                <p className="text-5xl uppercase modesto text-navy mb-5">
                     Things that make us unique
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
