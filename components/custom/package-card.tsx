@@ -26,7 +26,10 @@ export const PackageCard: React.FC<PackageCardProps> = ({ p }) => {
                         </p>
                     </div>
                     <p className="my-2.5 max-w-xl text-gray-600 font-medium text-[0.9rem]">
-                        {p.description}
+                        {p.tour.tour_details
+                            .replace(/[\n\t]/g, "")
+                            .trim()
+                            .substring(0, 250) + "..."}
                     </p>
                     <div className="flex items-center flex-col md:flex-row mt-auto mb-0">
                         <div className="flex items-center space-x-5">

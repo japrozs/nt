@@ -86,7 +86,7 @@ export default function Home() {
                     mollitia tenetur, aptent.
                 </p>
                 <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
-                    {POPULAR_PACKAGES.map((p, idx: number) => (
+                    {POPULAR_PACKAGES.slice(0, 3).map((p, idx: number) => (
                         <PackageCard p={p} key={idx} />
                     ))}
                 </div>

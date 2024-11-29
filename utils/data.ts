@@ -32,7 +32,6 @@ export const POPULAR_DESTINATIONS: {
 export const POPULAR_PACKAGES: {
     img_url: string;
     name: string;
-    description: string;
     duration: string;
     slug: string;
     tour: any;
@@ -40,11 +39,6 @@ export const POPULAR_PACKAGES: {
     {
         img_url: "/img/artosuraj.jpg",
         name: "Spiritual Journey of India",
-        description: `Spiritual tours of Haridwar, Rishikesh, and the Ganges
-                        offer a profound journey into India’s spiritual heart.
-                        Haridwar, one of the holiest cities in India, draws
-                        pilgrims who come to bathe in the sacred Ganges and
-                        witness the mesmerizing Ganga Aarti. Just upstream...`,
         duration: "6 Nights • 7 Days",
         slug: "spiritual-journey-of-india",
         tour: {
@@ -285,7 +279,6 @@ export const POPULAR_PACKAGES: {
     {
         img_url: "/img/madurai.jpg",
         name: "South India with Madurai",
-        description: `South India is a region rich in cultural heritage, natural beauty, and vibrant traditions, offering diverse experiences from tranquil beaches to majestic temples. Among its many treasures, Madurai stands out with its ancient Meenakshi Amman Temple, a stunning architectural marvel.`,
         duration: "12 Nights • 13 Days",
         slug: "south-india-with-madurai",
         tour: {
@@ -528,7 +521,6 @@ export const POPULAR_PACKAGES: {
     {
         img_url: "/img/tkirkgoz.jpg",
         name: "Ladakh Hemis festival tour",
-        description: `Ladakh, often called the "Land of High Passes," is a stunning destination for adventure and spiritual tourism alike, nestled in the rugged Himalayas of northern India. Known for its awe-inspiring landscapes, Ladakh offers pristine lakes like Pangong Tso, vast desert...`,
         duration: "6 Nights • 8 Days",
         slug: "ladakh-hemis-festival-tour",
         tour: {
