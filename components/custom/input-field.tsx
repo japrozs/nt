@@ -6,12 +6,14 @@ type InputFieldProps = InputHTMLAttributes<HTMLInputElement> & {
     label: string;
     fullWidth?: boolean;
     shadow?: boolean;
+    disableSubmitOnEnter?: boolean;
 };
 
 export const InputField: React.FC<InputFieldProps> = ({
     label,
     fullWidth,
     shadow,
+    disableSubmitOnEnter,
     ...props
 }) => {
     const [field, { error }] = useField(props as any);
@@ -36,6 +38,13 @@ export const InputField: React.FC<InputFieldProps> = ({
                 {...props}
                 id={field.name}
                 placeholder={props.placeholder}
+                onKeyPress={(e) => {
+                    if (disableSubmitOnEnter) {
+                        if (e.which === 13) {
+                            e.preventDefault();
+                        }
+                    }
+                }}
             />
             {error && (
                 <span className={"mt-1 font-medium text-sm text-red-500"}>
