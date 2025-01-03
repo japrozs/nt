@@ -2976,4 +2976,72 @@ export const POPULAR_PACKAGES: {
             ],
         },
     },
+    {
+        img_url:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnj91btDROLbq0nVsORtNIKw92_T2ZNcJ6-w&s",
+        name: "Dubai – Abu Dhabi Highlights",
+        duration: "6 Nights • 7 Days",
+        slug: "dubai-abu-dhabi-highlights",
+        tour: {
+            location: "DUBAI",
+            country: "UAE",
+            min_age: "10+",
+            tour_details:
+                "Embark on an unforgettable adventure through the heart of the UAE with our exclusive Dubai and Abu Dhabi tour. Discover the best of Dubai, from the iconic Burj Khalifa to the world-renowned Dubai Mall, and experience a magical evening aboard a traditional Dhow Cruise, complete with a delicious dinner. For thrill-seekers and culture enthusiasts alike, a visit to the Bollywood Theme Park promises excitement and entertainment for all ages. And no trip to Dubai is complete without a thrilling Evening Desert Safari, where you can experience the vast golden sands in a 4x4, followed by a mesmerizing evening of dinner, dance, and more.\n\nYour journey doesn’t stop there – we’ll also take you on a same-day excursion to the majestic city of Abu Dhabi. Explore its stunning landmarks, including the awe-inspiring Sheikh Zayed Grand Mosque and the architectural marvels of the Corniche. With a perfect mix of city splendor, desert adventure, and cultural exploration, this tour offers an immersive experience that will leave you with memories to cherish forever.",
+            destinations_covered: [
+                {
+                    name: "DUBAI",
+                    description:
+                        "Dubai is a city that seamlessly blends the futuristic with the traditional, offering a unique experience for every traveler. Known for its towering skyscrapers like the Burj Khalifa, luxurious shopping malls, and sprawling deserts, Dubai is a vibrant hub of innovation, culture, and adventure. Whether you’re admiring modern architecture, exploring bustling souks, or relaxing on pristine beaches, Dubai promises an unforgettable journey.",
+                },
+                {
+                    name: "ABU DHABI",
+                    description:
+                        "Abu Dhabi, the UAE’s capital, is a city that exudes elegance and grandeur. Known for its striking modern architecture and rich cultural heritage, it’s home to architectural gems like the Sheikh Zayed Grand Mosque and the opulent Emirates Palace. Abu Dhabi offers a peaceful contrast to its bustling neighbors, providing a serene mix of tradition, luxury, and breathtaking natural beauty.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "ARRIVE DUBAI",
+                    description:
+                        "Meet & assist on arrival at Dubai International Airport and transfer to your hotel. The rest of the day is at leisure.\n\nOvernight is at the hotel.",
+                },
+                {
+                    title: "IN DUBAI (CITY TOUR & EVENING DESERT SAFARI)",
+                    description:
+                        "Today after your breakfast proceed for the sightseeing tour of Dubai where you’ll get to see the famous attractions like Jumeirah Mosque, Gold Souk, Dubai Mall, Spice Souk, and Bastakiya Square. You can enjoy a drive in front of Atlantis. In the evening you can enjoy your desert safari, followed by dinner served in the desert under the sky with exotic dance performances. Later you will be transferred back to your hotel.\n\nOvernight is at the hotel.",
+                },
+                {
+                    title: "IN DUBAI (SAME DAY EXCURSION TO ABU DHABI)",
+                    description:
+                        "Today after an early breakfast you will proceed for the same-day excursion to Abu Dhabi which is located just a distance of 140 km from Dubai. During your city tour, you will get a chance to discover the city’s soaring skyscrapers, palaces, and villas along with the famous Sheikh Zayed Grand Mosque and Marina Mall. After lunch, you will visit Yas Island where a bunch of fascinating attractions including the famous Ferrari World awaits to give you one of a kind holiday experience in UAE.\n\nLater in the evening drive back to Dubai. Overnight is at Hotel.",
+                },
+                {
+                    title: "IN DUBAI (DUBAI MALL, BURJ KHALIFA)",
+                    description:
+                        "Morning is at leisure, you can stroll around the streets or can explore nearby malls or shops. In the afternoon proceed to visit Dubai Mall from where you can buy some souvenir gifts for your loved ones thereafter you’ll proceed to visit the 124th floor of the famous Burj Khalifa tower from where you can relish the compelling view of the entire city. In the evening you will enjoy the Dubai Fountain show.\n\nOvernight is at Hotel.",
+                },
+                {
+                    title: "IN DUBAI (DUBAI EVENING DHOW CRUISE)",
+                    description:
+                        "Morning is at leisure. In the evening you enjoy the buffet dinner at Dhow Cruise & later return back to your hotel.\n\nOvernight is at Hotel.",
+                },
+                {
+                    title: "IN DUBAI (BOLLYWOOD THEME PARK)",
+                    description:
+                        "Today you will proceed to visit Bollywood Theme Park. Enjoy stage performances, live entertainment, and cinematic rides. Later in the evening, we’ll take you back to your hotel for an overnight stay.\n\nLater in the evening return back to your hotel.\n\nOvernight is at Hotel.",
+                },
+                {
+                    title: "DEPART FROM DUBAI",
+                    description:
+                        "In time transfer to Dubai airport to board your flight for your onward destination.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid UAE visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
 ];
