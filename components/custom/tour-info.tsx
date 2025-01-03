@@ -6,14 +6,14 @@ import {
     AccordionItem,
     AccordionTrigger,
     AccordionContent,
-} from "@radix-ui/react-accordion";
+} from "../ui/accordion";
 import { Formik, Form } from "formik";
 import React from "react";
 import { CgDetailsMore } from "react-icons/cg";
 import { GrLocation } from "react-icons/gr";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { IoFootsteps } from "react-icons/io5";
-import { LuCalendarRange, LuTicket } from "react-icons/lu";
+import { LuCalendarRange, LuChevronDown, LuTicket } from "react-icons/lu";
 import { RiQuestionLine } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
 import { Button } from "./button";
@@ -169,22 +169,22 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                                         className="border-none"
                                                         key={idx}
                                                     >
-                                                        <AccordionTrigger className="group w-full bg-gray-50 px-3 py-2.5 mb-1 rounded-lg font-semibold hover:no-underline">
-                                                            {/* <span className="text-gray-600 text-sm">
-                                                                            Day{" "}
-                                                                            {i.day_number}
-                                                                        </span> */}
-                                                            <span className="mr-2 border text-blue-600 bg-blue-50 border-blue-400 text-xs font-semibold py-0.5 px-2 rounded-full">
-                                                                {/* <span className=" mr-2 md:mr-0 flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-xs text-blue-600 font-semibold"> */}
-                                                                Day {idx + 1}
+                                                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                                            <span className="min-w-max text-gray-700 text-sm font-medium menlo">
+                                                                {/* <span className="bg-gray-50 rounded-lg py-0.5 px-1 mr-2 text-gray-600 text-xs"> */}
+                                                                Day {idx}
                                                             </span>
-                                                            <span className="font-bold text-black group-hover:underline">
+                                                            <span className="text-gray-400 font-normal menlo mx-3">
+                                                                ––
+                                                            </span>
+                                                            <span className="text-sm text-black">
                                                                 {i.title.toUpperCase()}
                                                             </span>
+                                                            <div className="ml-auto mr-0"></div>
                                                         </AccordionTrigger>
                                                         <AccordionContent>
                                                             <p
-                                                                className="text-gray-600 text-smol font-medium px-2"
+                                                                className="text-gray-800 text-smol font-medium p-5"
                                                                 dangerouslySetInnerHTML={{
                                                                     __html: i.description.replace(
                                                                         /\n/g,
