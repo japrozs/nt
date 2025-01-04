@@ -7,9 +7,12 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
+import { BiSolidCustomize } from "react-icons/bi";
 import { GiStairsGoal } from "react-icons/gi";
-import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
+import { HiArrowRight, HiOutlineEye, HiScissors } from "react-icons/hi";
 import { LuTarget } from "react-icons/lu";
+import { MdLock } from "react-icons/md";
+import { PiScissorsBold } from "react-icons/pi";
 
 interface AccessibilityProps {}
 
@@ -42,9 +45,9 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                 </div>
             </div>
             <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
-                <p className="text-3xl font-bold mb-4">Introduction</p>
-                <p className="text-gray-800 font-medium text-smol text-justify mb-3">
-                    At NOBLE TRAVELS, we believe that accessible tourism is not
+                <p className="text-3xl font-bold mb-4">Travel with us</p>
+                <p className="text-gray-800 font-medium text-smol mb-3">
+                    At Noble Travels, we believe that accessible tourism is not
                     just a necessity, but a fundamental right that should be
                     woven into the fabric of sustainable travel. By aligning our
                     initiatives with global Sustainable Development Goals
@@ -54,7 +57,7 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                     turning it into a shared aspiration that fosters inclusivity
                     and equity.
                 </p>
-                <p className="text-gray-800 font-medium text-smol text-justify mb-3">
+                <p className="text-gray-800 font-medium text-smol mb-3">
                     We strive to ensure that every destination, service, and
                     activity is designed to be welcoming for everyone,
                     empowering individuals with diverse needs to explore the
@@ -108,16 +111,20 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                     </a>
                 </div>
             </div>
-            <div className="border-b border-gray-200 border-dashed text-center py-16">
+            <div className="border-b border-gray-200 border-dashed text-center pt-10 pb-16">
+                <p className="text-5xl modesto text-navy mb-10">
+                    WHY TRAVEL WITH US?
+                </p>
                 <div className="flex flex-wrap items-start justify-center space-y-16 md:space-y-0 md:space-x-16">
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <HiOutlineEye className="text-7xl text-blue-500" />
+                        <PiScissorsBold className="text-7xl text-blue-500" />
                         <p className="text-2xl font-bold mb-3">
                             100% Tailor made
                         </p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            Your entire vacation is designed around your
-                            personal requirements and specifications
+                            Your trip is tailored to your needs, with custom
+                            accommodations and expert planning for a memorable
+                            experience.
                         </p>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
@@ -126,18 +133,20 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                             Expert knowledge
                         </p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            All our specialist have traveled extensively or
-                            lived in their specialist regions and will handle
-                            your trip from start to finish
+                            We have local offices and specialists based in these
+                            regions, ensuring the same expert handles your trip
+                            from start to finish.
                         </p>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
-                        <p className="text-2xl font-bold mb-3">Goals</p>
+                        <MdLock className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">
+                            Fully protected
+                        </p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            We have support for convenient booking services such
-                            as finding ideal locations, saving on bookings, and
-                            finding efficient ways to organize your trip.
+                            24/7 emergency support while abroad, with all
+                            drivers, guides, and staff fully verified for your
+                            safety and peace of mind.
                         </p>
                     </div>
                 </div>
@@ -270,6 +279,14 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <div className="mt-5">
+                    <a
+                        href="/faq"
+                        className="text-base font-semibold text-blue-500 pl-2 hover:underline cursor-pointer"
+                    >
+                        Read all FAQs
+                    </a>
+                </div>
             </div>
             <Footer />
         </div>

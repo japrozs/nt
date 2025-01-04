@@ -2,9 +2,11 @@ import { DestinationCard } from "@/components/custom/destination-card";
 import { Footer } from "@/components/custom/footer";
 import { Navbar } from "@/components/custom/navbar";
 import { PackageCard } from "@/components/custom/package-card";
-import { HiArrowRight } from "react-icons/hi";
+import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
 import { IoArrowDown } from "react-icons/io5";
 import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
+import { LuTarget } from "react-icons/lu";
+import { GiStairsGoal } from "react-icons/gi";
 
 export default function Home() {
     return (
@@ -73,6 +75,65 @@ export default function Home() {
                     <HiArrowRight className="ml-2.5 text-sm" />
                 </button>
             </div>
+            <div className="bg-blue-50/30 relative border-t border-gray-200 border-dashed text-center pt-10 pb-16">
+                <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"></div> */}
+                {/* <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px]">
+                    <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[410px] w-[610px] rounded-full bg-blue-500 opacity-20 blur-[100px]"></div>
+                </div> */}
+                <p className="text-5xl modesto mb-16">
+                    COMPLETE TRAVEL SOLUTIONS
+                </p>
+                <div className="flex flex-wrap items-start justify-center gap-y-16 md:gap-y-0 md:gap-x-10">
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <HiOutlineEye className="text-7xl text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">
+                            Disabled Travel
+                        </p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            From transportation and accommodation to customized
+                            itineraries, we create personalized tours tailored
+                            to your unique preferences.
+                        </p>
+                    </div>
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <LuTarget className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">
+                            Senior - Friendly Tours
+                        </p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            Thoughtfully crafted holidays for senior citizens
+                            and retirees, with relaxed routines, carefully
+                            selected meals, and travel schedules designed to
+                            suit your pace.
+                        </p>
+                    </div>
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">
+                            Corporate and MICE
+                        </p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            We offer luxury accommodations, exclusive conference
+                            setups, VIP transport with bulletproof vehicles, and
+                            personalized services for top companies and foreign
+                            government delegations.
+                        </p>
+                    </div>
+                    <div className="max-w-[18rem] flex flex-col items-center">
+                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
+                        <p className="text-2xl font-bold mb-3">
+                            Student Travel Program
+                        </p>
+                        <p className="text-gray-800 font-medium text-smol mb-3">
+                            Offering affordable, budget-friendly options for
+                            school trips, university exchanges, internships,
+                            study tours, and semester abroad programs, all
+                            tailored to students' needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <hr className="broder-gray-600 border-dashed" />
             <div className="text-center my-10">
                 <p className="text-5xl md:text-6xl modesto text-navy">
@@ -90,10 +151,12 @@ export default function Home() {
                         <PackageCard p={p} key={idx} />
                     ))}
                 </div>
-                <button className="bg-black/90 hover:bg-black transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
-                    All packages
-                    <HiArrowRight className="ml-2.5 text-sm" />
-                </button>
+                <a href="/tours">
+                    <button className="bg-black/90 hover:bg-black transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                        All packages
+                        <HiArrowRight className="ml-2.5 text-sm" />
+                    </button>
+                </a>
             </div>
             <div className="bg-navy p-8 md:p-16 flex items-center">
                 <div className="w-full">

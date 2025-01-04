@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     <NavigationMenuTrigger className="text-gray-100 data-[state=open]:text-blue-500 font-medium hover:bg-white/5 submenu-trigger">
                                         Destinations
                                     </NavigationMenuTrigger>
-                                    <NavigationMenuContent className="min-w-60 mt-2 ml-36 bg-black border border-gray-900 rounded-lg">
+                                    <NavigationMenuContent className="min-w-60 mt-2 ml-20 bg-black border border-gray-900 rounded-lg">
                                         <ul className="p-1.5">
                                             <a href="/india">
                                                 <li className="hover:bg-white/5 text-gray-300 hover:text-white rounded-md cursor-pointer">

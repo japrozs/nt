@@ -175,7 +175,7 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                                         <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
                                                             <span className="min-w-max text-gray-700 text-sm font-medium menlo">
                                                                 {/* <span className="bg-gray-50 rounded-lg py-0.5 px-1 mr-2 text-gray-600 text-xs"> */}
-                                                                Day {idx}
+                                                                Day {idx + 1}
                                                             </span>
                                                             <span className="text-gray-400 font-normal menlo mx-3">
                                                                 ––

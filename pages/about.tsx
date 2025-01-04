@@ -38,47 +38,62 @@ const About: React.FC<AboutProps> = ({}) => {
                     About us
                 </p> */}
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    Travel is about participating in life enriching experiences
-                    and returning home transformed. It is much more than having
-                    another stamp in your passport, or visiting the regular
-                    monuments or a few quick snapshots. We have come to
-                    understand all of these from our past experiences, of course
-                    feedback of our customers. Consequently, Namaah travel came
-                    into the picture to enrich your travel experience.
+                    We are pleased to introduce Noble Travels LLC, a leading
+                    travel company based in Atlanta,USA, specialising in
+                    crafting exceptional and authentic travel experiences across
+                    the diverse landscapes of India, middle east and Africa.
+                    With a deep understanding of our rich culture, heritage, and
+                    local nuances, we are dedicated to providing international
+                    travellers with unforgettable journeys throughout the
+                    country.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    Namaah Travel, a young company to change the travel
-                    industry’s working style. We are a proud Indian company, and
-                    our young professionals who are having more than 70 years of
-                    cumulative experience of travel industry who work diligently
-                    to create unique propositions and maintain our service
-                    standards. Namaah Travel has an elaborated overseas network
-                    of strategic alliances for overseas representation in Asia,
-                    Europe, North America, South America, Africa, Oceania.
+                    Noble Travels was established in 1996 in India, and we have
+                    been building our reputation for excellence ever since –
+                    winning trust and recognition of our thousands of
+                    international and Indian clients with our outstanding
+                    service.We are a company with a India-wide network and
+                    dedicated teams that specialise in every aspect of travel.
+                    Our company have our own service offices in USA , India,
+                    UAE, Egypt, Saudi Arabia and strategic associate alliances
+                    in Nepal, Bhutan, Sri Lanka. At Noble Travels, we make
+                    customer service and traveller satisfaction priority. We are
+                    dedicated to ensuring that every step of the journey, down
+                    to the last detail, is taken care of – with in-depth product
+                    knowledge and range of services offered, highly trained and
+                    motivated teams, an exclusive panel of knowledgeable guides,
+                    and a Wi-Fi-equipped modern transport fleet. Our consistent
+                    performance is made possible by our constant efforts to
+                    enhance and elevate our service standards.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    “NAMAAH” our logo speaks everything about our work ethics.
-                    Namaah is a Sanskrit word, often used within mantras as a
-                    humble salutation and word is derived from the Sanskrit
-                    negation ‘na’, paired with ‘maah’.“Namaah” is used as a
-                    greeting in India. “Elephant” is a symbol for power,
-                    dignity, intelligence and peace. It is considered the
-                    representation or the living incarnation of Lord Ganesha.
-                    “Lotus” introduces the National Identity Elements of India
-                    and intrinsic to the Indian identity and heritage. Indians
-                    of all demographics backgrounds across the world are proud
-                    of these National Symbols as they infuse a sense of pride
-                    and patriotism in everyone’s heart.
+                    Our client list includes higher dignitaries like President,
+                    Vice President, Foreign Ministers, Ambassadors, diplomats of
+                    many European nations. In our corporate client bouquet we
+                    have the CEOs, Managing Directors, Directors & staff members
+                    of many national and international companies including few
+                    of from the USA. We feel proud to mention here that Noble
+                    Travels is the preferred travel partner of Indian Olympic
+                    Association, Indian national cricket team members and
+                    blessed to handle the travel of many world renowned
+                    Spiritual Gurus & masters in USA & India.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    We truly believe that your quintessential tour experience
-                    can be made possible with the knowledge of our experienced
-                    and passionate travel advisors who can personalize your
-                    travel experience based on the information provided by you
-                    and keeping your travel requirements in mind. We would
-                    ensure that all your travel needs are met with the
-                    perfection. Therefore, we work around the clock out to
-                    create special travel experience for you.
+                    We currently have over 250 travel associates & suppliers
+                    operating worldwide; supported by our experienced and
+                    professional staff at our company’s head office and branch
+                    office locations. Our customers consistently rate us as one
+                    of the trusted & reliable travel supplier when it comes to
+                    customer service.
+                </p>
+                <p className="text-gray-800 font-medium text-smol mb-3">
+                    We offer the best travel services in the industry – it's
+                    simply a fact. No other travel company safeguards your money
+                    the way we do. Whether you’re booking a hotel, transfer,
+                    airport parking, or even a budget airline, every dollar you
+                    spend with us is fully protected. We believe your time
+                    should be spent looking forward to your business trip or
+                    vacation, not stressing about the security of your money.
                 </p>
             </div>
             <div className="bg-gray-50 flex items-stretch">
