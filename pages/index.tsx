@@ -20,7 +20,7 @@ export default function Home() {
                 }}
             >
                 <div
-                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60"
+                    className="absolute top-0 left-0 w-full h-full bg-black opacity-40"
                     style={{ zIndex: 1 }}
                 />
                 <div

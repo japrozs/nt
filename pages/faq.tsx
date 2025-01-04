@@ -787,6 +787,17 @@ const FAQ: React.FC<FAQProps> = ({}) => {
                     </Accordion>
                 </div>
             </div>
+            <div className="border-t border-gray-300 pt-3 border-dashed max-w-[76rem] mb-10 px-10 mx-auto">
+                <p className="text-xs text-gray-500">
+                    Note: This contains only a general description and/or
+                    information of services and is not a statement of contract.
+                    All services are subject to all written contract, agreements
+                    and terms and conditions agreed by the company under the
+                    Delhi (India) legal jurisdiction. For further information,
+                    contact your local travel agent or nearest Noble Travels
+                    office.
+                </p>
+            </div>
             <Footer />
         </div>
     );

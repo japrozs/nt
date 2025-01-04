@@ -1,4 +1,5 @@
 import { POPULAR_PACKAGES } from "@/utils/data";
+import { normalCapitalize } from "@/utils/utils";
 import React from "react";
 import { GrNavigate } from "react-icons/gr";
 import { HiArrowRight } from "react-icons/hi";
@@ -20,8 +21,8 @@ export const PackageCard: React.FC<PackageCardProps> = ({ p }) => {
                 <TbFlower className="hidden md:block text-emerald-600 mr-3.5 text-2xl mt-1" />
                 <div className="text-black text-left w-full flex flex-col h-full ">
                     <div className="flex flex-col md:flex-row md:items-center">
-                        <p className="text-2xl font-bold truncate pr-2">
-                            {p.name}
+                        <p className="text-2xl font-bold pr-2">
+                            {normalCapitalize(p.name)}
                         </p>
                         <p className="mt-2 md:mt-0 min-w-max max-w-max md:ml-auto md:mr-5 text-xs text-emerald-600 font-bold bg-emerald-100 border border-green-600 rounded-lg py-0.5 px-2">
                             {p.duration}

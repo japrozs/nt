@@ -5,6 +5,7 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
+    onNavChange,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import * as React from "react";
@@ -34,9 +35,9 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                         <Logo className="text-white h-9 w-auto" />
                     </a>
                     <div className="hidden md:block ml-auto mr-0">
-                        <NavigationMenu>
+                        <NavigationMenu onValueChange={onNavChange}>
                             <NavigationMenuList className="space-x-3">
-                                <NavigationMenuItem>
+                                {/* <NavigationMenuItem>
                                     <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
@@ -46,7 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                             Home
                                         </NavigationMenuLink>
                                     </Link>
-                                </NavigationMenuItem>
+                                </NavigationMenuItem> */}
                                 <NavigationMenuItem>
                                     <Link href="/about" legacyBehavior passHref>
                                         <NavigationMenuLink
@@ -59,56 +60,68 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-gray-100 data-[state=open]:text-blue-500 font-medium hover:bg-white/5">
-                                        Collections
+                                    <NavigationMenuTrigger className="text-gray-100 data-[state=open]:text-blue-500 font-medium hover:bg-white/5 submenu-trigger">
+                                        Destinations
                                     </NavigationMenuTrigger>
-                                    <NavigationMenuContent>
-                                        <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                                            <li className="row-span-3">
-                                                <NavigationMenuLink asChild>
-                                                    <a
-                                                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                                        href="/"
+                                    <NavigationMenuContent className="min-w-60 mt-2 ml-36 bg-black border border-gray-900 rounded-lg">
+                                        <ul className="p-1.5">
+                                            <a href="/india">
+                                                <li className="hover:bg-white/5 text-gray-300 hover:text-white rounded-md cursor-pointer">
+                                                    <NavigationMenuLink
+                                                        asChild
+                                                        className="px-3 py-1.5"
                                                     >
-                                                        <Logo className="text-white h-9 w-auto" />
-                                                        <div className="mb-2 mt-4 text-lg font-medium">
-                                                            shadcn/ui
-                                                        </div>
-                                                        <p className="text-sm leading-tight text-muted-foreground">
-                                                            Beautifully designed
-                                                            components that you
-                                                            can copy and paste
-                                                            into your apps.
-                                                            Accessible.
-                                                            Customizable. Open
-                                                            Source.
+                                                        <p className="text-sm font-medium">
+                                                            <span className="mr-2">
+                                                                🇮🇳
+                                                            </span>
+                                                            India
                                                         </p>
-                                                    </a>
-                                                </NavigationMenuLink>
-                                            </li>
-                                            <div title="Introduction">
-                                                Re-usable components built using
-                                                Radix UI and Tailwind CSS.
-                                            </div>
-                                            <div title="Installation">
-                                                How to install dependencies and
-                                                structure your app.
-                                            </div>
-                                            <div title="Typography">
-                                                Styles for headings, paragraphs,
-                                                lists...etc
-                                            </div>
+                                                    </NavigationMenuLink>
+                                                </li>
+                                            </a>
+                                            <a href="/uae">
+                                                <li className="hover:bg-white/5 text-gray-300 hover:text-white rounded-md cursor-pointer">
+                                                    <NavigationMenuLink
+                                                        asChild
+                                                        href="/uae"
+                                                        className="px-3 py-1.5"
+                                                    >
+                                                        <p className="text-sm font-medium">
+                                                            <span className="mr-2">
+                                                                🇦🇪
+                                                            </span>
+                                                            UAE / Dubai
+                                                        </p>
+                                                    </NavigationMenuLink>
+                                                </li>
+                                            </a>
                                         </ul>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href="/docs" legacyBehavior passHref>
+                                    <Link href="/tours" legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
                                                 "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
                                             }
                                         >
-                                            Tours
+                                            All Tours
+                                        </NavigationMenuLink>
+                                    </Link>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link
+                                        href="/accessibility"
+                                        legacyBehavior
+                                        passHref
+                                    >
+                                        <NavigationMenuLink
+                                            className={
+                                                "h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5"
+                                            }
+                                        >
+                                            Accesible Tourism
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>

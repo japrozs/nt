@@ -15,6 +15,14 @@ const TourPage: React.FC<TourPageProps> = ({}) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
+    const map = {};
+    POPULAR_PACKAGES.map((pkg) => {
+        // @ts-ignore
+        map[pkg.tour.country] = 1;
+    });
+
+    console.log("map :: ", map);
+
     useEffect(() => {
         if (!slug) return;
         setLoading(true);

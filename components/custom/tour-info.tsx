@@ -1,24 +1,25 @@
 import { EMAIL_REGEXP } from "@/lib/utils";
 import { POPULAR_PACKAGES } from "@/utils/data";
-import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/react";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionTrigger,
-    AccordionContent,
-} from "../ui/accordion";
-import { Formik, Form } from "formik";
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import { Form, Formik } from "formik";
 import React from "react";
 import { CgDetailsMore } from "react-icons/cg";
 import { GrLocation } from "react-icons/gr";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { IoFootsteps } from "react-icons/io5";
-import { LuCalendarRange, LuChevronDown, LuTicket } from "react-icons/lu";
+import { LuCalendarRange, LuTicket } from "react-icons/lu";
 import { RiQuestionLine } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "../ui/accordion";
 import { Button } from "./button";
 import { InputField } from "./input-field";
 import { TextField } from "./text-field";
+import { normalCapitalize } from "@/utils/utils";
 
 interface TourInfoProps {
     pkg: (typeof POPULAR_PACKAGES)[0];
@@ -38,14 +39,14 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                 }}
             >
                 <div
-                    className="absolute top-0 left-0 w-full h-full bg-black opacity-60"
+                    className="absolute top-0 left-0 w-full h-full bg-black opacity-20"
                     style={{ zIndex: 1 }}
                 />
                 <div
                     className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center px-1 w-full md:px-4"
                     style={{ zIndex: 2 }}
                 >
-                    <h1 className="text-5xl md:text-7xl mb-4 mx-auto modesto w-full md:max-w-lg">
+                    <h1 className="drop-shadow-2xl text-5xl md:text-7xl mb-4 mx-auto modesto w-full md:max-w-lg">
                         {pkg.name.toUpperCase()}
                     </h1>
                 </div>
@@ -69,7 +70,9 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                         </div>
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <GrLocation className="text-blue-500 text-lg mr-2.5" />
-                            <p className="font-semibold">{pkg.tour.country}</p>
+                            <p className="font-semibold">
+                                {normalCapitalize(pkg.tour.country)}
+                            </p>
                         </div>
                     </div>
                     <div className="w-full">

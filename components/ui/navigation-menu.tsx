@@ -5,6 +5,23 @@ import { ChevronDown } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
+export function onNavChange() {
+    setTimeout(() => {
+        const triggers = document.querySelectorAll(
+            '.submenu-trigger[data-state="open"]'
+        );
+        if (triggers.length === 0) return;
+
+        const firstTrigger = triggers[0] as HTMLElement;
+        const viewports = document.getElementsByClassName("submenu-viewport");
+
+        if (viewports.length > 0) {
+            const viewport = viewports[0] as HTMLElement;
+            viewport.style.left = `${firstTrigger.offsetLeft}px`;
+        }
+    });
+}
+
 const NavigationMenu = React.forwardRef<
     React.ElementRef<typeof NavigationMenuPrimitive.Root>,
     React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Root>
@@ -85,10 +102,7 @@ const NavigationMenuViewport = React.forwardRef<
 >(({ className, ...props }, ref) => (
     <div className={cn("absolute left-0 top-full flex justify-center")}>
         <NavigationMenuPrimitive.Viewport
-            className={cn(
-                "origin-top-center relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border bg-popover text-popover-foreground shadow data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)]",
-                className
-            )}
+            className={cn("submenu-viewport ....", className)}
             ref={ref}
             {...props}
         />

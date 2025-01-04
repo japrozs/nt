@@ -38,6 +38,327 @@ export const POPULAR_PACKAGES: {
 }[] = [
     {
         img_url:
+            "https://images.pexels.com/photos/2668605/pexels-photo-2668605.jpeg?auto=compress&cs=tinysrgb&w=6000&h=4000&dpr=2",
+        name: "Just Tigers and Golden Triangle",
+        duration: "15 Nights • 16 Days",
+        slug: "just-tigers-and-golden-triangle",
+        tour: {
+            location: "Maharashtra, Delhi, Rajasthan",
+            country: "INDIA",
+            min_age: "10+",
+            tour_details:
+                "Explore the Wild Heart of India: Pench, Kanha, Bandhavgarh & Golden Triangle Tour\n\nEmbark on an extraordinary journey through India’s diverse landscapes, blending the thrill of wildlife safaris with the grandeur of royal heritage. This unique tour takes you to some of India’s most renowned national parks—Pench National Park, Kanha National Park, and Bandhavgarh National Park—each offering an unmatched opportunity to experience India’s rich wildlife in its natural habitat. From spotting majestic tigers, elusive leopards, and herds of elephants, to exploring dense forests teeming with birdlife, this wildlife adventure will captivate your senses and take you deep into the heart of India’s wilderness.\nThe tour also brings you to the iconic Golden Triangle—Delhi, Agra, and Jaipur—where history, culture, and architecture take center stage. Explore the bustling streets of Delhi, with its mix of ancient monuments and modern charm, marvel at the world-famous Taj Mahal in Agra, and immerse yourself in the royal grandeur of Jaipur, known for its palaces, forts, and vibrant markets. This journey seamlessly blends the thrill of wildlife exploration with the timeless beauty of India’s cultural landmarks, offering an unforgettable experience for every traveler.",
+            destinations_covered: [
+                {
+                    name: "PENCH NATIONAL PARK",
+                    description:
+                        "Located in Madhya Pradesh, Pench National Park is a captivating wildlife destination known for its lush forests and rich biodiversity. The park is part of the Pench Tiger Reserve, named after the Pench River, and is famous for its thriving tiger population, making it a top spot for wildlife enthusiasts and photographers. The park offers a mix of dry deciduous forests, grasslands, and waterholes, providing an ideal habitat for a variety of wildlife, including tigers, leopards, and wild dogs.",
+                },
+                {
+                    name: "KANHA NATIONAL PARK",
+                    description:
+                        "Kanha National Park, one of India's largest and most scenic wildlife reserves, is a haven for nature lovers and wildlife photographers. Set amidst dense forests and rolling meadows in Madhya Pradesh, it is known for its Bengal tigers, Indian wild dogs, and a significant population of barasingha (swamp deer). With its diverse landscapes and incredible biodiversity, Kanha offers one of the best chances to see the Royal Bengal Tiger in the wild, along with a wide array of other species.",
+                },
+                {
+                    name: "BANDHAVGARH NATIONAL PARK",
+                    description:
+                        "Bandhavgarh National Park, in Madhya Pradesh, is renowned for its dense forests, picturesque landscapes, and high tiger density, making it one of the best places in India to spot tigers in the wild. The park is also home to leopards, wild boars, and various species of deer, as well as ancient ruins and forts scattered throughout. The thrilling jeep safaris, combined with the rich historical backdrop, offer a truly unforgettable experience for wildlife and history enthusiasts alike.",
+                },
+                {
+                    name: "DELHI",
+                    description:
+                        "Delhi, the capital city of India, is a vibrant fusion of ancient history and modern life. From the grandeur of the Red Fort and Qutub Minar in Old Delhi to the colonial architecture of New Delhi, including landmarks like the India Gate and Humayun’s Tomb, the city offers a unique blend of cultural heritage and contemporary charm. Delhi is also known for its bustling markets, lively street food scene, and cosmopolitan atmosphere.",
+                },
+                {
+                    name: "AGRA",
+                    description:
+                        "Agra, home to the world-famous Taj Mahal, is a city steeped in Mughal history and grandeur. Beyond the Taj, Agra is home to magnificent monuments like the Agra Fort and the abandoned city of Fatehpur Sikri, showcasing the splendor of the Mughal Empire. The city’s timeless architecture, vibrant bazaars, and rich cultural heritage make it an essential destination for travelers seeking to explore India’s imperial past.",
+                },
+                {
+                    name: "JAIPUR",
+                    description:
+                        "Jaipur, also known as the Pink City, is a captivating blend of royal heritage, vibrant culture, and striking architecture. Famous for its magnificent forts, palaces, and temples, including the Amber Fort, City Palace, and Hawa Mahal, Jaipur reflects the opulence of Rajasthan’s royal past. The city’s bustling bazaars, vibrant handicrafts, and rich cuisine make it a sensory delight and a gateway to Rajasthan’s regal history.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive New Delhi (by flight)",
+                    description:
+                        "Meet and greet on arrival at the New Delhi airport by our representative. He will transfer you to the hotel, assist you in check-in at the hotel, hand over and explain all travel-related documents. Overnight stay at the Hotel.",
+                },
+                {
+                    title: "New Delhi - Nagpur - Pench (flight + 100 kms - 2 hrs. drive)",
+                    description:
+                        "Early breakfast, and transfer to the airport in the morning to board a flight at 1020 hours to arrive Nagpur at 1200 hrs. Met at the airport and drive to Pench National Park 100 KMS / 2-hour drive. On arrival check into the lodge. After lunch goes for an afternoon jeep safari to the national park. Dinner and overnight stay at the lodge.\n\nA total of 758 Sq. KMS of this Southern Indian tropical moist deciduous forest has its extent mingling with the tropical dry deciduous teak. The area is crisscrossed by a number of streams and ‘Nallahs’ most of which are seasonal. Though the Pench River dries up in April end, a number of water pools locally known as ‘dohs’ are found which serve as water holes for the wild animals. The Pench Reservoir at the center of the park is the only major water source during the pinch period. ",
+                },
+                {
+                    title: "In Pench",
+                    description:
+                        "Morning and afternoon Jeep safaris to the National park. Meals and overnight at the lodge.\n\nAs a prey concentration is high along the Pench River, the tiger usually inhabits and frequents this belt. Leopards though generally operate in the peripheral areas but are occasionally seen in the deep forest also. Jungle cats are commonly seen. Leopard cats, small Indian civets, and palm civets are seen rarely.\n\nIn Pench, Cheetal, Sambar, are commonly seen grazing on the open sites on roadsides and banks of river & reservoir. Jackals can be seen in search of food anywhere in the Park. Packs of up to 15 or more wild dogs can be seen near the Chhedia, Jamtara, Bodanala, and Pyorthadi areas of the Reserve. Herds of gaur can be spotted near streams and bamboo patches commonly in the summer months. Sloth beer occupies the rocky areas and favors Mahul bel infested forest. Chinkara is present in very small numbers and is found in open areas around Turia, Telia, and Dudhgaon villages.",
+                },
+                {
+                    title: "Pench – Kanha (210 kms /4-5 hrs drive)",
+                    description:
+                        "Morning safari to the national park. After lunch drive to Kanha national park 210 KMS/ 5-hour drive. On arrival check into the Lodge. Dinner and overnight at the lodge in Kanha.",
+                },
+                {
+                    title: "In Kanha",
+                    description:
+                        "This is the original Kipling country of which he wrote so vividly in his Jungle Book. Packed breakfast which comes from the Lodge is served at a designated spot and spread on the bonnet of the Safari vehicle. Enjoy your breakfast in the wilderness of Kanha.\n\nWake up at 0500hrs, have tea coffee with biscuits, and proceed for the morning safari to the National park.\n\nContinue your search for the elusive Tiger if you have not yet seen the same, and soak in the fresh, and energizing environment. Return from Safari around 1130hrs. Freshen up, and Lunch is served. Depart for afternoon jeep safari Kanha National Park. Return at 6 pm from safari. Dinner and overnight at the Lodge.",
+                },
+                {
+                    title: "In Kanha",
+                    description:
+                        "Wake up, and get ready for another day of adventure in the National park. The forests of the Banjar valley and Halon valley, respectively forming Kanha’s western and eastern halves. By a special statute in 1955, Kanha National Park came into being. Since then, a string of stringent conservation programs has been launched, for the overall protection of the park’s fauna and flora. Kanha boasts about 38 species of mammals. Some of the inhabitants of this park are the gaur, the largest of the world’s cattle; the sambar, the largest Indian deer; and the Chausingha, the only four-horned antelope in the world.\nOther frequent visitors include the Nilgai antelope, the sloth bear, the dhole, or Indian wild dog, and an occasional Leopard. Some 300 species of birds inhabit the park, that includes the storks, egrets, black ibis, raptors, owls, and the Red-wattled lapwings.\n\nDepart for afternoon jeep safari Kanha National Park. Return at 6 pm from safari. Dinner and overnight at the Lodge.",
+                },
+                {
+                    title: "Kanha – Bandhavgarh (by surface, 275kms, 6-hour drive)",
+                    description:
+                        "Morning jeep safari to the national park and after early lunch depart for Bandhavgarh, 280kms, 6-hour drive. On arrival check into the Lodge. Dinner and overnight at the Lodge.",
+                },
+                {
+                    title: "In Bandhavgarh",
+                    description:
+                        "Morning and afternoon jeep safari to the national park.\n\nBandhavgarh: The national park is mainly known for the density of its tiger population. This is the place where the famous White Tigers of Rewa were discovered. The other wild attractions in the park include Leopards, Blue Bulls, Indian Gaur (Bison) Chausingha (Four Horned Antelopes), Spotted Deers, Sambar Deer, Wild Boar, Sloth Bears Fox, Jackals, Wild Dogs, etc. There are at least 22 mammal species and about 250 bird species in the Park. The other animals found in Bandhavgarh are Ratel, Porcupine, Small Indian Civet, Palm Squirrel, Lesser Bandicoot rat, the Jungle Cat, and the shy Hyenas. The reptile population in the park includes Cobras, Kraits, Vipers, Ratsnakes, Pythons, Monitor Lizards, and turtles. The two-primate species – the rhesus macaque and the Hanuman langur – inhabit Bandhavgarh.\n\nOvernight at the Lodge. (Breakfast, lunch, and dinner at the Lodge).",
+                },
+                {
+                    title: "In Bandhavgarh",
+                    description:
+                        "Morning and afternoon jeep safari to the national park\n\nBandhavgarh has been a center of human activity and settlement for over 2000 years, and there are references to it in the ancient books, the Narad-Panch Ratra and the Shiva Purana.\n\nThe oldest sign of habitation in the park are caves dug into the sandstone to the north of the fort. Several contain Brahmi inscriptions dating from the 1st century B.C. Various dynasties have ruled the fort, for example, the Magha’s from the 1st century A.D., the Vakatakas from the 3rd century A.D. From that time onwards Bandhavgarh was ruled by a succession of dynasties including the Chandela Kings Bandhavgarh became more and more deserted until the forest overran the area band became the royal hunting reserve.\n\nThis helped to preserve the forest and its wildlife, although the Maharajas made full use of their rights. At independence, Bandhavgarh remained the private property of the Maharaja until he gave it to the state for the formation of the National Park in 1968. After the park was created poaching and hunting were brought under control and the number of animals rose dramatically. The Tigers in particular prospered and the 1986 extension provided much-needed forest to accommodate them.\nOvernight at the Lodge. (Breakfast, lunch, and dinner at the Lodge).",
+                },
+                {
+                    title: "In Bandhavgarh",
+                    description:
+                        "Morning and afternoon safaris in the national park. Meals and overnight at the Lodge.",
+                },
+                {
+                    title: "Bandhavgarh – Jabalpur – New Delhi (by road 200 kms / 4 hrs drive + Flight)",
+                    description:
+                        "Morning Jeep safari in the park. After lunch drive to Jabalpur airport, 200 KMS /4hrs drive to board a flight to New Delhi at 1630 hrs. Arrive in New Delhi at 1840 hrs. and transfer to the hotel. Overnight stay at the hotel.",
+                },
+                {
+                    title: "New Delhi – Agra (by road – 220 Kms - 4 hours drive)",
+                    description:
+                        "After relaxed breakfast drive to Agra, 220kms, 4-hour drive. On arrival check into the hotel. Evening visit Mehtab Bagh to see Taj Mahal at Sunset. Mehtab Bagh is a Charbagh complex in Agra, North India. It lies north of the Taj Mahal complex and the Agra Fort on the opposite side of the Yamuna River, in the flood plains. The garden complex, square in shape, measures about 300 by 300 meters and is perfectly aligned with the Taj Mahal on the opposite bank.\n\nOvernight stay at the hotel in Agra.",
+                },
+                {
+                    title: "Agra – Jaipur (by road, 235kms - 5-hours drive)",
+                    description:
+                        "Sunrise proceed to visit the famous white marble mausoleum, The Taj Mahal, which was built in the middle of the 17th century by the Moghul emperor Shah Jehan for his wife Mumtaz Mahal.\n\nCompleted in 1652, skilled craftsmen from Persia, Turkey, France, and Italy and some 20,000 laborers worked for 17 years to build this edifice. After relaxed breakfast proceed to visit the red sandstone AGRA FORT which stands like a crescent on the banks of Yamuna River enclosed by forbidding 20-meter high walls, with a 12- meter moat between them. Three successive Mughal emperors – Akbar, Jehangir, and Shah Jehan – helped create this massive structure which contains Hindu and Muslim architecture. [The Taj is closed on Friday]. Check out from the hotel.\n\nLater drive to Jaipur 235 kms/5-hours drive. On arrival check into the hotel. Overnight stay at the hotel.",
+                },
+                {
+                    title: "In Jaipur",
+                    description:
+                        "This morning you will drive 11 km to the outskirts of the city stop at Jal Mahal to visit Amber Fort, the ancient capital of the State until 1728. Visit the Temple of Kali, the Hall of Victory, or Jai Mahal.\n\nLater visit the Observatory, the Palace of Winds, and the City Palace and Museum. The museum has an interesting textile section, which contains dresses and costumes of the former Maharajas and Maharanis of Jaipur. Jaipur is well known for its beautiful carpets, enameled ornaments, precious and semi-precious stones, brass ornaments, and many other arts and crafts. Spend time in crowded lanes & by lanes of the pink city, haggling, and souvenir-hunting in the evening. Return to the hotel for the overnight stay in Jaipur.",
+                },
+                {
+                    title: "Jaipur - New Delhi (by road 260 Kms - 5 hrs drive)",
+                    description:
+                        "After relaxed breakfast drives back to New Delhi 260kms, 5 hrs. drive. Transfer to your hotel near to the airport.",
+                },
+                {
+                    title: "Fly back home",
+                    description:
+                        "After breakfast transfer to the International airport to board a flight back home.\nEnd of our services\n",
+                },
+            ],
+            important_information: [
+                "The driving hours given above from one city to another are based on the normal conditions of the roads and may vary. Any break for Food / Tea / Toilets / Sightseeing on the way will take extra time than the above given hours. Bandhavgarh has National parks that are closed every Wednesday for afternoon jeep safari.",
+                "Pench, Kanha, and Bandhavgarh national parks are closed for afternoon jeep safari every Wednesday.",
+                "In case the hotel envisaged or normal category of rooms are waitlisted/sold out, alternate hotels/categories will be provided & we will keep you informed on the supplement/reduction involved.",
+                "Safaris in Bandhavgarh, Kanha, and Pench will be provided in a 4X4 Jeep and Safari zone is subject to forest department permissions.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/19149595/pexels-photo-19149595/free-photo-of-facade-of-the-hawa-mahal-palace-in-jaipur-india.jpeg?auto=compress&cs=tinysrgb&w=6000&h=4000&dpr=2",
+        name: "Royal Rajasthan",
+        duration: "9 Nights • 10 Days",
+        slug: "royal-rajasthan",
+        tour: {
+            location: "Rajasthan",
+            country: "INDIA",
+            min_age: "10+",
+            tour_details:
+                'Rajasthan is a land of kings, opulent palaces, stunning forts, and vibrant culture. Known for its rich history and royal heritage, it is one of India’s most captivating destinations for travelers seeking a blend of history, architecture, and natural beauty. Our Rajasthan Tour takes you through some of the most iconic cities in this royal state, beginning with Udaipur. Known as the "City of Lakes," Udaipur is famous for its majestic City Palace, serene Lake Pichola, and the intricate Jag Mandir. The romantic setting of Udaipur, surrounded by rolling hills and tranquil lakes, provides a perfect introduction to Rajasthan’s royal past. The city exudes a charm that has inspired filmmakers and travelers alike, making it a must-visit destination for those seeking history and natural beauty.\n\nThe journey then moves on to Ranakpur, a peaceful town in the Aravalli Range, which is home to the stunning Ranakpur Jain Temple. Known for its incredible marble architecture and intricate carvings, this temple is a serene and spiritual stop on your Rajasthan journey. From Ranakpur, head to Jodhpur, the "Blue City," famous for its vibrant blue-painted houses and the magnificent Mehrangarh Fort. The city’s historic charm is complemented by its bustling markets and traditional handicrafts. Next, explore Pushkar, a holy town with its sacred Pushkar Lake and the only Brahma Temple in the world, offering a unique spiritual experience. Finally, visit Jaipur, the capital city, also known as the "Pink City," where iconic landmarks like the Amber Fort, Hawa Mahal, and City Palace stand as testaments to the region’s royal legacy. Each city in this tour reflects the regal splendor of Rajasthan, offering travelers an unforgettable experience of majestic architecture, culture, and traditions.',
+            destinations_covered: [
+                {
+                    name: "DELHI",
+                    description:
+                        "As the capital of India, Delhi is a bustling metropolis that blends rich history with modernity. From the imposing Red Fort and Qutub Minar to the grand India Gate, Delhi offers a window into India’s past. The vibrant streets of Chandni Chowk, alongside the serenity of Lotus Temple and Humayun’s Tomb, provide a complete experience of diverse cultures, monuments, and culinary delights. A true fusion of tradition and contemporary life, Delhi sets the stage for your Rajasthan journey.",
+                },
+                {
+                    name: "UDAIPUR",
+                    description:
+                        'Udaipur, often called the "City of Lakes," is one of Rajasthan’s most romantic cities, renowned for its stunning Lake Pichola and the majestic City Palace. This city is a blend of historical grandeur and natural beauty, with beautiful palaces, temples, and gardens nestled beside peaceful lakes. The intricate Jag Mandir, the mesmerizing boat rides on Lake Pichola, and the surrounding Aravalli hills create a magical atmosphere, making Udaipur a dream destination for travelers.',
+                },
+                {
+                    name: "RANAKPUR",
+                    description:
+                        "Ranakpur is a serene town nestled in the Aravalli Range, famous for its stunning Ranakpur Jain Temple, one of the most intricate and beautiful examples of Jain architecture in India. The temple, built in white marble, features 1,444 exquisitely carved pillars, each unique in design. Surrounded by lush forests and hills, Ranakpur offers a peaceful retreat for travelers seeking a blend of spiritual solace and architectural marvels.",
+                },
+                {
+                    name: "JODHPUR",
+                    description:
+                        'Known as the "Blue City," Jodhpur is a vibrant blend of history, culture, and stunning architecture. The majestic Mehrangarh Fort, which rises above the city, offers panoramic views of the blue-painted houses below. The bustling Sardar Market and the beautiful Umaid Bhawan Palace further add to the city’s royal charm. Jodhpur is a perfect blend of Rajasthan’s regal past and lively present, with every corner showcasing the grandeur of the Marwar region.',
+                },
+                {
+                    name: "PUSHKAR",
+                    description:
+                        "Pushkar is one of the most sacred towns in Rajasthan, famous for its holy Pushkar Lake and the only Brahma Temple in the world. This spiritual town, with its tranquil atmosphere, draws pilgrims and tourists alike. The lively Pushkar Bazaar is filled with colorful markets, vibrant handicrafts, and traditional Rajasthani culture. A visit to Pushkar offers a peaceful yet culturally immersive experience, ideal for those seeking spiritual serenity and local charm.",
+                },
+                {
+                    name: "JAIPUR",
+                    description:
+                        'Jaipur, also known as the "Pink City," is a dazzling blend of royal history, architectural splendor, and vibrant culture. The iconic Amber Fort, the delicate latticework of the Hawa Mahal, and the grand City Palace are among the must-see landmarks in this historical city. The bustling bazaars, where you can shop for traditional Rajasthani handicrafts and jewelry, add to the city\'s allure. As the capital of Rajasthan, Jaipur encapsulates the grandeur and charm of royal Rajasthan, offering a rich cultural experience.',
+                },
+                {
+                    name: "AGRA",
+                    description:
+                        "Agra, located on the banks of the Yamuna River, is home to one of the most iconic landmarks in the world—the Taj Mahal. This UNESCO World Heritage Site, a symbol of eternal love, is renowned for its stunning Mughal architecture and intricate marble craftsmanship. Agra is also home to other architectural marvels such as the Agra Fort, a UNESCO World Heritage Site, and the Fatehpur Sikri complex, showcasing the grandeur of the Mughal Empire. With its rich history and majestic monuments, Agra offers an unforgettable glimpse into India’s glorious past.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "ARRIVE IN DELHI",
+                    description:
+                        "We welcome you in the capital city of India, for a journey across the fascinating history-markers of medieval north India. Wars were fought and rulers changed in Delhi but ordinary lives were lived in relative continuity. Glimpses of these can be seen even today as the character of the city underwent massive changes in the last decades. In the lands fabled to have seen seven cities, signs of the old are continuously jostling with the new, presenting an ever-fascinating panorama. We welcome you to its chaos and stability, into its steadfastness and its impatience and into a delightful rainbow of amalgamation, producing a world completely its own.\nOvernight at the hotel.",
+                },
+                {
+                    title: "SIGHTSEEING OF DELHI – LATE FLIGHT TO UDAIPUR",
+                    description:
+                        "Delhi is often distinguished as the old and new, the old referring to the pre –British habitations and the new is Lutyen’s Delhi, built to suit British sensibilities and the rapidly expanding city of independent India. However as we walk you through this city which has fascinated one and all for centuries, you will see that these demarcations are fluid with an intermixing of the old and new Delhi’s producing a supremely fascinating pulse to its city life.\n\nAfter breakfast we visit old Delhi, the capital built by emperor Shahjahan. The narrow winding lanes best traversed by a cycle-rickshaw house some of the oldest inhabitants and also the oldest trading establishments of the city. Visit the historic Jama Masjid, drive past the Red Fort. On our way back contrast the swift architectural changes brought by the colonial rulers mirroring styles from across Europe and adapted to the Indian environment. Drive past the Rashtrapati Bhavan (Presidential Palace) and the secretariat buildings, the impressive Rajpath and the World War I memorial arch, the India Gate.\n\nAfter lunch we will visit one of the oldest monuments of Delhi- next to the ruins of Quwat-ul-Islam (Light of Islam) Mosque in Mehrauli, standing tall with pride is the Qutub Minar. Learn about Delhi’s most curious antique here, the un-corroded Iron Pillar, which dates back to the 4th century AD believed to be sitting on the head of a ferocious snake. But more interesting than the mythology is the metallurgical skills of the ironsmith who produced this puzzle cast in iron. \n\nLater in the evening catch flight to Udaipur.\nOvernight at the hotel.",
+                },
+                {
+                    title: "SIGHTSEEING IN UDAIPUR",
+                    description:
+                        "Enjoy an early breakfast before departing to a Maasai village followed by a morning game drive. The Maasai Mara National Reserve is home to millions of wild animals, including the fabled Big Five of lions, leopards, elephants, buffaloes and black rhinos as well as antelopes, gazelles and wildebeest among others. Return to the lodge for lunch and perhaps a siesta before setting off for an afternoon game drive, then returning to the lodge as the sun sets.\n\nAn optional early morning hot air balloon safari is available today. Pick-up is at about 04:30 hours and drop off is at about 10:00 hours. Flight time is approximately one hour and champagne breakfast and return transfers are included.\nOvernight in Maasai Mara on a full board basis.",
+                },
+                {
+                    title: "DRIVE FROM UDAIPUR TO JODHPUR (262 KM / 05 HRS. DRIVE)",
+                    description:
+                        "We drive through the hills of Rajasthan, now showing signs of renewed life towards Jodhpur. On the way lies the beautiful and majestic Jain temple of Ranakpur. Built completely in marble, it took a whole 65 years to complete the carvings that adorn the temple walls and pillars and ceilings. Admire the fine craftsmanship which produced these dreamy creations bursting with life. For a long time a local legend has persisted that no one can count the real number of pillars that hold up the temple. So don’t be surprised if someone challenges you to do just that.\n\nLater we continue our drive to Jodhpur, lying at the very edge of the Thar dessert. Upon arrival, check-in at your hotel.\nOvernight at the hotel.",
+                },
+                {
+                    title: "DRIVE FROM JODHPUR TO PUSHKAR (186 KM / 04 HRS. DRIVE)",
+                    description:
+                        "Amongst the many princely settlements of Rajasthan, Jodhpur is one of the most distinctive. Countless tales of courage speak of a 500 year old history and a culture which take pride in its strength and valour. The Mehrangarh fort stands witness to many battles. Learn about the intensely captivating history as you wander through the city. In an area prone to droughts, the shades of blue give a sense of relief. Look down from the fort at the soothing colours in sight, shimmering like a lake, an oasis, stuff that make the dreams of a desert people.\n\nAfter visiting Jaswant Thada, an imposing marble cenotaph we will turn towards the local bazaar. Whether you try out your bargaining skills of bargaining or simply prefer the visual treat that men and women unfold in the bazaars with their exquisite craftsmanship, you will take back one of your most vivid memories of artful puppets of the region. In the afternoon we start our journey to the breath taking Pushkar.\n\nAfter checking into Hotel we are free to explore, as the winds now cool, bring relief to the hot sands. The lights from the temples glistening in the lake waters transport us to a magical world.\n\nOvernight at the hotel.",
+                },
+                {
+                    title: "DRIVE FROM PUSHKAR TO JAIPUR (143 KM / 04 HRS. DRIVE)",
+                    description:
+                        "Spend morning walking through the narrow lanes of Pushkar village dotted with hundreds of temples before we start our journey to Jaipur.\n\nIn the evening we will ride the rickshaw in the lively and colorful bazaar of the ‘Pink City’.\nOvernight at the hotel.",
+                },
+                {
+                    title: "JAIPUR",
+                    description:
+                        "Compare the city of Old Delhi with the city of Jaipur, a city unique amongst its medieval contemporaries. The streets, palaces, temples, residences, shopping place are all in accordance to the ancient Hindu rules of Vastu Shastra. The pink wash was added in 1853 in honour of the visit of Prince Albert. Perched atop the hill looking down majestically is the Amber fort. We ride up into the palace astride elephants just like the Maharajas of yore. The plain and time worn exteriors belie the exquisite detail with which the interiors were crafted. Notice the gentle breeze which cools the interiors as it filters in through the jails, a special feature of building in Rajasthan. In the famed Sheesh Mahal look up and be prepared to feel a surge of color as the optical effect makes you a part of this royal past. Back in the city, we will drive past Hawa Mahal, where again notice the jails. The Maharaja’s City Palace, much of which has been converted into a museum covers almost one-seventh area of the city in a fortified unit. Here the Armoury Museum housing an impressive array of weaponry-pistols, blunderbusses, flintlocks, swords, rifles and daggers. Become one with the planetary bodies at Jantar Mantar, the largest stone and marble crafted observatory in the world.\n\nJaipur is also an interesting place for those interested in jewellery, clothes, carpets and other handicrafts items. The city is a veritable paradise for those seeking souvenirs of the craftsmanship of Rajasthan.\nOvernight at the hotel.",
+                },
+                {
+                    title: "DRIVE FROM JAIPUR TO AGRA BY SURFACE (258 KM / 06 HRS)",
+                    description:
+                        "From the romance of the deserts we move towards the monument of a man’s love for his beloved, the city which treasures a lover’s dream. On our way we stop at Fatehpur sikri. In its imposing red sandstone structure lies the city envisioned by Emperor Akbar only to be abandoned a mere fourteen years later due to water scarcity. Upon arrival, check-in at your hotel.\nOvernight at the hotel.",
+                },
+                {
+                    title: "AGRA – DELHI BY SURFACE (204 KM / 05 HRS. DRIVE)",
+                    description:
+                        "We get our first glimpse of the Taj in an early morning visit. Bathed in the morning sunlight is truly a labor of love, not only of the man who had it built but the over 20,000 men who labored for over 17 years. Look at the fine setting of stones into the marble, the craftsmanship that structured the towers, and the massive dome. Notice that the verses of the Quran appear engraved in the same size and the skill which went into it.\n\nLearn the many stories, myths, and legends surrounding this structure, which for years stood deserted on the banks of the river surrounded by forests not too long ago.\n\nWe will visit the Agra fort, strolling through its various portions, built successively over generations. Visit the extravagant chamber where Shah Jahan was imprisoned by his son. Ironically he was allowed the single pleasure of staring at the resting place of his beloved queen from a distance.\n\nTake back a memory of the Taj, indulge yourself in the exquisite marble artifacts being produced by the artisans of Agra.\n\nWe then drive to Delhi. Upon arrival, check-in at your hotel.\nOvernight at the hotel",
+                },
+                {
+                    title: "DEPARTURE FROM DELHI",
+                    description:
+                        "We bid farewell to our guests in Delhi. As we journeyed through these romantic lands we hope that you fell in love just as much as we do with the beauty of our country.End of our Services.",
+                },
+            ],
+            important_information: [
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+                "No passport size photo/any pictures / any visa form etc. required for visa – just clear/readable copy of passport copy in colour.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.greavesindia.com/wp-content/uploads/2017/12/Spiritual-India_Golden-Temple_credit-JagjitSiStock-httpswww.istockphoto.comgbphotoblue-hour-harmandir-sahib-gm603910462-103703823.jpg",
+        name: "Spiritual Journey of India",
+        duration: "6 Nights • 7 Days",
+        slug: "spiritual-journey-of-india",
+        tour: {
+            location: "Amritsar, Haridwar",
+            country: "INDIA",
+            min_age: "10+",
+            tour_details:
+                'Our Spiritual Journey of India takes you through some of the most revered and spiritually enriching destinations in the country, beginning with Amritsar in Punjab. Known for the sacred Golden Temple, Amritsar is a center of devotion, peace, and serenity. The spiritual experience at the Golden Temple, with its holy Amrit Sarovar (pool of nectar) and the soothing sounds of Gurbani, is an unforgettable highlight of this journey. The city is also home to other important sites like the Jallianwala Bagh, a reminder of India\'s struggle for independence, and the Durgiana Temple, a temple dedicated to Goddess Durga. Amritsar’s unique blend of spiritual history and hospitality offers a deep connection to the Sikh faith and the rich cultural heritage of Punjab.\n\nThe journey continues to Haridwar and Rishikesh, two of the holiest cities situated on the banks of the Ganges River. In Haridwar, witness the mesmerizing Ganga Aarti at Har Ki Pauri, where devotees gather in devotion as the river comes alive with sacred chants and floating lamps. In Rishikesh, known as the "Yoga Capital of the World," immerse yourself in spiritual practices like yoga, meditation, and the teachings of ancient scriptures. Here, the tranquil environment and picturesque landscapes offer the perfect setting for introspection and inner peace. Finally, the tour concludes in Delhi, where history, spirituality, and modernity converge. Visit the serene Lotus Temple (Bahá’í House of Worship) and the peaceful Humayun’s Tomb, while exploring the vibrant spiritual tapestry that Delhi offers. This spiritual journey provides an opportunity for travelers to experience India’s deep-rooted religious and cultural heritage while embarking on a path of inner transformation.',
+            destinations_covered: [
+                {
+                    name: "DELHI",
+                    description:
+                        "Delhi, India’s capital, is a fascinating blend of history, culture, and spirituality. The city is home to some of India’s most iconic religious landmarks, including the serene Lotus Temple, a symbol of peace and unity for all faiths, and Humayun’s Tomb, which showcases Mughal architecture. Akshardham Temple, with its intricate carvings and exhibits, offers a spiritual and cultural experience. Delhi is a city where old-world spirituality seamlessly coexists with modernity, making it an essential part of a spiritual journey through India.",
+                },
+                {
+                    name: "AMRITSAR",
+                    description:
+                        "Amritsar, the spiritual heart of Punjab, is home to the revered Golden Temple, one of the holiest shrines in Sikhism. The temple’s serene Amrit Sarovar (holy pool) and the constant prayers reverberating throughout the complex create an atmosphere of peace and devotion. Amritsar is also rich in historical significance, with sites like Jallianwala Bagh reminding visitors of India’s struggle for freedom. A visit to Amritsar offers not only spiritual solace but also a deep connection to the Sikh way of life and its values of equality, service, and community.",
+                },
+                {
+                    name: "HARIDWAR",
+                    description:
+                        "Haridwar, one of India’s seven holiest cities, holds deep spiritual significance, especially for Hindus. Situated on the banks of the sacred Ganges River, Haridwar is famous for its evening Ganga Aarti at Har Ki Pauri, where thousands gather to witness the river come alive with chants, floating lamps, and incense. The city is dotted with ancient temples, ghats, and ashrams, making it an ideal destination for spiritual seekers and devotees looking to connect with the divine energy of the Ganges.",
+                },
+                {
+                    name: "RISHIKESH",
+                    description:
+                        'Known as the "Yoga Capital of the World," Rishikesh is a tranquil town on the banks of the Ganges River, offering an oasis for spiritual seekers. Whether it’s yoga, meditation, or exploring ancient temples, Rishikesh is an ideal place for introspection and spiritual growth. The majestic Lakshman Jhula and Ram Jhula bridges offer stunning views of the river and the surrounding hills, while the peaceful atmosphere of the town is perfect for rejuvenation of the mind, body, and soul. Rishikesh is a gateway to exploring India\'s spiritual traditions in a serene and natural setting.',
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive Delhi",
+                    description:
+                        "You land at New Delhi’s international airport and after clearing Immigrations and Customs are met in the Arrival Hall by our colleague carrying the paging board with your names on it.\n\nTransfer to your hotel and check-in.\n\nNew Delhi is the capital of India and a microcosm of the country. It is a modern metropolis which still preserves its traditional values and manages its multiple personalities effortlessly, making it a perfect gateway city to any North India journey.\n\nHistorians believe that through Delhi’s 1000 year old history, the city has been destroyed and rebuilt eight times, each time built by a new dynasty/ruler. As a result Delhi grew and evolved, absorbing different religions, diverse cultures, both foreign and indigenous, and yet functioning as one organic entity and becoming the culturally secular city you see today.\n\nThe remainder of the day is at leisure for your own activities.\n\nOvernight at hotel\n\nAccommodation: Le Meridien Delhi OR similar\nMeals: None\nTransfer: Airport to Le Meridien Delhi.",
+                },
+                {
+                    title: "Delhi - Amritsar by train (or by flight)",
+                    description:
+                        "Breakfast at hotel.\n\nOn time pick up from hotel and transfer to railway station to board train for Amritsar. Meeting and assistance on arrival and transfer to hotel in Amritsar.\n\nAmritsar literally meaning “Pool of Nectar” and was founded in 1579 by Guru Ram Das, the fourth Guru of the Sikh religion. He settled down next to a pool said to have with miraculous healing powers. His son, Guru Arjun Dev, built the temple within the pool, and later Maharaja Ranjit Singh covered it with pure gold leaf.\nEvening proceed to attend Palki sahib ceremony (night ceremony) at Golden Temple.\n\nOvernight at hotel.\n\nAccommodation: Taj Swarna OR similar\nMeals: Breakfast\nTransfer: 6 hrs train travel from Delhi to Amritsar / 1 hr flight (Optional)\nActivity: 1 hr night ceremony at Golden temple",
+                },
+                {
+                    title: "Amritsar",
+                    description:
+                        "Breakfast at Hotel.\n\nAfter breakfast, proceed to visit the Golden Temple – the sacred Sikh sanctuary spread out in a vast complex around a huge water tank, in the midst of which stands the marble sanctum where the holy book of the Sikhs, the Guru Granth, is reverently placed. The roof of the sanctum is gold-leafed. The community kitchen provides free meals to up to 10,000 pilgrims and visitors in a day. We walk by the busy bazaars of the city and explore the local market.\n\nLater visit Durgiana temple dedicated to Goddess Durga. This is a Hindu Temple which has similar architecture as that of the Golden Temple. Also visit Gurudwara Baba Deep Singh Ji Shaheed.\n\nLate afternoon visit the border town of Wagah to see the change of guard ceremony. It is a spectacle comparable to ‘Change of Guards’ in London. The pomp and pageantry of the Beating Retreat and the Change of Guard within handshaking distance of the Indian and Pakistani forces makes for a most charming spectacle.\n\nOvernight at hotel.\n\nAccommodation: Taj Swarna OR similar\nMeals: Breakfast\nTransfer: 1 hr one way to Wagah Border\nActivity: 3 hrs city tour, 3 hrs Wagah excursion",
+                },
+                {
+                    title: "Amritsar – Haridwar by Train/Surface",
+                    description:
+                        "Early morning transfer to railway station to board your train for Haridwar.\n\nTrain – ASR HW JNSHTBDI Departure 0650hrs / Arrival 1410hrs\n\nUpon arrival in Haridwar railway Station, you will be met by our representative and transferred to your hotel in Haridwar.\n\nLate afternoon a short visit to Shanti Kunj & Pawan dham followed by Ganga Arti at Har Ki Pauri. Aarti means prayer. It is the prayer for Holy River Ganga (Ganges). These Prayers are perform every evening at Har Ki Pauri every evening to show our gratitude to nature and god. It is believe & faith Ganga water also removes sins when you take a dip in its holy water. Priest at the ghat has large fire bowls in their hands, bells of temples rings & priest starts chanting of Mantras. We can say words cannot describe the beauty of Aarti. A one can only learn about Aarti after experience it.\n\nOvernight stay is at hotel in Haridwar.\n\nAccommodation: Haveli Hari Ganga OR similar\nMeals: Breakfast\nTransfer: 7 hrs train travel\nActivity: 2 hrs temple visit and arti ceremony",
+                },
+                {
+                    title: "Haridwar - Rishikesh",
+                    description:
+                        "After breakfast drive 20kms to reach Rishikesh. Rishikesh is a city in India’s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation. Temples and ashrams (centers for spiritual studies) line the eastern bank around Swarg Ashram, a traffic-free, alcohol-free and vegetarian enclave upstream from Rishikesh town. Rishikesh, sometimes nicknamed “Yoga Capital of the World”, has numerous yoga centres that attract tourists. It is believed that meditation in Rishikesh brings one closer to attainment of moksha, as does a dip in the holy river that flows through it.\nUpon arrival check in at hotel and start the temple and ashram tour of Rishikesh. Visit the Beatles Ashram.\n\nThe Beatles Ashram – Maharishi Mahesh Yogi Ashram is now also known as The Beatles Ashram. The Beatles were one of the most popular music bands in 1960’s throughout the world. Beatles visited Rishikesh in 1968 for meditation. After this visit Rishikesh suddenly came in limelight throughout the world. Beatles came here to learn transcendental meditation at Maharishi Mahesh Yogi’s Ashram. Sessions were conducted by Maharishi Mahesh Yogi himself at his ashram.\n\nIn the late afternoon local sightseeing including Laxman jhula, Ram jhula, Parmarth Niketan ashram, Geeta Bhawan. Later in the evening witness Ganges Aarti at Parmarth Niketan Ashram. This ashram is open for the stay of only those pilgrims who are here to devote themselves to sadhana, meditation, seva and satsang.\n\nOvernight stay is at hotel in Rishikesh.\n\nAccommodation: Ganga Kinare OR similar\nMeals: Breakfast\nTransfer: 25 kms / 1 hrs\nActivity: Visit to Beatles ashram and Arti ceremony",
+                },
+                {
+                    title: "Rishikesh",
+                    description:
+                        "Early morning transfer to Kunjapuri if you wish to witness the sunrise. Almost a 1.5 hrs drive to the top. Climb 300 temple stairs to reach the main temple at the top of the hill or your vehicle will take you up to the hill. Once you are there, enjoy the spectacular 360 degree view of mountain peaks. Kunjapuri Devi Temple is sacred temple of immense importance in Hindu religion. Located at the height of 1676 meters, Kunjapuri is one of the Shaktipeeth in Uttarakhand. Packed breakfast will be provided.\nHike down through the villages and farms and a bit of Jungle to reach down the road where your vehicle will be waiting for you. Transfer to hotel.\n\nDay at free at leisure or explore the place by own.\n\nOptional: You may join for Rafting – Rishikesh is popular all over the country and the turbulent waves of river Ganges make it adventures or you can opt for Bungee Jumping (Optionals).\n\nAccommodation: Ganga Kinare\nMeals: Breakfast\nTransfer: 40 kms / 1.5 hrs\nActivity: 1 hr at temple, 1.5 hrs hike down to the town",
+                },
+                {
+                    title: "Rishikesh – Delhi",
+                    description:
+                        "Morning participate in the 1 hr Yoga session provided by the hotel (subject to hotel policies)\nOn time pick up from hotel to Dehradun airport to board flight for Delhi. From Delhi airport board on your onward flight.\n\nMeals: Breakfast\nTransfer: 25 kms / 40 mins from hotel to Airport\nActivity: 1 hr Yoga session.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+                "Please note that flight and train timings are subject to change, and we recommend checking for any updates closer to your departure date to ensure a smooth travel experience.",
+            ],
+        },
+    },
+    {
+        img_url:
             "https://a-z-animals.com/media/2021/05/iStock-1420676204-1024x680.jpg",
         name: "Big Cat of India: Ranthambore, Gir and Bera",
         duration: "13 Nights • 14 Days",
@@ -329,141 +650,6 @@ export const POPULAR_PACKAGES: {
                 "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better)",
                 "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
                 "No passport size photo/any pictures / any visa form etc. required for visa – just clear/readable copy of passport copy in colour.",
-            ],
-        },
-    },
-    {
-        img_url:
-            "https://www.tigersafari.net/wp-content/uploads/2023/07/bengal-tigers-conservation-in-ranthambore-national-park.jpg",
-        name: "Just Tigers and Golden Triangle",
-        duration: "15 Nights • 16 Days",
-        slug: "just-tigers-and-golden-triangle",
-        tour: {
-            location: "Maharashtra, Delhi, Rajasthan",
-            country: "INDIA",
-            min_age: "10+",
-            tour_details:
-                "Explore the Wild Heart of India: Pench, Kanha, Bandhavgarh & Golden Triangle Tour\n\nEmbark on an extraordinary journey through India’s diverse landscapes, blending the thrill of wildlife safaris with the grandeur of royal heritage. This unique tour takes you to some of India’s most renowned national parks—Pench National Park, Kanha National Park, and Bandhavgarh National Park—each offering an unmatched opportunity to experience India’s rich wildlife in its natural habitat. From spotting majestic tigers, elusive leopards, and herds of elephants, to exploring dense forests teeming with birdlife, this wildlife adventure will captivate your senses and take you deep into the heart of India’s wilderness.\nThe tour also brings you to the iconic Golden Triangle—Delhi, Agra, and Jaipur—where history, culture, and architecture take center stage. Explore the bustling streets of Delhi, with its mix of ancient monuments and modern charm, marvel at the world-famous Taj Mahal in Agra, and immerse yourself in the royal grandeur of Jaipur, known for its palaces, forts, and vibrant markets. This journey seamlessly blends the thrill of wildlife exploration with the timeless beauty of India’s cultural landmarks, offering an unforgettable experience for every traveler.",
-            destinations_covered: [
-                {
-                    name: "PENCH NATIONAL PARK",
-                    description:
-                        "Located in Madhya Pradesh, Pench National Park is a captivating wildlife destination known for its lush forests and rich biodiversity. The park is part of the Pench Tiger Reserve, named after the Pench River, and is famous for its thriving tiger population, making it a top spot for wildlife enthusiasts and photographers. The park offers a mix of dry deciduous forests, grasslands, and waterholes, providing an ideal habitat for a variety of wildlife, including tigers, leopards, and wild dogs.",
-                },
-                {
-                    name: "KANHA NATIONAL PARK",
-                    description:
-                        "Kanha National Park, one of India's largest and most scenic wildlife reserves, is a haven for nature lovers and wildlife photographers. Set amidst dense forests and rolling meadows in Madhya Pradesh, it is known for its Bengal tigers, Indian wild dogs, and a significant population of barasingha (swamp deer). With its diverse landscapes and incredible biodiversity, Kanha offers one of the best chances to see the Royal Bengal Tiger in the wild, along with a wide array of other species.",
-                },
-                {
-                    name: "BANDHAVGARH NATIONAL PARK",
-                    description:
-                        "Bandhavgarh National Park, in Madhya Pradesh, is renowned for its dense forests, picturesque landscapes, and high tiger density, making it one of the best places in India to spot tigers in the wild. The park is also home to leopards, wild boars, and various species of deer, as well as ancient ruins and forts scattered throughout. The thrilling jeep safaris, combined with the rich historical backdrop, offer a truly unforgettable experience for wildlife and history enthusiasts alike.",
-                },
-                {
-                    name: "DELHI",
-                    description:
-                        "Delhi, the capital city of India, is a vibrant fusion of ancient history and modern life. From the grandeur of the Red Fort and Qutub Minar in Old Delhi to the colonial architecture of New Delhi, including landmarks like the India Gate and Humayun’s Tomb, the city offers a unique blend of cultural heritage and contemporary charm. Delhi is also known for its bustling markets, lively street food scene, and cosmopolitan atmosphere.",
-                },
-                {
-                    name: "AGRA",
-                    description:
-                        "Agra, home to the world-famous Taj Mahal, is a city steeped in Mughal history and grandeur. Beyond the Taj, Agra is home to magnificent monuments like the Agra Fort and the abandoned city of Fatehpur Sikri, showcasing the splendor of the Mughal Empire. The city’s timeless architecture, vibrant bazaars, and rich cultural heritage make it an essential destination for travelers seeking to explore India’s imperial past.",
-                },
-                {
-                    name: "JAIPUR",
-                    description:
-                        "Jaipur, also known as the Pink City, is a captivating blend of royal heritage, vibrant culture, and striking architecture. Famous for its magnificent forts, palaces, and temples, including the Amber Fort, City Palace, and Hawa Mahal, Jaipur reflects the opulence of Rajasthan’s royal past. The city’s bustling bazaars, vibrant handicrafts, and rich cuisine make it a sensory delight and a gateway to Rajasthan’s regal history.",
-                },
-            ],
-            itinerary_outline: [
-                {
-                    title: "Arrive New Delhi (by flight)",
-                    description:
-                        "Meet and greet on arrival at the New Delhi airport by our representative. He will transfer you to the hotel, assist you in check-in at the hotel, hand over and explain all travel-related documents. Overnight stay at the Hotel.",
-                },
-                {
-                    title: "New Delhi - Nagpur - Pench (flight + 100 kms - 2 hrs. drive)",
-                    description:
-                        "Early breakfast, and transfer to the airport in the morning to board a flight at 1020 hours to arrive Nagpur at 1200 hrs. Met at the airport and drive to Pench National Park 100 KMS / 2-hour drive. On arrival check into the lodge. After lunch goes for an afternoon jeep safari to the national park. Dinner and overnight stay at the lodge.\n\nA total of 758 Sq. KMS of this Southern Indian tropical moist deciduous forest has its extent mingling with the tropical dry deciduous teak. The area is crisscrossed by a number of streams and ‘Nallahs’ most of which are seasonal. Though the Pench River dries up in April end, a number of water pools locally known as ‘dohs’ are found which serve as water holes for the wild animals. The Pench Reservoir at the center of the park is the only major water source during the pinch period. ",
-                },
-                {
-                    title: "In Pench",
-                    description:
-                        "Morning and afternoon Jeep safaris to the National park. Meals and overnight at the lodge.\n\nAs a prey concentration is high along the Pench River, the tiger usually inhabits and frequents this belt. Leopards though generally operate in the peripheral areas but are occasionally seen in the deep forest also. Jungle cats are commonly seen. Leopard cats, small Indian civets, and palm civets are seen rarely.\n\nIn Pench, Cheetal, Sambar, are commonly seen grazing on the open sites on roadsides and banks of river & reservoir. Jackals can be seen in search of food anywhere in the Park. Packs of up to 15 or more wild dogs can be seen near the Chhedia, Jamtara, Bodanala, and Pyorthadi areas of the Reserve. Herds of gaur can be spotted near streams and bamboo patches commonly in the summer months. Sloth beer occupies the rocky areas and favors Mahul bel infested forest. Chinkara is present in very small numbers and is found in open areas around Turia, Telia, and Dudhgaon villages.",
-                },
-                {
-                    title: "Pench – Kanha (210 kms /4-5 hrs drive)",
-                    description:
-                        "Morning safari to the national park. After lunch drive to Kanha national park 210 KMS/ 5-hour drive. On arrival check into the Lodge. Dinner and overnight at the lodge in Kanha.",
-                },
-                {
-                    title: "In Kanha",
-                    description:
-                        "This is the original Kipling country of which he wrote so vividly in his Jungle Book. Packed breakfast which comes from the Lodge is served at a designated spot and spread on the bonnet of the Safari vehicle. Enjoy your breakfast in the wilderness of Kanha.\n\nWake up at 0500hrs, have tea coffee with biscuits, and proceed for the morning safari to the National park.\n\nContinue your search for the elusive Tiger if you have not yet seen the same, and soak in the fresh, and energizing environment. Return from Safari around 1130hrs. Freshen up, and Lunch is served. Depart for afternoon jeep safari Kanha National Park. Return at 6 pm from safari. Dinner and overnight at the Lodge.",
-                },
-                {
-                    title: "In Kanha",
-                    description:
-                        "Wake up, and get ready for another day of adventure in the National park. The forests of the Banjar valley and Halon valley, respectively forming Kanha’s western and eastern halves. By a special statute in 1955, Kanha National Park came into being. Since then, a string of stringent conservation programs has been launched, for the overall protection of the park’s fauna and flora. Kanha boasts about 38 species of mammals. Some of the inhabitants of this park are the gaur, the largest of the world’s cattle; the sambar, the largest Indian deer; and the Chausingha, the only four-horned antelope in the world.\nOther frequent visitors include the Nilgai antelope, the sloth bear, the dhole, or Indian wild dog, and an occasional Leopard. Some 300 species of birds inhabit the park, that includes the storks, egrets, black ibis, raptors, owls, and the Red-wattled lapwings.\n\nDepart for afternoon jeep safari Kanha National Park. Return at 6 pm from safari. Dinner and overnight at the Lodge.",
-                },
-                {
-                    title: "Kanha – Bandhavgarh (by surface, 275kms, 6-hour drive)",
-                    description:
-                        "Morning jeep safari to the national park and after early lunch depart for Bandhavgarh, 280kms, 6-hour drive. On arrival check into the Lodge. Dinner and overnight at the Lodge.",
-                },
-                {
-                    title: "In Bandhavgarh",
-                    description:
-                        "Morning and afternoon jeep safari to the national park.\n\nBandhavgarh: The national park is mainly known for the density of its tiger population. This is the place where the famous White Tigers of Rewa were discovered. The other wild attractions in the park include Leopards, Blue Bulls, Indian Gaur (Bison) Chausingha (Four Horned Antelopes), Spotted Deers, Sambar Deer, Wild Boar, Sloth Bears Fox, Jackals, Wild Dogs, etc. There are at least 22 mammal species and about 250 bird species in the Park. The other animals found in Bandhavgarh are Ratel, Porcupine, Small Indian Civet, Palm Squirrel, Lesser Bandicoot rat, the Jungle Cat, and the shy Hyenas. The reptile population in the park includes Cobras, Kraits, Vipers, Ratsnakes, Pythons, Monitor Lizards, and turtles. The two-primate species – the rhesus macaque and the Hanuman langur – inhabit Bandhavgarh.\n\nOvernight at the Lodge. (Breakfast, lunch, and dinner at the Lodge).",
-                },
-                {
-                    title: "In Bandhavgarh",
-                    description:
-                        "Morning and afternoon jeep safari to the national park\n\nBandhavgarh has been a center of human activity and settlement for over 2000 years, and there are references to it in the ancient books, the Narad-Panch Ratra and the Shiva Purana.\n\nThe oldest sign of habitation in the park are caves dug into the sandstone to the north of the fort. Several contain Brahmi inscriptions dating from the 1st century B.C. Various dynasties have ruled the fort, for example, the Magha’s from the 1st century A.D., the Vakatakas from the 3rd century A.D. From that time onwards Bandhavgarh was ruled by a succession of dynasties including the Chandela Kings Bandhavgarh became more and more deserted until the forest overran the area band became the royal hunting reserve.\n\nThis helped to preserve the forest and its wildlife, although the Maharajas made full use of their rights. At independence, Bandhavgarh remained the private property of the Maharaja until he gave it to the state for the formation of the National Park in 1968. After the park was created poaching and hunting were brought under control and the number of animals rose dramatically. The Tigers in particular prospered and the 1986 extension provided much-needed forest to accommodate them.\nOvernight at the Lodge. (Breakfast, lunch, and dinner at the Lodge).",
-                },
-                {
-                    title: "In Bandhavgarh",
-                    description:
-                        "Morning and afternoon safaris in the national park. Meals and overnight at the Lodge.",
-                },
-                {
-                    title: "Bandhavgarh – Jabalpur – New Delhi (by road 200 kms / 4 hrs drive + Flight)",
-                    description:
-                        "Morning Jeep safari in the park. After lunch drive to Jabalpur airport, 200 KMS /4hrs drive to board a flight to New Delhi at 1630 hrs. Arrive in New Delhi at 1840 hrs. and transfer to the hotel. Overnight stay at the hotel.",
-                },
-                {
-                    title: "New Delhi – Agra (by road – 220 Kms - 4 hours drive)",
-                    description:
-                        "After relaxed breakfast drive to Agra, 220kms, 4-hour drive. On arrival check into the hotel. Evening visit Mehtab Bagh to see Taj Mahal at Sunset. Mehtab Bagh is a Charbagh complex in Agra, North India. It lies north of the Taj Mahal complex and the Agra Fort on the opposite side of the Yamuna River, in the flood plains. The garden complex, square in shape, measures about 300 by 300 meters and is perfectly aligned with the Taj Mahal on the opposite bank.\n\nOvernight stay at the hotel in Agra.",
-                },
-                {
-                    title: "Agra – Jaipur (by road, 235kms - 5-hours drive)",
-                    description:
-                        "Sunrise proceed to visit the famous white marble mausoleum, The Taj Mahal, which was built in the middle of the 17th century by the Moghul emperor Shah Jehan for his wife Mumtaz Mahal.\n\nCompleted in 1652, skilled craftsmen from Persia, Turkey, France, and Italy and some 20,000 laborers worked for 17 years to build this edifice. After relaxed breakfast proceed to visit the red sandstone AGRA FORT which stands like a crescent on the banks of Yamuna River enclosed by forbidding 20-meter high walls, with a 12- meter moat between them. Three successive Mughal emperors – Akbar, Jehangir, and Shah Jehan – helped create this massive structure which contains Hindu and Muslim architecture. [The Taj is closed on Friday]. Check out from the hotel.\n\nLater drive to Jaipur 235 kms/5-hours drive. On arrival check into the hotel. Overnight stay at the hotel.",
-                },
-                {
-                    title: "In Jaipur",
-                    description:
-                        "This morning you will drive 11 km to the outskirts of the city stop at Jal Mahal to visit Amber Fort, the ancient capital of the State until 1728. Visit the Temple of Kali, the Hall of Victory, or Jai Mahal.\n\nLater visit the Observatory, the Palace of Winds, and the City Palace and Museum. The museum has an interesting textile section, which contains dresses and costumes of the former Maharajas and Maharanis of Jaipur. Jaipur is well known for its beautiful carpets, enameled ornaments, precious and semi-precious stones, brass ornaments, and many other arts and crafts. Spend time in crowded lanes & by lanes of the pink city, haggling, and souvenir-hunting in the evening. Return to the hotel for the overnight stay in Jaipur.",
-                },
-                {
-                    title: "Jaipur - New Delhi (by road 260 Kms - 5 hrs drive)",
-                    description:
-                        "After relaxed breakfast drives back to New Delhi 260kms, 5 hrs. drive. Transfer to your hotel near to the airport.",
-                },
-                {
-                    title: "Fly back home",
-                    description:
-                        "After breakfast transfer to the International airport to board a flight back home.\nEnd of our services\n",
-                },
-            ],
-            important_information: [
-                "The driving hours given above from one city to another are based on the normal conditions of the roads and may vary. Any break for Food / Tea / Toilets / Sightseeing on the way will take extra time than the above given hours. Bandhavgarh has National parks that are closed every Wednesday for afternoon jeep safari.",
-                "Pench, Kanha, and Bandhavgarh national parks are closed for afternoon jeep safari every Wednesday.",
-                "In case the hotel envisaged or normal category of rooms are waitlisted/sold out, alternate hotels/categories will be provided & we will keep you informed on the supplement/reduction involved.",
-                "Safaris in Bandhavgarh, Kanha, and Pench will be provided in a 4X4 Jeep and Safari zone is subject to forest department permissions.",
-                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
             ],
         },
     },
@@ -924,217 +1110,109 @@ export const POPULAR_PACKAGES: {
     },
     {
         img_url:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9CKBI8vEFAwH06RfgF149hqGDlz2u2RpBSQ&s",
-        name: "Royal Rajasthan",
-        duration: "9 Nights • 10 Days",
-        slug: "royal-rajasthan",
-        tour: {
-            location: "Rajasthan",
-            country: "INDIA",
-            min_age: "10+",
-            tour_details:
-                'Rajasthan is a land of kings, opulent palaces, stunning forts, and vibrant culture. Known for its rich history and royal heritage, it is one of India’s most captivating destinations for travelers seeking a blend of history, architecture, and natural beauty. Our Rajasthan Tour takes you through some of the most iconic cities in this royal state, beginning with Udaipur. Known as the "City of Lakes," Udaipur is famous for its majestic City Palace, serene Lake Pichola, and the intricate Jag Mandir. The romantic setting of Udaipur, surrounded by rolling hills and tranquil lakes, provides a perfect introduction to Rajasthan’s royal past. The city exudes a charm that has inspired filmmakers and travelers alike, making it a must-visit destination for those seeking history and natural beauty.\n\nThe journey then moves on to Ranakpur, a peaceful town in the Aravalli Range, which is home to the stunning Ranakpur Jain Temple. Known for its incredible marble architecture and intricate carvings, this temple is a serene and spiritual stop on your Rajasthan journey. From Ranakpur, head to Jodhpur, the "Blue City," famous for its vibrant blue-painted houses and the magnificent Mehrangarh Fort. The city’s historic charm is complemented by its bustling markets and traditional handicrafts. Next, explore Pushkar, a holy town with its sacred Pushkar Lake and the only Brahma Temple in the world, offering a unique spiritual experience. Finally, visit Jaipur, the capital city, also known as the "Pink City," where iconic landmarks like the Amber Fort, Hawa Mahal, and City Palace stand as testaments to the region’s royal legacy. Each city in this tour reflects the regal splendor of Rajasthan, offering travelers an unforgettable experience of majestic architecture, culture, and traditions.',
-            destinations_covered: [
-                {
-                    name: "DELHI",
-                    description:
-                        "As the capital of India, Delhi is a bustling metropolis that blends rich history with modernity. From the imposing Red Fort and Qutub Minar to the grand India Gate, Delhi offers a window into India’s past. The vibrant streets of Chandni Chowk, alongside the serenity of Lotus Temple and Humayun’s Tomb, provide a complete experience of diverse cultures, monuments, and culinary delights. A true fusion of tradition and contemporary life, Delhi sets the stage for your Rajasthan journey.",
-                },
-                {
-                    name: "UDAIPUR",
-                    description:
-                        'Udaipur, often called the "City of Lakes," is one of Rajasthan’s most romantic cities, renowned for its stunning Lake Pichola and the majestic City Palace. This city is a blend of historical grandeur and natural beauty, with beautiful palaces, temples, and gardens nestled beside peaceful lakes. The intricate Jag Mandir, the mesmerizing boat rides on Lake Pichola, and the surrounding Aravalli hills create a magical atmosphere, making Udaipur a dream destination for travelers.',
-                },
-                {
-                    name: "RANAKPUR",
-                    description:
-                        "Ranakpur is a serene town nestled in the Aravalli Range, famous for its stunning Ranakpur Jain Temple, one of the most intricate and beautiful examples of Jain architecture in India. The temple, built in white marble, features 1,444 exquisitely carved pillars, each unique in design. Surrounded by lush forests and hills, Ranakpur offers a peaceful retreat for travelers seeking a blend of spiritual solace and architectural marvels.",
-                },
-                {
-                    name: "JODHPUR",
-                    description:
-                        'Known as the "Blue City," Jodhpur is a vibrant blend of history, culture, and stunning architecture. The majestic Mehrangarh Fort, which rises above the city, offers panoramic views of the blue-painted houses below. The bustling Sardar Market and the beautiful Umaid Bhawan Palace further add to the city’s royal charm. Jodhpur is a perfect blend of Rajasthan’s regal past and lively present, with every corner showcasing the grandeur of the Marwar region.',
-                },
-                {
-                    name: "PUSHKAR",
-                    description:
-                        "Pushkar is one of the most sacred towns in Rajasthan, famous for its holy Pushkar Lake and the only Brahma Temple in the world. This spiritual town, with its tranquil atmosphere, draws pilgrims and tourists alike. The lively Pushkar Bazaar is filled with colorful markets, vibrant handicrafts, and traditional Rajasthani culture. A visit to Pushkar offers a peaceful yet culturally immersive experience, ideal for those seeking spiritual serenity and local charm.",
-                },
-                {
-                    name: "JAIPUR",
-                    description:
-                        'Jaipur, also known as the "Pink City," is a dazzling blend of royal history, architectural splendor, and vibrant culture. The iconic Amber Fort, the delicate latticework of the Hawa Mahal, and the grand City Palace are among the must-see landmarks in this historical city. The bustling bazaars, where you can shop for traditional Rajasthani handicrafts and jewelry, add to the city\'s allure. As the capital of Rajasthan, Jaipur encapsulates the grandeur and charm of royal Rajasthan, offering a rich cultural experience.',
-                },
-                {
-                    name: "AGRA",
-                    description:
-                        "Agra, located on the banks of the Yamuna River, is home to one of the most iconic landmarks in the world—the Taj Mahal. This UNESCO World Heritage Site, a symbol of eternal love, is renowned for its stunning Mughal architecture and intricate marble craftsmanship. Agra is also home to other architectural marvels such as the Agra Fort, a UNESCO World Heritage Site, and the Fatehpur Sikri complex, showcasing the grandeur of the Mughal Empire. With its rich history and majestic monuments, Agra offers an unforgettable glimpse into India’s glorious past.",
-                },
-            ],
-            itinerary_outline: [
-                {
-                    title: "ARRIVE IN DELHI",
-                    description:
-                        "We welcome you in the capital city of India, for a journey across the fascinating history-markers of medieval north India. Wars were fought and rulers changed in Delhi but ordinary lives were lived in relative continuity. Glimpses of these can be seen even today as the character of the city underwent massive changes in the last decades. In the lands fabled to have seen seven cities, signs of the old are continuously jostling with the new, presenting an ever-fascinating panorama. We welcome you to its chaos and stability, into its steadfastness and its impatience and into a delightful rainbow of amalgamation, producing a world completely its own.\nOvernight at the hotel.",
-                },
-                {
-                    title: "SIGHTSEEING OF DELHI – LATE FLIGHT TO UDAIPUR",
-                    description:
-                        "Delhi is often distinguished as the old and new, the old referring to the pre –British habitations and the new is Lutyen’s Delhi, built to suit British sensibilities and the rapidly expanding city of independent India. However as we walk you through this city which has fascinated one and all for centuries, you will see that these demarcations are fluid with an intermixing of the old and new Delhi’s producing a supremely fascinating pulse to its city life.\n\nAfter breakfast we visit old Delhi, the capital built by emperor Shahjahan. The narrow winding lanes best traversed by a cycle-rickshaw house some of the oldest inhabitants and also the oldest trading establishments of the city. Visit the historic Jama Masjid, drive past the Red Fort. On our way back contrast the swift architectural changes brought by the colonial rulers mirroring styles from across Europe and adapted to the Indian environment. Drive past the Rashtrapati Bhavan (Presidential Palace) and the secretariat buildings, the impressive Rajpath and the World War I memorial arch, the India Gate.\n\nAfter lunch we will visit one of the oldest monuments of Delhi- next to the ruins of Quwat-ul-Islam (Light of Islam) Mosque in Mehrauli, standing tall with pride is the Qutub Minar. Learn about Delhi’s most curious antique here, the un-corroded Iron Pillar, which dates back to the 4th century AD believed to be sitting on the head of a ferocious snake. But more interesting than the mythology is the metallurgical skills of the ironsmith who produced this puzzle cast in iron. \n\nLater in the evening catch flight to Udaipur.\nOvernight at the hotel.",
-                },
-                {
-                    title: "SIGHTSEEING IN UDAIPUR",
-                    description:
-                        "Enjoy an early breakfast before departing to a Maasai village followed by a morning game drive. The Maasai Mara National Reserve is home to millions of wild animals, including the fabled Big Five of lions, leopards, elephants, buffaloes and black rhinos as well as antelopes, gazelles and wildebeest among others. Return to the lodge for lunch and perhaps a siesta before setting off for an afternoon game drive, then returning to the lodge as the sun sets.\n\nAn optional early morning hot air balloon safari is available today. Pick-up is at about 04:30 hours and drop off is at about 10:00 hours. Flight time is approximately one hour and champagne breakfast and return transfers are included.\nOvernight in Maasai Mara on a full board basis.",
-                },
-                {
-                    title: "DRIVE FROM UDAIPUR TO JODHPUR (262 KM / 05 HRS. DRIVE)",
-                    description:
-                        "We drive through the hills of Rajasthan, now showing signs of renewed life towards Jodhpur. On the way lies the beautiful and majestic Jain temple of Ranakpur. Built completely in marble, it took a whole 65 years to complete the carvings that adorn the temple walls and pillars and ceilings. Admire the fine craftsmanship which produced these dreamy creations bursting with life. For a long time a local legend has persisted that no one can count the real number of pillars that hold up the temple. So don’t be surprised if someone challenges you to do just that.\n\nLater we continue our drive to Jodhpur, lying at the very edge of the Thar dessert. Upon arrival, check-in at your hotel.\nOvernight at the hotel.",
-                },
-                {
-                    title: "DRIVE FROM JODHPUR TO PUSHKAR (186 KM / 04 HRS. DRIVE)",
-                    description:
-                        "Amongst the many princely settlements of Rajasthan, Jodhpur is one of the most distinctive. Countless tales of courage speak of a 500 year old history and a culture which take pride in its strength and valour. The Mehrangarh fort stands witness to many battles. Learn about the intensely captivating history as you wander through the city. In an area prone to droughts, the shades of blue give a sense of relief. Look down from the fort at the soothing colours in sight, shimmering like a lake, an oasis, stuff that make the dreams of a desert people.\n\nAfter visiting Jaswant Thada, an imposing marble cenotaph we will turn towards the local bazaar. Whether you try out your bargaining skills of bargaining or simply prefer the visual treat that men and women unfold in the bazaars with their exquisite craftsmanship, you will take back one of your most vivid memories of artful puppets of the region. In the afternoon we start our journey to the breath taking Pushkar.\n\nAfter checking into Hotel we are free to explore, as the winds now cool, bring relief to the hot sands. The lights from the temples glistening in the lake waters transport us to a magical world.\n\nOvernight at the hotel.",
-                },
-                {
-                    title: "DRIVE FROM PUSHKAR TO JAIPUR (143 KM / 04 HRS. DRIVE)",
-                    description:
-                        "Spend morning walking through the narrow lanes of Pushkar village dotted with hundreds of temples before we start our journey to Jaipur.\n\nIn the evening we will ride the rickshaw in the lively and colorful bazaar of the ‘Pink City’.\nOvernight at the hotel.",
-                },
-                {
-                    title: "JAIPUR",
-                    description:
-                        "Compare the city of Old Delhi with the city of Jaipur, a city unique amongst its medieval contemporaries. The streets, palaces, temples, residences, shopping place are all in accordance to the ancient Hindu rules of Vastu Shastra. The pink wash was added in 1853 in honour of the visit of Prince Albert. Perched atop the hill looking down majestically is the Amber fort. We ride up into the palace astride elephants just like the Maharajas of yore. The plain and time worn exteriors belie the exquisite detail with which the interiors were crafted. Notice the gentle breeze which cools the interiors as it filters in through the jails, a special feature of building in Rajasthan. In the famed Sheesh Mahal look up and be prepared to feel a surge of color as the optical effect makes you a part of this royal past. Back in the city, we will drive past Hawa Mahal, where again notice the jails. The Maharaja’s City Palace, much of which has been converted into a museum covers almost one-seventh area of the city in a fortified unit. Here the Armoury Museum housing an impressive array of weaponry-pistols, blunderbusses, flintlocks, swords, rifles and daggers. Become one with the planetary bodies at Jantar Mantar, the largest stone and marble crafted observatory in the world.\n\nJaipur is also an interesting place for those interested in jewellery, clothes, carpets and other handicrafts items. The city is a veritable paradise for those seeking souvenirs of the craftsmanship of Rajasthan.\nOvernight at the hotel.",
-                },
-                {
-                    title: "DRIVE FROM JAIPUR TO AGRA BY SURFACE (258 KM / 06 HRS)",
-                    description:
-                        "From the romance of the deserts we move towards the monument of a man’s love for his beloved, the city which treasures a lover’s dream. On our way we stop at Fatehpur sikri. In its imposing red sandstone structure lies the city envisioned by Emperor Akbar only to be abandoned a mere fourteen years later due to water scarcity. Upon arrival, check-in at your hotel.\nOvernight at the hotel.",
-                },
-                {
-                    title: "AGRA – DELHI BY SURFACE (204 KM / 05 HRS. DRIVE)",
-                    description:
-                        "We get our first glimpse of the Taj in an early morning visit. Bathed in the morning sunlight is truly a labor of love, not only of the man who had it built but the over 20,000 men who labored for over 17 years. Look at the fine setting of stones into the marble, the craftsmanship that structured the towers, and the massive dome. Notice that the verses of the Quran appear engraved in the same size and the skill which went into it.\n\nLearn the many stories, myths, and legends surrounding this structure, which for years stood deserted on the banks of the river surrounded by forests not too long ago.\n\nWe will visit the Agra fort, strolling through its various portions, built successively over generations. Visit the extravagant chamber where Shah Jahan was imprisoned by his son. Ironically he was allowed the single pleasure of staring at the resting place of his beloved queen from a distance.\n\nTake back a memory of the Taj, indulge yourself in the exquisite marble artifacts being produced by the artisans of Agra.\n\nWe then drive to Delhi. Upon arrival, check-in at your hotel.\nOvernight at the hotel",
-                },
-                {
-                    title: "DEPARTURE FROM DELHI",
-                    description:
-                        "We bid farewell to our guests in Delhi. As we journeyed through these romantic lands we hope that you fell in love just as much as we do with the beauty of our country.End of our Services.",
-                },
-            ],
-            important_information: [
-                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
-                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
-                "No passport size photo/any pictures / any visa form etc. required for visa – just clear/readable copy of passport copy in colour.",
-            ],
-        },
-    },
-    {
-        img_url:
-            "https://nws.ams3.cdn.digitaloceanspaces.com/content/668BC1E948ADB83BC3443FBBAF59257C/6283-2048.webp",
-        name: " Red Panda and Rhino Trip",
-        duration: "10 Nights • 11 Days",
+            "https://images.unsplash.com/photo-1453473552141-5eb1510d09e2?q=80&w=3766&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: " red panda and rhino trip",
+        duration: "10 nights • 11 days",
         slug: "red-panda-and-rhino-trip",
         tour: {
-            location: "Assam",
-            country: "INDIA",
+            location: "assam",
+            country: "india",
             min_age: "10+",
             tour_details:
-                "Red Panda and Rhino Trip offers a unique opportunity to explore two of India's most remarkable national parks—Singalila National Park and Kaziranga National Park—while immersing yourself in the rich flora and fauna of these diverse ecosystems. Starting with Singalila National Park, situated in the highest reaches of West Bengal, this park offers a spectacular range of altitudes from 2400 to 3636 meters, creating varied forest types such as Maling Bamboo, Magnolia, Oak, Rhododendron, and Silver Fir. As you trek through its dense forests, you’ll encounter rare and elusive wildlife like the Himalayan Black Bear, Red Panda, and Clouded Leopard, along with an array of colorful bird species like the Kalij Pheasant and Blood Pheasant. The park’s pristine surroundings and diverse habitats make it a haven for nature lovers and wildlife photographers alike.\n\nThe adventure continues at Kaziranga National Park, home to the world’s largest population of the endangered one-horned rhinoceros. Known for its vast grasslands, swamps, and woodlands, Kaziranga is a UNESCO World Heritage Site and a sanctuary for a variety of wildlife, including tigers, wild buffalo, and elephants. Experience the thrill of an exclusive jeep safari through the park, where you’ll have the chance to witness these majestic creatures up close in their natural habitat. This combination of exploring the high-altitude forests of Singalila and the wetlands of Kaziranga offers a rare opportunity to witness some of the rarest and most magnificent animals, including the Red Panda and the One-Horned Rhinoceros, making the Red Panda and Rhino Trip an unforgettable wildlife adventure.",
+                "red panda and rhino trip offers a unique opportunity to explore two of india's most remarkable national parks—singalila national park and kaziranga national park—while immersing yourself in the rich flora and fauna of these diverse ecosystems. starting with singalila national park, situated in the highest reaches of west bengal, this park offers a spectacular range of altitudes from 2400 to 3636 meters, creating varied forest types such as maling bamboo, magnolia, oak, rhododendron, and silver fir. as you trek through its dense forests, you’ll encounter rare and elusive wildlife like the himalayan black bear, red panda, and clouded leopard, along with an array of colorful bird species like the kalij pheasant and blood pheasant. the park’s pristine surroundings and diverse habitats make it a haven for nature lovers and wildlife photographers alike.\n\nthe adventure continues at kaziranga national park, home to the world’s largest population of the endangered one-horned rhinoceros. known for its vast grasslands, swamps, and woodlands, kaziranga is a unesco world heritage site and a sanctuary for a variety of wildlife, including tigers, wild buffalo, and elephants. experience the thrill of an exclusive jeep safari through the park, where you’ll have the chance to witness these majestic creatures up close in their natural habitat. this combination of exploring the high-altitude forests of singalila and the wetlands of kaziranga offers a rare opportunity to witness some of the rarest and most magnificent animals, including the red panda and the one-horned rhinoceros, making the red panda and rhino trip an unforgettable wildlife adventure.",
             destinations_covered: [
                 {
-                    name: "SINGALILA NATIONAL PARK",
+                    name: "singalila national park",
                     description:
-                        "Singalila National Park, located in the eastern Himalayas of West Bengal, is renowned for its breathtaking landscapes and rich biodiversity. The park stretches across altitudes of 2400 to 3636 meters, offering a diverse range of flora, including rare species like Rhododendron, Magnolia, and Silver Fir. It is home to elusive wildlife such as the Red Panda, Himalayan Black Bear, and Clouded Leopard, making it a haven for nature lovers and wildlife enthusiasts. With its stunning views of the Kanchenjunga mountain range and unique ecosystem, Singalila is a must-visit for those seeking adventure and tranquility in the heart of the Himalayas.",
+                        "singalila national park, located in the eastern himalayas of west bengal, is renowned for its breathtaking landscapes and rich biodiversity. the park stretches across altitudes of 2400 to 3636 meters, offering a diverse range of flora, including rare species like rhododendron, magnolia, and silver fir. it is home to elusive wildlife such as the red panda, himalayan black bear, and clouded leopard, making it a haven for nature lovers and wildlife enthusiasts. with its stunning views of the kanchenjunga mountain range and unique ecosystem, singalila is a must-visit for those seeking adventure and tranquility in the heart of the himalayas.",
                 },
                 {
-                    name: "KAZIRANGA NATIONAL PARK",
+                    name: "kaziranga national park",
                     description:
-                        "Kaziranga National Park, located in Assam, is a UNESCO World Heritage Site known for its vast grasslands, wetlands, and rich wildlife. Famous for hosting the world’s largest population of the one-horned rhinoceros, Kaziranga is a sanctuary for some of India’s most iconic species, including tigers, wild buffalo, and elephants. The park’s diverse landscapes provide the perfect setting for thrilling jeep safaris, where visitors can explore the wild up close. With its abundance of flora and fauna, Kaziranga offers an unforgettable wildlife experience in one of India’s most important conservation areas.",
+                        "kaziranga national park, located in assam, is a unesco world heritage site known for its vast grasslands, wetlands, and rich wildlife. famous for hosting the world’s largest population of the one-horned rhinoceros, kaziranga is a sanctuary for some of india’s most iconic species, including tigers, wild buffalo, and elephants. the park’s diverse landscapes provide the perfect setting for thrilling jeep safaris, where visitors can explore the wild up close. with its abundance of flora and fauna, kaziranga offers an unforgettable wildlife experience in one of india’s most important conservation areas.",
                 },
             ],
             itinerary_outline: [
                 {
-                    title: "Arrive New Delhi (by flight)",
+                    title: "arrive new delhi (by flight)",
                     description:
-                        "On arrival at the New Delhi airport, you will be met by our representative who will transfer you to your hotel and assist you in check in at the hotel. He will also hand over and explain all travel-related documents. Overnight stay is at the hotel.",
+                        "on arrival at the new delhi airport, you will be met by our representative who will transfer you to your hotel and assist you in check in at the hotel. he will also hand over and explain all travel-related documents. overnight stay is at the hotel.",
                 },
                 {
-                    title: "New Delhi – Guwahati – Kaziranga (by flight + 250 kms/5 hrs drive)",
+                    title: "new delhi – guwahati – kaziranga (by flight + 250 kms/5 hrs drive)",
                     description:
-                        "Early morning get transfer to the airport to board a flight to Guwahati at 0710 hrs to reach Guwahati at 0935 hrs. Meet our assistance on arrival at the Guwahati airport and drive to Kaziranga National Park 250kms / 5hrs drive. On arrival check into the resort. Lunch at resort and afternoon jeep safari to the national park.\n\nKaziranga National Park lies partly in Golaghat District and partly in Nagaon District of Assam. It is the oldest park in Assam and covers an area of 430 sq km along the river Brahmaputra in the North and the Karbi Ang long hills in the South. The National Highway 37 passes through the parking area and tea estates, hemmed by table-top tea bushes. The Park is a world heritage site and was declared a National Park in 1974. The landscape is of sheer forest, tall elephant grass, rugged reeds, marshes, and shallow pools.\n\nKaziranga National Park a world heritage site is famous for the Great Indian one-horned rhinoceros, the landscape of Kaziranga is of sheer forest, tall elephant grass, rugged reeds, marshes & shallow pools. It has been declared a National Park in 1974. Dinner and overnight at Resort.",
+                        "early morning get transfer to the airport to board a flight to guwahati at 0710 hrs to reach guwahati at 0935 hrs. meet our assistance on arrival at the guwahati airport and drive to kaziranga national park 250kms / 5hrs drive. on arrival check into the resort. lunch at resort and afternoon jeep safari to the national park.\n\nkaziranga national park lies partly in golaghat district and partly in nagaon district of assam. it is the oldest park in assam and covers an area of 430 sq km along the river brahmaputra in the north and the karbi ang long hills in the south. the national highway 37 passes through the parking area and tea estates, hemmed by table-top tea bushes. the park is a world heritage site and was declared a national park in 1974. the landscape is of sheer forest, tall elephant grass, rugged reeds, marshes, and shallow pools.\n\nkaziranga national park a world heritage site is famous for the great indian one-horned rhinoceros, the landscape of kaziranga is of sheer forest, tall elephant grass, rugged reeds, marshes & shallow pools. it has been declared a national park in 1974. dinner and overnight at resort.",
                 },
                 {
-                    title: "Kaziranga",
+                    title: "kaziranga",
                     description:
-                        "Morning and afternoon jeep safaris to the national park. Breakfast and lunch at the Resort.\n\nKaziranga National Park is one of the last areas in eastern India undisturbed by a human presence. It is inhabited by the world’s largest population of one-horned rhinoceroses, as well as many mammals, including tiger, elephant, water buffalo, gaur, leopard cat, otter, and monitor lizard. Some of the birds that can be commonly sighted are the flamingo, crane, grey-headed fishing eagle, whistling teal, crested serpent eagle, open-billed stork, swamp partridge, osprey, cormorant, heron, and marsh harrier. Dinner and overnight stay at the resort.",
+                        "morning and afternoon jeep safaris to the national park. breakfast and lunch at the resort.\n\nkaziranga national park is one of the last areas in eastern india undisturbed by a human presence. it is inhabited by the world’s largest population of one-horned rhinoceroses, as well as many mammals, including tiger, elephant, water buffalo, gaur, leopard cat, otter, and monitor lizard. some of the birds that can be commonly sighted are the flamingo, crane, grey-headed fishing eagle, whistling teal, crested serpent eagle, open-billed stork, swamp partridge, osprey, cormorant, heron, and marsh harrier. dinner and overnight stay at the resort.",
                 },
                 {
-                    title: "Kaziranga",
+                    title: "kaziranga",
                     description:
-                        "Morning and afternoon jeep safaris to the national park. Breakfast and lunch at the Resort.Dinner and overnight stay at the resort.",
+                        "morning and afternoon jeep safaris to the national park. breakfast and lunch at the resort.dinner and overnight stay at the resort.",
                 },
                 {
-                    title: "Kaziranga – Guwahati – Bagdogra – Singalila (Flight + by surface 100 Kms/4 hour)",
+                    title: "kaziranga – guwahati – bagdogra – singalila (flight + by surface 100 kms/4 hour)",
                     description:
-                        "Early breakfast, and transfer to the airport in the morning to board a flight at 1035 hours to arrive at Bagdogra at 1140 hrs. Met at the airport and drive to Singalila National Park gate (Manebhanjan) takes around 4 hrs. Then take safari Land Rovers to Habre’s Nest which takes another 2-2.30 hrs through the National Park. On arrival check into the Habre’s Nest. Dinner and overnight stay at the Habre’s Nest.",
+                        "early breakfast, and transfer to the airport in the morning to board a flight at 1035 hours to arrive at bagdogra at 1140 hrs. met at the airport and drive to singalila national park gate (manebhanjan) takes around 4 hrs. then take safari land rovers to habre’s nest which takes another 2-2.30 hrs through the national park. on arrival check into the habre’s nest. dinner and overnight stay at the habre’s nest.",
                 },
                 {
-                    title: "Singalila National Park",
+                    title: "singalila national park",
                     description:
-                        "The morning will start wildlife activity around Habre’s Nest after breakfast. Go for birding with an in-house bird studio setup. Later proceed in search of Red Panda for the whole day with necessary breaks. Foods will be served at homestay or on fields depending on the activities.\n\nThe jungles in the east are treasure houses to the most precious and strange flora and fauna. One such treasure in the east is Singalila National Park in West Bengal. Established in 1986, the park is one of the few places on earth where you will come across Red Panda.\n\nThe incandescent view of Kanchenjunga Massif adorns the clear blue skies above the park. Each and every turn unfurls a pleasant surprise of wilderness and scenic beauty. Located in the Eastern Himalayas, you get the virgin views of the mountains spanning from Nepal to Bhutan.\n\nYou may get tired of clicking photos from your DSLR, but the park won’t stop bombarding you with beautiful vistas and wonders of nature. It is a heaven for wildlife photographers, nature lovers, and adventure enthusiasts. Overnight stay at Habre’s Nest.",
+                        "the morning will start wildlife activity around habre’s nest after breakfast. go for birding with an in-house bird studio setup. later proceed in search of red panda for the whole day with necessary breaks. foods will be served at homestay or on fields depending on the activities.\n\nthe jungles in the east are treasure houses to the most precious and strange flora and fauna. one such treasure in the east is singalila national park in west bengal. established in 1986, the park is one of the few places on earth where you will come across red panda.\n\nthe incandescent view of kanchenjunga massif adorns the clear blue skies above the park. each and every turn unfurls a pleasant surprise of wilderness and scenic beauty. located in the eastern himalayas, you get the virgin views of the mountains spanning from nepal to bhutan.\n\nyou may get tired of clicking photos from your dslr, but the park won’t stop bombarding you with beautiful vistas and wonders of nature. it is a heaven for wildlife photographers, nature lovers, and adventure enthusiasts. overnight stay at habre’s nest.",
                 },
                 {
-                    title: "Singalila National Park",
+                    title: "singalila national park",
                     description:
-                        "Follow the same schedule as the previous day. After breakfast goes for birding and in search of rare and exotic Red Panda.\nAll meals and overnight stay at Habre’s Nest.\n\nHabre’s Nest is an Indo-Nepal joint venture towards sustainable tourism around Red Panda and its conservation. Red Panda & their habitat is hugely threatened in this world and pushing them further towards extinction; we all need to save them for a better world. Habre’s Nest is dedicated to this cause and shares 20% of its profit for the Red Panda & its habitat conservation.",
+                        "follow the same schedule as the previous day. after breakfast goes for birding and in search of rare and exotic red panda.\nall meals and overnight stay at habre’s nest.\n\nhabre’s nest is an indo-nepal joint venture towards sustainable tourism around red panda and its conservation. red panda & their habitat is hugely threatened in this world and pushing them further towards extinction; we all need to save them for a better world. habre’s nest is dedicated to this cause and shares 20% of its profit for the red panda & its habitat conservation.",
                 },
                 {
-                    title: "Singalila National Park",
+                    title: "singalila national park",
                     description:
-                        "Enjoy the similar schedule as the previous day. After breakfast goes for birding and in search of rare and exotic Red Panda.Monitor the surrounding Red Panda habitat for Red Panda conservation and research. Undoubtedly the best trackers around with a 100% success rate till now. Who better to have as your host! Members of the house are unique in their own way and ever-ready to give you the exclusive experience.\nAn experiential homestay that provides the highest quality Red Panda tour experience above 10,000 ft bordering India (Singalila) & Nepal (Illam). Unlike resorts & lodges at Habre’s Nest, guests are part of a villager’s Home and experience their life.\nAll meals and overnight stay at Habre’s Nest.",
+                        "enjoy the similar schedule as the previous day. after breakfast goes for birding and in search of rare and exotic red panda.monitor the surrounding red panda habitat for red panda conservation and research. undoubtedly the best trackers around with a 100% success rate till now. who better to have as your host! members of the house are unique in their own way and ever-ready to give you the exclusive experience.\nan experiential homestay that provides the highest quality red panda tour experience above 10,000 ft bordering india (singalila) & nepal (illam). unlike resorts & lodges at habre’s nest, guests are part of a villager’s home and experience their life.\nall meals and overnight stay at habre’s nest.",
                 },
                 {
-                    title: "Singalila National Park",
+                    title: "singalila national park",
                     description:
-                        "\nEnjoy the similar schedule as the previous day. After breakfast goes for birding and in search of rare and exotic Red Panda.\nTinchule-Singalila is a Birding Paradise. More than 300 species of birds found here. It has a huge list of exotic birds like- Blood Pheasant, Satyr Tragopan, Kalij Pheasant, Brown and Fulvous Parrotbills, Rufous-vented Tit, and Old World babblers like the Fire-tailed Myzornis and the Golden-breasted Fulvetta, Rosefinchs, bull finches, Wran Babblers, Laughingthrushes, Nuthatchs, Treecreepers, Yahunas, Minivets, Partriges and many more. One of the best places to see sunrise and sunsets, Sandakhphu top is the highest peak in West Bengal and offers the best view of Kangchenjunga also known as “Sleeping Buddha” or Sleeping Shiva”.\nAll meals and overnight stay at Habre’s Nest.",
+                        "\nenjoy the similar schedule as the previous day. after breakfast goes for birding and in search of rare and exotic red panda.\ntinchule-singalila is a birding paradise. more than 300 species of birds found here. it has a huge list of exotic birds like- blood pheasant, satyr tragopan, kalij pheasant, brown and fulvous parrotbills, rufous-vented tit, and old world babblers like the fire-tailed myzornis and the golden-breasted fulvetta, rosefinchs, bull finches, wran babblers, laughingthrushes, nuthatchs, treecreepers, yahunas, minivets, partriges and many more. one of the best places to see sunrise and sunsets, sandakhphu top is the highest peak in west bengal and offers the best view of kangchenjunga also known as “sleeping buddha” or sleeping shiva”.\nall meals and overnight stay at habre’s nest.",
                 },
                 {
-                    title: "Singalila – Bagdogra – New Delhi (Flight + by surface 100 Kms/4 hour)",
+                    title: "singalila – bagdogra – new delhi (flight + by surface 100 kms/4 hour)",
                     description:
-                        "After Breakfast check out from The Habre’s Nest drive to Bagdogra by 2 pm. After reaching the airport board a flight to New Delhi at 1550 hours. Arrive in New Delhi at 1805 hrs. and transfer to the hotel. Overnight stay at New Delhi hotel.",
+                        "after breakfast check out from the habre’s nest drive to bagdogra by 2 pm. after reaching the airport board a flight to new delhi at 1550 hours. arrive in new delhi at 1805 hrs. and transfer to the hotel. overnight stay at new delhi hotel.",
                 },
                 {
-                    title: "New Delhi Fly back home",
+                    title: "new delhi fly back home",
                     description:
-                        "After breakfast leave for the international airport to board a flight back home or onward destinations.\nEnd of our services.",
+                        "after breakfast leave for the international airport to board a flight back home or onward destinations.\nend of our services.",
                 },
             ],
             important_information: [
-                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
-                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
-                "The driving hours given above from one city to another are based on the normal conditions of the roads and may vary. Any break for Food / Tea / Toilets / Sightseeing on the way will take extra time than the above given hours.",
+                "we require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in jpeg/pdf format.",
+                "the driving hours given above from one city to another are based on the normal conditions of the roads and may vary. any break for food / tea / toilets / sightseeing on the way will take extra time than the above given hours.",
             ],
         },
     },
     {
         img_url:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cUJy--T6W3GgckNmmPkUyOhpY5VDV4yUjQ&s",
-        name: "On Forsyth trail Satpura and Pench national park safari",
-        duration: "9 Nights • 10 Days",
+            "https://images.unsplash.com/photo-1596635633572-43ee759ad58d?q=80&w=4219&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "on forsyth trail satpura and pench national park safari",
+        duration: "9 nights • 10 days",
         slug: "on-forsyth-trail-satpura-and-pench-national-park-safari",
         tour: {
-            location: "Madhya Pradesh",
-            country: "INDIA",
+            location: "madhya pradesh",
+            country: "india",
             min_age: "10+",
             tour_details:
-                "\nForsyth Trail Satpura and Pench National Park Safari is an exciting adventure curated by our travel company to explore two of India’s most enchanting wildlife destinations—Satpura National Park and Pench National Park. This tour takes you on a thrilling journey through the lush forests, diverse wildlife, and captivating landscapes of the central Indian hinterland. Starting with the lesser-explored Satpura National Park, you will experience the rich biodiversity of the region, including sightings of tigers, leopards, sloth bears, and various species of birds. The park is known for its pristine wilderness, diverse terrain, and unique opportunities for jungle walks and boat safaris along the Denwa River.\n\nNext, the tour leads you to the famous Pench National Park, which inspired Rudyard Kipling’s The Jungle Book. Here, you’ll embark on exciting safari rides through dense forests and open meadows, with the chance to spot the elusive Bengal tiger, wild dogs, deer, and an abundance of birdlife. The journey through these two incredible parks offers a perfect mix of adventure, nature, and wildlife photography. Whether you’re a nature enthusiast or a seasoned safari-goer, the Forsyth Trail Satpura and Pench National Park Safari promises an unforgettable experience, immersing you in the heart of India’s wildlife heritage.",
+                "\nforsyth trail satpura and pench national park safari is an exciting adventure curated by our travel company to explore two of india’s most enchanting wildlife destinations—satpura national park and pench national park. this tour takes you on a thrilling journey through the lush forests, diverse wildlife, and captivating landscapes of the central indian hinterland. starting with the lesser-explored satpura national park, you will experience the rich biodiversity of the region, including sightings of tigers, leopards, sloth bears, and various species of birds. the park is known for its pristine wilderness, diverse terrain, and unique opportunities for jungle walks and boat safaris along the denwa river.\n\nnext, the tour leads you to the famous pench national park, which inspired rudyard kipling’s the jungle book. here, you’ll embark on exciting safari rides through dense forests and open meadows, with the chance to spot the elusive bengal tiger, wild dogs, deer, and an abundance of birdlife. the journey through these two incredible parks offers a perfect mix of adventure, nature, and wildlife photography. whether you’re a nature enthusiast or a seasoned safari-goer, the forsyth trail satpura and pench national park safari promises an unforgettable experience, immersing you in the heart of india’s wildlife heritage.",
             destinations_covered: [
                 {
-                    name: "PENCH NATIONAL PARK",
+                    name: "pench national park",
                     description:
-                        "It is great fun to experience the raw nature, rustic culture of wildlife resorts and not to forget the mesmerizing opportunity to sight wild animals in their natural behavior.  Pench National Park is the first and the most important site for tiger lovers and this package allows one to explore this site in a brilliant way. Spot important animals in this park are leopards, wild dogs, wild cats, foxes, sloth bears, hyenas, langurs, wild boars, and jackals. Reptiles including pythons, cobras, krait, and other varieties of snakes are also found in this National Park.",
+                        "it is great fun to experience the raw nature, rustic culture of wildlife resorts and not to forget the mesmerizing opportunity to sight wild animals in their natural behavior.  pench national park is the first and the most important site for tiger lovers and this package allows one to explore this site in a brilliant way. spot important animals in this park are leopards, wild dogs, wild cats, foxes, sloth bears, hyenas, langurs, wild boars, and jackals. reptiles including pythons, cobras, krait, and other varieties of snakes are also found in this national park.",
                 },
                 {
                     name: "SATPURA NATIONAL PARK",
@@ -2519,156 +2597,78 @@ export const POPULAR_PACKAGES: {
     },
     {
         img_url:
-            "https://www.greavesindia.com/wp-content/uploads/2017/12/Spiritual-India_Golden-Temple_credit-JagjitSiStock-httpswww.istockphoto.comgbphotoblue-hour-harmandir-sahib-gm603910462-103703823.jpg",
-        name: "Spiritual Journey of India",
-        duration: "6 Nights • 7 Days",
-        slug: "spiritual-journey-of-india",
-        tour: {
-            location: "Amritsar, Haridwar",
-            country: "INDIA",
-            min_age: "10+",
-            tour_details:
-                'Our Spiritual Journey of India takes you through some of the most revered and spiritually enriching destinations in the country, beginning with Amritsar in Punjab. Known for the sacred Golden Temple, Amritsar is a center of devotion, peace, and serenity. The spiritual experience at the Golden Temple, with its holy Amrit Sarovar (pool of nectar) and the soothing sounds of Gurbani, is an unforgettable highlight of this journey. The city is also home to other important sites like the Jallianwala Bagh, a reminder of India\'s struggle for independence, and the Durgiana Temple, a temple dedicated to Goddess Durga. Amritsar’s unique blend of spiritual history and hospitality offers a deep connection to the Sikh faith and the rich cultural heritage of Punjab.\n\nThe journey continues to Haridwar and Rishikesh, two of the holiest cities situated on the banks of the Ganges River. In Haridwar, witness the mesmerizing Ganga Aarti at Har Ki Pauri, where devotees gather in devotion as the river comes alive with sacred chants and floating lamps. In Rishikesh, known as the "Yoga Capital of the World," immerse yourself in spiritual practices like yoga, meditation, and the teachings of ancient scriptures. Here, the tranquil environment and picturesque landscapes offer the perfect setting for introspection and inner peace. Finally, the tour concludes in Delhi, where history, spirituality, and modernity converge. Visit the serene Lotus Temple (Bahá’í House of Worship) and the peaceful Humayun’s Tomb, while exploring the vibrant spiritual tapestry that Delhi offers. This spiritual journey provides an opportunity for travelers to experience India’s deep-rooted religious and cultural heritage while embarking on a path of inner transformation.',
-            destinations_covered: [
-                {
-                    name: "DELHI",
-                    description:
-                        "Delhi, India’s capital, is a fascinating blend of history, culture, and spirituality. The city is home to some of India’s most iconic religious landmarks, including the serene Lotus Temple, a symbol of peace and unity for all faiths, and Humayun’s Tomb, which showcases Mughal architecture. Akshardham Temple, with its intricate carvings and exhibits, offers a spiritual and cultural experience. Delhi is a city where old-world spirituality seamlessly coexists with modernity, making it an essential part of a spiritual journey through India.",
-                },
-                {
-                    name: "AMRITSAR",
-                    description:
-                        "Amritsar, the spiritual heart of Punjab, is home to the revered Golden Temple, one of the holiest shrines in Sikhism. The temple’s serene Amrit Sarovar (holy pool) and the constant prayers reverberating throughout the complex create an atmosphere of peace and devotion. Amritsar is also rich in historical significance, with sites like Jallianwala Bagh reminding visitors of India’s struggle for freedom. A visit to Amritsar offers not only spiritual solace but also a deep connection to the Sikh way of life and its values of equality, service, and community.",
-                },
-                {
-                    name: "HARIDWAR",
-                    description:
-                        "Haridwar, one of India’s seven holiest cities, holds deep spiritual significance, especially for Hindus. Situated on the banks of the sacred Ganges River, Haridwar is famous for its evening Ganga Aarti at Har Ki Pauri, where thousands gather to witness the river come alive with chants, floating lamps, and incense. The city is dotted with ancient temples, ghats, and ashrams, making it an ideal destination for spiritual seekers and devotees looking to connect with the divine energy of the Ganges.",
-                },
-                {
-                    name: "RISHIKESH",
-                    description:
-                        'Known as the "Yoga Capital of the World," Rishikesh is a tranquil town on the banks of the Ganges River, offering an oasis for spiritual seekers. Whether it’s yoga, meditation, or exploring ancient temples, Rishikesh is an ideal place for introspection and spiritual growth. The majestic Lakshman Jhula and Ram Jhula bridges offer stunning views of the river and the surrounding hills, while the peaceful atmosphere of the town is perfect for rejuvenation of the mind, body, and soul. Rishikesh is a gateway to exploring India\'s spiritual traditions in a serene and natural setting.',
-                },
-            ],
-            itinerary_outline: [
-                {
-                    title: "Arrive Delhi",
-                    description:
-                        "You land at New Delhi’s international airport and after clearing Immigrations and Customs are met in the Arrival Hall by our colleague carrying the paging board with your names on it.\n\nTransfer to your hotel and check-in.\n\nNew Delhi is the capital of India and a microcosm of the country. It is a modern metropolis which still preserves its traditional values and manages its multiple personalities effortlessly, making it a perfect gateway city to any North India journey.\n\nHistorians believe that through Delhi’s 1000 year old history, the city has been destroyed and rebuilt eight times, each time built by a new dynasty/ruler. As a result Delhi grew and evolved, absorbing different religions, diverse cultures, both foreign and indigenous, and yet functioning as one organic entity and becoming the culturally secular city you see today.\n\nThe remainder of the day is at leisure for your own activities.\n\nOvernight at hotel\n\nAccommodation: Le Meridien Delhi OR similar\nMeals: None\nTransfer: Airport to Le Meridien Delhi.",
-                },
-                {
-                    title: "Delhi - Amritsar by train (or by flight)",
-                    description:
-                        "Breakfast at hotel.\n\nOn time pick up from hotel and transfer to railway station to board train for Amritsar. Meeting and assistance on arrival and transfer to hotel in Amritsar.\n\nAmritsar literally meaning “Pool of Nectar” and was founded in 1579 by Guru Ram Das, the fourth Guru of the Sikh religion. He settled down next to a pool said to have with miraculous healing powers. His son, Guru Arjun Dev, built the temple within the pool, and later Maharaja Ranjit Singh covered it with pure gold leaf.\nEvening proceed to attend Palki sahib ceremony (night ceremony) at Golden Temple.\n\nOvernight at hotel.\n\nAccommodation: Taj Swarna OR similar\nMeals: Breakfast\nTransfer: 6 hrs train travel from Delhi to Amritsar / 1 hr flight (Optional)\nActivity: 1 hr night ceremony at Golden temple",
-                },
-                {
-                    title: "Amritsar",
-                    description:
-                        "Breakfast at Hotel.\n\nAfter breakfast, proceed to visit the Golden Temple – the sacred Sikh sanctuary spread out in a vast complex around a huge water tank, in the midst of which stands the marble sanctum where the holy book of the Sikhs, the Guru Granth, is reverently placed. The roof of the sanctum is gold-leafed. The community kitchen provides free meals to up to 10,000 pilgrims and visitors in a day. We walk by the busy bazaars of the city and explore the local market.\n\nLater visit Durgiana temple dedicated to Goddess Durga. This is a Hindu Temple which has similar architecture as that of the Golden Temple. Also visit Gurudwara Baba Deep Singh Ji Shaheed.\n\nLate afternoon visit the border town of Wagah to see the change of guard ceremony. It is a spectacle comparable to ‘Change of Guards’ in London. The pomp and pageantry of the Beating Retreat and the Change of Guard within handshaking distance of the Indian and Pakistani forces makes for a most charming spectacle.\n\nOvernight at hotel.\n\nAccommodation: Taj Swarna OR similar\nMeals: Breakfast\nTransfer: 1 hr one way to Wagah Border\nActivity: 3 hrs city tour, 3 hrs Wagah excursion",
-                },
-                {
-                    title: "Amritsar – Haridwar by Train/Surface",
-                    description:
-                        "Early morning transfer to railway station to board your train for Haridwar.\n\nTrain – ASR HW JNSHTBDI Departure 0650hrs / Arrival 1410hrs\n\nUpon arrival in Haridwar railway Station, you will be met by our representative and transferred to your hotel in Haridwar.\n\nLate afternoon a short visit to Shanti Kunj & Pawan dham followed by Ganga Arti at Har Ki Pauri. Aarti means prayer. It is the prayer for Holy River Ganga (Ganges). These Prayers are perform every evening at Har Ki Pauri every evening to show our gratitude to nature and god. It is believe & faith Ganga water also removes sins when you take a dip in its holy water. Priest at the ghat has large fire bowls in their hands, bells of temples rings & priest starts chanting of Mantras. We can say words cannot describe the beauty of Aarti. A one can only learn about Aarti after experience it.\n\nOvernight stay is at hotel in Haridwar.\n\nAccommodation: Haveli Hari Ganga OR similar\nMeals: Breakfast\nTransfer: 7 hrs train travel\nActivity: 2 hrs temple visit and arti ceremony",
-                },
-                {
-                    title: "Haridwar - Rishikesh",
-                    description:
-                        "After breakfast drive 20kms to reach Rishikesh. Rishikesh is a city in India’s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation. Temples and ashrams (centers for spiritual studies) line the eastern bank around Swarg Ashram, a traffic-free, alcohol-free and vegetarian enclave upstream from Rishikesh town. Rishikesh, sometimes nicknamed “Yoga Capital of the World”, has numerous yoga centres that attract tourists. It is believed that meditation in Rishikesh brings one closer to attainment of moksha, as does a dip in the holy river that flows through it.\nUpon arrival check in at hotel and start the temple and ashram tour of Rishikesh. Visit the Beatles Ashram.\n\nThe Beatles Ashram – Maharishi Mahesh Yogi Ashram is now also known as The Beatles Ashram. The Beatles were one of the most popular music bands in 1960’s throughout the world. Beatles visited Rishikesh in 1968 for meditation. After this visit Rishikesh suddenly came in limelight throughout the world. Beatles came here to learn transcendental meditation at Maharishi Mahesh Yogi’s Ashram. Sessions were conducted by Maharishi Mahesh Yogi himself at his ashram.\n\nIn the late afternoon local sightseeing including Laxman jhula, Ram jhula, Parmarth Niketan ashram, Geeta Bhawan. Later in the evening witness Ganges Aarti at Parmarth Niketan Ashram. This ashram is open for the stay of only those pilgrims who are here to devote themselves to sadhana, meditation, seva and satsang.\n\nOvernight stay is at hotel in Rishikesh.\n\nAccommodation: Ganga Kinare OR similar\nMeals: Breakfast\nTransfer: 25 kms / 1 hrs\nActivity: Visit to Beatles ashram and Arti ceremony",
-                },
-                {
-                    title: "Rishikesh",
-                    description:
-                        "Early morning transfer to Kunjapuri if you wish to witness the sunrise. Almost a 1.5 hrs drive to the top. Climb 300 temple stairs to reach the main temple at the top of the hill or your vehicle will take you up to the hill. Once you are there, enjoy the spectacular 360 degree view of mountain peaks. Kunjapuri Devi Temple is sacred temple of immense importance in Hindu religion. Located at the height of 1676 meters, Kunjapuri is one of the Shaktipeeth in Uttarakhand. Packed breakfast will be provided.\nHike down through the villages and farms and a bit of Jungle to reach down the road where your vehicle will be waiting for you. Transfer to hotel.\n\nDay at free at leisure or explore the place by own.\n\nOptional: You may join for Rafting – Rishikesh is popular all over the country and the turbulent waves of river Ganges make it adventures or you can opt for Bungee Jumping (Optionals).\n\nAccommodation: Ganga Kinare\nMeals: Breakfast\nTransfer: 40 kms / 1.5 hrs\nActivity: 1 hr at temple, 1.5 hrs hike down to the town",
-                },
-                {
-                    title: "Rishikesh – Delhi",
-                    description:
-                        "Morning participate in the 1 hr Yoga session provided by the hotel (subject to hotel policies)\nOn time pick up from hotel to Dehradun airport to board flight for Delhi. From Delhi airport board on your onward flight.\n\nMeals: Breakfast\nTransfer: 25 kms / 40 mins from hotel to Airport\nActivity: 1 hr Yoga session.\nEnd of our services.",
-                },
-            ],
-            important_information: [
-                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
-                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
-                "Please note that flight and train timings are subject to change, and we recommend checking for any updates closer to your departure date to ensure a smooth travel experience.",
-            ],
-        },
-    },
-    {
-        img_url:
             "https://www.sahyogmantratours.com/images/blogs/meenakshi-temple-20231009101928-1_crop.jpg",
-        name: "Southern India with Madurai",
-        duration: "12 Nights • 13 Days",
+        name: "southern india with madurai",
+        duration: "12 nights • 13 days",
         slug: "southern-india-with-madurai",
         tour: {
-            location: "Madurai",
-            country: "INDIA",
+            location: "madurai",
+            country: "india",
             min_age: "10+",
             tour_details:
-                "Southern India with Madurai is a captivating journey through the rich cultural, natural, and historical treasures of India’s southern landscapes. Starting in Kochi, this vibrant port city in Kerala is a beautiful blend of colonial history and modern charm. Explore the historic Fort Kochi, the stunning Chinese Fishing Nets, and the iconic St. Francis Church. From Kochi, travel to Kumarakom, nestled along the tranquil Vembanad Lake, known for its picturesque backwaters, houseboats, and bird sanctuary. The serene beauty of Periyar, home to the famous Periyar Wildlife Sanctuary, offers a chance to spot wildlife like elephants and tigers while cruising on the calm waters of the Periyar Lake. Continue to Madurai, one of the oldest cities in India, where the magnificent Meenakshi Amman Temple stands as a testament to ancient Dravidian architecture and spiritual devotion.\n\nThe journey then takes you to the cool, lush hill station of Ooty, set amidst the Nilgiri Hills. Known as the “Queen of Hill Stations,” Ooty is perfect for scenic views, charming botanical gardens, and relaxing boat rides on Ooty Lake. From Ooty, head to Kabini, an idyllic wildlife destination offering safaris in the Kabini Wildlife Sanctuary, home to a diverse range of wildlife, including tigers, elephants, and leopards. In Mysore, the grandeur of the Mysore Palace and the tranquil Chamundi Hill are must-visit attractions. The tour concludes in Bengaluru, the dynamic tech hub of India, where you can explore its lush gardens, lively markets, and modern amenities while reflecting on the cultural richness and natural beauty of your journey through Southern India.",
+                "southern india with madurai is a captivating journey through the rich cultural, natural, and historical treasures of india’s southern landscapes. starting in kochi, this vibrant port city in kerala is a beautiful blend of colonial history and modern charm. explore the historic fort kochi, the stunning chinese fishing nets, and the iconic st. francis church. from kochi, travel to kumarakom, nestled along the tranquil vembanad lake, known for its picturesque backwaters, houseboats, and bird sanctuary. the serene beauty of periyar, home to the famous periyar wildlife sanctuary, offers a chance to spot wildlife like elephants and tigers while cruising on the calm waters of the periyar lake. continue to madurai, one of the oldest cities in india, where the magnificent meenakshi amman temple stands as a testament to ancient dravidian architecture and spiritual devotion.\n\nthe journey then takes you to the cool, lush hill station of ooty, set amidst the nilgiri hills. known as the “queen of hill stations,” ooty is perfect for scenic views, charming botanical gardens, and relaxing boat rides on ooty lake. from ooty, head to kabini, an idyllic wildlife destination offering safaris in the kabini wildlife sanctuary, home to a diverse range of wildlife, including tigers, elephants, and leopards. in mysore, the grandeur of the mysore palace and the tranquil chamundi hill are must-visit attractions. the tour concludes in bengaluru, the dynamic tech hub of india, where you can explore its lush gardens, lively markets, and modern amenities while reflecting on the cultural richness and natural beauty of your journey through southern india.",
             destinations_covered: [
                 {
-                    name: "KOCHI",
+                    name: "kochi",
                     description:
-                        "Kochi, a vibrant port city in Kerala, offers a unique blend of colonial charm and modern allure. Explore its historic Fort Kochi area, famous for the Chinese Fishing Nets and the colonial-era Dutch Palace. The city is also home to the stunning St. Francis Church and the cultural hub of Kathakali dance performances. With its blend of history, culture, and scenic waterfront, Kochi is a fascinating gateway to the backwaters of Kerala.",
+                        "kochi, a vibrant port city in kerala, offers a unique blend of colonial charm and modern allure. explore its historic fort kochi area, famous for the chinese fishing nets and the colonial-era dutch palace. the city is also home to the stunning st. francis church and the cultural hub of kathakali dance performances. with its blend of history, culture, and scenic waterfront, kochi is a fascinating gateway to the backwaters of kerala.",
                 },
                 {
-                    name: "KUMARAKOM",
+                    name: "kumarakom",
                     description:
-                        "Kumarakom, nestled on the serene Vembanad Lake in Kerala, is famous for its tranquil backwaters, lush landscapes, and vibrant birdlife. Enjoy a peaceful houseboat cruise through its waterways, surrounded by lush greenery and picturesque villages. The Kumarakom Bird Sanctuary, home to various migratory species, offers birdwatching opportunities for nature lovers. This idyllic town provides a perfect escape into nature’s calm embrace.",
+                        "kumarakom, nestled on the serene vembanad lake in kerala, is famous for its tranquil backwaters, lush landscapes, and vibrant birdlife. enjoy a peaceful houseboat cruise through its waterways, surrounded by lush greenery and picturesque villages. the kumarakom bird sanctuary, home to various migratory species, offers birdwatching opportunities for nature lovers. this idyllic town provides a perfect escape into nature’s calm embrace.",
                 },
                 {
-                    name: "PERIYAR",
+                    name: "periyar",
                     description:
-                        "Periyar, located in the Western Ghats of Kerala, is home to the famous Periyar Wildlife Sanctuary. Known for its stunning landscapes, the sanctuary offers an opportunity to spot diverse wildlife, including elephants, tigers, and numerous bird species. Enjoy a boat cruise on the tranquil Periyar Lake and explore the surrounding spice plantations. With its blend of nature and wildlife, Periyar offers an immersive experience in the heart of Kerala’s wilderness.",
+                        "periyar, located in the western ghats of kerala, is home to the famous periyar wildlife sanctuary. known for its stunning landscapes, the sanctuary offers an opportunity to spot diverse wildlife, including elephants, tigers, and numerous bird species. enjoy a boat cruise on the tranquil periyar lake and explore the surrounding spice plantations. with its blend of nature and wildlife, periyar offers an immersive experience in the heart of kerala’s wilderness.",
                 },
                 {
-                    name: "MADURAI",
+                    name: "madurai",
                     description:
-                        "Madurai, one of the oldest cities in India, is a historical and cultural gem in Tamil Nadu. The grand Meenakshi Amman Temple, with its towering gopurams and intricate sculptures, stands as a symbol of Dravidian architecture. Madurai is also known for its bustling markets, vibrant festivals, and rich cultural heritage. A visit to this ancient city is a deep dive into the spiritual and historical essence of South India.",
+                        "madurai, one of the oldest cities in india, is a historical and cultural gem in tamil nadu. the grand meenakshi amman temple, with its towering gopurams and intricate sculptures, stands as a symbol of dravidian architecture. madurai is also known for its bustling markets, vibrant festivals, and rich cultural heritage. a visit to this ancient city is a deep dive into the spiritual and historical essence of south india.",
                 },
                 {
-                    name: "OOTY",
+                    name: "ooty",
                     description:
-                        'Ooty, also known as the "Queen of Hill Stations," is nestled in the Nilgiri Hills of Tamil Nadu. Famous for its scenic landscapes, Ooty Lake, and Botanical Gardens, the town offers a refreshing escape with its cool climate and lush greenery. A ride on the historic Nilgiri Mountain Railway is a must-do to take in the breathtaking views of the surrounding hills and valleys. Ooty’s charming colonial architecture and beautiful vistas make it a perfect getaway.',
+                        'ooty, also known as the "queen of hill stations," is nestled in the nilgiri hills of tamil nadu. famous for its scenic landscapes, ooty lake, and botanical gardens, the town offers a refreshing escape with its cool climate and lush greenery. a ride on the historic nilgiri mountain railway is a must-do to take in the breathtaking views of the surrounding hills and valleys. ooty’s charming colonial architecture and beautiful vistas make it a perfect getaway.',
                 },
                 {
-                    name: "KABINI",
+                    name: "kabini",
                     description:
-                        "Kabini, located in Karnataka, is a serene wildlife destination known for its Kabini Wildlife Sanctuary. The sanctuary offers thrilling safaris where you can spot elephants, tigers, leopards, and various bird species in their natural habitat. The calm waters of the Kabini River enhance the beauty of the surroundings, providing a peaceful atmosphere for nature lovers. Kabini is an ideal spot for both wildlife enthusiasts and those seeking a peaceful retreat amidst nature.",
+                        "kabini, located in karnataka, is a serene wildlife destination known for its kabini wildlife sanctuary. the sanctuary offers thrilling safaris where you can spot elephants, tigers, leopards, and various bird species in their natural habitat. the calm waters of the kabini river enhance the beauty of the surroundings, providing a peaceful atmosphere for nature lovers. kabini is an ideal spot for both wildlife enthusiasts and those seeking a peaceful retreat amidst nature.",
                 },
                 {
-                    name: "MYSORE",
+                    name: "mysore",
                     description:
-                        "Mysore, known as the cultural capital of Karnataka, is famous for its royal heritage and historical landmarks. The majestic Mysore Palace is a must-visit, showcasing grand architecture and royal opulence. Chamundi Hill, with the Chamundeshwari Temple, offers panoramic views of the city. Mysore is also known for its bustling markets, where you can shop for authentic sandalwood products and Mysore silk.",
+                        "mysore, known as the cultural capital of karnataka, is famous for its royal heritage and historical landmarks. the majestic mysore palace is a must-visit, showcasing grand architecture and royal opulence. chamundi hill, with the chamundeshwari temple, offers panoramic views of the city. mysore is also known for its bustling markets, where you can shop for authentic sandalwood products and mysore silk.",
                 },
                 {
-                    name: "BENGALURU",
+                    name: "bengaluru",
                     description:
-                        "Bengaluru, the capital city of Karnataka, is a dynamic hub of technology, culture, and green spaces. Known for its modern skyline and booming tech industry, Bengaluru is also home to beautiful gardens such as Cubbon Park and the historic Lalbagh Botanical Garden. The city’s lively markets, vibrant nightlife, and blend of modern and traditional culture make it a fascinating destination for travelers. With its cosmopolitan charm, Bengaluru offers a perfect mix of innovation and tradition.",
+                        "bengaluru, the capital city of karnataka, is a dynamic hub of technology, culture, and green spaces. known for its modern skyline and booming tech industry, bengaluru is also home to beautiful gardens such as cubbon park and the historic lalbagh botanical garden. the city’s lively markets, vibrant nightlife, and blend of modern and traditional culture make it a fascinating destination for travelers. with its cosmopolitan charm, bengaluru offers a perfect mix of innovation and tradition.",
                 },
             ],
             itinerary_outline: [
                 {
-                    title: "Arrive Kochi",
+                    title: "arrive kochi",
                     description:
-                        "Upon arrival in Koch Airport, our representative will meet and greet you and you will be transferred to you hotel for overnight stay.\n\nBelieved to be the finest natural harbour in the world, Kochi deserves its description as the Queen of the Arabian Sea. You can cruise around man-made islands, with lawns sloping down to the water’s edge, enjoying the oldest European settlement in India. Generations of visitors came, saw and stayed for hundreds of years – Chinese, Arab, Jewish, British, French, Portuguese – all adding to the charm of this city Kochi’s history is a bright tapestry – many coloured threads woven through centuries together present the fabric of the present. Its involvement with the Portuguese, the Dutch and the British are evident in the architecture of city buildings, the old durbar hall is the spice in the dish! Modern day Kochi may be a busy port and shipping centre but it has many attractions for ordinary tourists.\nAccommodation: The Taj Malabar Tower wing\nMeals: None\nTransfer: 1.5 hrs from Airport to hotel.",
+                        "upon arrival in koch airport, our representative will meet and greet you and you will be transferred to you hotel for overnight stay.\n\nbelieved to be the finest natural harbour in the world, kochi deserves its description as the queen of the arabian sea. you can cruise around man-made islands, with lawns sloping down to the water’s edge, enjoying the oldest european settlement in india. generations of visitors came, saw and stayed for hundreds of years – chinese, arab, jewish, british, french, portuguese – all adding to the charm of this city kochi’s history is a bright tapestry – many coloured threads woven through centuries together present the fabric of the present. its involvement with the portuguese, the dutch and the british are evident in the architecture of city buildings, the old durbar hall is the spice in the dish! modern day kochi may be a busy port and shipping centre but it has many attractions for ordinary tourists.\naccommodation: the taj malabar tower wing\nmeals: none\ntransfer: 1.5 hrs from airport to hotel.",
                 },
                 {
-                    title: "Kochi – Kumarakom (65 kms / 2 hrs. drive)",
+                    title: "kochi – kumarakom (65 kms / 2 hrs. drive)",
                     description:
-                        "After breakfast sightseeing tour of Kochi. Visit the local market. While driving along the coastline, at the Harbour’s mouth, one can also view the unique and still-in-use “Chinese Fishing Nets” which were introduced by the Chinese traders in the 14th Century. The tour ends in the Fort Kochi area where you can walk through the historical Dutch and Portuguese buildings. Some parts of this nearly 500-year-old Fort are still amazingly well preserved. Later tranfer to Kumarakom.\n\nKumarakom is set in the backdrop of Vembanadu Lake, the largest freshwater lake in Kerala. The place is popular for backwaters tourism.\n\nOvernight at hotel.\n\nAccommodation: Coconut Lagoon\nMeals: Breakfast, Dinner\nActivity: 2 hrs city tour of Kochi",
+                        "after breakfast sightseeing tour of kochi. visit the local market. while driving along the coastline, at the harbour’s mouth, one can also view the unique and still-in-use “chinese fishing nets” which were introduced by the chinese traders in the 14th century. the tour ends in the fort kochi area where you can walk through the historical dutch and portuguese buildings. some parts of this nearly 500-year-old fort are still amazingly well preserved. later tranfer to kumarakom.\n\nkumarakom is set in the backdrop of vembanadu lake, the largest freshwater lake in kerala. the place is popular for backwaters tourism.\n\novernight at hotel.\n\naccommodation: coconut lagoon\nmeals: breakfast, dinner\nactivity: 2 hrs city tour of kochi",
                 },
                 {
-                    title: "Kumarakom",
+                    title: "kumarakom",
                     description:
-                        "Morning at leisure.\n\nLater embark the houseboat for day cruise across the backwaters with lunch. The houseboat cruise takes you through the intricate maze of backwaters, mesmerizing and surprising you at every turn with its serene beauty & simple charm. Enjoy the countryside of Kerala at its best. Soak your eyes & soul with array of coconut trees & endless paddy fields. You will also get chance to take a small stroll through the villages & interact with the locals. Lunch overboard.\n\nReturn to your resort after the cruise.\n\nOvernight stay at hotel\n\nAccommodation: Coconut Lagoon\nMeals: Breakfast, lunch\nActivity: 3 hrs day cruise with lunch onboard.",
+                        "morning at leisure.\n\nlater embark the houseboat for day cruise across the backwaters with lunch. the houseboat cruise takes you through the intricate maze of backwaters, mesmerizing and surprising you at every turn with its serene beauty & simple charm. enjoy the countryside of kerala at its best. soak your eyes & soul with array of coconut trees & endless paddy fields. you will also get chance to take a small stroll through the villages & interact with the locals. lunch overboard.\n\nreturn to your resort after the cruise.\n\novernight stay at hotel\n\naccommodation: coconut lagoon\nmeals: breakfast, lunch\nactivity: 3 hrs day cruise with lunch onboard.",
                 },
                 {
-                    title: "Kumarakom – Periyar (130 kms / 3 hrs. drive)",
+                    title: "kumarakom – periyar (130 kms / 3 hrs. drive)",
                     description:
-                        "After breakfast transfer to Periyar.\n\nAfternoon proceed for spice plantation tour. Learn about various spices of this state – the pepper, the clove and many more. In the evening you will have a cooking demonstration by hotel at fixed time. Dinner and overnight at hotel.\n\nAccommodation: Spice Village\nMeals: Breakfast, dinner\nActivity: 1 hr spice plantation tour, cooking demo with in house chef.",
+                        "after breakfast transfer to periyar.\n\nafternoon proceed for spice plantation tour. learn about various spices of this state – the pepper, the clove and many more. in the evening you will have a cooking demonstration by hotel at fixed time. dinner and overnight at hotel.\n\naccommodation: spice village\nmeals: breakfast, dinner\nactivity: 1 hr spice plantation tour, cooking demo with in house chef.",
                 },
                 {
                     title: "Periyar – Madurai (140 kms/ 4 hrs. drive)",
