@@ -3044,4 +3044,391 @@ export const POPULAR_PACKAGES: {
             ],
         },
     },
+    {
+        img_url:
+            "https://images.pexels.com/photos/325193/pexels-photo-325193.jpeg?cs=srgb&dl=pexels-apasaric-325193.jpg&fm=jpg&_gl=1*jnc6yt*_ga*OTAwMjc3NzExLjE3MzQwMjQ3ODI.*_ga_8JE65Q40S6*MTczNjAxMDIzMC41LjEuMTczNjAxMDM5Ni4wLjAuMA..",
+        name: "Dubai Luxury: Beach & Desert Escapes",
+        duration: "7 Nights • 8 Days",
+        slug: "dubai-luxury-beach-desert-escapes",
+        tour: {
+            location: "DUBAI",
+            country: "UAE",
+            min_age: "10+",
+            tour_details:
+                "Offering the perfect blend of adventure and relaxation, taking you on a journey through the best of Dubai's natural and urban wonders. Experience the beauty of the Arabian Oryx in their desert habitat, followed by an exhilarating desert safari. Discover the iconic Jumeirah coastline, enjoy a serene evening dhow boat cruise, and embark on a captivating city tour showcasing the sights of Downtown Dubai. Stay in a luxurious hotel, where comfort meets elegance, and take in panoramic views from the Burj Khalifa’s exclusive 148th floor. This meticulously curated experience ensures you soak in the finest of both the desert and cityscape, making for an unforgettable escape.",
+            destinations_covered: [
+                {
+                    name: "DUBAI",
+                    description:
+                        "Dubai is a dazzling fusion of modern luxury and rich cultural heritage, offering something for every traveler. From towering skyscrapers like the Burj Khalifa to the tranquil beauty of its desert landscapes, the city is a playground for adventure, relaxation, and world-class shopping. With pristine beaches, iconic landmarks, and a vibrant nightlife, Dubai promises an unforgettable experience for those seeking both excitement and elegance.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive in Dubai",
+                    description:
+                        "Upon arriving at Dubai’s airport, you’ll be warmly welcomed by our representatives, who will transfer you to your luxurious hotel nestled in the Dubai Desert Conservation Reserve, just on the edge of the Arabian Desert. Settle into your private villa and unwind with a breathtaking sunset over the dunes from the hotel’s terrace bar.\nOvernight at Al Maha, A Luxury Collection Desert Resort & Hotel.",
+                },
+                {
+                    title: "Dubai (Desert Adventure)",
+                    description:
+                        "Connect with your private concierge and field guide to explore the day's exciting activities and make the most of your desert adventure. You can try your hand at archery, embark on an exhilarating 4x4 ride through the deep-orange dunes, or enjoy a tranquil horse ride through the lush palm oasis.\nOvernight at Al Maha, A Luxury Collection Desert Resort & Hotel.",
+                },
+                {
+                    title: "Dubai ( Desert Landscape & Camel Tour)",
+                    description:
+                        "This morning, enjoy a guided walk through the reserve, where you’ll learn about the unique flora and fauna that thrive in this desert landscape. Keep an eye out for camels, gazelles, and the majestic Arabian oryx—once thought to be extinct, now roaming freely in large herds. As the day winds down, embark on a guided camel trek to the crest of a dune, where you can sip Champagne and savor local snacks while watching the sunset over the endless sands.\nOvernight at Al Maha, A Luxury Collection Desert Resort & Hotel.",
+                },
+                {
+                    title: "Dubai ( City Tour)",
+                    description:
+                        "Today, you’ll journey back through the vibrant city of Dubai and cross over to the stunning Palm Jumeirah peninsula. Your home for the next four nights will be the luxurious One & Only The Palm, an exquisite resort offering sparkling pools and a private beachfront. Spend the day unwinding and indulge in a delectable dinner at one of the resort’s acclaimed restaurants, all while enjoying breathtaking views of Dubai’s evolving skyline.\nOvernight at One & Only The Palm.",
+                },
+                {
+                    title: "Dubai (Pamper Yourself)",
+                    description:
+                        "Start your morning with a delicious alfresco breakfast, followed by a relaxing day by the pool. Take a refreshing dip in the sun-kissed waters, or unwind on the beach with the soothing sound of gentle waves. For the ultimate indulgence, treat yourself to a rejuvenating experience at the Guerlain Spa, where you’ll feel completely refreshed and pampered.\nOvernight at One & Only The Palm.",
+                },
+                {
+                    title: "Dubai (Dubai Creek & Dhow Cruise)",
+                    description:
+                        "Today you could venture into the city, perhaps taking a taxi or private vehicle to the historic side of Dubai, where skyscrapers are replaced with traditional low-rise stone buildings. Wander the souqs, laden with spices, textiles and gold, taste traditional Middle Eastern dishes that you won’t find on the menus of the city’s fine-dining restaurants, or take an evening dhow boat cruise along the tranquil Dubai Creek.\nOvernight at One & Only The Palm.",
+                },
+                {
+                    title: "Dubai (Burj Khalifa)",
+                    description:
+                        "You might like to rise early this morning to join a yoga session on the beach. Then, enjoy the final day of your trip however you please: you could try some water sports in the marina, soak up the sights of Downtown Dubai, where you could head to the Burj Khalifa’s exclusive 148th floor, or simply enjoy further relaxation within your resort’s opulent surroundings.\nOvernight at One & Only The Palm.",
+                },
+                {
+                    title: "Dubai (Fly Back Home)",
+                    description:
+                        "After breakfast, you’ll be driven back to the airport today in time for your flight home.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid UAE visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/15188088/pexels-photo-15188088/free-photo-of-precinct-of-amun-re-karnak-temple-complex-luxor-egypt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Egyptian Treasures: Cairo & Nile Cruise",
+        duration: "6 Nights • 7 Days",
+        slug: "egyptian-treasures-cairo-nile-cruise",
+        tour: {
+            location: "Cairo",
+            country: "EGYPT",
+            min_age: "10+",
+            tour_details:
+                "In the heart of Egypt, where time seems to stand still, the ancient wonders of the Giza Pyramids rise dramatically against the horizon, their stone faces carved by centuries of history. The Sphinx, silent and watchful, faces the vast, unending desert, while the Nile—a lifeline that has flowed for millennia—gently carries boats through lush green banks. Your journey begins in Cairo, where you’ll privately explore the Giza, Saqqara, and Dahshur pyramids, stepping into the footsteps of ancient architects who dared to defy the limits of stone and time. These pyramids, some of the earliest attempts at monumental architecture, offer a profound glimpse into the ingenuity and mysticism of Egypt’s ancient past.\n\nFrom Cairo, your voyage continues along the legendary Nile River, where a romantic three-night cruise from Aswan to Luxor unveils Egypt’s rich tapestry of history and beauty. Drift past palm-fringed banks, ancient temples, and the ever-changing landscape of the Nile Valley, where the timeless spirit of Egypt endures. Explore the peaceful Philae Temple, nestled on an island near Aswan, and visit the sacred sites of Edfu and Kom Ombo—two lesser-known gems dedicated to the crocodile god Sobek. These tranquil temples, far from the crowds, offer an intimate connection to the divine world of ancient Egypt. Throughout this journey, you’ll not only witness the grandeur of Egypt’s history but also uncover the serenity and hidden treasures that make it a destination unlike any other.",
+            destinations_covered: [
+                {
+                    name: "CAIRO",
+                    description:
+                        "Cairo, a city of contrasts, blends the ancient with the modern. Amidst the bustling streets and vibrant souks, the whispers of ancient Egypt can still be heard. Here, you’ll find iconic landmarks, world-class museums, and a rich tapestry of culture and history. The Egyptian capital is a city that never sleeps, offering endless exploration for those keen to dive into its fascinating past and dynamic present.",
+                },
+                {
+                    name: "NILE VALLEY",
+                    description:
+                        "The Nile Valley is the lifeblood of Egypt, a lush ribbon of green that winds its way through the arid desert landscape. As you cruise along the river’s calm waters, you’ll pass ancient temples, towering cliffs, and small villages unchanged for centuries. This sacred valley holds the key to understanding Egypt’s grandeur, where every bend in the river reveals a new layer of the country’s mystique.",
+                },
+                {
+                    name: "PHILAE TEMPLE",
+                    description:
+                        "On the tranquil island of Philae, the Temple of Isis rises majestically against the backdrop of the shimmering Nile. Surrounded by crystal-clear waters, this ancient site once served as a major center of worship for the goddess Isis. Its serene beauty and peaceful atmosphere offer a perfect setting to reflect on Egypt’s rich spiritual heritage, far removed from the crowds.",
+                },
+                {
+                    name: "EDFU",
+                    description:
+                        "In Edfu, the grandeur of ancient Egypt is still very much alive. The Temple of Horus here is one of the most well-preserved monuments from the Pharaonic era, with towering columns and intricate reliefs depicting the triumphs of the falcon-headed god. As you wander through its massive halls, you’ll be transported back to a time when the gods walked among the people, their divine presence ever-powerful.",
+                },
+                {
+                    name: "KOM OMBO",
+                    description:
+                        "At Kom Ombo, two temples stand side by side, dedicated to the crocodile god Sobek and the falcon god Horus. This rare dual temple offers a fascinating glimpse into ancient Egyptian religious practices, where deities of both light and darkness were revered. Situated on the banks of the Nile, the temple’s distinctive symmetrical design and intricate carvings invite visitors to ponder the mysteries of Egypt’s ancient gods.",
+                },
+                {
+                    name: "GIZA",
+                    description:
+                        "The Giza Plateau is the crown jewel of Egypt’s ancient wonders. Home to the Great Pyramid, the Pyramid of Khafre, and the iconic Sphinx, this archaeological site is a living testament to the architectural genius and spiritual grandeur of ancient Egypt. Standing in the shadow of these colossal structures, it’s impossible not to feel a sense of awe and wonder at the mysteries they hold.",
+                },
+                {
+                    name: "SAQQARA",
+                    description:
+                        "Saqqara, Egypt’s oldest pyramid site, offers a quieter but equally captivating journey into the ancient world. The Step Pyramid of Djoser, built during Egypt’s Third Dynasty, marks a revolutionary moment in pyramid construction. Here, amidst the vast necropolis, you’ll find tombs, shrines, and structures that offer deep insights into the evolution of Egyptian architecture and burial practices.",
+                },
+                {
+                    name: "DAHSHUR",
+                    description:
+                        "Dahshur, a hidden gem in Egypt’s pyramid landscape, is home to the Bent Pyramid and the Red Pyramid—two early attempts at perfecting pyramid construction. Located just south of Saqqara, these structures offer an intimate look at the early innovations that led to the creation of the iconic Giza Pyramids. Dahshur’s relatively tranquil setting provides a rare opportunity to experience the ancient wonders without the crowds.",
+                },
+                {
+                    name: "KARNAK",
+                    description:
+                        "The Temple Complex of Karnak, one of Egypt’s most magnificent ancient sites, is a testament to the grandeur of the Pharaohs. This sprawling temple is famed for its awe-inspiring 134 massive columns, each intricately carved with scenes of mythology and royalty, creating a forest of stone. The Hypostyle Hall, with its towering pillars reaching toward the sky, evokes a sense of ancient power and divine presence. Karnak stands as a vivid reminder of Egypt’s architectural and spiritual legacy.",
+                },
+                {
+                    name: "LUXOR",
+                    description:
+                        "Luxor, often called the world’s greatest open-air museum, is home to some of Egypt’s most iconic monuments. The Luxor Temple, with its majestic avenue of sphinxes, offers a glimpse into Egypt’s rich past, while the surrounding monuments and tombs of the West Bank tell tales of the pharaohs who once ruled. This enchanting city on the Nile has been a center of worship and culture for millennia, offering a rare chance to walk in the footsteps of history.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive Cairo (by flight)",
+                    description:
+                        "On arrival in Cairo, you will be met at the airport by your Noble Travels representative and driven to your accommodation by your private driver. You then have the rest of the evening at leisure to settle into your hotel.\nOvernight at your hotel.",
+                },
+                {
+                    title: "In Cairo",
+                    description:
+                        "This morning after your breakfasr, your private guide and driver will greet you at your hotel for a full-day exploration of Egypt's most renowned pyramids. Start with Dahshur, where you'll witness the Bent Pyramid—an early experiment in pyramid design—and then venture inside the Red Pyramid, Egypt's first true smooth-sided pyramid. Continue to Saqqara to marvel at the Step Pyramid, an architectural milestone. The day concludes at the Giza Plateau, home to the iconic Great Pyramid and the awe-inspiring Sphinx, where you’ll stand in the shadow of these ancient wonders.\nOvernight at your hotel.",
+                },
+                {
+                    title: "In Cairo",
+                    description:
+                        "After breakfast at your hotel.\nSpend the day at your leisure, uncovering Cairo at your own pace. A visit to the Egyptian Museum is a must, where you’ll discover over 160,000 artifacts, including treasures like King Tutankhamun’s iconic death mask and intricate ancient leather sandals. Alternatively, dive into the vibrant atmosphere of downtown Cairo and explore the bustling Khan el-Khalili market, where the lively souks brim with unique trinkets, Egyptian crafts, and local memorabilia.\nOvernight at your hotel.",
+                },
+                {
+                    title: "Nile Cruise (Aswan)",
+                    description:
+                        "Today begins with an early departure with early/packed breakfast, as your private driver takes you to the airport for a short flight to Aswan. Upon arrival, board your luxurious Nile cruise ship, where you'll settle into your cabin and familiarize yourself with the amenities. Afterward, enjoy a guided tour with a small group, visiting the impressive High Dam and the serene Temple of Philae. The remainder of the evening is yours to relax and unwind at your leisure.\nOvernight on Cruise ship.",
+                },
+                {
+                    title: "Nile Cruise (Kom Ombo, Edfu & Esna)",
+                    description:
+                        "This morning, set sail north to Kom Ombo, where you'll explore the Temple of Sobek and Haroeris with a small guided group. After lunch, continue to Edfu to visit the magnificent Temple of Horus. Your guide will lead you through the various halls and chambers, shedding light on their historical and spiritual significance, before reaching the inner Sanctuary of Horus. Later, reboard your cruise ship and sail onward to Esna, where you'll dock for the night.",
+                },
+                {
+                    title: "Nile Cruise (Luxor)",
+                    description:
+                        "This morning, your boat crosses the renowned Esna lock before continuing to Luxor. Upon arrival, you’ll head to the West Bank to explore the legendary Valley of the Kings. Step inside one of the tombs to marvel at the brilliantly preserved hieroglyphics. As the tombs open and close daily to protect their delicate interiors, your guide will confirm which tombs you’ll visit that day. Continue your exploration with a visit to the grand Temple of Hatshepsut and the imposing Colossi of Memnon, two of Luxor’s most iconic sites.\nOvernight on Cruise ship.",
+                },
+                {
+                    title: "Return Home",
+                    description:
+                        "After spending your final night on board, begin your last morning in Egypt with a visit to the awe-inspiring Temples of Karnak and Luxor on the East Bank of Luxor. Karnak Temple, with its towering 134 sandstone columns shaped like papyrus stalks, is a breathtaking testament to ancient Egyptian architecture. As your time in Egypt draws to a close, your local representative and driver will escort you to Luxor Airport for your flight back to Cairo, where you will continue your onward journey.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Egypt visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/10854942/pexels-photo-10854942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Grand Egypt Tour",
+        duration: "14 Nights • 15 Days",
+        slug: "grand-egypt-tour",
+        tour: {
+            location: "Cairo",
+            country: "EGYPT",
+            min_age: "10+",
+            tour_details:
+                "Egypt, the cradle of civilization, is a land where ancient wonders and modern life seamlessly intertwine. From the monumental Pyramids of Giza to the timeless treasures of Luxor, Egypt is a country steeped in history and mystery. The Nile, the lifeblood of the nation, flows through this land of pharaohs, where each stone and temple tells a story that has spanned thousands of years. Beyond its awe-inspiring monuments, Egypt is a place where vibrant culture, bustling markets, and rich traditions invite you to experience the warmth of its people, the flavors of its food, and the grandeur of its heritage.\n\nOur Grand Egypt Tour offers an unforgettable journey through this extraordinary land. You’ll stand in awe before the Great Pyramids of Giza, sail down the Nile on a luxury cruise that takes you to some of the most iconic temples, and immerse yourself in the stories of the ancient world. From sampling local delicacies and street food to visiting the breathtaking Abu Simbel, where the colossal temples of Ramesses II rise dramatically from the desert, every moment of this tour promises to be a discovery of Egypt’s unmatched beauty and timeless allure. Along the way, you’ll explore hidden gems, vibrant markets, and much more, making this a once-in-a-lifetime experience.",
+            destinations_covered: [
+                {
+                    name: "PYRAMIDS OF GIZA",
+                    description:
+                        "The Pyramids of Giza, one of the Seven Wonders of the Ancient World, stand as timeless symbols of Egypt's rich history. These colossal structures, including the Great Pyramid of Khufu, are a marvel of ancient engineering and craftsmanship. The Sphinx, a guardian statue with the body of a lion and the face of a Pharaoh, adds to the mystique of this iconic site.",
+                },
+                {
+                    name: "LUXOR",
+                    description:
+                        "Known as the world's greatest open-air museum, Luxor is home to some of Egypt's most famous temples and tombs. The majestic Karnak and Luxor temples, the Valley of the Kings, and the Temple of Hatshepsut showcase the grandeur of ancient Egypt. The city's location along the Nile River adds to its charm, offering a glimpse into the kingdom's once-glorious past.",
+                },
+                {
+                    name: "ASWAN",
+                    description:
+                        "Aswan, a tranquil city on the Nile, offers a mix of ancient wonders and modern beauty. Visit the impressive High Dam, the Temple of Philae on an island, and the Unfinished Obelisk, while enjoying the peaceful atmosphere of this southern Egyptian gem. The surrounding landscapes, with their picturesque deserts and lush Nile banks, add to the serene charm of Aswan.",
+                },
+                {
+                    name: "ABU SIMBEL",
+                    description:
+                        "The temples of Abu Simbel, carved into the mountainside by Ramses II, are among Egypt's most awe-inspiring monuments. These colossal statues, dedicated to Ramses and his queen Nefertari, stand as a testament to the might and grandeur of ancient Egypt. The temples were famously relocated in the 1960s to avoid submersion due to the construction of the Aswan High Dam.",
+                },
+                {
+                    name: "CAIRO",
+                    description:
+                        "Cairo, a city of contrasts, blends the ancient with the modern. Amidst the bustling streets and vibrant souks, the whispers of ancient Egypt can still be heard. Here, you’ll find iconic landmarks, world-class museums, and a rich tapestry of culture and history. The Egyptian capital is a city that never sleeps, offering endless exploration for those keen to dive into its fascinating past and dynamic present.",
+                },
+                {
+                    name: "SAQQARA",
+                    description:
+                        "Saqqara, Egypt’s oldest pyramid site, offers a quieter but equally captivating journey into the ancient world. The Step Pyramid of Djoser, built during Egypt’s Third Dynasty, marks a revolutionary moment in pyramid construction. Here, amidst the vast necropolis, you’ll find tombs, shrines, and structures that offer deep insights into the evolution of Egyptian architecture and burial practices.",
+                },
+                {
+                    name: "DAHSHUR",
+                    description:
+                        "Dahshur, a hidden gem in Egypt’s pyramid landscape, is home to the Bent Pyramid and the Red Pyramid—two early attempts at perfecting pyramid construction. Located just south of Saqqara, these structures offer an intimate look at the early innovations that led to the creation of the iconic Giza Pyramids. Dahshur’s relatively tranquil setting provides a rare opportunity to experience the ancient wonders without the crowds.",
+                },
+                {
+                    name: "ALEXANDRIA",
+                    description:
+                        "Alexandria, Egypt's second-largest city, blends ancient history with Mediterranean charm. Founded by Alexander the Great, it is home to the ruins of the ancient Library of Alexandria and the impressive Citadel of Qaitbay. The city’s stunning coastline, vibrant markets, and rich cultural heritage make it a unique and fascinating destination.",
+                },
+                {
+                    name: "WEST BANK",
+                    description:
+                        "Luxor’s West Bank is home to the Valley of the Kings, where many of Egypt's pharaohs, including Tutankhamun, were buried. The Temple of Hatshepsut and the Colossi of Memnon stand as monumental testaments to Egypt’s dynastic history. A visit to this area offers a deep dive into the burial practices and the grandeur of ancient Egypt’s royal family.",
+                },
+                {
+                    name: "EDFU",
+                    description:
+                        "In Edfu, the grandeur of ancient Egypt is still very much alive. The Temple of Horus here is one of the most well-preserved monuments from the Pharaonic era, with towering columns and intricate reliefs depicting the triumphs of the falcon-headed god. As you wander through its massive halls, you’ll be transported back to a time when the gods walked among the people, their divine presence ever-powerful.",
+                },
+                {
+                    name: "KOM OMBO",
+                    description:
+                        "At Kom Ombo, two temples stand side by side, dedicated to the crocodile god Sobek and the falcon god Horus. This rare dual temple offers a fascinating glimpse into ancient Egyptian religious practices, where deities of both light and darkness were revered. Situated on the banks of the Nile, the temple’s distinctive symmetrical design and intricate carvings invite visitors to ponder the mysteries of Egypt’s ancient gods.",
+                },
+                {
+                    name: "NILE VALLEY",
+                    description:
+                        "The Nile Valley is the lifeblood of Egypt, a lush ribbon of green that winds its way through the arid desert landscape. As you cruise along the river’s calm waters, you’ll pass ancient temples, towering cliffs, and small villages unchanged for centuries. This sacred valley holds the key to understanding Egypt’s grandeur, where every bend in the river reveals a new layer of the country’s mystique.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "ARRIVE IN CAIRO (by flight)",
+                    description:
+                        "On arrival at Cairo International Airport, you will be met by one of our local staff representatives, who will assist you through immigration and customs. From here, you travel by private car to your hotel in downtown Cairo. \nOvernight stay at the hotel",
+                },
+                {
+                    title: "CAIRO",
+                    description:
+                        "After breakfast at your hotel, depart for a full-day, privately guided tour of the pyramids at Giza, Saqqara, and Dahshur. Begin with a visit to the Bent Pyramid at Dahshur, one of the earliest examples of pyramid architecture, before making your way back to Cairo. Next, explore the stepped pyramid of Saqqara and the colossal structures of Giza, including the iconic Great Pyramid.\nOvernight stay at the hotel.\n",
+                },
+                {
+                    title: "CAIRO (OLD)",
+                    description:
+                        "Today, embark on a private tour of the Egyptian Museum, the National Museum of Egyptian Civilization, and Old Cairo. Your expert guide will illuminate the rich history of Egypt through the incredible array of artifacts on display at both museums, offering a fascinating journey through the ages. In Old Cairo, discover the historic heart of Coptic Christianity, where early Christians built their churches for protection. You’ll explore the charming backstreets of Coptic Cairo and visit the remarkable Hanging Church, a true architectural marvel of ingenuity and faith.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "CAIRO",
+                    description:
+                        "On your final full day in Cairo, you’ll experience the city from a deliciously different perspective. Join a local culinary expert for a half-day food tour through downtown Cairo, where you’ll sample iconic dishes like koshari and ful, as well as lesser-known Egyptian delicacies such as molokhiya. This culinary journey will give you a taste of the rich flavors that define Egyptian cuisine. Afterward, enjoy the remainder of the day at your leisure.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "CAIRO - ALEXANDRIA",
+                    description:
+                        "Spend a relaxing morning at your hotel before being met by your private driver in the early afternoon. You'll be transferred north from Cairo to Alexandria, a journey that takes approximately three hours, depending on traffic. Upon arrival, check into the luxurious Four Seasons hotel and take the evening to familiarize yourself with your surroundings. Enjoy a leisurely stroll along the Corniche or San Stifanu Beach, soaking in the refreshing coastal atmosphere.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "ALEXANDRIA",
+                    description:
+                        "Today, you have a full-day, privately guided tour of the major sites in Alexandria, a city once a thriving metropolis and an interesting blend of Mediterranean and Middle Eastern cultures. Your tour includes Pompey's Pillar, the Catacombs, the National Museum and Alexandria Library which gives you an interesting overview of the city’s long and complex past as your guide explains what makes Alexandria so significant to Egypt’s history.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "ALEXANDRIA - CAIRO - LUXOR",
+                    description:
+                        "After breakfast, your private driver will pick you up early in the morning and take you to Cairo International Airport for your short flight to Luxor. Upon arrival, a local representative will greet you and escort you to a privately guided tour of the Luxor Museum, where you'll see a fascinating collection of artifacts from the temples and tombs of the Theban area. The rest of the day is yours to relax at your hotel or, if you prefer, venture out to explore the sights of Luxor at your own pace.",
+                },
+                {
+                    title: "LUXOR (NILE CRUISE)",
+                    description:
+                        "This morning you board your luxury Nile cruise boat and settle into your room. After lunch, you join your small tour group for a visit to the East Bank, where you visit the temples of Karnak and Luxor. Karnak Temple is particularly impressive and boasts 134 giant sandstone columns designed in the form of papyrus stalks. You then return to the boat to take afternoon tea in the lounge, before having canapés and welcome drinks before dinner.\nOvernight at the Cruise.",
+                },
+                {
+                    title: "LUXOR",
+                    description:
+                        "After breakfast, visit the West Bank and explore the picturesque tombs in the Valleys of the Kings and Queens, as well as the modernist-looking temple of Hatshepsut and the Colossi of Memnon. Enter the tombs in the Valley of the Kings and marvel at the intricate and well-preserved hieroglyphics which date back thousands of years. Lunch will be served on board as the boat sails on to Esna lock, where it docks overnight.\nOvernight at the Cruise.",
+                },
+                {
+                    title: "LUXOR",
+                    description:
+                        "In the morning, have breakfast on board before your visit to Edfu Temple. Afterwards, return to the boat for lunch as you cruise on to Kom Ombo. You visit the temple here, which is dedicated to the crocodile god Sobek. You then sail on to Aswan, your final stop, where you will spend the next few nights of your trip.\nOvernight at the Cruise.",
+                },
+                {
+                    title: "LUXOR",
+                    description:
+                        "Begin the day with a scenic motorboat ride to Philae Temple, situated on a picturesque island in the Nile. Continue your journey to the Unfinished Obelisk, a fascinating glimpse into ancient Egyptian craftsmanship. Afterward, enjoy a traditional sailboat ride on a felucca, gliding along the waters around Elephantine Island, Lord Kitchener’s Botanical Gardens, and the Agha Khan Mausoleum. Return to your cruise ship for your final evening, where the crew will host a spectacular gala dinner to celebrate your last night on board.\nOvernight at the Cruise.",
+                },
+                {
+                    title: "ASWAN",
+                    description:
+                        "Today, you’ll disembark from your Nile cruise and check into your luxurious hotel. Whether you stay in a renowned riverside property or a charming boutique hotel, each option promises comfort, elegance, and a taste of Egypt’s rich history. In the afternoon, relax and enjoy a delightful tea on the outdoor terrace, where you can unwind while overlooking the scenic beauty of Elephantine Island, a truly memorable experience.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "ASWAN",
+                    description:
+                        "On your last day in Aswan, you visit the temples of Ramses II at Abu Simbel. After a short flight down Lake Nasser, you will be met and driven to the archaeological site with your guide, who will explain the history of the monuments, before you enter the temples themselves. After touring the temples, you will fly back to Aswan and have the evening at leisure to relax or explore Aswan's souqs.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "CAIRO",
+                    description:
+                        "Spend a relaxed morning at your hotel, soaking in the charm and beauty of the surroundings. Later, your private driver will transfer you to Aswan Airport for your flight back to Cairo. Upon arrival, you’ll be greeted by a local representative who will escort you to your airport hotel, where you can unwind and reflect on your unforgettable journey through Egypt on your final night.\nOvernight stay at the hotel.",
+                },
+                {
+                    title: "FLY BACK HOME",
+                    description:
+                        "Your private driver will meet you at your hotel and escort you to Cairo International Airport, ensuring you arrive in plenty of time to check in for your flight home.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Egypt visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/1467300/pexels-photo-1467300.jpeg?auto=compress&cs=tinysrgb&w=800",
+        name: "Explore Dubai",
+        duration: "4 Nights • 5 Days",
+        slug: "explore-dubai",
+        tour: {
+            location: "DUBAI",
+            country: "UAE",
+            min_age: "10+",
+            tour_details:
+                "Immerse yourself in the vibrant heart of the UAE with our Explore Dubai tour, designed to showcase the city’s unique blend of modern luxury and timeless tradition. Begin your adventure with a stunning evening on a traditional Dhow Cruise, where you’ll sail along Dubai Creek, enjoying a delectable dinner while taking in panoramic views of the city’s glittering skyline. The journey continues with an exciting Dubai City Tour, featuring iconic landmarks like the world-famous Burj Khalifa, the towering marvel that defines Dubai’s skyline, and the luxury of the Dubai Mall, one of the largest shopping destinations on the planet.\n\nFor those seeking adventure, the tour also includes a thrilling Desert Safari. Feel the adrenaline rush as you ride through the golden sand dunes, followed by a memorable evening of cultural entertainment, including a delicious BBQ dinner under the stars. Whether you're exploring Dubai’s innovative architecture or immersing yourself in its rich traditions, this tour offers a truly unforgettable experience of this dynamic city.",
+            destinations_covered: [
+                {
+                    name: "DUBAI",
+                    description:
+                        "Dubai is a city that pushes the boundaries of possibility, where innovation meets tradition in the most spectacular ways. From the towering Burj Khalifa, the world’s tallest building, to the luxury of the Dubai Mall, it’s a playground for travelers seeking both adventure and indulgence. The city’s dazzling skyline is set against vast deserts, offering unique experiences like thrilling dune safaris and serene evenings on a Dhow Cruise. Dubai also boasts a rich cultural scene, with heritage sites, vibrant souks, and world-class dining options. With its unmatched combination of futuristic architecture, luxury, and Arabian charm, Dubai promises a journey like no other.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "ARRIVE DUBAI (DHOW CRUISE)",
+                    description:
+                        "Meet & assist on arrival at Dubai International Airport and transfer to your hotel. Later in the evening, you will proceed to enjoy your delicious buffet dinner at Dhow Cruise. In the evening return back to your hotel.\n\nOvernight is at the hotel.",
+                },
+                {
+                    title: "IN DUBAI (CITY TOUR & DESERT SAFARI)",
+                    description:
+                        "Today after your breakfast proceed for the sightseeing tour of Dubai where you’ll get to see the famous attractions like Jumeirah Mosque, Gold Souk, Dubai Mall, Spice Souk, and Bastakiya Square. You can enjoy a drive in front of Atlantis. In the evening you can enjoy your desert safari, followed by dinner served in the desert under the sky with exotic dance performances. Later you will be transferred back to your hotel.\n\nOvernight is at the hotel.",
+                },
+                {
+                    title: "IN DUBAI (DUBAI MALL & BURJ KHALIFA)",
+                    description:
+                        "Morning is at leisure, you can stroll around the streets or can explore nearby malls or shops. In the afternoon proceed to visit Dubai Mall from where you can buy some souvenir gifts for your loved ones thereafter you’ll proceed to visit the 124th floor of the famous Burj Khalifa tower from where you can relish the compelling view of the entire city. In the evening you will enjoy the Dubai Fountain show.\n\nOvernight is at Hotel.",
+                },
+                {
+                    title: "IN DUBAI",
+                    description:
+                        "The day is at leisure you can go shopping, sightseeing, adventure or enjoy the hotel facilities on direct payment.\n\nOvernight is at Hotel.",
+                },
+                {
+                    title: "DEPART FROM DUBAI",
+                    description:
+                        "In time transfer to Dubai airport to board your flight for your onward destination.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid UAE visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
 ];

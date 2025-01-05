@@ -61,9 +61,9 @@ export default function Home() {
                     POPULAR DESTINATIONS
                 </p>
                 <p className="px-5 md:px-0 text-sm md:text-base mt-3 max-w-xl mx-auto text-gray-800 font-medium text-center">
-                    Fusce hic augue velit wisi quibusdam pariatur, iusto primis,
-                    nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare
-                    mollitia tenetur, aptent.
+                    Explore our packages and plan your next adventure with
+                    personalized tours to 100+ destinations across India, UAE,
+                    Egypt & Saudi Arabia.
                 </p>
                 <div className="mt-9 flex flex-col md:flex-row md:items-stretch items-center justify-center space-y-8 md:space-y-0  md:space-x-8">
                     {POPULAR_DESTINATIONS.map((d, idx: number) => (
@@ -95,6 +95,12 @@ export default function Home() {
                             itineraries, we create personalized tours tailored
                             to your unique preferences.
                         </p>
+                        <a href="/accessibility">
+                            <button className="bg-black/90 text-sm hover:bg-black transition mt-3 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                                Check it out
+                                <HiArrowRight className="ml-2.5 text-sm" />
+                            </button>
+                        </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <LuTarget className="text-6xl mb-2 text-blue-500" />
@@ -107,6 +113,12 @@ export default function Home() {
                             selected meals, and travel schedules designed to
                             suit your pace.
                         </p>
+                        <a href="/senior-travel">
+                            <button className="bg-black/90 text-sm hover:bg-black transition mt-3 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                                Check it out
+                                <HiArrowRight className="ml-2.5 text-sm" />
+                            </button>
+                        </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
@@ -119,6 +131,12 @@ export default function Home() {
                             personalized services for top companies and foreign
                             government delegations.
                         </p>
+                        <a href="/corporate-travel">
+                            <button className="bg-black/90 text-sm hover:bg-black transition mt-3 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                                Check it out
+                                <HiArrowRight className="ml-2.5 text-sm" />
+                            </button>
+                        </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
@@ -131,6 +149,12 @@ export default function Home() {
                             study tours, and semester abroad programs, all
                             tailored to students' needs.
                         </p>
+                        <a href="/student-travel">
+                            <button className="bg-black/90 text-sm hover:bg-black transition mt-3 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
+                                Check it out
+                                <HiArrowRight className="ml-2.5 text-sm" />
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -142,9 +166,8 @@ export default function Home() {
                     OUR PACKAGES
                 </p>
                 <p className="px-5 md:px-0 text-sm md:text-base mt-3 max-w-xl mx-auto text-gray-800 font-medium text-center">
-                    Fusce hic augue velit wisi quibusdam pariatur, iusto primis,
-                    nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare
-                    mollitia tenetur, aptent.
+                    Showcasing what’s possible when you travel with us, your
+                    trip will be customized to suit your tastes and budget.
                 </p>
                 <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
                     {POPULAR_PACKAGES.slice(0, 3).map((p, idx: number) => (
@@ -166,9 +189,10 @@ export default function Home() {
                         UNFORGETTABLE TRIP.
                     </p>
                     <p className="mt-7 text-gray-100 font-medium md:mr-20">
-                        Fusce hic augue velit wisi quibusdam pariatur, iusto
-                        primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-                        Sit ornare mollitia tenetur, aptent.
+                        Prepare for the adventure of a lifetime, where
+                        breathtaking sights, authentic experiences, and
+                        exceptional service come together to create memories
+                        you'll cherish forever
                     </p>
                     <div className="flex items-center gap-x-5 flex-wrap">
                         <a href="/contact">

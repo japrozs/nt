@@ -12,9 +12,9 @@ import { LuTarget } from "react-icons/lu";
 import { MdLock } from "react-icons/md";
 import { PiScissorsBold } from "react-icons/pi";
 
-interface AccessibilityProps {}
+interface SeniorTravelProps {}
 
-const Accessibility: React.FC<AccessibilityProps> = ({}) => {
+const SeniorTravel: React.FC<SeniorTravelProps> = ({}) => {
     return (
         <div>
             <Navbar />
@@ -22,7 +22,7 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                 className="relative w-full"
                 style={{
                     height: "30vh",
-                    backgroundImage: `url("/img/ashokjkshetri.jpg")`,
+                    backgroundImage: `url("/img/sanjeev-bhambri.jpg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -36,9 +36,7 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                     style={{ zIndex: 2 }}
                 >
                     <h1 className="text-5xl md:text-7xl mb-4 mx-auto modesto w-full md:max-w-lg">
-                        ACCESSIBILE
-                        <br />
-                        TOURISM
+                        SENIOR FRIENDLY TOURS
                     </h1>
                 </div>
             </div>
@@ -65,49 +63,44 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
                 </p>
             </div>
             <div className="bg-gray-50 flex items-stretch">
-                <img
-                    src={"/img/lucasandrade.jpg"}
-                    className="hidden md:block w-1/2 max-h-[30rem] object-cover justify-center self-center"
-                />
                 <div className="flex flex-col justify-center w-full md:w-1/2 p-7 md:p-10 border-y border-gray-200 border-dashed">
                     {/* <p className="text-2xl font-bold mb-3 flex items-center">
-                        Our services
+                        Our values
                     </p> */}
                     <p className="text-5xl modesto text-navy mb-5">
-                        ACCESSIBLE ADVENTURES AWAIT
+                        OUR VALUES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        Traveling with mobility challenges should never limit
-                        your ability to explore the world, and in India, we make
-                        sure that accessibility is a priority. Our specially
-                        designed tours for handicapped and mobility-challenged
-                        travelers are fully equipped with accessible transport,
-                        wheelchair-friendly accommodations, and guides trained
-                        to provide personalized assistance. Whether you’re
-                        visiting iconic landmarks like the Taj Mahal or taking a
-                        tranquil boat ride in Kerala, we ensure that every
-                        journey is smooth, enjoyable, and inclusive.
+                        We don’t just plan trips, we create journeys. Here’s how
+                        we do it:
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        We focus on creating seamless travel experiences by
-                        selecting accessible routes, attractions, and
-                        destinations that cater to every need. Let us take care
-                        of all the details while you enjoy the beauty, culture,
-                        and history of India at your own pace.
+                        <b>We listen first</b>: Our specialists take the time to
+                        understand you and what inspires your adventure,
+                        ensuring it’s all about your unique vision.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        For over three decades, we have provided inclusive
-                        travel experiences for specially abled travelers,
-                        ensuring everyone can enjoy the wonders of India with
-                        comfort and dignity.
+                        <b>Tailored Just for You</b>: Every detail of your trip
+                        is designed specifically around your desires, from the
+                        purpose of your journey to the perfect itinerary.
                     </p>
-                    <a href="/contact">
-                        <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-3 ml-auto mr-0 flex items-center text-white rounded-full py-2 px-4 font-medium">
-                            Plan your holiday now
-                            <HiArrowRight className="ml-2.5 text-sm" />
-                        </button>
-                    </a>
+                    <p className="text-gray-800 font-medium text-smol mb-3">
+                        <b>Meticulous Attention to Detail</b>: We handpick
+                        guides who share your passions and recommend hidden
+                        gems, like boutique hotels, to elevate your experience.
+                    </p>
+                    <p className="text-gray-800 font-medium text-smol mb-3">
+                        <b>Support Every Step of the Way</b>: Whether day or
+                        night, you’ll have access to our dedicated team and
+                        local partners for assistance from the moment you land
+                        until you return home.
+                    </p>
                 </div>
+
+                <img
+                    src={"/img/ammy-singh.jpg"}
+                    className="hidden md:block w-1/2 max-h-[30rem] object-cover justify-center self-center"
+                />
             </div>
             <div className="border-b border-gray-200 border-dashed text-center pt-10 pb-16">
                 <p className="text-5xl modesto text-navy mb-10">
@@ -291,4 +284,4 @@ const Accessibility: React.FC<AccessibilityProps> = ({}) => {
     );
 };
 
-export default Accessibility;
+export default SeniorTravel;

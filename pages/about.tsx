@@ -78,7 +78,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     blessed to handle the travel of many world renowned
                     Spiritual Gurus & masters in USA & India.
                 </p>
-                <p className="text-gray-800 font-medium text-smol mb-3">
+                {/* <p className="text-gray-800 font-medium text-smol mb-3">
                     We currently have over 250 travel associates & suppliers
                     operating worldwide; supported by our experienced and
                     professional staff at our company’s head office and branch
@@ -94,7 +94,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     spend with us is fully protected. We believe your time
                     should be spent looking forward to your business trip or
                     vacation, not stressing about the security of your money.
-                </p>
+                </p> */}
             </div>
             <div className="bg-gray-50 flex items-stretch">
                 <div className="flex flex-col justify-center w-full md:w-1/2 p-7 md:p-10 border-y border-gray-200 border-dashed">
@@ -105,31 +105,29 @@ const About: React.FC<AboutProps> = ({}) => {
                         OUR VALUES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Happy customers make us happy</b>: Our thoughts and
-                        actions will always have the best interests of our
-                        customers first to provide a high standard of services
-                        suitable for individuals seeking relaxing, comfortable
-                        and memorable experience.
+                        We don’t just plan trips, we create journeys. Here’s how
+                        we do it:
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Curiosity</b>: We will always have an open mind to
-                        learn, to experiment and to embrace new innovative ideas
-                        to make our customers experience memorable.
+                        <b>We listen first</b>: Our specialists take the time to
+                        understand you and what inspires your adventure,
+                        ensuring it’s all about your unique vision.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Give our best shot</b>: We are passionate about
-                        travel and we use our resources to the fullest potential
-                        to provide our customers a quality experience which is
-                        the ultimate goal of our company. Therefore, we strive
-                        to create expeditions and unique experiences that would
-                        satisfy our customers.
+                        <b>Tailored Just for You</b>: Every detail of your trip
+                        is designed specifically around your desires, from the
+                        purpose of your journey to the perfect itinerary.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Honesty</b>: As a company, the information provided
-                        to our customers must be transparent and Veracity. This
-                        value makes us stand out from other travel companies and
-                        our customers can make their travel decisions based on
-                        firm and true facts.
+                        <b>Meticulous Attention to Detail</b>: We handpick
+                        guides who share your passions and recommend hidden
+                        gems, like boutique hotels, to elevate your experience.
+                    </p>
+                    <p className="text-gray-800 font-medium text-smol mb-3">
+                        <b>Support Every Step of the Way</b>: Whether day or
+                        night, you’ll have access to our dedicated team and
+                        local partners for assistance from the moment you land
+                        until you return home.
                     </p>
                 </div>
 
@@ -151,7 +149,7 @@ const About: React.FC<AboutProps> = ({}) => {
                         OUR SERVICES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        Namaah Travel is specialized in travel experiences, and
+                        Noble Travels is specialized in travel experiences, and
                         prides itself on renowned customer service, product
                         quality, and highly customizable tour planning. With a
                         varied collection of tried & tested privately guided
@@ -170,7 +168,7 @@ const About: React.FC<AboutProps> = ({}) => {
                         travel-related needs.
                     </p>
                     <a href="/contact">
-                        <button className="ml-auto mr-0 bg-black/90 hover:bg-black transition mt-2 flex items-center mx-auto text-white rounded-md py-2 px-6 font-medium">
+                        <button className="ml-auto mr-0 bg-black/90 hover:bg-black transition mt-2 flex items-center mx-auto text-white rounded-full py-2 px-6 font-medium">
                             Get a quote
                             <HiArrowRight className="ml-2.5 text-sm" />
                         </button>
@@ -183,32 +181,29 @@ const About: React.FC<AboutProps> = ({}) => {
                         <HiOutlineEye className="text-7xl text-blue-500" />
                         <p className="text-2xl font-bold mb-3">Vision</p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            Our vision is to be known as a company that provides
-                            a high-quality service by creating authentic travel
-                            experiences in the regions covered by us.
+                            We create the journey of a lifetime, every single
+                            time.
                         </p>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <LuTarget className="text-6xl mb-2 text-blue-500" />
                         <p className="text-2xl font-bold mb-3">Mission</p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            To rejuvenate the world…To inspire moments of
-                            optimism and happiness…To create value and make a
-                            difference in the customer travel experience.
+                            To create unforgettable, personalized travel
+                            experiences
                         </p>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
                         <p className="text-2xl font-bold mb-3">Goals</p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            We have support for convenient booking services such
-                            as finding ideal locations, saving on bookings, and
-                            finding efficient ways to organize your trip.
+                            Offer journeys that go beyond expectations,
+                            fostering lasting memories
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
+            <div className="mx-auto max-w-3xl mt-10 mb-10 md:mb-20 px-7 md:px-10">
                 {/* <p className="text-2xl font-bold mb-3 flex items-center">
 				Things that make us unique
                 </p> */}
@@ -216,33 +211,35 @@ const About: React.FC<AboutProps> = ({}) => {
                     Things that make us unique
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    Our team has first-hand experience of traveling in the
-                    regions that we will cover which will keep us ahead of the
-                    curve.
+                    Our History – For over 25 years, we’ve been crafting
+                    journeys that allow you to see the world in the most
+                    meaningful way—your way. We believe the best trips are those
+                    as unique as you, designed to create a lifetime of
+                    unforgettable memories.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    We have the best interest of rural communities in our mind
-                    by creating opportunities that involves them to showcase
-                    their skills.
+                    <b>Local, true experts</b>: Our passion for travel goes
+                    beyond just visiting destinations—it’s about living and
+                    experiencing them through the eyes of those who call them
+                    home. With a team of local experts, we bring you authentic
+                    experiences and insider knowledge to craft a journey that
+                    reflects your unique vision. Every detail is thoughtfully
+                    designed to ensure your adventure is as rich and
+                    unforgettable as the destinations themselves.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    From our greater impact model down to the tiniest detail of
-                    the activities that takes place in our accommodation every
-                    day, each decision that we make revolves around our core
-                    ethic of Care of the Land, Wildlife and its People. These
-                    values have become an intuitive part of the way that we
-                    operate and have shaped our guest perceptions.
+                    <b>Responsible Travel </b>: Your journey, your
+                    choices—crafted with sustainability in mind. Whether it’s
+                    staying at eco-conscious lodges, opting for a scenic train
+                    ride, or supporting local communities, we ensure every
+                    decision aligns with your values.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    Visits to more than just the normal tourist haunts – we give
-                    you an insider’s view of the destination where you’ll
-                    explore inner-city markets, meet the locals, and explore
-                    behind the veil
-                </p>
-                <p className="text-gray-800 font-medium text-smol mb-3">
-                    Value for Money ensuring complete satisfaction without
-                    compromising on deliverance of commitment under any
-                    circumstances.
+                    <b>Meaningful Experiences </b>: You’ll experience
+                    destinations through the eyes of passionate local guides,
+                    offering deep insights into their communities. We handpick
+                    accommodations that are not just places to stay, but
+                    experiences in themselves.
                 </p>
             </div>
             <Footer />
