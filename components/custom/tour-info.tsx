@@ -20,6 +20,8 @@ import { Button } from "./button";
 import { InputField } from "./input-field";
 import { TextField } from "./text-field";
 import { normalCapitalize } from "@/utils/utils";
+import axios from "axios";
+import { toast, Toaster } from "sonner";
 
 interface TourInfoProps {
     pkg: (typeof POPULAR_PACKAGES)[0];
@@ -249,7 +251,33 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                 onSubmit={async (values) => {
                                     // onSubmit={async (values, { setErrors }) => {
                                     console.log("values :: ", values);
-                                    alert("ok");
+                                    const data = await axios.get(
+                                        "https://api.ipdata.co?api-key=46e261b086e97ba2279dddae922392ee28434240c7632389f2926203"
+                                    );
+
+                                    let res = await axios.post(
+                                        `${window.location.origin}/api/inquiry`,
+                                        {
+                                            name: values.name,
+                                            email: values.email,
+                                            contact: values.contact,
+                                            subject: values.subject,
+                                            message: values.message,
+                                            ipAddress: data.data,
+                                        }
+                                    );
+                                    console.log(
+                                        "res.data.status :: ",
+                                        res.data.status,
+                                        res.data.status === "OK"
+                                    );
+                                    if (res.data.status == "OK") {
+                                        toast.success(
+                                            "Inquiry form sent successfully"
+                                        );
+                                    } else {
+                                        toast.error("Could not send form");
+                                    }
                                 }}
                             >
                                 {({ values, isSubmitting }) => (
@@ -337,6 +365,7 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                     </div>
                 </div>
             </div>
+            <Toaster />
         </>
     );
 };

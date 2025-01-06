@@ -16,7 +16,8 @@ const About: React.FC<AboutProps> = ({}) => {
             <div
                 className="relative w-full"
                 style={{
-                    height: "30vh",
+                    height: "40vh",
+                    minHeight: "250px",
                     backgroundImage: `url("/img/suketdedhia.jpg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",

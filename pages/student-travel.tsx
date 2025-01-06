@@ -22,7 +22,8 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
             <div
                 className="relative w-full"
                 style={{
-                    height: "30vh",
+                    height: "40vh",
+                    minHeight: "250px",
                     backgroundImage: `url("/img/sanjeev-bhambri.jpg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",

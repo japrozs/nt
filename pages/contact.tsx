@@ -7,6 +7,8 @@ import { TextField } from "@/components/custom/text-field";
 import { EMAIL_REGEXP } from "@/lib/utils";
 import { Form, Formik } from "formik";
 import React from "react";
+import axios from "axios";
+import { toast, Toaster } from "sonner";
 
 interface ContactProps {}
 
@@ -18,7 +20,8 @@ const Contact: React.FC<ContactProps> = ({}) => {
             <div
                 className="relative w-full"
                 style={{
-                    height: "30vh",
+                    height: "40vh",
+                    minHeight: "250px",
                     backgroundImage: `url("/img/suketdedhia.jpg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -44,7 +47,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
                             Get in touch with us
                         </p>
                         <p className="text-gray-800 font-medium text-smol mb-3">
-                            For over 30 years, we’ve been providing enriching
+                            For over 25 years, we’ve been providing enriching
                             travel experiences for students, including
                             specialized tours for university exchange programs
                             and student groups. Our educational tours offer
@@ -76,7 +79,30 @@ const Contact: React.FC<ContactProps> = ({}) => {
                             onSubmit={async (values) => {
                                 // onSubmit={async (values, { setErrors }) => {
                                 console.log("values :: ", values);
-                                alert("ok");
+                                const data = await axios.get(
+                                    "https://api.ipdata.co?api-key=46e261b086e97ba2279dddae922392ee28434240c7632389f2926203"
+                                );
+
+                                let res = await axios.post(
+                                    `${window.location.origin}/api/email`,
+                                    {
+                                        name: values.name,
+                                        email:
+                                            values.email ||
+                                            "<NO EMAIL ENTERED>",
+                                        message: values.message,
+                                        ipAddress: data.data,
+                                    }
+                                );
+
+                                console.log("res.data :: ", res.data);
+                                if (res.data.status == "OK") {
+                                    toast.success(
+                                        "Contact form sent successfully"
+                                    );
+                                } else {
+                                    toast.error("Could not send form");
+                                }
                             }}
                         >
                             {({ values, isSubmitting }) => (
@@ -146,6 +172,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
                 </div>
             </div>
             <Footer />
+            <Toaster />
         </div>
     );
 };
