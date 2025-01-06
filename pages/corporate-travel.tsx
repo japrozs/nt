@@ -17,7 +17,11 @@ interface CorporateTravelProps {}
 const CorporateTravel: React.FC<CorporateTravelProps> = ({}) => {
     return (
         <div>
-            <Navbar />
+            <Navbar
+                onNavChange={() => {
+                    console.log("navbar orientation changed");
+                }}
+            />
             <div
                 className="relative w-full"
                 style={{
