@@ -1,4 +1,5 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import {
     Accordion,
@@ -18,6 +19,7 @@ const CorporateTravel: React.FC<CorporateTravelProps> = ({}) => {
     return (
         <div>
             <Navbar />
+            <Meta title="Corporate Travel – Noble Travels" />
             <div
                 className="relative w-full"
                 style={{

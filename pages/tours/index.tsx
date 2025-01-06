@@ -1,4 +1,5 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { PaginatePackages } from "@/components/custom/paginate";
 import { POPULAR_PACKAGES } from "@/utils/data";
@@ -10,6 +11,7 @@ const AllTours: React.FC<AllToursProps> = ({}) => {
     return (
         <div>
             <Navbar />
+            <Meta title="All tours – Noble Travels" />
             <div
                 className="relative w-full"
                 style={{

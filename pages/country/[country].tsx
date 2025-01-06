@@ -1,4 +1,5 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { PaginatePackages } from "@/components/custom/paginate";
 import { Spinner } from "@/components/custom/spinner";
@@ -41,17 +42,24 @@ const CountryTours: React.FC<CountryToursProps> = ({}) => {
                 </div>
             </div>
             {country ? (
-                <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
-                    <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
-                        <PaginatePackages
-                            items={POPULAR_PACKAGES.filter(
-                                (pkg) =>
-                                    pkg.tour.country.toLocaleLowerCase() ===
-                                    (country as string).toLocaleLowerCase()
-                            )}
-                        />
+                <>
+                    <Meta
+                        title={`${normalCapitalize(
+                            (country as string) || ""
+                        )} Tours – Noble Travels`}
+                    />
+                    <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
+                        <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
+                            <PaginatePackages
+                                items={POPULAR_PACKAGES.filter(
+                                    (pkg) =>
+                                        pkg.tour.country.toLocaleLowerCase() ===
+                                        (country as string).toLocaleLowerCase()
+                                )}
+                            />
+                        </div>
                     </div>
-                </div>
+                </>
             ) : (
                 <div className="my-20">
                     <Spinner />

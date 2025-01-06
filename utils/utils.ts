@@ -6,6 +6,10 @@ export const normalCapitalize = (input: string): string => {
     // Convert the string to title case using the titlecase library
     const capitalizedString = toTitleCase(cleanedInput);
 
+    if (capitalizedString.toLocaleLowerCase() === "uae") {
+        return "UAE";
+    }
+
     return capitalizedString;
 };
 

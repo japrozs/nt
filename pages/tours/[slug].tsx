@@ -1,5 +1,7 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
+import { Spinner } from "@/components/custom/spinner";
 import { TourInfo } from "@/components/custom/tour-info";
 import { POPULAR_PACKAGES } from "@/utils/data";
 import { useRouter } from "next/router";
@@ -34,11 +36,12 @@ const TourPage: React.FC<TourPageProps> = ({}) => {
         <div>
             <Navbar />
             {!error && loading ? (
-                <div>
-                    <p>loading....</p>
+                <div className="my-20">
+                    <Spinner />
                 </div>
             ) : (
                 <>
+                    <Meta title={`${packageData.name} – Noble Travels`} />
                     <TourInfo pkg={packageData} />
                     <div className="mt-20" />
                     <Footer />

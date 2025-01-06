@@ -10,8 +10,8 @@ import { Button } from "@headlessui/react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
+import { HiOutlineMail } from "react-icons/hi";
 import { Logo } from "../ui/logo";
-import { HiOutlineMail, HiPhone } from "react-icons/hi";
 
 interface NavbarProps {}
 

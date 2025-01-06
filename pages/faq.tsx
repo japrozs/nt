@@ -1,4 +1,5 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import {
     Accordion,
@@ -14,6 +15,7 @@ const FAQ: React.FC<FAQProps> = ({}) => {
     return (
         <div>
             <Navbar />
+            <Meta title="Frequently Asked Questions – Noble Travels" />
             <div
                 className="relative w-full"
                 style={{

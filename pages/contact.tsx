@@ -1,6 +1,7 @@
 import { Button } from "@/components/custom/button";
 import { Footer } from "@/components/custom/footer";
 import { InputField } from "@/components/custom/input-field";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { TextField } from "@/components/custom/text-field";
 import { EMAIL_REGEXP } from "@/lib/utils";
@@ -13,6 +14,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
     return (
         <div>
             <Navbar />
+            <Meta title="Contact Us – Noble Travels" />
             <div
                 className="relative w-full"
                 style={{

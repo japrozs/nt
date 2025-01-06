@@ -1,4 +1,5 @@
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import React from "react";
 import { GiStairsGoal } from "react-icons/gi";
@@ -11,6 +12,7 @@ const About: React.FC<AboutProps> = ({}) => {
     return (
         <div>
             <Navbar />
+            <Meta title="About Us – Noble Travels" />
             <div
                 className="relative w-full"
                 style={{
