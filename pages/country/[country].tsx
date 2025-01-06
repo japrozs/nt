@@ -55,7 +55,9 @@ const CountryTours: React.FC<CountryToursProps> = ({}) => {
                                 items={POPULAR_PACKAGES.filter(
                                     (pkg) =>
                                         pkg.tour.country.toLocaleLowerCase() ===
-                                        (country as string).toLocaleLowerCase()
+                                        (country as string)
+                                            .replaceAll("-", " ")
+                                            .toLocaleLowerCase()
                                 )}
                             />
                         </div>

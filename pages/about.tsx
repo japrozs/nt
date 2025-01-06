@@ -1,6 +1,12 @@
 import { Footer } from "@/components/custom/footer";
 import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
 import React from "react";
 import { GiStairsGoal } from "react-icons/gi";
 import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
@@ -206,7 +212,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     </div>
                 </div>
             </div>
-            <div className="mx-auto max-w-3xl mt-10 mb-10 md:mb-20 px-7 md:px-10">
+            <div className="mx-auto max-w-3xl mt-10 mb-10 md:mb-20 px-7 md:px-0">
                 {/* <p className="text-2xl font-bold mb-3 flex items-center">
 				Things that make us unique
                 </p> */}
@@ -244,6 +250,143 @@ const About: React.FC<AboutProps> = ({}) => {
                     accommodations that are not just places to stay, but
                     experiences in themselves.
                 </p>
+            </div>
+            <div className="max-w-3xl mx-auto my-16 px-3 md:px-0">
+                <p className="text-3xl font-bold pl-2 mb-4">
+                    Frequently asked questions
+                </p>
+                {/* <p className="text-smol mb-6 text-black font-medium">
+                        These kind of tours include itineraries for Senior
+                        Citizens, Retirees, Handicapped Travelers, University
+                        Tours, MICE Groups
+                    </p> */}
+                <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value={`item-1`} className="border-none">
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                            <span className="text-sm text-black pr-2">
+                                Do you offer customized itineraries for senior
+                                citizens or retirees looking for a more relaxed
+                                pace?
+                            </span>
+                            <div className="ml-auto mr-0"></div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                            <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                Yes, we understand that senior citizens and
+                                retirees often prefer a slower pace with less
+                                physically demanding activities. Our specially
+                                designed itineraries for this demographic focus
+                                on comfort, scenic beauty, cultural exploration,
+                                and relaxation. We ensure that transportation,
+                                accommodations, and excursions are tailored to
+                                their needs for an enjoyable and stress-free
+                                experience.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value={`item-2`} className="border-none">
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                            <span className="text-sm text-black pr-2">
+                                How do you accommodate travelers with physical
+                                disabilities or mobility challenges?
+                            </span>
+                            <div className="ml-auto mr-0"></div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                            <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                We are fully equipped to cater to travelers with
+                                disabilities. Our tours are designed to include
+                                accessible accommodations, transportation with
+                                wheelchair-friendly vehicles, and guides who are
+                                trained to assist individuals with special
+                                mobility needs. We work with local partners to
+                                ensure that key attractions and sites are
+                                accessible, providing an inclusive travel
+                                experience for all.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value={`item-3`} className="border-none">
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                            <span className="text-sm text-black pr-2">
+                                Do you have packages specifically for university
+                                or student groups?
+                            </span>
+                            <div className="ml-auto mr-0"></div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                            <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                Yes, we offer educational tours that are perfect
+                                for universities, schools, and student groups.
+                                These itineraries blend cultural learning,
+                                history, and adventure with a focus on safe and
+                                budget-friendly accommodations. We also provide
+                                specialized educational programs and tours in
+                                historical sites, national parks, and cultural
+                                institutions, designed to enrich the students'
+                                learning experience.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value={`item-4`} className="border-none">
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                            <span className="text-sm text-black pr-2">
+                                What type of services do you provide for MICE
+                                (Meetings, Incentives, Conferences, and Events)
+                                groups?
+                            </span>
+                            <div className="ml-auto mr-0"></div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                            <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                Our MICE services are tailored to the specific
+                                needs of corporate groups. We assist with
+                                everything from venue selection and event
+                                coordination to transportation, team-building
+                                activities, and post-event leisure tours.
+                                Whether it's a large conference, an incentive
+                                trip, or a corporate retreat, we manage all
+                                logistical details to ensure a smooth and
+                                successful experience for both organizers and
+                                attendees.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value={`item-5`} className="border-none">
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                            <span className="text-sm text-black pr-2">
+                                Can you help organize incentive tours for
+                                corporate groups looking to reward their
+                                employees or clients?
+                            </span>
+                            <div className="ml-auto mr-0"></div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                            <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                Absolutely! We specialize in creating exclusive
+                                incentive tours that offer memorable
+                                experiences, from luxury stays at five-star
+                                resorts to private cultural tours and
+                                adventurous activities. We work closely with
+                                corporate clients to design itineraries that
+                                motivate, inspire, and reward their teams or
+                                clients in unique, personalized ways.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
+                <div className="mt-5">
+                    <a
+                        href="/faq"
+                        className="text-base font-semibold text-blue-500 pl-2 hover:underline cursor-pointer"
+                    >
+                        Read all FAQs
+                    </a>
+                </div>
             </div>
             <Footer />
         </div>

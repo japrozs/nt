@@ -255,7 +255,7 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                         "https://api.ipdata.co?api-key=46e261b086e97ba2279dddae922392ee28434240c7632389f2926203"
                                     );
 
-                                    let res = await axios.post(
+                                    const res = await axios.post(
                                         `${window.location.origin}/api/inquiry`,
                                         {
                                             name: values.name,

@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     <div className="flex items-start">
                         <HiOutlineLocationMarker className="text-xl mr-3 text-gray-400" />
                         <p className="text-gray-300 font-medium">
-                            9A/1 205 WEA, Karol Bagh, New Delhi
+                            9A/1 205 WEA, Karol Bagh, New Delhi – 110005, India
                         </p>
                     </div>
                 </div>

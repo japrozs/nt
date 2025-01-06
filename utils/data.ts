@@ -3768,4 +3768,185 @@ export const POPULAR_PACKAGES: {
             ],
         },
     },
+    {
+        img_url:
+            "https://media.cntraveler.com/photos/642b28a95e21b50e5b47c370/master/pass/Banyan%20Tree%20AlUla%20_LEDE%20%20MND_7247(2).jpg",
+        name: "Classic Saudi Arabia",
+        duration: "7 Nights • 8 Days",
+        slug: "classic-saudi-arabia",
+        tour: {
+            location: "Riyadh",
+            country: "Saudi Arabia",
+            min_age: "10+",
+            tour_details:
+                'Embark on a journey through Saudi Arabia’s past and present with our "Classic Saudi Arabia" tour. Begin in Riyadh, the thriving capital city, where modern skyscrapers meet deep-rooted heritage. Experience Riyadh’s remarkable transformation with a tour of its cutting-edge infrastructure, and immerse yourself in the nation’s history by exploring the Diriyah area, the iconic Al Masmak Fortress, and the National Museum. You’ll also get a glimpse of the future at The Line Experience, a visionary urban project set to revolutionize city living. From here, travel to AlUla, a desert oasis that has long been a crossroads for ancient caravan routes, and now serves as the gateway to some of Saudi Arabia’s most captivating natural and historical wonders.\n\nYour adventure continues with a visit to the awe-inspiring Hegra, a UNESCO World Heritage Site carved into the rocks by the Nabateans, and home to the Middle East’s most remarkable archaeological treasures. Explore the monumental tombs and stunning sandstone formations before discovering the enchanting beauty of Elephant Rock. Afterward, journey to Jeddah, the Red Sea port city that serves as the gateway to Mecca. Known for its modernity and rich cultural scene, Jeddah offers everything from bustling markets to UNESCO-listed architecture in Al Balad, the city’s historic heart. Throughout your journey, you’ll experience the diverse landscapes and rich traditions that make Saudi Arabia a land of ancient mysteries and modern marvels.',
+            destinations_covered: [
+                {
+                    name: "Riyadh",
+                    description:
+                        "Riyadh, the dynamic capital of Saudi Arabia, blends modern innovation with deep-rooted history. Explore the legacy of the Al Saud dynasty at the National Museum, visit the towering Kingdom Centre, and experience the vibrant markets and traditional souks. With its rapid development and rich cultural heritage, Riyadh is a city where the past and future converge seamlessly.",
+                },
+                {
+                    name: "AlUla",
+                    description:
+                        "AlUla is a hidden treasure in the heart of Saudi Arabia, famous for its breathtaking natural landscapes and ancient history. Home to the UNESCO-listed Hegra, this awe-inspiring archaeological site features rock-cut tombs carved into sandstone cliffs, rivaling Petra in beauty. AlUla’s striking desert scenery and historical significance offer an unforgettable journey into the Kingdom’s ancient past.",
+                },
+                {
+                    name: "Jeddah",
+                    description:
+                        "Jeddah, Saudi Arabia’s coastal jewel, is a vibrant city where history, culture, and religious significance come together. Known as the gateway to Mecca for millions of Muslim pilgrims, Jeddah is home to the historic Al-Balad district with its iconic coral houses and bustling souks. Along the Jeddah Corniche, modern art sculptures line the shores of the Red Sea, while the city’s spiritual importance adds a profound dimension to its charm. A blend of old and new, Jeddah offers a unique experience of culture, faith, and seaside beauty.",
+                },
+                {
+                    name: "Hegra",
+                    description:
+                        "Hegra, a UNESCO World Heritage Site, is one of the most remarkable archaeological treasures in Saudi Arabia. Carved into the stunning sandstone cliffs by the ancient Nabateans, this ancient city was once a thriving center along the Incense Route. Explore its monumental tombs, intricate facades, and the striking Al Farid, a solitary tomb carved into the rock, standing as a testament to the ingenuity and artistry of a long-lost civilization.",
+                },
+                {
+                    name: "Medinah",
+                    description:
+                        "Medinah, one of the holiest cities in Islam, is home to the iconic Al Masjid an Nabawi (Prophet’s Mosque), a grand mosque that can accommodate over a million worshippers. As the second holiest city after Makkah, it offers a serene and spiritual atmosphere, where pilgrims gather to pay their respects. The city is also known for its rich cultural heritage, with art galleries like the Madinah Art Center showcasing contemporary Islamic works. Medina is a place where history and spirituality blend seamlessly.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive in Riyadh (by flight)",
+                    description:
+                        "Upon arrival at Riyadh Airport, proceed through customs and immigration. After exiting the arrivals area, you will be greeted by Noble Travels local representative holding a sign with your name, and transferred to your hotel. The rest of the day is yours to enjoy at leisure.\nRiyadh, one of the wealthiest cities in the world, once a modest mud-brick outpost along ancient desert trade routes, the city has transformed into a vibrant, hyper-modern metropolis.With its meticulously planned grid layout, Riyadh boasts over 4,000 mosques, bustling shopping malls, traditional souks, lush public parks, and a mix of dynamic neighborhood, making it a truly captivating fusion of tradition and modernity.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Riyadh - City Tour",
+                    description:
+                        "Meet your private guide and driver for a visit to The Line Experience, where you’ll learn about the innovative future city of NEOM, designed to accommodate 9 million residents. Continue to Diriyah, the birthplace of the first Saudi state, now a UNESCO World Heritage site, to explore its restored mud-brick architecture and historical significance. Visit Al Masmak Fortress, a symbol of Saudi’s early history, then stroll through Justice Square to see traditional mud houses.\n\nEnd your day at the vibrant Souq al Zel and Souq Bisht, where you can shop for an optional Abaya, before relaxing in one of Riyadh’s lively parks or squares, full of social energy after sunset.\nOvernight at the hotel.\nMeals : Breakfast & Lunch",
+                },
+                {
+                    title: "Riyadh - AlUla",
+                    description:
+                        "Today, depart from the capital and fly to AlUla, home to Saudi Arabia’s first UNESCO World Heritage Site, nestled deep in the desert of the northwestern region. Known for its rich historical and geographical significance, AlUla is often considered the highlight of any Saudi adventure.\n\nBegin your visit with a stroll through AlUla's historic city, often referred to as 'the old town.' Once a thriving hub on both the Silk Road and the Incense Route, this charming area blends ancient alleys with trendy cafés, shops, and vibrant street life. Just beyond the old town, the valley (wadi) is dotted with farms, where date palms sway and the scent of citrus fills the air, evoking the oasis-like charm of the region. Walk along the Oasis Heritage Trail, passing colorful vegetable fields and shaded paths, imagining how nomads of the past found shelter and water here. As the day winds down, head to Elephant Rock, one of AlUla’s most striking geological wonders. Rising from the golden sands and stretching into the clear blue sky, this iconic formation is a must-see at sunset.\nOvernight at the hotel.\nMeals : Breakfast & Lunch",
+                },
+                {
+                    title: "Hegra & AlUla",
+                    description:
+                        "AlUla is renowned for its awe-inspiring natural rock formations, dramatic canyons, and ancient Nabataean tombs, some of which date back over 2,000 years. The area also boasts extensive pre-Arabic rock art, offering a unique glimpse into the past.\n\nYour day begins with a visit to Hegra, the southern capital of the Nabataean kingdom, established in the first century BCE. With the guidance of a 'rawee' (storyteller), explore over 100 meticulously preserved tombs, many with intricate facades carved into the desert’s sandstone cliffs. Among them, the Tomb of Lihyan, son of Kuza, stands as the largest and most iconic of the site’s monumental structures. Next, return to AlUla to explore Al Jadeedah, the vibrant ‘new town’ known for its street art and cultural exhibits. Stroll through its lively streets, enjoy a drink on a terrace, and watch as the setting sun paints the towering cliffs in ever-changing hues. As the day winds down, head to Harrat Viewpoint for panoramic views of the historic town below and Hegra in the distance, offering a breathtaking perspective of the region.\nOvernight at the hotel.\nMeals : Breakfast & Lunch",
+                },
+                {
+                    title: "AlUla",
+                    description:
+                        "No trip to Saudi Arabia is complete without a thrilling 4x4 adventure into the desert, and today you’ll embark on an unforgettable journey through the towering cliffs surrounding AlUla. Navigate the rugged terrain, enjoying the dramatic landscapes as your four-wheel safari takes you deep into the heart of the desert.\n\nAfter the morning’s excitement, pause for a Bedouin-style picnic lunch set amidst the vast desert, where you’ll savor a traditional selection of Saudi and Middle Eastern delicacies, all served under shelter to protect from the sun. With the finest Arabian hospitality, we ensure you experience the desert in comfort. Spend your afternoon at leisure—relax at your hotel or explore AlUla’s stunning landscapes with an optional activity. You could soar above the sandstone mountains in a helicopter or hot air balloon (seasonal), cycle through the desert dunes, or hike the valley’s edge for panoramic views of this breathtaking region.\nOvernight at the hotel.\nMeals : Breakfast & Lunch",
+                },
+                {
+                    title: "AlUla - Medinah - Jeddah",
+                    description:
+                        "Journey by vehicle through the desert and volcanic mountains to Medinah, following an ancient pilgrimage route (approx. 3.5 hours). This region, with its black lava stones and sweeping mountain vistas, offers a stark contrast to the typical desert landscapes. Medinah, one of the two holiest cities in Islam (along with Makkah), is centered around Al Masjid an Nabawi, the Prophet's Mosque, a colossal structure with 10 minarets that can accommodate over a million people. Take a walk around the mosque’s outer grounds, observing the steady stream of pilgrims visiting this sacred site.\n\nNext, visit the Madinah Art Center, which showcases contemporary Islamic-themed art, often featuring changing exhibitions by both established and emerging Saudi and regional artists. In the afternoon, board Saudi Arabia's high-speed train for a short journey (under 2 hours) to Jeddah, the bustling coastal city on the Red Sea. Known as the gateway to Makkah, Jeddah is Saudi Arabia’s second-busiest seaport and one of its most liberal cities, blending historic architecture with modern luxury.\n\nCelebrate your arrival in Jeddah with sunset drinks along the city’s vibrant Corniche, where you can stroll past impressive modern sculptures. Don’t miss witnessing the world’s tallest fountain, which lights up beautifully against the backdrop of the Red Sea.\nOvernight at the hotel.\nMeals : Breakfast & Lunch",
+                },
+                {
+                    title: "Jeddah",
+                    description:
+                        "Jeddah’s proximity to the Red Sea puts seafood at the heart of its culinary scene. At the Central Fish Market, fresh catches like squid, shrimp, and local fish are on display. Customers select their fish, have it weighed and cleaned, and then enjoy it cooked on-site or take it home. This marks the start of your culinary journey today.\n\nTo dive deeper into local flavors, join a 'foodie walk' through Jeddah’s vibrant streets, away from the tourist spots. As you explore, sample a variety of traditional dishes while learning about the city’s diverse influences. After lunch, visit Al Balad, Jeddah’s UNESCO-listed old town, where the charming roshan windows and ancient merchant houses paint a picture of the city’s rich history. End your day with one final taste of Saudi cuisine before bidding farewell.\nOvernight at the hotel.\nMeals : Breakfast, Lunch & Dinner",
+                },
+                {
+                    title: "Depart Jeddah",
+                    description:
+                        "At leisure until you check out of your hotel and transfer to the airport.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Saudi Arabia visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Mid May-End of September is the hottest time of the year to visit Saudi. During this time sightseeing schedules will need to be adjusted to avoid the hottest periods of the day.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/13360167/pexels-photo-13360167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Highlights of Saudi Arabia",
+        duration: "9 Nights • 10 Days",
+        slug: "highlights-of-saudi-arabia",
+        tour: {
+            location: "Jeddah",
+            country: "Saudi Arabia",
+            min_age: "10+",
+            tour_details:
+                "Embark on an unforgettable journey through Saudi Arabia's most iconic destinations with our Highlights of Saudi Arabia tour. Begin in Jeddah, a port city rich in history and culture, where you’ll explore the UNESCO-listed Al Balad district, famous for its ancient coral houses and bustling souks. Continue your journey to Madinah, home to the revered Prophet's Mosque, where you'll feel the spiritual essence of one of Islam’s holiest cities. Experience the profound history and heritage that shape the Kingdom, while enjoying comfortable stays in 4-star and 5-star hotels, guided tours, and seamless airport transfers.\n\nNext, venture into the heart of Saudi Arabia’s stunning landscapes, starting with AlUla, a desert oasis home to the extraordinary Nabataean tombs of Hegra, a UNESCO World Heritage Site. Conclude your adventure in Riyadh, the modern capital, where ancient traditions meet cutting-edge architecture. Explore the restored Al Diriyah district, once the birthplace of the Saudi state, and witness the blend of history and innovation. With immersive cultural experiences, from market visits to personal interactions with the Saudi people, this tour offers an exceptional blend of history, culture, and natural beauty, providing an experience unlike any other.",
+            destinations_covered: [
+                {
+                    name: "Jeddah",
+                    description:
+                        "Jeddah, Saudi Arabia’s coastal jewel, is a city that harmonizes rich tradition with modern flair. Wander through the historic Al-Balad district, with its coral houses and bustling souks, and soak in the vibrant culture along the Jeddah Corniche. This port city offers a unique mix of art, history, and seaside charm, making it the perfect blend of the old and new.",
+                },
+                {
+                    name: "Madinah",
+                    description:
+                        "Medinah, one of the holiest cities in Islam, is home to the iconic Al Masjid an Nabawi (Prophet’s Mosque), a grand mosque that can accommodate over a million worshippers. As the second holiest city after Makkah, it offers a serene and spiritual atmosphere, where pilgrims gather to pay their respects. The city is also known for its rich cultural heritage, with art galleries like the Madinah Art Center showcasing contemporary Islamic works. Medina is a place where history and spirituality blend seamlessly.",
+                },
+                {
+                    name: "AlUla",
+                    description:
+                        "AlUla is a hidden treasure in the heart of Saudi Arabia, famous for its breathtaking natural landscapes and ancient history. Home to the UNESCO-listed Hegra, this awe-inspiring archaeological site features rock-cut tombs carved into sandstone cliffs, rivaling Petra in beauty. AlUla’s striking desert scenery and historical significance offer an unforgettable journey into the Kingdom’s ancient past.",
+                },
+                {
+                    name: "Riyadh",
+                    description:
+                        "Riyadh, the dynamic capital of Saudi Arabia, blends modern innovation with deep-rooted history. Explore the legacy of the Al Saud dynasty at the National Museum, visit the towering Kingdom Centre, and experience the vibrant markets and traditional souks. With its rapid development and rich cultural heritage, Riyadh is a city where the past and future converge seamlessly.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive in Jeddah (by flight)",
+                    description:
+                        "Upon your arrival at the airport, you will be warmly welcomed by our local representative, who will be holding a sign with your name. After a smooth passage through customs, you’ll be transferred directly to your hotel in comfort. Enjoy the rest of the day at leisure, allowing you to relax and settle in, or begin exploring your destination at your own pace. Our representative will be on hand to ensure your journey begins effortlessly, providing personalized assistance every step of the way.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Jeddah - Explore the city",
+                    description:
+                        "Embark on a day of exploration and cultural immersion in Jeddah. Start with a visit to the Tayebat Museum, a fascinating four-floor collection showcasing artifacts from pre-Islamic times to exquisite Islamic manuscripts.\n\nNext, explore the Jeddah Open Museum, home to impressive models set along the new corniche, offering a perfect spot for a picnic with stunning views. Don’t miss the Floating Mosque (Al Rahmah Mosque), a beautiful architectural wonder that seems to float on the water.\n\nAfterward, marvel at King Fahd’s Fountain, the world’s tallest, shooting saltwater 300 meters into the air. In the afternoon, stroll through Jeddah’s Old Town, Al-Balad, where you can admire the traditional coral houses, including the historic Nasif House, built in the 1850s.\n\nReturn to your hotel in Jeddah for an overnight stay, reflecting on a day filled with unforgettable experiences.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Jeddah - Madinah (high speed train)",
+                    description:
+                        "Today, embark on an unforgettable journey from Jeddah to Madinah aboard the high-speed train, traveling at up to 300 km/h. Enjoy the comfort and ease of the 2-hour ride as you take in the scenic desert landscapes, arriving in Madinah feeling refreshed and ready to explore.\n\nUpon arrival, your private guide will greet you and take you on a tour of the International Fair and Museum of the Prophet’s Biography and Islamic Civilization, offering fascinating insights into the life of Prophet Mohammed and Islamic heritage. Stroll along Qiba Street, linking the Holy Mosque and Qiba Mosque, and explore the lively Souq Taiba. While non-Muslims are not allowed inside the mosques, you can admire their impressive exteriors.\n\nAfter a delightful lunch, you’ll board the high-speed train back to Jeddah. Upon arrival, a private transfer will take you to your hotel for a relaxing overnight stay.\n",
+                },
+                {
+                    title: "Jeddah - AlUla",
+                    description:
+                        "Start your day with a visit to the House of Islamic Arts, the first museum of its kind in Saudi Arabia. Discover a stunning collection of Islamic art, featuring masterpieces from across the Islamic world, and trace 15 centuries of history through intricate artworks and historical artifacts.\n\nIf time allows, enjoy some shopping at local malls and boutiques, where you can pick up unique souvenirs and experience the lively atmosphere of Jeddah.\n\nIn the afternoon, you'll be transferred to Jeddah Airport for your flight to AlUla, where a world of awe-inspiring wonders awaits you.",
+                },
+                {
+                    title: "AlUla (Ancient Marvels)",
+                    description:
+                        "Today, step back in time as you explore the ancient wonders of AlUla, a UNESCO World Heritage site. Your journey begins at Hegra, the southernmost settlement of the Nabatean kingdom, known as 'Al Hijr.' Wander through this vast 2000-square-meter site, home to remarkable rock-cut tombs and relics that tell the story of ancient trade routes. Visit the Nabatean Well, Qasr Al Bint, Diwan Tomb, Al Farid Palace, and the preserved railway station, each offering a glimpse into the craftsmanship and grandeur of this ancient civilization.\n\nIf time allows, take in panoramic views of the surrounding desert landscape from the Harrat Viewpoint.\n\nAfter a day of exploration, return to your accommodation in AlUla for a relaxing overnight stay, reflecting on the fascinating history you've uncovered.",
+                },
+                {
+                    title: "AlUla (Ancient Wonders)",
+                    description:
+                        "Prepare for a day of awe-inspiring exploration in AlUla, a UNESCO World Heritage site. Meet your expert guide in the hotel lobby and embark on a journey to uncover the hidden treasures of Dadan and Jabal Ikmah.\n\nBegin at Jabal Ikmah, often called the \"open-air library,\" where you’ll discover an impressive collection of ancient inscriptions carved into the rocks, offering fascinating glimpses into the region’s history. Then, head to Dadan, the capital of the Dadan and Lihyan kingdoms, dating back to the 9th and 8th centuries BCE. Explore its remarkable stone-built city, featuring tombs carved into red-rock cliffs, including the famous 'Lion Tombs,' which once housed the region’s elite.\n\nAfter a journey through history, visit AlUla’s Old Town for more cultural immersion, and end your day with the iconic Elephant Rock, a stunning natural formation that evokes the grandeur of its namesake.",
+                },
+                {
+                    title: "AlUla - Riyadh",
+                    description:
+                        "Bid farewell to the captivating landscapes of AlUla as you transfer to the airport for your flight to Riyadh, the vibrant capital city of Saudi Arabia. Upon arrival, you'll be transferred to your hotel to settle in and relax.",
+                },
+                {
+                    title: "Riyadh - Golden Heritage",
+                    description:
+                        "Start your day with a delicious breakfast at the hotel before embarking on a fascinating full-day tour of Riyadh’s historical landmarks. Begin with a visit to the iconic Masmak Fort, built in 1895 and a symbol of the city’s rich past. This fortress played a pivotal role in the establishment of modern Saudi Arabia.\n\nNext, explore the vibrant Dirah Souq, a bustling market filled with colorful textiles, including luxurious silks and pashminas. Enjoy the lively atmosphere as you browse unique souvenirs.\n\nContinue your journey at the National Museum, where a vast collection of artifacts and exhibits spans the history of the Arabian Peninsula, from the creation of the universe to modern times. Gain a deeper understanding of Saudi Arabia’s cultural heritage.\n\nIn the afternoon, head to the Murabba Palace, built by King Abdul Aziz in 1937. This royal residence offers insight into the life of the country’s founder, with its elegant architecture and historic significance.\n\nEnjoy a flavorful lunch at a local restaurant, savoring traditional Arabian dishes. Afterward, admire the stunning King Fahad Library and take in the impressive King Faisal Islamic Center. Conclude the day and return to your hotel for a well-deserved overnight stay.",
+                },
+                {
+                    title: "Riyadh ",
+                    description:
+                        "Start your day with a delicious breakfast at the hotel before setting off on a tour that blends Riyadh’s modern skyline with its rich historical roots. Your first stop is the Kingdom Tower, an architectural icon offering panoramic views of the city from its Sky Bridge. Take in the breathtaking cityscape and snap some memorable photos.\n\nNext, explore Boulevard City, where the vibrant energy of the King Abdullah Financial District is on full display. The area’s striking skyscrapers and dynamic atmosphere make it a must-see, especially as the district lights up at night.\n\nEnjoy a flavorful lunch at a local restaurant, savoring authentic Saudi dishes that highlight the region’s culinary diversity.\n\nIn the afternoon, step back in time with a visit to Diriyah, a UNESCO-listed site and the birthplace of the first Saudi state. Explore the mud-brick structures and the remnants of this once-thriving desert city, which played a pivotal role in shaping modern Saudi Arabia.\n\nAfter a day filled with exploration, return to your hotel in Riyadh for a relaxing overnight stay.",
+                },
+                {
+                    title: "Farewell , Saudi Arabia!",
+                    description:
+                        "Enjoy a delicious breakfast at the hotel, savoring the final moments of your Saudi Arabian journey. Afterward, you’ll be transferred to the airport for your international departure. As you leave Riyadh, reflect on the unforgettable experiences and treasured memories, carrying the essence of Saudi Arabia with you.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Saudi Arabia visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Mid May-End of September is the hottest time of the year to visit Saudi. During this time sightseeing schedules will need to be adjusted to avoid the hottest periods of the day.",
+            ],
+        },
+    },
 ];

@@ -47,6 +47,11 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
             flag: "🇪🇬",
             country: "Egypt",
         },
+        {
+            url: "/country/saudi-arabia",
+            flag: "🇸🇦",
+            country: "Saudi Arabia",
+        },
     ];
 
     return (
