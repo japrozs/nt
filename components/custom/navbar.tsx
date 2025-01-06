@@ -53,10 +53,13 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
         <div className="bg-black">
             <div className="hidden md:block bg-black pt-2">
                 <div className="flex items-center px-4 max-w-[76rem] gap-x-5 mx-auto">
-                    <p className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center ">
-                        <HiPhone className="text-lg mr-2 text-gray-500" />
+                    <a
+                        href="tel:+16782759457"
+                        className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center "
+                    >
+                        <span className="mr-2.5">🇺🇸</span>
                         +1 (678) 275-9457
-                    </p>
+                    </a>
                     <a
                         href="mailto:info@nobletravels.com"
                         className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center "
@@ -65,8 +68,12 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                         info@nobletravels.com
                     </a>
                     <div className="ml-auto mr-0 flex items-center">
-                        <a href="/tour-details" className="text-white menlo">
-                            socials
+                        <a
+                            href="tel:+918800883595"
+                            className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center "
+                        >
+                            <span className="mr-2.5">🇮🇳</span>
+                            +91 8800883595
                         </a>
                     </div>
                 </div>

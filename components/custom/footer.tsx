@@ -41,25 +41,37 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             </div>
             <hr className="border-gray-800 border-dashed" />
             <div className="flex items-center flex-wrap mx-auto justify-center py-2.5 space-x-3">
-                <p className="text-gray-300 font-medium text-sm ">Flights</p>
-                <span className="text-gray-500">•</span>
-                <p className="text-gray-300 font-medium text-sm ">Holidays</p>
-                <span className="text-gray-500">•</span>
-                <p className="text-gray-300 font-medium text-sm ">
+                <a
+                    href="/corporate-travel"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
                     Corporate travel
-                </p>
+                </a>
                 <span className="text-gray-500">•</span>
-                <p className="text-gray-300 font-medium text-sm ">
+                <a
+                    href="/accessibility"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
                     Accessible tourism
-                </p>
+                </a>
                 <span className="text-gray-500">•</span>
-                <p className="text-gray-300 font-medium text-sm ">
-                    Medical tourism
-                </p>
+                <a
+                    href="/senior-travel"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
+                    Senior Travel
+                </a>
                 <span className="text-gray-500">•</span>
-                <p className="text-gray-300 font-medium text-sm ">
-                    Visa services
-                </p>
+                <a
+                    href="/student-travel"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
+                    Students
+                </a>
+                <span className="text-gray-500">•</span>
+                <a className="text-gray-300 font-medium text-sm hover:text-blue-500">
+                    For agents
+                </a>
             </div>
         </div>
     );

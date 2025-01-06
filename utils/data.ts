@@ -3431,4 +3431,341 @@ export const POPULAR_PACKAGES: {
             ],
         },
     },
+    {
+        img_url:
+            "https://images.pexels.com/photos/15127306/pexels-photo-15127306/free-photo-of-pyramids-and-sphinx-statue-in-desert.jpeg",
+        name: "Classic Cairo, Luxor & Aswan overland",
+        duration: "8 Nights • 9 Days",
+        slug: "classic-cairo-luxor-aswan-overland",
+        tour: {
+            location: "Cairo",
+            country: "EGYPT",
+            min_age: "10+",
+            tour_details:
+                "Embark on a journey through Egypt’s ancient wonders with our Cairo, Luxor & Aswan Overland tour. From the vibrant streets of Cairo to the timeless beauty of Luxor and the serene landscapes of Aswan, this tour immerses you in the country’s rich history. Explore the iconic Pyramids of Giza, stand in awe before the Sphinx, and discover the treasures of the Egyptian Museum. In Luxor, witness the majestic temples and the Valley of the Kings, where the tombs of ancient pharaohs are beautifully preserved.\n\nYour journey continues south to Aswan, where you’ll visit the famous High Dam, the tranquil Philae Temple, and sail the Nile in a traditional felucca boat. This overland adventure offers an unforgettable experience, combining Egypt’s most revered historical landmarks with unique cultural encounters. Whether you're uncovering secrets from thousands of years ago or relaxing by the peaceful Nile, this tour ensures an enriching and immersive Egyptian escape.",
+            destinations_covered: [
+                {
+                    name: "Cairo",
+                    description:
+                        "Cairo, Egypt’s bustling capital, is a city where ancient history and modern life collide. Here, you’ll encounter the awe-inspiring Pyramids of Giza, the enigmatic Sphinx, and the world-renowned Egyptian Museum, home to countless treasures including the famed King Tutankhamun exhibit. The city’s vibrant streets and colorful markets add to its unique charm, offering a dynamic fusion of culture, heritage, and excitement.",
+                },
+                {
+                    name: "Luxor",
+                    description:
+                        'Known as the "World’s Greatest Open-Air Museum," Luxor is a treasure trove of ancient wonders. From the grand temples of Karnak and Luxor to the tombs in the Valley of the Kings, this city brings Egypt’s pharaonic past to life. Luxor\'s magical atmosphere allows you to walk in the footsteps of ancient rulers, while the stunning views along the Nile add to its timeless allure.',
+                },
+                {
+                    name: "Aswan",
+                    description:
+                        "Aswan is a serene escape, offering a perfect blend of ancient monuments and natural beauty. Famous for the majestic High Dam and the picturesque Philae Temple, this peaceful city sits at the southern tip of Egypt. A traditional felucca ride along the Nile, past lush islands and ancient sites, makes Aswan a place where history and nature coexist in perfect harmony.",
+                },
+                {
+                    name: "West Bank (Luxor)",
+                    description:
+                        "The West Bank of Luxor is home to some of Egypt’s most iconic and sacred sites, including the Valley of the Kings, where the tombs of pharaohs like Tutankhamun and Ramses the Great are found. Visitors can explore the stunning mortuary Temple of Hatshepsut, dedicated to Egypt’s female pharaoh, and the imposing Colossi of Memnon. The West Bank offers a glimpse into the spiritual and architectural grandeur of ancient Egypt.",
+                },
+                {
+                    name: "Edfu",
+                    description:
+                        "Edfu, situated along the Nile River, is home to the Temple of Horus, one of Egypt’s best-preserved ancient monuments. Dedicated to the falcon-headed god Horus, this massive temple stands as a testament to the ancient Egyptian’s devotion to their gods. Walking through its pylons and halls, visitors can marvel at intricate hieroglyphics and stunning reliefs that depict mythological scenes from Egypt’s rich history.",
+                },
+                {
+                    name: "Kom Ombo",
+                    description:
+                        "Kom Ombo is a unique double temple dedicated to two gods: Sobek, the crocodile god, and Horus the Elder. This extraordinary temple, located on a hill overlooking the Nile, features symmetrical design with two sanctuaries—one for each deity. Visitors can explore well-preserved carvings and learn about the ancient Egyptians’ belief system, while also enjoying scenic views over the surrounding landscapes.",
+                },
+                {
+                    name: "Nubian village",
+                    description:
+                        "The Nubian villages near Aswan offer an authentic glimpse into the rich culture and traditions of Egypt’s indigenous Nubian people. Vibrant and colorful homes dot the landscape, with lush gardens contrasting against the desert surroundings. Visitors can take a boat ride across the Nile to explore the village, interact with friendly locals, and learn about Nubian history, music, art, and cuisine, all while enjoying the peaceful atmosphere of this unique and picturesque region.",
+                },
+                {
+                    name: "Dahshur",
+                    description:
+                        "Dahshur, located just south of Cairo, is home to some of Egypt’s oldest and most remarkable pyramids. The area is famous for the Bent Pyramid and the Red Pyramid, two early architectural masterpieces that laid the groundwork for the later pyramids at Giza. A visit to Dahshur offers a quieter, less crowded experience, allowing you to marvel at these ancient structures and appreciate the early evolution of pyramid construction in a peaceful desert setting.",
+                },
+                {
+                    name: "Giza",
+                    description:
+                        "The Giza Plateau is home to the world’s most iconic ancient wonders, including the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure. The Sphinx, with its enigmatic gaze, stands guard over the tombs. Visiting Giza is like stepping back in time, where you can explore these colossal structures, witness the grandeur of Egypt’s ancient civilization, and uncover the mysteries surrounding their construction. A trip to Giza is truly a journey into the heart of ancient Egypt’s architectural and cultural achievements.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive in Cairo (by flight)",
+                    description:
+                        "Upon arrival in Cairo, you are met at the airport by your Noble Travels representative and driven to your hotel by your private driver. You then have the rest of the evening to settle into your hotel.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Cairo",
+                    description:
+                        "Enjoy a full-day, privately guided tour of the pyramids at Giza, Saqqara, and Dahshur this morning. Visit the Bent Pyramid at Dahshur, one of the earliest examples of pyramid architecture, before working your way back to Cairo, visiting the stepped pyramid of Saqqara and the behemoths at Giza.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Cairo",
+                    description:
+                        "After breakfast, you are taken for a privately guided tour of the wonderfully disorganized Egyptian Museum, which houses a wealth of Pharaonic treasures. In the afternoon, you get the chance to try a range of Egyptian and Cairene cuisine on a food tour through the downtown. You visit around six stops and sample various food and beverages, from Egyptian classics such as ta'amiya, ful, and kosheri, to the subjective molokhia, and juices such as sugar cane and tamarind.\nOvernight at the hotel.\n",
+                },
+                {
+                    title: "Luxor",
+                    description:
+                        "After breakfast, you are driven to Cairo International Airport for a short flight to Luxor. A local Noble Travels representative greets you at the airport and transfers you to your hotel. The rest of the day is yours to spend at leisure. You could enjoy the hotel’s facilities or spend some time exploring Luxor. Luxor Museum is worth a visit and is easy to explore independently. There, you will find a small but choice collection of statues and funerary goods from local temples and the Theban Necropolis.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Luxor",
+                    description:
+                        "Today, start early with a full-day, private guided tour of Luxor's West Bank. Explore the awe-inspiring Valley of the Kings, where you can step inside a tomb to view the vibrant, ancient hieroglyphics. Next, visit the grand Temple of Hatshepsut, the towering Colossi of Memnon, and the impressive Temple of Ramses III at Medinet Habu, each offering a glimpse into Egypt's rich history and architectural brilliance.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Luxor",
+                    description:
+                        "After a leisurely morning, your private guide will pick you up for a short drive to the magnificent Temples of Karnak and Luxor on the East Bank. As you explore, you'll learn that the Temple of Luxor at sunset offers a truly unforgettable, quintessentially Egyptian experience. Karnak Temple, with its 134 towering sandstone columns shaped like papyrus stalks, is equally awe-inspiring. Afterward, enjoy the rest of the day at your own pace.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Aswan",
+                    description:
+                        "In the morning, your private driver will pick you up for a scenic drive to Edfu Temple, a journey of about two and a half hours. Your guide will share insights into the rich history of Edfu before you head south to Kom Ombo, the famed Crocodile Temple, located two hours away. After exploring Kom Ombo, you’ll continue on to Aswan, where you'll spend the last 2 nights of your unforgettable journey.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Aswan",
+                    description:
+                        "Today you have a day at leisure to enjoy the laid-back charms of Aswan. You might want to visit the extraordinary Temple of Philae, browse the Nubian Museum or go shopping in the souqs. Alternatively, enjoy the facilities at your hotel and relax and unwind for your final full day in Egypt.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Fly back home",
+                    description:
+                        "This morning, your private driver will transfer you to Aswan Airport for your flight back to Cairo. Upon arrival, a local representative will meet you and assist with your onward flight, marking the end of your memorable journey through Egypt.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Egypt visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/28013730/pexels-photo-28013730/free-photo-of-la-piramide-y-su-esfinge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Cairo & the Red Sea family adventure",
+        duration: "7 Nights • 8 Days",
+        slug: "cairo-the-red-sea-family-adventure",
+        tour: {
+            location: "Cairo",
+            country: "EGYPT",
+            min_age: "10+",
+            tour_details:
+                "Embark on a thrilling family adventure that combines Egypt's iconic history with the vibrant beauty of the Red Sea. In Cairo, the heart of this incredible journey, you’ll explore the awe-inspiring Pyramids of Giza, where your family can stand in awe of the ancient wonders that have stood for thousands of years. Dive deeper into the country’s rich heritage with a visit to the National Egyptian Museum, home to priceless artifacts like King Tutankhamun’s treasures. As you wander through downtown Cairo, you’ll also get a taste of local life, sampling delicious street food and hearty Egyptian dishes that are as flavorful as the city itself.\n\nAfter soaking up Cairo’s ancient wonders, your family will head to the Red Sea, where adventure continues under the sun and the waves. Hurghada, with its sparkling beaches and vibrant coral reefs, offers the perfect setting for family fun. Snorkel in the crystal-clear waters, exploring the colorful marine life, or simply relax by the beach, basking in the sun. This unforgettable family adventure blends Egypt’s timeless history with natural wonders, ensuring a holiday filled with both learning and excitement.",
+            destinations_covered: [
+                {
+                    name: "Cairo",
+                    description:
+                        "Cairo, the bustling heart of Egypt, is a vibrant fusion of ancient history and modern life. It is home to awe-inspiring monuments, centuries-old bazaars, and the rich culture of the Middle East. With its iconic skyline along the Nile, Cairo offers a dynamic atmosphere, where you can experience both historical treasures and urban excitement in one place.",
+                },
+                {
+                    name: "Red Sea",
+                    description:
+                        "The Red Sea is a stunning coastal paradise, famous for its vibrant coral reefs, crystal-clear waters, and diverse marine life. A haven for divers and snorkelers, it offers some of the world’s best underwater experiences, with shipwrecks, colorful fish, and pristine reefs just waiting to be explored. Coastal resorts, such as those in Hurghada and El Quseir, offer the perfect blend of relaxation, adventure, and breathtaking natural beauty, making it an ideal destination for both water sports enthusiasts and those seeking a tranquil retreat by the sea.",
+                },
+                {
+                    name: "National Egyptian Museum",
+                    description:
+                        "The National Egyptian Museum is a treasure trove of ancient artifacts, preserving Egypt’s rich and storied history. From King Tutankhamun’s iconic death mask to centuries-old mummies, it offers a fascinating glimpse into the world of the pharaohs. It’s a must-visit for anyone keen to understand Egypt’s cultural heritage.",
+                },
+                {
+                    name: "El Quseir",
+                    description:
+                        "El Quseir is a charming coastal town nestled between the Red Sea and the desert, offering an authentic Egyptian experience. Known for its unspoiled beaches and excellent diving spots, it’s a serene getaway that blends history with natural beauty. The town also boasts a rich maritime history, with stunning coral reefs just offshore.",
+                },
+                {
+                    name: "Tahrir Square",
+                    description:
+                        "Tahrir Square, the iconic heart of Cairo, is steeped in political history and is a vibrant hub of local life. From protests to celebrations, it has been the backdrop to some of the most significant events in modern Egyptian history. Surrounded by historical buildings and bustling streets, it’s a place where history is still being made.",
+                },
+                {
+                    name: "Giza pyramids",
+                    description:
+                        "The Giza Pyramids are one of the Seven Wonders of the Ancient World and a true symbol of ancient Egypt’s architectural brilliance. Towering over the desert sands, these colossal structures, including the Great Pyramid of Khufu and the enigmatic Sphinx, transport you back in time to an era of kings, pharaohs, and extraordinary feats of engineering.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive Cairo (by flight)",
+                    description:
+                        "Upon arrival in Cairo, your family will be warmly greeted by one of our friendly local representatives, who will guide you through Cairo International Airport. From there, you’ll be driven to your hotel in the heart of downtown, perfectly located just a short walk from iconic sights like Tahrir Square, the Egyptian Museum, and the vibrant streets of Cairo.\nOvernight in the hotel.",
+                },
+                {
+                    title: "Cairo (Giza pyramids)",
+                    description:
+                        "This morning, your private guide and driver will meet you at your hotel for a half-day adventure exploring the iconic Giza pyramids and the Sphinx. Your family will have the chance to wander through this ancient marvel, including an exciting visit inside the Great Pyramid. Afterward, the rest of the day is yours to enjoy at leisure—relax by the hotel pool or immerse yourself in the bustling atmosphere of Khan el-Khalili souq for some unique shopping.\nOvernight in the hotel.",
+                },
+                {
+                    title: "Cairo (Egyptian Museum)",
+                    description:
+                        "Today, your expert private guide will take you and your family on a journey through the fascinating Egyptian Museum, home to an incredible array of Pharaonic treasures, including the famous death mask of Tutankhamun. In the afternoon, dive into Cairo’s vibrant food scene with a guided food tour across downtown. You'll stop at six local spots to savor traditional Egyptian dishes, from beloved classics like ta'amiya, ful, and kosheri, to refreshing juices like sugar cane and tamarind. It’s a feast for both the eyes and the taste buds!\nOvernight in the hotel.",
+                },
+                {
+                    title: "El Quseir",
+                    description:
+                        "Your private driver will pick up your family from your downtown hotel and take you to Cairo International Airport for your short domestic flight to Hurghada. The flight is approximately one hour and ten minutes. Upon arrival, a local representative will greet you and assist you through the airport before your private driver takes you to your hotel or resort in El Quseir.\nOvernight in the hotel.",
+                },
+                {
+                    title: "El Quseir (Red Sea)",
+                    description:
+                        "Spend the day at leisure, soaking in the stunning views of the Red Sea from your resort in El Quseir. Whether you’re lounging by the beach or exploring the vibrant coral reefs, the Red Sea offers an unforgettable experience for all ages and skill levels. Dive or snorkel in its crystal-clear waters, where vibrant marine life and colorful corals await, or simply relax by the water and enjoy the peaceful surroundings. It's the perfect blend of adventure and relaxation, offering something for everyone.\nOvernight in the hotel.",
+                },
+                {
+                    title: "El Quseir",
+                    description:
+                        "Spend the day at leisure, with plenty of time to relax and unwind. Your hotel stay is on a half-board basis, so you’ll enjoy both breakfast and dinner at your convenience. Start your day with a delicious breakfast, and for dinner, indulge in a variety of options from the hotel's on-site restaurants. Choose from a buffet featuring international flavors or savor the taste of Italy at the Italian restaurant. Whether you're in the mood for local delicacies, Mediterranean favorites, or something more familiar, there’s something to satisfy every palate, ensuring a delightful dining experience throughout your stay.\nOvernight in the hotel.",
+                },
+                {
+                    title: "El Quseir",
+                    description:
+                        "Numerous activities are available on water and dry land, which can be booked directly through the hotel. This includes jeep and quad bike safaris into the desert and across the sand dunes nearby, which offers exhilarating fun for the family. Alternatively, the spa and pool facilities provide the chance to relax and unwind for family members who would prefer.\nOvernight in the hotel.",
+                },
+                {
+                    title: "Fly back home",
+                    description:
+                        "This morning, your private driver will pick up your family and transfer you to Hurghada Airport for your onward flight. A local representative will be there to greet you, assist with check-in, and help you navigate through the airport as you wrap up this unforgettable family adventure.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Egypt visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/8319456/pexels-photo-8319456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Dubai Stopover Essentials",
+        duration: "3 Nights • 4 Days",
+        slug: "dubai-stopover-essentials",
+        tour: {
+            location: "DUBAI",
+            country: "UAE",
+            min_age: "10+",
+            tour_details:
+                "Dubai Stopover Essentials\" offers the perfect blend of excitement and luxury in two of the UAE’s most iconic cities. Spend your layover exploring the dazzling skyline of Dubai, from the Burj Khalifa to the Palm Jumeirah, before heading to Abu Dhabi to marvel at the stunning Sheikh Zayed Grand Mosque and the modern wonders of the capital. Whether you're seeking adventure, culture, or relaxation, this stopover tour is designed to give you a taste of the best of the UAE in just a short time.",
+            destinations_covered: [
+                {
+                    name: "DUBAI",
+                    description:
+                        "Dubai is a futuristic city known for its iconic skyline, luxury shopping, and world-class attractions. Home to the world’s tallest building, the Burj Khalifa, and breathtaking landmarks like the Palm Jumeirah and the Dubai Mall, it’s a place where modernity meets tradition. Whether you're exploring the vibrant souks or experiencing thrilling desert safaris, Dubai offers something for everyone, blending innovation with rich culture.",
+                },
+                {
+                    name: "ABU DHABI",
+                    description:
+                        "Abu Dhabi, the capital of the UAE, is a dynamic city that beautifully combines tradition with modernity. Known for its stunning landmarks like the Sheikh Zayed Grand Mosque and the Louvre Abu Dhabi, the city also offers a wealth of cultural experiences and family-friendly attractions. From serene beaches to adrenaline-pumping activities at Ferrari World, Abu Dhabi promises a diverse and unforgettable experience.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive Dubai (by flight)",
+                    description:
+                        "On arrival to ensure your comfort, Noble Travels representative will greet you at the arrival gate, holding a sign with your name. He will assist you through immigration and airport security. Porter service is available at the luggage claim area. A private vehicle and driver will then transfer you directly between the airport and your hotel.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Dubai",
+                    description:
+                        "In the morning, embark on a half-day tour of Modern Dubai with a private guide and driver, immersing yourself in the city’s awe-inspiring luxury and cutting-edge architecture. Visit Palm Jumeirah, the world’s largest man-made island, and take in stunning views from the Palm Tower’s 52nd-floor observation deck. Capture a photo of the iconic Burj Al Arab, before exploring the Dubai Mall, one of the world’s largest shopping destinations, with its impressive Human Waterfall and luxury boutiques. Finish your tour with a visit to the Burj Khalifa, where you’ll enjoy breathtaking 360-degree views from the 124th-floor observation deck.\nThis afternoon, escape the city and immerse yourself in the timeless allure of the Arabian Desert. Experience an exhilarating dune-bashing adventure in an air-conditioned 4x4 with your private driver-guide, gliding over the golden sands. Stop to admire the breathtaking desert sunset, then head to a traditional Bedouin campsite where you can enjoy henna painting, try on local attire, and indulge in refreshing beverages. Conclude your evening with a delicious barbecue dinner under the stars, complemented by live cultural entertainment for a truly unforgettable desert experience.\nOvernight in the hotel.",
+                },
+                {
+                    title: "Dubai to Abu Dhabi",
+                    description:
+                        "Today embark on a full day of discovery in Abu Dhabi with a private guide and driver, exploring the city’s most iconic landmarks. Begin at the awe-inspiring Sheikh Zayed Grand Mosque, a masterpiece blending Islamic architectural styles, perfect for memorable photos. Next, visit the grand Qasr Al-Watan, the Presidential Palace, where you’ll explore the impressive Great Hall and the Library, home to timeless literature and artifacts. Stop for a photo at Qasr Al-Hosn, Abu Dhabi’s oldest stone building, contrasting with the modern skyline. Enjoy a buffet lunch at Le Vendome in the Emirates Palace, offering stunning views of the Arabian Gulf and a selection of local and international dishes. In the afternoon, explore The Louvre Abu Dhabi, a cultural treasure trove, where you can admire a world-class collection of art and history. Your day concludes with a comfortable transfer back to your hotel in Dubai.",
+                },
+                {
+                    title: "Fly back home /onward",
+                    description:
+                        "A private vehicle and driver will provide a transfer between the airport and hotel.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid UAE visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.pexels.com/photos/18934678/pexels-photo-18934678/free-photo-of-ornamented-interior-of-ancient-tomb-in-valley-of-the-kings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        name: "Luxury Luxor & Red Sea beaches",
+        duration: "7 Nights • 8 Days",
+        slug: "luxury-luxor-red-sea-beaches",
+        tour: {
+            location: "Luxor",
+            country: "EGYPT",
+            min_age: "10+",
+            tour_details:
+                "Luxury Luxor & Red Sea Beaches offers the perfect fusion of ancient Egyptian grandeur and serene coastal relaxation. Your journey begins in Luxor, where you'll explore the awe-inspiring temples of Karnak and Luxor, and step back in time to the Valley of the Kings. Luxor, often called the world’s greatest open-air museum, lets you immerse yourself in the wonders of ancient Egypt, from royal tombs to colossal statues, all set against the backdrop of the mighty Nile River.\n\nAfter discovering the timeless treasures of Luxor, unwind in the coastal haven of Hurghada on the Red Sea. Known for its pristine beaches and luxurious resorts, Hurghada is a perfect destination for rest and recreation. Dive into the crystal-clear waters, explore vibrant coral reefs, or simply relax on golden sands. This tour combines rich cultural exploration with ultimate relaxation, giving you the best of both worlds in one unforgettable Egyptian experience.",
+            destinations_covered: [
+                {
+                    name: "Luxor",
+                    description:
+                        "Known as the world's greatest open-air museum, Luxor is home to some of Egypt's most famous temples and tombs. The majestic Karnak and Luxor temples, the Valley of the Kings, and the Temple of Hatshepsut showcase the grandeur of ancient Egypt. The city's location along the Nile River adds to its charm, offering a glimpse into the kingdom's once-glorious past.",
+                },
+                {
+                    name: "Hurghada",
+                    description:
+                        "Hurghada, located on Egypt’s stunning Red Sea coast, is a vibrant resort town known for its crystal-clear waters, pristine beaches, and world-class diving spots. With year-round sunshine, it offers a perfect escape for water sports enthusiasts, from snorkeling and scuba diving in vibrant coral reefs to relaxing on sun-kissed sands. In addition to its natural beauty, Hurghada boasts a range of luxury resorts, spas, and lively nightlife, making it an ideal destination for both relaxation and adventure.",
+                },
+                {
+                    name: "Karnak",
+                    description:
+                        "The Temple Complex of Karnak, one of Egypt’s most magnificent ancient sites, is a testament to the grandeur of the Pharaohs. This sprawling temple is famed for its awe-inspiring 134 massive columns, each intricately carved with scenes of mythology and royalty, creating a forest of stone. The Hypostyle Hall, with its towering pillars reaching toward the sky, evokes a sense of ancient power and divine presence. Karnak stands as a vivid reminder of Egypt’s architectural and spiritual legacy.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrive Luxor",
+                    description:
+                        "On arrival at Luxor Airport, you are met by your local Noble Travels representative and whisked through customs. Travel with your private driver to your luxury hotel, and spend the rest of the day settling into your new surroundings.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Luxor",
+                    description:
+                        "This morning, visit the amazingly well-preserved tombs of the West Bank with your highly qualified private guide and driver. Your tour includes a visit to the Valley of the Kings, where you can enter some of the well-preserved tombs and try your hand at deciphering the intricate hieroglyphics that adorn the walls. You then continue to Hatchepsut’s Temple, an immense structure cut from the rock, and the Colossi of Memnon. In the afternoon, you return to your hotel, where we suggest visiting the spa for some rest and relaxation.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Luxor",
+                    description:
+                        "Meet your private guide again today for a half-day tour of the iconic and impressive Luxor and Karnak Temples. Luxor Temple is a structure which was added to by many Ancient Egyptians, but most important was Ramesses II who projected his military victories using the structure. Karnak is a vast complex of temples and covers over 100 acres, a testament to the power, wealth and might accrued by Amun. In the afternoon, you may wish to visit Luxor Museum, which is well-signposted and easy to explore independently.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Hurghada",
+                    description:
+                        "Your private driver will pick you up for a scenic drive to Hurghada, passing through the mesmerizing desert landscapes that reveal Egypt’s timeless beauty. The four-hour journey offers stunning views as you head towards your luxury resort. Spend the evening relaxing and soaking in the tranquil surroundings before retiring for the night.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Hurghada",
+                    description:
+                        "Spend the day at your leisure, unwinding by the pool or on the beach, soaking up the sun and the serene surroundings. Enjoy a variety of dining options with restaurants offering a blend of international, European, Indian, and local cuisines. For a truly unforgettable experience, we recommend booking a private dinner on a secluded pier, ideal for celebrating a special occasion in style.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Hurghada",
+                    description:
+                        "Today, dive into the vibrant world beneath the Red Sea’s crystal-clear waters. With over 400 species of coral and unique fish, it’s a paradise for snorkelers and divers. Make the most of the PADI-certified diving school and explore this underwater wonderland, guided by expert instructors.\nOvernight at the hotel.",
+                },
+                {
+                    title: "Hurghada",
+                    description:
+                        'On your final day in Hurghada, relax and enjoy one of the hotel’s complimentary "Touching Senses" activities, like yoga, wine tasting, or a cooking class. For a more adventurous experience, take a 4x4 desert safari and explore the vast desert, immersing yourself in the local Bedouin culture. We recommend booking the tour at sunset for stunning views and unforgettable memories.\nOvernight at the hotel.',
+                },
+                {
+                    title: "Fly back home",
+                    description:
+                        "Enjoy a final morning by the Red Sea before your private driver picks you up for the transfer to Hurghada Airport. Upon arrival, a local representative will assist with check-in for your onward flight.\nEnd of our services.",
+                },
+            ],
+            important_information: [
+                "Please make sure that you have the valid Egypt visa for this trip.",
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
+                "Colour scan or take picture by your mobile phone of the passport page with face image and passport number & email us in Jpeg/pdf format.",
+            ],
+        },
+    },
 ];

@@ -1,6 +1,6 @@
 import { Footer } from "@/components/custom/footer";
 import { Navbar } from "@/components/custom/navbar";
-import { PackageCard } from "@/components/custom/package-card";
+import { PaginatePackages } from "@/components/custom/paginate";
 import { POPULAR_PACKAGES } from "@/utils/data";
 import React from "react";
 
@@ -33,11 +33,7 @@ const AllTours: React.FC<AllToursProps> = ({}) => {
                 </div>
             </div>
             <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
-                <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
-                    {POPULAR_PACKAGES.map((p, idx: number) => (
-                        <PackageCard p={p} key={idx} />
-                    ))}
-                </div>
+                <PaginatePackages items={POPULAR_PACKAGES} />
             </div>
             <Footer />
         </div>

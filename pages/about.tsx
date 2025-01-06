@@ -102,7 +102,7 @@ const About: React.FC<AboutProps> = ({}) => {
                         Our values
                     </p> */}
                     <p className="text-5xl modesto text-navy mb-5">
-                        OUR VALUES
+                        HOW WE WORK
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
                         We don’t just plan trips, we create journeys. Here’s how
@@ -163,8 +163,8 @@ const About: React.FC<AboutProps> = ({}) => {
                         every traveller is different and there is therefore no
                         ‘one-tour-fits-all’ formula. We take pride in
                         transforming each itinerary into unique experience to
-                        remember and cherish your memories. In short, Namaah
-                        Travel is your one-stop solution for all your
+                        remember and cherish your memories. In short, Noble
+                        Travels is your one-stop solution for all your
                         travel-related needs.
                     </p>
                     <a href="/contact">

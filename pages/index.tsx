@@ -8,11 +8,13 @@ import { IoArrowDown } from "react-icons/io5";
 import { LuTarget } from "react-icons/lu";
 import { Link } from "react-scroll";
 import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
+import { Meta } from "@/components/custom/meta";
 
 export default function Home() {
     return (
         <div>
             <Navbar />
+            <Meta title="Noble Travels" />
             <div
                 className="relative w-full"
                 style={{
@@ -35,11 +37,11 @@ export default function Home() {
                         <br />
                         YOUR DREAMS.
                     </h1>
-                    <p className="px-5 md:px-0 text-sm md:text-base md:max-w-[35rem] mx-auto font-medium text-white md:text-gray-200 mt-3.5">
-                        With offices in India, USA, UAE, Saudi Arabia, and
-                        Egypt, our team is here to provide you with expert
-                        travel solutions and personalized service, wherever you
-                        are.
+                    <p className="px-5 md:px-0 text-sm md:text-base md:max-w-[35rem] mx-auto font-medium text-white md:text-gray-100 mt-3.5">
+                        With over 25 years of experience and offices across
+                        India, the USA, UAE, Saudi Arabia, and Egypt, we offer
+                        expert travel solutions and tailor-made services,
+                        wherever you are.
                     </p>
 
                     <Link
@@ -95,7 +97,7 @@ export default function Home() {
                 <p className="text-5xl modesto mb-16">
                     COMPLETE TRAVEL SOLUTIONS
                 </p>
-                <div className="flex flex-wrap items-start justify-center gap-y-16 md:gap-y-0 md:gap-x-10">
+                <div className="flex flex-wrap items-start justify-center gap-y-16 md:gap-x-10">
                     <div className="max-w-[18rem] flex flex-col items-center">
                         <HiOutlineEye className="text-7xl text-blue-500" />
                         <p className="text-2xl font-bold mb-3">

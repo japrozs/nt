@@ -1,6 +1,6 @@
 import { Footer } from "@/components/custom/footer";
 import { Navbar } from "@/components/custom/navbar";
-import { PackageCard } from "@/components/custom/package-card";
+import { PaginatePackages } from "@/components/custom/paginate";
 import { Spinner } from "@/components/custom/spinner";
 import { POPULAR_PACKAGES } from "@/utils/data";
 import { normalCapitalize } from "@/utils/utils";
@@ -43,13 +43,13 @@ const CountryTours: React.FC<CountryToursProps> = ({}) => {
             {country ? (
                 <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
                     <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
-                        {POPULAR_PACKAGES.filter(
-                            (pkg) =>
-                                pkg.tour.country.toLocaleLowerCase() ===
-                                (country as string).toLocaleLowerCase()
-                        ).map((p, idx: number) => (
-                            <PackageCard p={p} key={idx} />
-                        ))}
+                        <PaginatePackages
+                            items={POPULAR_PACKAGES.filter(
+                                (pkg) =>
+                                    pkg.tour.country.toLocaleLowerCase() ===
+                                    (country as string).toLocaleLowerCase()
+                            )}
+                        />
                     </div>
                 </div>
             ) : (
