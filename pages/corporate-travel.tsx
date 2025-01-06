@@ -17,11 +17,7 @@ interface CorporateTravelProps {}
 const CorporateTravel: React.FC<CorporateTravelProps> = ({}) => {
     return (
         <div>
-            <Navbar
-                onNavChange={() => {
-                    console.log("navbar orientation changed");
-                }}
-            />
+            <Navbar />
             <div
                 className="relative w-full"
                 style={{
@@ -47,23 +43,18 @@ const CorporateTravel: React.FC<CorporateTravelProps> = ({}) => {
             <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
                 <p className="text-3xl font-bold mb-4">Travel with us</p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    At Noble Travels, we believe that accessible tourism is not
-                    just a necessity, but a fundamental right that should be
-                    woven into the fabric of sustainable travel. By aligning our
-                    initiatives with global Sustainable Development Goals
-                    (SDGs), we aim to create a world where travel experiences
-                    are open to all, regardless of ability. Our approach moves
-                    beyond the traditional, siloed view of accessibility,
-                    turning it into a shared aspiration that fosters inclusivity
-                    and equity.
-                </p>
-                <p className="text-gray-800 font-medium text-smol mb-3">
-                    We strive to ensure that every destination, service, and
-                    activity is designed to be welcoming for everyone,
-                    empowering individuals with diverse needs to explore the
-                    world with confidence and ease. Through innovation,
-                    collaboration, and a commitment to continuous improvement,
-                    we are building a more inclusive future for tourism.
+                    At Noble Travels, we bring the expertise of one of the
+                    world’s leading corporate travel agencies to help you plan
+                    and execute flawless meetings, conferences, and incentive
+                    programs. Our team handles every detail, from strategic
+                    planning to seamless delivery, so you can focus on achieving
+                    your business objectives. We offer end-to-end solutions that
+                    integrate business travel with MICE (Meetings, Incentives,
+                    Conferences, and Events) needs, ensuring a smooth and
+                    connected experience for all your attendees. Whether it's
+                    accommodations, transportation, or unique group experiences,
+                    we ensure your event runs effortlessly, delivering value and
+                    impact every step of the way.
                 </p>
             </div>
             <div className="bg-gray-50 flex items-stretch">

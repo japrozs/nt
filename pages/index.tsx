@@ -2,11 +2,12 @@ import { DestinationCard } from "@/components/custom/destination-card";
 import { Footer } from "@/components/custom/footer";
 import { Navbar } from "@/components/custom/navbar";
 import { PackageCard } from "@/components/custom/package-card";
+import { GiStairsGoal } from "react-icons/gi";
 import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
 import { IoArrowDown } from "react-icons/io5";
-import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
 import { LuTarget } from "react-icons/lu";
-import { GiStairsGoal } from "react-icons/gi";
+import { Link } from "react-scroll";
+import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
 
 export default function Home() {
     return (
@@ -40,9 +41,17 @@ export default function Home() {
                         travel solutions and personalized service, wherever you
                         are.
                     </p>
-                    <button className="mt-12 rounded-full bg-white md:bg-white/80 hover:bg-white transition text-black p-1">
-                        <IoArrowDown className="text-xl" />
-                    </button>
+
+                    <Link
+                        to="pop-dest"
+                        smooth={true}
+                        duration={300}
+                        offset={-25}
+                    >
+                        <button className="mt-12 rounded-full bg-white md:bg-white/80 hover:bg-white transition text-black p-1">
+                            <IoArrowDown className="text-xl" />
+                        </button>
+                    </Link>
                     {/* <div className="mt-1.5 text-gray-300 flex items-center justify-center font-medium space-x-2">
                         <p>India</p>
                         <span className="text-gray-600">•</span>
@@ -56,7 +65,7 @@ export default function Home() {
                     </div> */}
                 </div>
             </div>
-            <div className="text-center mt-8 mb-10 md:my-10">
+            <div id="pop-dest" className="text-center mt-8 mb-10 md:my-10">
                 <p className="px-4 md:px-0 text-5xl md:text-6xl modesto text-navy">
                     POPULAR DESTINATIONS
                 </p>
@@ -70,10 +79,12 @@ export default function Home() {
                         <DestinationCard destination={d} key={idx} />
                     ))}
                 </div>
-                <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-4 font-medium">
-                    More destinations
-                    <HiArrowRight className="ml-2.5 text-sm" />
-                </button>
+                <a href="/tours">
+                    <button className="bg-blue-700/90 hover:bg-blue-700 transition mt-7 flex items-center mx-auto text-white rounded-full py-2 px-4 font-medium">
+                        More destinations
+                        <HiArrowRight className="ml-2.5 text-sm" />
+                    </button>
+                </a>
             </div>
             <div className="bg-blue-50/30 relative border-t border-gray-200 border-dashed text-center pt-10 pb-16">
                 <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>

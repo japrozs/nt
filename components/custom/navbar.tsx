@@ -1,7 +1,3 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import { ChevronDown, Menu, X } from "lucide-react";
-import { Logo } from "../ui/logo";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -11,7 +7,11 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { Button } from "@headlessui/react";
-import { cn } from "@/lib/utils";
+import { ChevronDown, Menu, X } from "lucide-react";
+import Link from "next/link";
+import React, { useState } from "react";
+import { Logo } from "../ui/logo";
+import { HiOutlineMail, HiPhone } from "react-icons/hi";
 
 interface NavbarProps {}
 
@@ -51,10 +51,19 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
 
     return (
         <div className="bg-black">
-            <div className="bg-black pt-2">
-                <div className="flex items-center px-4 max-w-[76rem] mx-auto">
-                    <p className="text-white menlo mr-3">contact</p>
-                    <p className="text-white menlo">email</p>
+            <div className="hidden md:block bg-black pt-2">
+                <div className="flex items-center px-4 max-w-[76rem] gap-x-5 mx-auto">
+                    <p className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center ">
+                        <HiPhone className="text-lg mr-2 text-gray-500" />
+                        +1 (678) 275-9457
+                    </p>
+                    <a
+                        href="mailto:info@nobletravels.com"
+                        className="text-white hover:text-blue-500 font-medium cursor-pointer text-sm flex items-center "
+                    >
+                        <HiOutlineMail className="text-lg mr-2 text-gray-500" />
+                        info@nobletravels.com
+                    </a>
                     <div className="ml-auto mr-0 flex items-center">
                         <a href="/tour-details" className="text-white menlo">
                             socials
@@ -62,7 +71,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                     </div>
                 </div>
             </div>
-            <hr className="border-gray-900 my-2" />
+            <hr className="hidden md:block border-gray-900 my-2" />
             <div className="bg-black sticky top-0 z-50">
                 <div className="px-4 max-w-[76rem] mx-auto">
                     <div className="flex items-center justify-between py-2 w-full">
@@ -91,8 +100,11 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                             <NavigationMenuContent>
                                                 <ul className="ml-20 w-56 bg-black border border-gray-900 shadow-2xl rounded-lg p-2">
                                                     {DESTINATION_LIST.map(
-                                                        (dest) => (
-                                                            <a href={dest.url}>
+                                                        (dest, idx: number) => (
+                                                            <a
+                                                                href={dest.url}
+                                                                key={idx}
+                                                            >
                                                                 <li className="w-full py-2 px-3 menlo hover:bg-gray-900/50 text-gray-300 hover:text-blue-500 rounded-md cursor-pointer">
                                                                     <p className="text-sm font-medium">
                                                                         <span className="mr-3">
@@ -190,17 +202,20 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     </button>
                                     {isDestinationsOpen && (
                                         <div className="pl-4 mt-2 space-y-2">
-                                            {DESTINATION_LIST.map((dest) => (
-                                                <Link
-                                                    href={dest.url}
-                                                    className="block w-full pl-2 menlo py-1 rounded-md text-gray-200 font-medium hover:text-white text-sm"
-                                                >
-                                                    <span className="mr-4">
-                                                        {dest.flag}
-                                                    </span>
-                                                    {dest.country}
-                                                </Link>
-                                            ))}
+                                            {DESTINATION_LIST.map(
+                                                (dest, idx: number) => (
+                                                    <Link
+                                                        href={dest.url}
+                                                        key={idx}
+                                                        className="block w-full pl-2 menlo py-1 rounded-md text-gray-200 font-medium hover:text-white text-sm"
+                                                    >
+                                                        <span className="mr-4">
+                                                            {dest.flag}
+                                                        </span>
+                                                        {dest.country}
+                                                    </Link>
+                                                )
+                                            )}
                                         </div>
                                     )}
                                 </div>

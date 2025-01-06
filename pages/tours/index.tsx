@@ -32,7 +32,7 @@ const AllTours: React.FC<AllToursProps> = ({}) => {
                     </h1>
                 </div>
             </div>
-            <div className="mx-auto max-w-[76rem]my-10 px-3 md:px-10">
+            <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
                 <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
                     {POPULAR_PACKAGES.map((p, idx: number) => (
                         <PackageCard p={p} key={idx} />

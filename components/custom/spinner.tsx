@@ -10,9 +10,7 @@ export const Spinner: React.FC<SpinnerProps> = ({ className }) => {
             <svg
                 aria-hidden="true"
                 className={`${
-                    className
-                        ? className
-                        : "w-8 h-8 text-gray-200 fill-blue-main"
+                    className ? className : "w-8 h-8 text-gray-200 fill-navy"
                 } animate-spin`}
                 viewBox="0 0 100 101"
                 fill="none"

@@ -7,7 +7,6 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
 import { LuTarget } from "react-icons/lu";
 import { MdLock } from "react-icons/md";
 import { PiScissorsBold } from "react-icons/pi";
@@ -43,23 +42,27 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
             <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
                 <p className="text-3xl font-bold mb-4">Travel with us</p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    At Noble Travels, we believe that accessible tourism is not
-                    just a necessity, but a fundamental right that should be
-                    woven into the fabric of sustainable travel. By aligning our
-                    initiatives with global Sustainable Development Goals
-                    (SDGs), we aim to create a world where travel experiences
-                    are open to all, regardless of ability. Our approach moves
-                    beyond the traditional, siloed view of accessibility,
-                    turning it into a shared aspiration that fosters inclusivity
-                    and equity.
+                    Whether it's an educational tour, a university exchange
+                    program, an overseas semester, or a summer holiday with
+                    friends, we tailor each experience to fit your goals. Our
+                    expertly crafted itineraries offer immersive cultural
+                    experiences, hands-on internships, and academic growth, all
+                    while ensuring comfort and convenience. You’ll gain a deeper
+                    understanding of the world, connect with peers globally, and
+                    explore new cultures with the support of our experienced
+                    guides. Explore, learn, and create lasting memories as you
+                    embark on a transformative journey that blends education and
+                    adventure.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    We strive to ensure that every destination, service, and
-                    activity is designed to be welcoming for everyone,
-                    empowering individuals with diverse needs to explore the
-                    world with confidence and ease. Through innovation,
-                    collaboration, and a commitment to continuous improvement,
-                    we are building a more inclusive future for tourism.
+                    Having worked with universities, schools, and academic
+                    institutions worldwide, as well as with dignitaries, heads
+                    of state, and government officials, we bring the same level
+                    of professionalism, expertise, and attention to detail to
+                    your student groups. With experienced guides, well-organized
+                    itineraries, safe accommodations, and reliable
+                    transportation, we ensure your students have an
+                    unforgettable, impactful educational experience in India.
                 </p>
             </div>
             <div className="bg-gray-50 flex items-stretch">
@@ -71,34 +74,33 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         OUR VALUES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        We don’t just plan trips, we create journeys. Here’s how
-                        we do it:
+                        For over 30 years, we’ve been providing enriching travel
+                        experiences for students, including specialized tours
+                        for university exchange programs and student groups. Our
+                        educational tours offer students an unparalleled
+                        opportunity to explore India’s vast history, culture,
+                        and environment. From historical explorations in Delhi
+                        and Agra to environmental studies in the Himalayas, our
+                        programs are designed to blend academic learning with
+                        immersive travel experiences.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>We listen first</b>: Our specialists take the time to
-                        understand you and what inspires your adventure,
-                        ensuring it’s all about your unique vision.
-                    </p>
-                    <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Tailored Just for You</b>: Every detail of your trip
-                        is designed specifically around your desires, from the
-                        purpose of your journey to the perfect itinerary.
-                    </p>
-                    <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Meticulous Attention to Detail</b>: We handpick
-                        guides who share your passions and recommend hidden
-                        gems, like boutique hotels, to elevate your experience.
-                    </p>
-                    <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Support Every Step of the Way</b>: Whether day or
-                        night, you’ll have access to our dedicated team and
-                        local partners for assistance from the moment you land
-                        until you return home.
+                        We understand the unique needs of universities and
+                        student groups, having successfully arranged travel for
+                        hundreds of student tours, exchange programs, and
+                        academic expeditions. Whether you’re organizing an
+                        exchange program, a group study tour, or a faculty-led
+                        program, we provide complete support—from
+                        curriculum-based itineraries to on-the-ground
+                        assistance, ensuring a safe, educational, and enriching
+                        journey.
                     </p>
                 </div>
 
                 <img
-                    src={"/img/ammy-singh.jpg"}
+                    src={
+                        "https://images.pexels.com/photos/8199708/pexels-photo-8199708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    }
                     className="hidden md:block w-1/2 max-h-[30rem] object-cover justify-center self-center"
                 />
             </div>

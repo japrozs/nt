@@ -7,7 +7,6 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
 import { LuTarget } from "react-icons/lu";
 import { MdLock } from "react-icons/md";
 import { PiScissorsBold } from "react-icons/pi";
@@ -43,23 +42,23 @@ const SeniorTravel: React.FC<SeniorTravelProps> = ({}) => {
             <div className="mx-auto max-w-3xl my-10 px-7 md:px-10">
                 <p className="text-3xl font-bold mb-4">Travel with us</p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    At Noble Travels, we believe that accessible tourism is not
-                    just a necessity, but a fundamental right that should be
-                    woven into the fabric of sustainable travel. By aligning our
-                    initiatives with global Sustainable Development Goals
-                    (SDGs), we aim to create a world where travel experiences
-                    are open to all, regardless of ability. Our approach moves
-                    beyond the traditional, siloed view of accessibility,
-                    turning it into a shared aspiration that fosters inclusivity
-                    and equity.
+                    Our specially crafted tours for adults over 50 are designed
+                    with comfort, relaxation, and personal attention in mind.
+                    Whether you're yearning for a cultural adventure, scenic
+                    exploration, or a peaceful retreat, our expert itineraries
+                    ensure every detail is handled to meet your unique needs.
+                    Enjoy the company of like-minded travelers in small groups,
+                    offering an intimate and relaxed pace for discovering the
+                    world's wonders.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
-                    We strive to ensure that every destination, service, and
-                    activity is designed to be welcoming for everyone,
-                    empowering individuals with diverse needs to explore the
-                    world with confidence and ease. Through innovation,
-                    collaboration, and a commitment to continuous improvement,
-                    we are building a more inclusive future for tourism.
+                    From transportation to accommodation and activities, we take
+                    care of all the logistics, so you can focus on enjoying the
+                    experience. With knowledgeable guides leading the way, each
+                    journey is tailored to offer enriching experiences, deep
+                    cultural immersion, and maximum comfort. Let us help you
+                    create unforgettable memories on a trip designed just for
+                    you.
                 </p>
             </div>
             <div className="bg-gray-50 flex items-stretch">
@@ -71,34 +70,35 @@ const SeniorTravel: React.FC<SeniorTravelProps> = ({}) => {
                         OUR VALUES
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        We don’t just plan trips, we create journeys. Here’s how
-                        we do it:
+                        India offers a world of wonder, and we invite you to
+                        explore it at your own pace. Our specialized tours for
+                        senior citizens and retirees are designed to offer
+                        comfort, relaxation, and cultural enrichment, without
+                        the stress of long travels or strenuous activities.
+                        Enjoy leisurely sightseeing, scenic drives, heritage
+                        walks, and immersive cultural experiences in some of the
+                        world’s most beautiful and historically rich
+                        destinations.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>We listen first</b>: Our specialists take the time to
-                        understand you and what inspires your adventure,
-                        ensuring it’s all about your unique vision.
+                        We understand that senior travelers may require special
+                        accommodations and accessibility. Our itineraries ensure
+                        smooth, comfortable travel with wheelchair-friendly
+                        transport, easy-to-navigate hotels, and support from
+                        experienced guides. Whether it’s relaxing on a luxury
+                        houseboat in Kerala or exploring the majestic palaces of
+                        Rajasthan, your comfort and enjoyment are our top
+                        priority.
                     </p>
                     <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Tailored Just for You</b>: Every detail of your trip
-                        is designed specifically around your desires, from the
-                        purpose of your journey to the perfect itinerary.
-                    </p>
-                    <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Meticulous Attention to Detail</b>: We handpick
-                        guides who share your passions and recommend hidden
-                        gems, like boutique hotels, to elevate your experience.
-                    </p>
-                    <p className="text-gray-800 font-medium text-smol mb-3">
-                        <b>Support Every Step of the Way</b>: Whether day or
-                        night, you’ll have access to our dedicated team and
-                        local partners for assistance from the moment you land
-                        until you return home.
+                        For over 30 years, we’ve been helping senior citizens
+                        and retirees discover the beauty of India at their own
+                        pace.
                     </p>
                 </div>
 
                 <img
-                    src={"/img/ammy-singh.jpg"}
+                    src={"/img/6950690.jpeg"}
                     className="hidden md:block w-1/2 max-h-[30rem] object-cover justify-center self-center"
                 />
             </div>
