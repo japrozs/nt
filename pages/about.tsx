@@ -53,7 +53,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     the diverse landscapes of India, middle east and Africa.
                     With a deep understanding of our rich culture, heritage, and
                     local nuances, we are dedicated to providing international
-                    travellers with unforgettable journeys throughout the
+                    travelers with unforgettable journeys throughout the
                     country.
                 </p>
                 <p className="text-gray-800 font-medium text-smol mb-3">
@@ -66,7 +66,7 @@ const About: React.FC<AboutProps> = ({}) => {
                     Our company have our own service offices in USA , India,
                     UAE, Egypt, Saudi Arabia and strategic associate alliances
                     in Nepal, Bhutan, Sri Lanka. At Noble Travels, we make
-                    customer service and traveller satisfaction priority. We are
+                    customer service and traveler satisfaction priority. We are
                     dedicated to ensuring that every step of the journey, down
                     to the last detail, is taken care of – with in-depth product
                     knowledge and range of services offered, highly trained and

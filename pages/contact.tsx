@@ -60,7 +60,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
                         </p>
                         <p className="text-gray-800 font-medium text-smol">
                             While you wait from a response from our side (it's
-                            usually prety quick), please{" "}
+                            usually pretty quick), please{" "}
                             <a
                                 href="/faq"
                                 className="text-blue-500 hover:underline font-medium"

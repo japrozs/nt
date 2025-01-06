@@ -225,7 +225,7 @@ const CreateItinerary: React.FC<CreateItineraryProps> = ({}) => {
                                     <InputField
                                         name="minAge"
                                         placeholder="10+"
-                                        label="Minimum age for travellers"
+                                        label="Minimum age for travelers"
                                         fullWidth
                                         defaultValue={"10+"}
                                         disableSubmitOnEnter
