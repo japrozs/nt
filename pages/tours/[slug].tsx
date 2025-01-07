@@ -76,7 +76,7 @@ const TourPage: React.FC<TourPageProps> = ({ packageData }) => {
             {/* Static meta tags for server-side rendering */}
             <Meta
                 title={`${packageData.name} – Noble Travels`}
-                image={packageData.img_url}
+                // image={packageData.img_url}
             />
             <TourInfo pkg={packageData} />
             <div className="mt-20" />
