@@ -8,7 +8,7 @@ import { GrLocation } from "react-icons/gr";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { IoFootsteps } from "react-icons/io5";
 import { LuCalendarRange, LuTicket } from "react-icons/lu";
-import { RiQuestionLine } from "react-icons/ri";
+import { RiQuestionLine, RiShare2Line } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
 import {
     Accordion,
@@ -40,10 +40,42 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                     backgroundPosition: "center",
                 }}
             >
+                {/* Share Itinerary Button */}
+                {navigator.share && (
+                    <div
+                        className="absolute top-4 bg-gray-100 py-1 px-2 rounded-sm right-4 min-w-max flex items-center group cursor-pointer"
+                        style={{ zIndex: 3 }}
+                    >
+                        <RiShare2Line className="text-blue-500 text-lg mr-1.5" />
+                        <p
+                            onClick={async () => {
+                                if (navigator.share) {
+                                    await navigator.share({
+                                        text: `${normalCapitalize(
+                                            pkg.name
+                                        )} – Noble Travels`,
+                                        url: window.location.href,
+                                    });
+                                } else {
+                                    toast.error(
+                                        "Sharing is not supported in your browser."
+                                    );
+                                }
+                            }}
+                            className="font-semibold text-blue-600 text-sm group-hover:underline"
+                        >
+                            Share Itinerary
+                        </p>
+                    </div>
+                )}
+
+                {/* Black Overlay */}
                 <div
                     className="absolute top-0 left-0 w-full h-full bg-black opacity-20"
                     style={{ zIndex: 1 }}
                 />
+
+                {/* Center Content */}
                 <div
                     className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center px-1 w-full md:px-4"
                     style={{ zIndex: 2 }}
@@ -53,9 +85,10 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                     </h1>
                 </div>
             </div>
+
             <div className="w-full md:max-w-[76rem] mx-auto p-4 md:p-10 flex flex-col md:flex-row items-start md:space-x-10">
                 <div className="w-full md:w-4/6">
-                    <div className="flex flex-wrap items-center space-y-1 md:space-y-0 space-x-3">
+                    <div className="flex flex-wrap items-center gap-y-1.5 md:gap-y-0 gap-x-3">
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <LuCalendarRange className="text-blue-500 text-lg mr-2.5" />
                             <p className="font-semibold">{pkg.duration}</p>

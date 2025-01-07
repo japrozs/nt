@@ -1,5 +1,6 @@
 import { DestinationCard } from "@/components/custom/destination-card";
 import { Footer } from "@/components/custom/footer";
+import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { PackageCard } from "@/components/custom/package-card";
 import { GiStairsGoal } from "react-icons/gi";
@@ -8,7 +9,6 @@ import { IoArrowDown } from "react-icons/io5";
 import { LuTarget } from "react-icons/lu";
 import { Link } from "react-scroll";
 import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
-import { Meta } from "@/components/custom/meta";
 
 export default function Home() {
     return (

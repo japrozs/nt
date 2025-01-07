@@ -41,7 +41,10 @@ const TourPage: React.FC<TourPageProps> = ({}) => {
                 </div>
             ) : (
                 <>
-                    <Meta title={`${packageData.name} – Noble Travels`} />
+                    <Meta
+                        title={`${packageData.name} – Noble Travels`}
+                        // image={packageData.img_url}
+                    />
                     <TourInfo pkg={packageData} />
                     <div className="mt-20" />
                     <Footer />

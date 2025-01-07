@@ -83,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                     </div>
                 </div>
             </div>
-            <hr className="hidden md:block border-gray-900 my-2" />
+            <hr className="hidden md:block border-gray-900 mt-2" />
             <div className="bg-black sticky top-0 z-50">
                 <div className="px-4 max-w-[76rem] mx-auto">
                     <div className="flex items-center justify-between py-2 w-full">
@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                                                 href={dest.url}
                                                                 key={idx}
                                                             >
-                                                                <li className="w-full py-2 px-3 menlo hover:bg-gray-900/50 text-gray-300 hover:text-blue-500 rounded-md cursor-pointer">
+                                                                <li className="w-full py-2 px-3 hover:bg-gray-900/50 text-gray-300 hover:text-blue-500 rounded-md cursor-pointer">
                                                                     <p className="text-sm font-medium">
                                                                         <span className="mr-3">
                                                                             {
@@ -219,7 +219,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                                     <Link
                                                         href={dest.url}
                                                         key={idx}
-                                                        className="block w-full pl-2 menlo py-1 rounded-md text-gray-200 font-medium hover:text-white text-sm"
+                                                        className="block w-full pl-2 py-1 rounded-md text-gray-200 font-medium hover:text-white text-sm"
                                                     >
                                                         <span className="mr-4">
                                                             {dest.flag}
