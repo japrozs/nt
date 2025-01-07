@@ -41,34 +41,31 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                 }}
             >
                 {/* Share Itinerary Button */}
-                {navigator.share && (
-                    <div
-                        className="absolute top-4 bg-gray-100 py-1 px-2 rounded-sm right-4 min-w-max flex items-center group cursor-pointer"
-                        style={{ zIndex: 3 }}
+                <div
+                    className="absolute top-4 bg-gray-100 py-1 px-2 rounded-sm right-4 min-w-max flex items-center group cursor-pointer"
+                    style={{ zIndex: 3 }}
+                >
+                    <RiShare2Line className="text-blue-500 text-lg mr-1.5" />
+                    <p
+                        onClick={async () => {
+                            if (navigator.share) {
+                                await navigator.share({
+                                    text: `${normalCapitalize(
+                                        pkg.name
+                                    )} – Noble Travels`,
+                                    url: window.location.href,
+                                });
+                            } else {
+                                toast.error(
+                                    "Sharing is not supported in your browser."
+                                );
+                            }
+                        }}
+                        className="font-semibold text-blue-600 text-sm group-hover:underline"
                     >
-                        <RiShare2Line className="text-blue-500 text-lg mr-1.5" />
-                        <p
-                            onClick={async () => {
-                                if (navigator.share) {
-                                    await navigator.share({
-                                        text: `${normalCapitalize(
-                                            pkg.name
-                                        )} – Noble Travels`,
-                                        url: window.location.href,
-                                    });
-                                } else {
-                                    toast.error(
-                                        "Sharing is not supported in your browser."
-                                    );
-                                }
-                            }}
-                            className="font-semibold text-blue-600 text-sm group-hover:underline"
-                        >
-                            Share Itinerary
-                        </p>
-                    </div>
-                )}
-
+                        Share Itinerary
+                    </p>
+                </div>
                 {/* Black Overlay */}
                 <div
                     className="absolute top-0 left-0 w-full h-full bg-black opacity-20"
