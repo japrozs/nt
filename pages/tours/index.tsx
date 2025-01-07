@@ -3,7 +3,7 @@ import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { PaginatePackages } from "@/components/custom/paginate";
 import { POPULAR_PACKAGES } from "@/utils/data";
-import React from "react";
+import React, { useRef } from "react";
 
 interface AllToursProps {}
 
