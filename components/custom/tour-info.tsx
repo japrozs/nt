@@ -1,6 +1,8 @@
 import { EMAIL_REGEXP } from "@/lib/utils";
 import { POPULAR_PACKAGES } from "@/utils/data";
+import { normalCapitalize } from "@/utils/utils";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import axios from "axios";
 import { Form, Formik } from "formik";
 import React from "react";
 import { CgDetailsMore } from "react-icons/cg";
@@ -10,6 +12,7 @@ import { IoFootsteps } from "react-icons/io5";
 import { LuCalendarRange, LuTicket } from "react-icons/lu";
 import { RiQuestionLine, RiShare2Line } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
+import { toast, Toaster } from "sonner";
 import {
     Accordion,
     AccordionContent,
@@ -19,9 +22,6 @@ import {
 import { Button } from "./button";
 import { InputField } from "./input-field";
 import { TextField } from "./text-field";
-import { normalCapitalize } from "@/utils/utils";
-import axios from "axios";
-import { toast, Toaster } from "sonner";
 
 interface TourInfoProps {
     pkg: (typeof POPULAR_PACKAGES)[0];
@@ -42,28 +42,35 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
             >
                 {/* Share Itinerary Button */}
                 <div
-                    className="absolute top-4 bg-gray-100 py-1 px-2 rounded-sm right-4 min-w-max flex items-center group cursor-pointer"
+                    className="absolute top-4 bg-blue-600 py-1 px-2 rounded-sm right-4 min-w-max flex items-center group cursor-pointer"
                     style={{ zIndex: 3 }}
                 >
-                    <RiShare2Line className="text-blue-500 text-lg mr-1.5" />
+                    <RiShare2Line className="text-gray-300 text-lg mr-1.5" />
                     <p
                         onClick={async () => {
                             if (navigator.share) {
-                                await navigator.share({
-                                    text: `${normalCapitalize(
-                                        pkg.name
-                                    )} – Noble Travels`,
-                                    url: window.location.href,
-                                });
+                                try {
+                                    await navigator.share({
+                                        text: `${normalCapitalize(
+                                            pkg.name
+                                        )} – Noble Travels`,
+                                        url: window.location.href,
+                                    });
+                                } catch (err) {
+                                    console.log(
+                                        "navigator.share error :: ",
+                                        err
+                                    );
+                                }
                             } else {
                                 toast.error(
                                     "Sharing is not supported in your browser."
                                 );
                             }
                         }}
-                        className="font-semibold text-blue-600 text-sm group-hover:underline"
+                        className="font-semibold text-gray-200 hover:text-white text-sm group-hover:underline"
                     >
-                        Share Itinerary
+                        Share
                     </p>
                 </div>
                 {/* Black Overlay */}
@@ -92,7 +99,9 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                         </div>
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <GrLocation className="text-blue-500 text-lg mr-2.5" />
-                            <p className="font-semibold">{pkg.tour.location}</p>
+                            <p className="font-semibold">
+                                {normalCapitalize(pkg.tour.location)}
+                            </p>
                         </div>
                         <div className="min-w-max flex items-center bg-blue-50 border border-blue-600 rounded-full py-0.5 px-2 text-sm text-blue-600">
                             <LuTicket className="text-blue-500 text-lg mr-2.5" />
@@ -379,8 +388,8 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                         </p>
                                         <p className="text-sm text-gray-600 font-medium mb-3">
                                             Do not hesitage to send us an email.
-                                            Our team is made up of experts who
-                                            are more than hapy to help you.
+                                            Our team of experts who are more
+                                            than hapy to help you.
                                         </p>
                                         <a
                                             href="mailto:info@nobletravels.com"

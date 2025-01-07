@@ -3,10 +3,12 @@ import { Footer } from "@/components/custom/footer";
 import { Meta } from "@/components/custom/meta";
 import { Navbar } from "@/components/custom/navbar";
 import { PackageCard } from "@/components/custom/package-card";
-import { GiStairsGoal } from "react-icons/gi";
-import { HiArrowRight, HiOutlineEye } from "react-icons/hi";
+import { BsEyeglasses } from "react-icons/bs";
+import { HiArrowRight } from "react-icons/hi";
 import { IoArrowDown } from "react-icons/io5";
-import { LuTarget } from "react-icons/lu";
+import { MdOutlineCorporateFare } from "react-icons/md";
+import { PiStudentBold } from "react-icons/pi";
+import { TbDisabled } from "react-icons/tb";
 import { Link } from "react-scroll";
 import { POPULAR_DESTINATIONS, POPULAR_PACKAGES } from "../utils/data";
 
@@ -99,7 +101,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap items-start justify-center gap-y-16 md:gap-x-10">
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <HiOutlineEye className="text-7xl text-blue-500" />
+                        <TbDisabled className="text-7xl text-blue-500" />
                         <p className="text-2xl font-bold mb-3">
                             Disabled Travel
                         </p>
@@ -116,7 +118,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <LuTarget className="text-6xl mb-2 text-blue-500" />
+                        <BsEyeglasses className="text-6xl mb-2 text-blue-500" />
                         <p className="text-2xl font-bold mb-3">
                             Senior - Friendly Tours
                         </p>
@@ -134,7 +136,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
+                        <MdOutlineCorporateFare className="text-6xl mb-2 text-blue-500" />
                         <p className="text-2xl font-bold mb-3">
                             Corporate and MICE
                         </p>
@@ -152,7 +154,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="max-w-[18rem] flex flex-col items-center">
-                        <GiStairsGoal className="text-6xl mb-2 text-blue-500" />
+                        <PiStudentBold className="text-6xl mb-2 text-blue-500" />
                         <p className="text-2xl font-bold mb-3">
                             Student Travel Program
                         </p>

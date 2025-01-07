@@ -50,17 +50,15 @@ const CountryTours: React.FC<CountryToursProps> = ({}) => {
                         )} Tours – Noble Travels`}
                     />
                     <div className="mx-auto max-w-[76rem] my-10 px-3 md:px-10">
-                        <div className="mt-10 md:max-w-4xl mx-auto flex flex-col space-y-8">
-                            <PaginatePackages
-                                items={POPULAR_PACKAGES.filter(
-                                    (pkg) =>
-                                        pkg.tour.country.toLocaleLowerCase() ===
-                                        (country as string)
-                                            .replaceAll("-", " ")
-                                            .toLocaleLowerCase()
-                                )}
-                            />
-                        </div>
+                        <PaginatePackages
+                            items={POPULAR_PACKAGES.filter(
+                                (pkg) =>
+                                    pkg.tour.country.toLocaleLowerCase() ===
+                                    (country as string)
+                                        .replaceAll("-", " ")
+                                        .toLocaleLowerCase()
+                            )}
+                        />
                     </div>
                 </>
             ) : (
