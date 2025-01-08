@@ -192,7 +192,9 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                                             DAY {idx + 1}
                                                         </span>{" "}
                                                         – 
-                                                        {i.title}
+                                                        {normalCapitalize(
+                                                            i.title
+                                                        )}
                                                     </li>
                                                 )
                                             )}
@@ -222,7 +224,9 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                                                 ––
                                                             </span>
                                                             <span className="text-sm text-black">
-                                                                {i.title.toUpperCase()}
+                                                                {normalCapitalize(
+                                                                    i.title.toUpperCase()
+                                                                )}
                                                             </span>
                                                             <div className="ml-auto mr-0"></div>
                                                         </AccordionTrigger>
@@ -387,9 +391,9 @@ export const TourInfo: React.FC<TourInfoProps> = ({ pkg }) => {
                                             Have a question?
                                         </p>
                                         <p className="text-sm text-gray-600 font-medium mb-3">
-                                            Do not hesitage to send us an email.
-                                            Our team of experts who are more
-                                            than hapy to help you.
+                                            Do not hesitate to send us an email.
+                                            Our team of experts will be more
+                                            than happy to help you.
                                         </p>
                                         <a
                                             href="mailto:info@nobletravels.com"

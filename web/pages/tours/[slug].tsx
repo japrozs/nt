@@ -4,6 +4,7 @@ import { Navbar } from "@/components/custom/navbar";
 import { Spinner } from "@/components/custom/spinner";
 import { TourInfo } from "@/components/custom/tour-info";
 import { POPULAR_PACKAGES } from "@/utils/data";
+import { normalCapitalize } from "@/utils/utils";
 import { useEffect } from "react";
 
 interface TourPageProps {
@@ -54,7 +55,7 @@ const TourPage: React.FC<TourPageProps> = ({ packageData }) => {
         if (ogTitleTag) {
             ogTitleTag.setAttribute(
                 "content",
-                `${packageData.name} – Noble Travels`
+                `${normalCapitalize(packageData.name)} – Noble Travels`
             );
         }
         // if (ogImageTag) {
@@ -75,7 +76,7 @@ const TourPage: React.FC<TourPageProps> = ({ packageData }) => {
             <Navbar />
             {/* Static meta tags for server-side rendering */}
             <Meta
-                title={`${packageData.name} – Noble Travels`}
+                title={`${normalCapitalize(packageData.name)} – Noble Travels`}
                 // image={packageData.img_url}
             />
             <TourInfo pkg={packageData} />
