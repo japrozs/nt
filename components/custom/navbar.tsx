@@ -148,6 +148,17 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                         </NavigationMenuItem>
                                         <NavigationMenuItem>
                                             <Link
+                                                href="/luxury"
+                                                legacyBehavior
+                                                passHref
+                                            >
+                                                <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
+                                                    Luxury
+                                                </NavigationMenuLink>
+                                            </Link>
+                                        </NavigationMenuItem>
+                                        <NavigationMenuItem>
+                                            <Link
                                                 href="/accessibility"
                                                 legacyBehavior
                                                 passHref
@@ -235,6 +246,17 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                     <Link href="/tours" legacyBehavior passHref>
                                         <NavigationMenuLink className="block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
                                             All Tours
+                                        </NavigationMenuLink>
+                                    </Link>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link
+                                        href="/luxury"
+                                        legacyBehavior
+                                        passHref
+                                    >
+                                        <NavigationMenuLink className="block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
+                                            Luxury
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>

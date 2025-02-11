@@ -34,6 +34,7 @@ export const POPULAR_PACKAGES: {
     name: string;
     duration: string;
     slug: string;
+    luxury?: boolean;
     tour: any;
 }[] = [
     {
@@ -3946,6 +3947,1446 @@ export const POPULAR_PACKAGES: {
                 "Please make sure that you have the valid Saudi Arabia visa for this trip.",
                 "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better).",
                 "Mid May-End of September is the hottest time of the year to visit Saudi. During this time sightseeing schedules will need to be adjusted to avoid the hottest periods of the day.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.unsplash.com/photo-1624862762217-e282e40a51ec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Umrah Package",
+        duration: "9 Nights • 10 Days",
+        slug: "umrah-package",
+        tour: {
+            location: "Jeddah Makkah",
+            country: "Saudi Arabia",
+            min_age: "10+",
+            tour_details:
+                "Embark on a transformative journey with our 10-day Umrah Package, an exclusive pilgrimage that takes you to the holiest cities in Islam: Makkah, Madinah, and Jeddah. The Umrah pilgrimage holds profound significance for Muslims worldwide, offering a unique opportunity to cleanse your soul, strengthen your faith, and walk in the footsteps of the Prophet Muhammad (peace be upon him). For many, it’s not just a journey to the Kaaba—the House of Allah—but a deeply spiritual experience that connects them to their roots. This sacred journey provides you the chance to witness firsthand the remarkable beauty and rich cultural heritage of Saudi Arabia, while visiting the most revered religious sites in Islam.\n\nOn your Umrah journey, you will begin your pilgrimage in Jeddah, the gateway city to Saudi Arabia, before heading to Makkah to visit the Masjid al-Haram, the holiest mosque in Islam, where you will perform the Tawaf around the Kaaba. Explore sacred sites such as Jabal al-Noor (the Mountain of Light) and Masjid-e-Ayesha, and immerse yourself in the spiritual tranquillity of Mount Arafat. Afterward, journey to Madinah where the Prophet’s Mosque (Masjid an-Nabawi) awaits, alongside other revered places such as Jannat al-Baqi and Quba Mosque. Along the way, you’ll have personalized Ziyarats in both Makkah and Madinah, with private drivers taking you to significant locations, ensuring you have a peaceful and reflective experience.\n\nOur Umrah Package includes flights, accommodation, visa processing, and local transportation, ensuring your trip is seamless from start to finish. Whether you are traveling alone or with family, our customized services ensure you experience the spiritual rewards of Umrah with comfort and ease. With expert guidance, you’ll explore the sacred mosques, historic sites, and hidden gems of Saudi Arabia, such as the Floating Mosque in Jeddah and the Masjid al-Qiblatayn in Madinah. At Noble Travels, we take pride in offering you an unforgettable Umrah experience, helping you fulfill your spiritual aspirations while ensuring all details are thoughtfully taken care of.",
+            destinations_covered: [
+                {
+                    name: "Jeddah",
+                    description:
+                        "Jeddah, the gateway to Makkah, is a vibrant city that blends tradition with modernity. As the main entry point for millions of pilgrims, Jeddah offers a warm welcome with its rich cultural heritage, iconic landmarks, and beautiful coastline along the Red Sea. Pilgrims often pass through Jeddah to begin their sacred journey to the Holy Cities of Makkah and Madinah, setting the tone for a transformative spiritual experience.",
+                },
+                {
+                    name: "Makkah",
+                    description:
+                        "Makkah, the holiest city for Muslims, is home to the sacred Masjid al-Haram and the revered Kaaba, the focal point of every Muslim's prayers. A visit to Makkah for Umrah is a deeply spiritual journey that allows pilgrims to perform sacred rites such as the Tawaf and Sa’i, following in the footsteps of the Prophet Muhammad (PBUH). The city, with its profound history and spiritual significance, is a place where faith is renewed and souls are cleansed.",
+                },
+                {
+                    name: "Madinah",
+                    description:
+                        "Madinah, the city of the Prophet Muhammad (PBUH), is a tranquil sanctuary that offers solace and reflection. It is home to the blessed Masjid an-Nabawi, where pilgrims can pay their respects at the Prophet's resting place. The city’s peaceful atmosphere and historical significance make it an essential part of the Umrah journey, where pilgrims connect spiritually by visiting sacred sites like Uhud Mountain and Quba Mosque, further deepening their faith.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Arrival in Jeddah & Transfer to Makkah",
+                    description:
+                        "Arrival: Upon arrival at Jeddah Airport, our representative will meet you and assist with the transfer to your hotel in Makkah.\nCheck-in & Rest: After check-in and a quick freshen-up, you will be escorted to Masjid al-Haram for your first Umrah. Experience the blessed act of Tawaf (circling the Kaaba) and Sa’i (walking between Safa and Marwah).\nEvening: After completing your Umrah, you may either return to your hotel or stay longer in the Haram for personal prayers.\nOvernight: Stay in Makkah.",
+                },
+                {
+                    title: "Makkah Ziyarat",
+                    description:
+                        "\nStart your day with a delicious breakfast at the hotel before setting off early for your Ziyarat tour in Makkah with your English-speaking driver.\n\nYour first stop is Maqbarat al-Ma'la, the revered cemetery, which is the final resting place of Hazrat Khadijah bint Khuwaylid (RA), the first wife of our beloved Nabi(Saw), as well as his first son and many other distinguished Sahabis (companions). Although the visit will be from outside the cemetery walls, you will still feel the deep sense of respect and spirituality in this sacred place.\n\nNext, we proceed to Arafat, one of the most significant sites in Islam, where millions of pilgrims gather during Hajj for the ritual of Waqfa (standing in prayer and supplication) and Du'a (supplication). Here, you can experience the powerful atmosphere of unity and devotion that defines Hajj. (If you wish to perform another Umrah once more, you can get to Ikhram here as the Arafat also a Miqat -Haram border-point to enter Ikhram).\n\nWe will then visit Muzdalifah and Jamarat, sites linked to the rituals of Hajj, where pilgrims symbolically stone the devil.\n\nAfter completing these spiritual visits, we return to your hotel in Makkah before the Dhuhr (noon) prayer. You’ll have the rest of the day at leisure to relax and enjoy Makkah at your own pace.\n\nOvernight in Makkah.",
+                },
+                {
+                    title: "Free Day in Makkah",
+                    description:
+                        "Breakfast at the Hotel: Enjoy your breakfast.\nOptional Activities: You have the whole day at your leisure for worship or relaxation. You can visit Noor Mountain and the Cave of Hira if you wish.\nOvernight: Stay in Makkah.",
+                },
+                {
+                    title: "Free Day in Makkah or Taif Visit (Optional)",
+                    description:
+                        "Breakfast at the Hotel: Enjoy your breakfast.\nFree Day: Spend your day in spiritual reflection or exploring the city. Alternatively, if you’d like a day trip, you can visit Taif, a scenic city located near Makkah, famous for its pleasant weather and beautiful gardens. This trip can be arranged at an additional cost.\nOvernight: Stay in Makkah.",
+                },
+                {
+                    title: "Free Day in Makkah with Optional Ji'ranah Umrah",
+                    description:
+                        "Breakfast at the Hotel: Begin your day with breakfast.\nFree Day: You can make your ibadah at your heart's content.\nOptional Ji’ranah Umrah: If desired, we can also arrange an additional Al Ji'ranah Umrah where Nabi(saw) entered Ikhram to perform Umrah after battle of Hunayn.\nOvernight: Stay in Makkah.",
+                },
+                {
+                    title: "Last Free Day in Makkah",
+                    description:
+                        "Breakfast at the Hotel: Start your last day in Makkah with breakfast.\nFree Day: This is your final day in Makkah. Continue making ibadah at your heart's content at Masjid al-Haram or other locations.\nOvernight: Stay in Makkah.",
+                },
+                {
+                    title: "Travel from Makkah to Madinah",
+                    description:
+                        "Breakfast at the Hotel: Check-out from the hotel and enjoy breakfast.\nDeparture to Madinah: Travel by private coach to Madinah. On the way, we will stop to visit the Hazrat Maymunah( May Allah pleased with her) which is located in Saref vicinity just outside Makkah.\nArrival in Madinah: Check into your hotel in Madinah.\nOrientation & Masjid an-Nabawi Visit: After a short refreshment, our team will lead you to Masjid Nabawi, for orientation and prayer.\nEvening: Rest of the day at leisure.\nOvernight: Stay in Madinah.",
+                },
+                {
+                    title: "Madinah Ziyarat",
+                    description:
+                        "After breakfast at the hotel, depart around 08:00-08:15 AM to explore the most beautiful city in the world — Madinah. Your first stop will be Masjid Qubaa, the first mosque ever built in Islamic history. \n\nNext, visit the Seven Masajids, a historic site that commemorates the places where significant events took place during the early days of Islam. From there, we proceed to Mount Uhud, the site of the famous Battle of Uhud, where you will have the chance to visit Shuhada Cemetery, the resting place of the martyrs of the battle, including the noble companion Hazrat Hamza (RA).\n\nContinuing your journey, we’ll visit Masjid Qiblatayn —Along the way, you will also visit other historically important holy sites in Madinah.\n\nAfter the Ziyarat, we will return to the hotel before Dhuhr (noon) prayer. The rest of the afternoon will be free for you to relax or explore Madinah at your own pace.\n\nOvernight in Madinah.",
+                },
+                {
+                    title: "Free Day in Madinah",
+                    description:
+                        "Breakfast at the Hotel: Enjoy your breakfast.\nFree Day: A day at your own pace to reflect, pray, or explore. You may also visit a dates garden or purchase dates from the local market.\nOvernight: Stay in Madinah.\n",
+                },
+                {
+                    title: "Departure from Madinah ",
+                    description:
+                        "Breakfast at the Hotel: Have your last breakfast in Madinah.\nCheck-out: Check out from the hotel by noon. Your luggage will be stored in the hotel’s luggage room until transfer time.\nTransfer to Airport: You will be transferred to Prince Mohammed bin Abdulaziz Airport in Madinah, 4 hours prior to your international flight departure.\nEnd of Services: Departure for your return flight back home.",
+                },
+            ],
+            important_information: [
+                "We require colour scan of passport for visa at least 20 days prior to travel date (sooner the better)",
+                "You are solely responsible for making sure that you enter and exit the Kingdom of Saudi Arabia in conformity with the scheduled travel times. Failing this, you are liable for any fines and/or denied services that arise out of non-compliance on your end. ",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.deccanodysseytrains.com/storage/photogallery/140158588y4mNXdZu9ojznOQElZSQv6vNpYrpyYPez3LBCKLs5ZELApv5vBt3SzUZ58-ZjcePPTKVQapIenR1lL8vjyANhKD7mjBKNW8urjudUTuo4jgnelpDCSyrBeDbi474Spaab75AVVPMs39YhbJyeucgpJrJbOk6mggb84IAJaBcql5fBWMYJzCfHLEWGILZ9yjTmtiBpYLBfD9Gwj0Fe1f",
+        name: "Maharashtra Wild Trail",
+        duration: "7 Nights • 8 Days",
+        slug: "maharashtra-wild-trail",
+        luxury: true,
+        tour: {
+            location: "Mumbai",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "The Deccan Odyssey, one of the most luxurious train journeys in India, offers a unique blend of historical exploration and wildlife adventure. Launched in 2004, this iconic train epitomizes India's royal heritage, combining opulent interiors with modern amenities. With its distinctive design inspired by the grandeur of Indian palaces and forts, the Deccan Odyssey takes you on a luxurious journey through India’s most captivating destinations. Whether it's the cultural heritage of Maharashtra or its rich wildlife sanctuaries, the Deccan Odyssey ensures an unforgettable experience with world-class services, fine dining, and well-appointed cabins. Embark on a royal journey aboard this exquisite train, where every detail has been meticulously crafted to give you a perfect blend of comfort and adventure.\n\nOn the Maharashtra Wild Trail, this 8-day tour transports you to the heart of Maharashtra, where natural beauty and rich history await. You’ll visit some of the state’s most renowned wildlife sanctuaries like Tadoba and Pench, home to majestic Bengal tigers, as well as ancient cultural landmarks such as the Ellora Caves and Ajanta Caves. As you journey through diverse landscapes, from dense forests to archaeological marvels, you’ll witness the untamed beauty of India in the lap of luxury. Explore Nashik's Godavari Ghats, enjoy tiger safaris, and visit historic caves, all while enjoying the comforts of the Deccan Odyssey. This exclusive tour is designed for travelers seeking a balance between India's natural wonders and royal heritage, with exceptional hospitality on every leg of the journey.\n\nWith stops at Aurangabad (Ellora Caves), Ramtek (Pench), Warora (Tadoba), Ajanta Caves, and Nashik, the Maharashtra Wild Trail is an epitome of luxury train travel in India. The itinerary takes you deep into the heart of India’s royal and wild past, providing an immersive experience of Maharashtra’s history and wildlife. This luxury train tour in India is a perfect way to explore the majestic landscapes and cultural heritage of Maharashtra, while experiencing the highest standards of comfort and exclusivity. Whether you're a wildlife enthusiast or a history buff, this journey promises an unforgettable adventure.",
+            destinations_covered: [
+                {
+                    name: "Mumbai",
+                    description:
+                        "As India’s financial hub and cultural capital, Mumbai is a bustling metropolis that blends colonial architecture with modern skyscrapers. Known for iconic landmarks such as the Gateway of India and Chhatrapati Shivaji Terminus, Mumbai offers an eclectic mix of history, art, and culture. After your luxury train journey on the Deccan Odyssey, spend your final day in this vibrant city, enjoying everything from heritage walks to bustling street markets, perfectly encapsulating the dynamic spirit of India.",
+                },
+                {
+                    name: "Aurangabad (Ellora Caves)",
+                    description:
+                        "Aurangabad, a city with a deep Mughal legacy, is home to the Ellora Caves, a UNESCO World Heritage Site and one of the most spectacular examples of rock-cut architecture in India. Dating back to the 4th-5th century AD, these caves feature exquisite Buddhist, Hindu, and Jain temples carved into basalt rock, representing ancient India’s religious and artistic grandeur. As part of your luxury train journey aboard the Deccan Odyssey, exploring Ellora offers a fascinating fusion of spiritual heritage and historical significance.",
+                },
+                {
+                    name: "Ramtek (Pench)",
+                    description:
+                        "Pench National Park, renowned as the “Land of Tigers,” is a haven for wildlife enthusiasts and nature lovers. Located in Maharashtra, this wildlife sanctuary is rich in biodiversity, home to the elusive Royal Bengal Tiger and other wildlife such as leopards, wild dogs, and various bird species. Your Deccan Odyssey journey provides an exclusive opportunity to explore Pench, a perfect blend of wildlife safari adventures and stunning natural landscapes, making it one of the best tiger reserves in India.",
+                },
+                {
+                    name: "Warora (Tadoba Tiger Reserve)",
+                    description:
+                        "The Tadoba Tiger Reserve is one of India’s premier wildlife destinations, offering a chance to witness the magnificent Royal Bengal Tiger in its natural habitat. Located in Maharashtra, Tadoba is famous for its rich fauna, including tigers, leopards, sloth bears, and a variety of other wildlife. As part of your luxury train journey, enjoy exhilarating safari experiences amidst the dense forests of Tadoba, where you can spot tigers and other endangered species, making it a unique highlight of your Deccan Odyssey adventure.",
+                },
+                {
+                    name: "Ajanta Caves",
+                    description:
+                        "The Ajanta Caves are a UNESCO World Heritage Site and an architectural marvel, famous for their ancient Buddhist art and exquisite murals. Located near Jalgaon in Maharashtra, these 30 rock-cut caves date back to the 2nd century BC, showcasing the rich history of Indian civilization through intricate sculptures and vibrant paintings of the Buddha. On your Deccan Odyssey journey, visiting the Ajanta Caves is a mesmerizing step back into India’s spiritual and cultural history.",
+                },
+                {
+                    name: "Nashik",
+                    description:
+                        "Nashik, often referred to as India’s wine capital, is famous for its vineyard tours and wine tasting experiences. Apart from being a major pilgrimage center with its sacred Godavari Ghats, Nashik is rapidly gaining fame for its flourishing wine industry. During your luxury train travel on the Deccan Odyssey, take a scenic tour of the vineyards, enjoy local wine tastings, and explore the city’s spiritual heritage, making it the perfect combination of luxury travel and cultural exploration.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Mumbai – Embark on the Deccan Odyssey",
+                    description:
+                        "This evening, arrive at the iconic Chhatrapati Shivaji Terminus in Mumbai and prepare to board the luxurious Deccan Odyssey for an unforgettable journey through Maharashtra’s rich heritage and wildlife. Your adventure begins with a warm traditional Indian welcome, where you’ll be greeted with a refreshing welcome drink.\n\nAs you complete the registration process and check-in formalities, you will be escorted to your elegant cabin. Settle in, relax, and allow yourself to be enveloped in the comfort and opulence that the Deccan Odyssey is known for. The train departs at 1930 hrs from Mumbai, setting the stage for your luxurious exploration of Maharashtra’s gems, with the first stop being the magnificent Ellora Caves.\n\nAs the Deccan Odyssey journeys through the Maratha heartland, enjoy the scenic views from your cabin and savor a delicious dinner on board prepared by the finest chefs.\n\nOvernight on the Deccan Odyssey.\n\n(ETD: 1640 Hrs)",
+                },
+                {
+                    title: "Aurangabad (Ellora Caves)",
+                    description:
+                        "Morning\nAs you enjoy a delicious breakfast on board, the Deccan Odyssey arrives in Aurangabad, a city steeped in Mughal history and home to several historic monuments. Named after the last great Mughal emperor, Aurangzeb, this city is known for its remarkable Mughal architecture. One of the most famous monuments here is the Bibi-ka-Maqbara, also known as the Taj of the Deccan, a stunning mausoleum built by Aurangzeb’s son, Prince Azam Shah, in honor of his mother.\n\nYou may also choose to take a walk around the city’s 52 gates, each with its own unique story and historical significance, showcasing the grandeur and legacy of the Mughal dynasty.\n\nAfter a relaxing morning aboard the train or indulging in a rejuvenating spa session at a nearby hotel, enjoy an early luxurious lunch on board, savoring a wide variety of Indian and international delicacies.\n\nAfternoon\nPost lunch, disembark for a scenic drive to the awe-inspiring Ellora Caves, one of the most significant UNESCO World Heritage Sites in India. Carved into the side of a basaltic hill 30 km from Aurangabad, these rock-cut caves date back to the 4th-5th century AD. The Ellora Caves are a stunning example of ancient Indian rock-cut architecture, consisting of 34 caves that represent a harmonious blend of Buddhist, Hindu, and Jain art. These caves, with their magnificent sculptures, temples, and intricate carvings, are a testament to the spirit of tolerance that characterized ancient India.\n\nAs you explore these monumental works of art, you’ll be transported back in time to an era where architectural innovation and religious diversity were celebrated. The Ellora Caves are not just a significant historical site but a symbol of India’s rich cultural heritage.\n\nLate Afternoon\nAfter marveling at the Ellora Caves, proceed to visit Daulatabad Fort, a historic fortress that has stood the test of time. Built in the 12th century, Daulatabad Fort has witnessed many battles and historical events. Explore the ancient Buddhist caves situated on the fort grounds, which are similar to those found at Ajanta and Ellora, providing another fascinating chapter in your journey through India’s rich historical legacy.\n\nEvening\nReturn to the Deccan Odyssey for a relaxing evening aboard, enjoying the luxury of the train as it prepares for its next destination. Take some time to unwind, perhaps with a cocktail at the Mumbai-Hi bar, or simply relax in the comfort of your cabin as the landscape of Maharashtra passes by.\n\nDinner\nAs night falls, indulge in a sumptuous dinner on board. With the Deccan Odyssey continuing its journey, you can unwind and enjoy world-class cuisine as the train heads towards its next destination.\n\nKeywords: Deccan Odyssey, Aurangabad, UNESCO World Heritage Sites, Ellora Caves, Mughal history, rock-cut architecture, Bibi-ka-Maqbara, Daulatabad Fort, luxury train travel, Buddhist art, Hindu art, Jainism, spirit of tolerance, historic monuments, Mughal architecture, India’s cultural heritage, Maharashtra.\n\nBreakfast, Lunch & Dinner on board\nOvernight on Deccan Odyssey.",
+                },
+                {
+                    title: "Aurangabad – Bibi-ka-Maqbara & Himroo Fabric Weaving",
+                    description:
+                        "Morning\nAfter a delicious breakfast aboard the Deccan Odyssey, the most luxurious train in India, your adventure in Aurangabad begins. The day starts with a visit to Bibi-ka-Maqbara, a stunning Mughal mausoleum often referred to as the ‘Taj of the Deccan’. Built between 1651 and 1661 by Prince Azam Shah in memory of his mother, Dilras Banu, this exquisite structure closely mirrors the grandeur of the Taj Mahal in Agra. Its beautiful gardens and majestic structure reflect the splendor of the Mughal Empire, offering a glimpse into the rich history and architectural brilliance of India’s regal past.\n\nLate Morning\nNext, head to a renowned Himroo fabric weaving center, where you will learn about the intricate craftsmanship behind this luxurious fabric, favored by Indian royalty for centuries. Himroo weaving has deep roots in Aurangabad, dating back to the 14th century during the reign of Muhammad Tughlaq. The fabric, woven with gold and silver threads, features stunning Persian designs and continues to be a prized possession today. This visit offers a unique insight into traditional Indian textiles and is an experience not to be missed during your luxury train journey through Maharashtra.\n\nLunch Onboard\nAfter a fascinating cultural tour, return to the Deccan Odyssey for a sumptuous lunch. Relax and enjoy the scenic vistas as the train travels towards Ramtek, a town on the edge of Pench National Park. The Deccan Odyssey, renowned for its luxurious interiors and exceptional service, offers the perfect setting to unwind as the luxury train journey continues through the ever-changing landscapes of Maharashtra.\n\nAfternoon & Evening\nThe afternoon is at leisure, allowing you to relax on board or enjoy the myriad of activities available. Indulge in a relaxing spa treatment, or enjoy a traditional game of carrom with fellow travelers. As you approach Ramtek, prepare to experience the mesmerizing beauty of Pench National Park, one of the most famous wildlife sanctuaries in India.\n\nIn the evening, head to the Mumbai-Hi bar to enjoy a sundowner while the sun sets over the Indian countryside. Afterward, indulge in a delightful dinner as the Deccan Odyssey continues its royal journey, bound for the wildlife wonders of Pench.\n\nBreakfast, Lunch & Dinner on Board\n\nOvernight on Deccan Odyssey.\n(ETD: 1300 Hrs)",
+                },
+                {
+                    title: "Ramtek – Pench National Park",
+                    description:
+                        "Early Morning\nAwaken before sunrise as the Deccan Odyssey reaches Ramtek, a small town nestled in the heart of Maharashtra. From here, you’ll embark on an extraordinary adventure into the wild beauty of Pench National Park, one of India’s most renowned wildlife sanctuaries. The park, named after the Pench River, which meanders through its terrain like a colossal python, is a haven for biodiversity. The landscape is a stunning mosaic of hills, valleys, and dense forests, home to an abundance of flora and fauna, including several endangered species.\n\nYour morning game drive will take you deep into the heart of the park, where you’ll have the opportunity to spot wildlife in its natural habitat. Keep your eyes peeled for the mighty Bengal tiger, which calls Pench its home, as well as leopards, wild dogs, and a myriad of other animals. The park’s rich biodiversity also includes a fascinating variety of aquatic life, making it a photographer’s paradise.\n\nBrunch on Board\nAfter an exhilarating safari in the early morning, return to the Deccan Odyssey for a leisurely brunch. Enjoy a range of delicious dishes while the train heads to the next adventure. The luxurious comforts of the Deccan Odyssey offer a unique contrast to the rugged wilderness outside.\n\nAfternoon Safari\nIn the afternoon, disembark once more for another exciting game drive through the park. Pench National Park is divided into four distinct forest regions, each offering a different experience. The rich foliage of teak trees, mixed with shrubs, grasses, and herbs, provides a stunning backdrop to your wildlife safari. The park is also a birdwatcher’s paradise, home to both resident and migratory species. Look out for Malabar pied hornbills, Indian pittas, ospreys, storks, and even the rare green pigeon, Maharashtra’s state bird. The diversity of birdlife is truly remarkable, making this safari a once-in-a-lifetime experience for nature lovers.\n\nEvening Return to Deccan Odyssey\nAfter a day filled with adventure and close encounters with nature, head back to Ramtek station to board the Deccan Odyssey. As you return to the luxurious comforts of the train, unwind with a sundowner at the Mumbai-Hi bar, watching the sun set over the Maharashtra countryside.\n\nDinner Onboard\nIndulge in a delectable dinner onboard as the Deccan Odyssey departs for Tadoba, another haven of wildlife and a prime location for spotting the majestic tiger.\n\nBreakfast, Lunch & Dinner on Board\n\nOvernight on Deccan Odyssey\n(ETD: 2000 Hrs)",
+                },
+                {
+                    title: "Warora (Tadoba) – Tiger Reserve",
+                    description:
+                        "Early Morning\nWake up before the sun this morning as the Deccan Odyssey rolls into Chandrapur station, marking your entry into the Tadoba Tiger Reserve, one of India’s premier wildlife destinations. Known as the Land of Tigers, Tadoba is renowned for its high tiger density, making it an ideal location for those eager to witness the magnificent Royal Bengal Tiger in its natural habitat. The reserve is also home to a variety of other wildlife, including leopards, sloth bears, gaurs (Indian bison), and a host of other creatures like rusty-spotted cats, wild dogs, deer species, wild pigs, and more.\n\nMorning Safari\nAfter disembarking at Tadoba, embark on an exhilarating early morning safari through the lush forests of the reserve. The cool morning air and the dense forest will set the perfect stage for spotting tigers, while the other rich biodiversity of the region offers ample opportunities for thrilling encounters. Your naturalist guide will provide insightful commentary about the reserve’s ecology, conservation efforts, and the flora and fauna that make Tadoba a true wildlife haven.\n\nLate Morning\nAfter a successful safari, enjoy a late breakfast at the Tiger Trails Lodge, nestled within the heart of the reserve. Here, you can unwind and watch a wildlife documentary or engage with the lodge’s naturalists, who are deeply involved in tiger conservation and wildlife protection. Their work to preserve the Royal Bengal Tiger and other species in the region is invaluable, and their stories are sure to deepen your appreciation of the wildlife sanctuary.\n\nLunch\nEnjoy a sumptuous lunch at the lodge, savoring freshly prepared local delicacies. The peaceful atmosphere of the reserve, coupled with the delicious food, makes for a memorable experience. During lunch, interact with fellow travelers and exchange your wildlife experiences.\n\nAfternoon\nAfter lunch, you’ll drive back to Chandrapur station, where the Deccan Odyssey awaits to continue its journey. As you board the train, take some time to relax and refresh in the luxury of your cabin. The afternoon will be spent at leisure on board.\n\nEvening\nAs the train makes its way to Jalgaon, enjoy a cocktail hour prepared by the onboard bartender. Sip your drink as the Deccan Odyssey rolls through the picturesque landscapes of Maharashtra. Dinner will be served shortly thereafter, offering a delightful selection of international and Indian cuisine.\nBreakfast, Lunch & Dinner on Board\nOvernight on Deccan Odyssey.\n(ETD: 2000 Hrs)",
+                },
+                {
+                    title: "Jalgaon – Ajanta Caves",
+                    description:
+                        "Morning\nThe Deccan Odyssey arrives at Jalgaon station this morning, where your journey takes you to one of India’s most iconic historical landmarks: the Ajanta Caves. After a delightful breakfast on board, disembark the train and set out on a scenic drive to this UNESCO World Heritage site. The Ajanta Caves, a masterpiece of ancient rock-cut architecture, are famous for their intricate murals and sculptures that beautifully depict the life of Buddha.\n\nThe caves, dating back to the 2nd century BCE to the 6th century CE, showcase a remarkable blend of Buddhist art along with elements of Hindu faith, reflecting the region's rich cultural and religious history. As you explore the 30 rock-hewn caves, you will be awe-struck by the exquisite ancient murals, depicting stories from the life of Buddha, jataka tales, and scenes of daily life during the time. The fusion of Buddhist and Hindu artistic traditions in these ancient paintings and sculptures is unparalleled, offering insight into India's rich heritage and spiritual evolution.\n\nAfternoon\nAfter exploring the stunning Ajanta Caves, return to the Deccan Odyssey for lunch on board. As the train departs Jalgaon, the afternoon is yours to enjoy at leisure. Take a moment to unwind and relax, or indulge in a range of onboard activities. You can watch a movie, learn the rules of ‘carrom’, a traditional Indian board game, from the Deccan Odyssey team, or even pamper yourself with a relaxing spa treatment in the comfort of the train.\n\nEvening\nAs you sip on a refreshing sundowner, relax and take in the scenic beauty of rural India unfolding outside your window. The landscape will change as the train travels towards Nashik, the next stop on your remarkable journey. The evening culminates with a delicious dinner on board, offering an exquisite selection of cuisines that cater to every palate.\nBreakfast, Lunch & Dinner on Board\nOvernight on Deccan Odyssey.\n(ETD: 1500 Hrs)",
+                },
+                {
+                    title: "Nashik – Godavari Ghats and Vineyard Tour",
+                    description:
+                        "Morning\nThe Deccan Odyssey arrives in Nashik, a city renowned for its ancient temples and growing reputation as India’s wine capital. After breakfast on board, disembark to explore the tranquil and spiritually significant Godavari Ghats. These ghats, located along the sacred Godavari River, have been a central point for pilgrimage for centuries. As you take a peaceful stroll along the ghats, you’ll have the opportunity to witness daily rituals and religious ceremonies that take place at the river's edge, providing a glimpse into the region’s deep spiritual heritage.\n\nMid-Morning\nFollowing your visit to the ghats, your journey continues with a short drive to one of Nashik’s famous vineyards. Known for its unique terroir and growing wine culture, Nashik is home to some of India’s most renowned wineries. Explore the lush vineyards as you learn about the intricacies of wine production in this region. The cool, dry climate of Nashik makes it ideal for cultivating premium varieties of grapes like Chenin Blanc, Shiraz, and Chardonnay.\n\nAfternoon\nA wine-tasting session awaits you as you savor some of the finest local wines, guided by an expert sommelier. This will be followed by a delightful lunch at the vineyard, where you can relish exquisite dishes paired with the best wines, offering an unparalleled culinary experience amidst the vineyards.\n\nEvening\nAfter your indulgent lunch and vineyard experience, return to the Deccan Odyssey to relax and unwind. The evening is free for you to enjoy the luxury amenities aboard, including a cocktail served by the bartender as you witness the beautiful rural landscapes of Maharashtra unfold. Dinner will be served on board as the Deccan Odyssey continues its journey.\nBreakfast, Lunch & Dinner on Board\nOvernight on Deccan Odyssey.\n(ETD: 2000 Hrs)",
+                },
+                {
+                    title: "Mumbai – Farewell to the Deccan Odyssey",
+                    description:
+                        "Morning\nAs the final chapter of your luxurious Deccan Odyssey journey unfolds, the train arrives at Mumbai, India’s bustling commercial capital. After enjoying a delightful breakfast on board, it’s time to disembark at the Chhatrapati Shivaji Terminus, one of the most iconic landmarks in Mumbai and a UNESCO World Heritage site.\n\nDeparture\nBid farewell to the Deccan Odyssey as your 8-day Maharashtra Wild Trail comes to an end. Over the course of your journey, you’ve experienced the rich diversity of India’s culture, wildlife, and heritage, from the ancient Ellora Caves to the serene Godavari Ghats, and the wilderness of the Tadoba Tiger Reserve. The memories of this royal voyage through Maharashtra will stay with you forever.\n\nEnd of Tour\nAs you step off the train, your heart will be full of wonderful experiences, from the wild beauty of Pench National Park to the historic marvels at Ajanta and Ellora Caves, and the indulgent moments spent sipping wine in Nashik vineyards.\n\nBreakfast on board",
+                },
+            ],
+            important_information: [
+                "All Timings / Departures may vary and subject to change as per the Indian Railways Norms.",
+                "Children below 5 years of age shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking.",
+                "In order to run a Journey we need minimum number of passengers. Deccan Odyssey Reserves the right to to cancel / postpone the departure if the minimum number of strength to operate the journey is not met.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "There is a dedicated team of butlers on board to attend to your every need. Each carriage is manned by a single butler, on call 24 hours, trained to meet the needs of our guests and comply with utmost speed and efficiency. Our butlers take pride in offering unique services to each of our guests ensuring a memorable stay on board.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.royalindiantrains.com/images/detail-gallery/deccan-odyssey/large/05.jpg",
+        name: "Indian Odyssey",
+        duration: "7 Nights • 8 Days",
+        slug: "indian-odyssey",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Embark on an extraordinary journey through the heart of India's heritage with the Deccan Odyssey Indian Odyssey tour, a seamless fusion of luxury travel and rich cultural exploration. This 7-night, 8-day odyssey begins in the bustling capital, Delhi, and ends in the vibrant city of Mumbai, taking you on a royal passage through the most iconic destinations in North and West India. From the timeless grandeur of World Heritage sites to the royal opulence of ancient palaces and the natural beauty of India’s renowned national parks, this luxurious journey offers a unique perspective of India’s rich tapestry of history, wildlife, and architecture.\n\nOnboard the Deccan Odyssey, a symbol of unparalleled elegance and comfort, you’ll experience the best of India’s heritage and hospitality. This luxury train journey is designed for those with a taste for the finer things in life—where every detail has been meticulously crafted to provide an exceptional and unforgettable experience. With spacious cabins, fine dining, and personalized services, the Indian Odyssey ensures you travel in style, comfort, and utmost luxury. Whether you are exploring Ranthambore National Park, marveling at the ancient Ajanta and Ellora Caves, or soaking in the opulence of Jaipur's palaces, this tour is a once-in-a-lifetime opportunity to experience the richness of India from the comfort of one of its most renowned luxury trains.\n\nThis curated itinerary allows you to immerse yourself in the best of Indian heritage, history, and wildlife. From the cultural and architectural splendor of Delhi and Jaipur to the serene wilderness of Ranthambore and Udaipur, this journey offers everything a discerning traveler desires—history, adventure, relaxation, and indulgence. Welcome aboard the Deccan Odyssey Indian Odyssey Tour, where luxury meets adventure, and every moment is a celebration of India’s timeless beauty.",
+            destinations_covered: [
+                {
+                    name: "Delhi",
+                    description:
+                        "Start your luxury train journey from Delhi, India’s vibrant capital. Known for its stunning blend of history and modernity, Delhi boasts iconic landmarks like the Red Fort, India Gate, and the Qutub Minar. As you board the Deccan Odyssey, prepare to embark on an unforgettable adventure through the heart of India, where the luxury train experience and royal hospitality will set the tone for your journey ahead.",
+                },
+                {
+                    name: "Sawai Madhopur",
+                    description:
+                        "Sawai Madhopur is the gateway to Ranthambore National Park, one of India’s most renowned tiger reserves. Home to the majestic Royal Bengal Tiger, Ranthambore offers the perfect combination of wilderness and history. Explore this enchanting land on an exhilarating safari, and unwind in the comfort of the Deccan Odyssey, as it brings you closer to nature in unmatched luxury.",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the world-renowned Taj Mahal, is a symbol of eternal love and architectural splendor. As part of your luxury train journey, enjoy an exclusive visit to this UNESCO World Heritage site and other Mughal masterpieces like Agra Fort. Experience the rich cultural heritage of Agra while traveling in the comfort of the Deccan Odyssey, where every moment is a celebration of luxury.",
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        "The capital of Rajasthan, Jaipur, also known as the Pink City, is a treasure trove of royal history. With its majestic Amber Fort, City Palace, and the iconic Hawa Mahal, Jaipur showcases the splendor of India’s princely past. Your journey aboard the Deccan Odyssey offers an opulent passage to this regal city, where you can indulge in the luxury of a bygone era while exploring its magnificent palaces and forts.",
+                },
+                {
+                    name: "Udaipur",
+                    description:
+                        "Udaipur, often referred to as the Venice of the East, is a city of palaces, lakes, and romance. From the stunning City Palace to a boat cruise on Lake Pichola, Udaipur offers a serene yet luxurious escape. On the Deccan Odyssey, experience the elegance of this princely city while soaking in the royal charm and tranquil beauty of Rajasthan's most enchanting city.",
+                },
+                {
+                    name: "Vishwamitri (Vadodara)",
+                    description:
+                        "Vadodara, the Royal City of the Gaekwads, is home to majestic palaces and vibrant culture. Visit the Laxmi Vilas Palace and the UNESCO-listed Champaner-Pavagadh Archaeological Park, both representing the grandeur of Gujarat’s royal heritage. While you explore Vadodara's rich history, the Deccan Odyssey ensures you travel in the finest luxury, offering unmatched comfort and service.",
+                },
+                {
+                    name: "Aurangabad (Ellora Caves)",
+                    description:
+                        "Aurangabad, home to the breathtaking Ellora Caves, is a must-visit destination for history and architecture lovers. These ancient rock-cut temples, a UNESCO World Heritage site, depict the spiritual richness of Buddhism, Hinduism, and Jainism. Explore this architectural marvel in complete luxury aboard the Deccan Odyssey, where every aspect of your journey, from fine dining to personalized service, is designed for your comfort.",
+                },
+                {
+                    name: "Mumbai",
+                    description:
+                        "Mumbai, the vibrant metropolis and financial capital of India, is your final stop on the Deccan Odyssey. A city of dreams, Mumbai is known for its historic landmarks, such as the Gateway of India, colonial-era architecture, and bustling markets. As you disembark from the Deccan Odyssey, relish the memories of your luxury train journey and immerse yourself in the vibrant culture and modern charm of this iconic city.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Delhi - Welcome Aboard the Deccan Odyssey",
+                    description:
+                        "Experience the unparalleled luxury of the Deccan Odyssey!\n\nThis evening, your spectacular luxury train journey begins as you arrive at Delhi railway station around 1700 hours. Here, you will complete the check-in process and enjoy a traditional Indian welcome. A refreshing welcome drink will set the tone for your Deccan Odyssey journey, India’s most celebrated luxury train experience.\n\nOnce the formalities are done, you’ll be escorted to your elegant cabins aboard the Deccan Odyssey, where you will enjoy opulence and comfort. As you settle in, the train will depart from the bustling city of Delhi, heading towards the picturesque town of Sawai Madhopur.\n\nIndulge in a lavish dinner on board, where you will be treated to the finest Indian and international cuisine. As you journey towards Ranthambore National Park, prepare for an unforgettable wildlife safari in the coming days. As night falls, the gentle rhythm of the train will lull you to sleep, setting the stage for your thrilling adventure through India’s cultural and natural wonders.\n\nDinner on board\nOvernight on Deccan Odyssey\n(ETD at 18:00 hrs)",
+                },
+                {
+                    title: "Sawai Madhopur - A Thrilling Safari Adventure",
+                    description:
+                        "Arrive in Sawai Madhopur and immerse yourself in the wild beauty of Ranthambore National Park.\n\nAfter breakfast aboard the Deccan Odyssey, the train will arrive at Sawai Madhopur station, the gateway to the world-famous Ranthambore National Park in Rajasthan. Known for its efforts in tiger conservation, this reserve is home to the majestic Royal Bengal Tiger and a plethora of other wildlife. A true haven for nature lovers and wildlife enthusiasts, Ranthambore is one of the best places in India to spot tigers in their natural habitat.\n\n0830 hrs: Begin your day with a visit to the vibrant Ranthambore Village, where you’ll experience local culture and traditions before heading to the wilderness for your safari.\n\n1230 hrs: After an exciting morning of exploration, return to the Deccan Odyssey for a luxurious lunch on board, prepared by world-class chefs, offering a mix of Indian and international delicacies.\n\n1430 hrs: Disembark for the afternoon safari into the heart of Ranthambore Tiger Reserve, where you can spot tigers, leopards, sloth bears, and an abundance of other wildlife species. The park’s vast landscapes, dotted with ancient ruins, provide an incredible backdrop to your safari adventure.\n\n1715 hrs: After your exciting safari, head back to the Deccan Odyssey, where you can unwind with a refreshing drink before indulging in a sumptuous dinner on board. As you relax, the Deccan Odyssey will begin its next leg towards Agra, bringing you closer to more iconic sights.\n\nBreakfast, Lunch, and Dinner on Board\nOvernight on Deccan Odyssey\n(ETD at 18:30 hrs)",
+                },
+                {
+                    title: "Agra - A Day of Mughal Splendor",
+                    description:
+                        "Arrive in Agra, the city of eternal love, home to the magnificent Taj Mahal.\n\nAfter a luxurious breakfast aboard the Deccan Odyssey, the train arrives at Tundla Railway Station, where you will disembark and embark on a scenic drive to Agra, the jewel of Mughal architecture. Agra is home to the iconic Taj Mahal, one of the Seven Wonders of the World, and an enduring symbol of love.\n\n0930 hrs: Visit the Taj Mahal, Emperor Shah Jahan’s architectural masterpiece and a tribute to his beloved wife Mumtaz Mahal. This world-renowned monument, with its stunning white marble and intricate inlay work, remains one of the most romantic and awe-inspiring sites in the world.\n\n1300 hrs: Enjoy a delectable lunch at a city hotel, savoring traditional Indian flavors before continuing your exploration of Agra's rich history.\n\n1400 hrs: Proceed to Agra Fort, a UNESCO World Heritage Site and another brilliant example of Mughal architecture. Discover the Diwan-e-Am (‘Hall of Public Audience’) and the Royal Pavilions, where the Mughal emperors once held court and made important decisions. The fort’s grandeur and strategic design provide fascinating insights into Mughal rule.\n\n1630 hrs: Head to Kalakriti, a cultural venue showcasing the delicate art of Pietra Dura, the technique of inlaying precious stones into marble. This intricate art form, which adorned the Taj Mahal, is showcased in a variety of stunning artifacts. Witnessing this craft firsthand will deepen your appreciation for Mughal artistry.\n\n1900 hrs: Return to the Deccan Odyssey and enjoy a lavish dinner on board as the train begins its journey towards Jaipur, the next gem in your Indian Odyssey adventure.\n\nBreakfast on Board | Lunch at a City Hotel | Dinner on Board\nOvernight on Deccan Odyssey\n(ETD at 20:00 hrs)",
+                },
+                {
+                    title: "Jaipur - The Heart of Rajasthan",
+                    description:
+                        "Arrive in Jaipur, the historic capital of Rajasthan, known for its magnificent palaces and forts.\n\nAfter breakfast aboard the Deccan Odyssey, the train arrives in Jaipur, also known as the Pink City for its beautiful rose-colored buildings that date back to the 18th century. Jaipur, steeped in royal history and culture, is renowned for its regal palaces, imposing forts, and vibrant markets, making it an essential destination on your luxury train journey.\n\n0830 hrs: Disembark at the Jaipur Railway Station, where you’ll be welcomed with a traditional Rajasthani reception, setting the stage for an unforgettable day of royal exploration.\n\n0900 hrs: Depart for the majestic Amber Fort, a UNESCO World Heritage Site nestled in the Aravali Hills. The fort’s opulent palaces, grand courtyards, and intricate carvings reflect the grandeur of the Rajput era. Explore its many chambers and enjoy panoramic views of the surrounding landscape.\n\n1300 hrs: Savor a royal lunch at a city hotel, where you’ll experience the flavors of Rajasthan, from traditional dal baati churma to aromatic laal maas.\n\n1430 hrs: Continue your royal tour with a visit to City Palace, a stunning blend of Mughal and Rajput architecture. This grand palace complex houses museums and courtyards that reflect the splendor of Jaipur's rulers. Afterward, take a drive past the iconic Hawa Mahal (Palace of Winds), with its stunning façade and 953 intricately designed windows.\n\n1830 hrs: Return to the Deccan Odyssey for a relaxing evening onboard, enjoying a cocktail as the train prepares to depart for your next destination.\n\nBreakfast on Board | Lunch at City Hotel | Dinner on Board\nOvernight on Deccan Odyssey\n(ETD at 20:00 hrs)",
+                },
+                {
+                    title: "Udaipur - The Venice of the East & Royal Heritage",
+                    description:
+                        "Arrive in Udaipur, the enchanting city of lakes and palaces.\n\nThe Deccan Odyssey rolls into the serene city of Udaipur in the morning, set against the backdrop of the Aravali Hills. This picturesque city, known as the Venice of the East, is famed for its beautiful lakes, magnificent palaces, and charming old-world ambiance. Enjoy your breakfast onboard as you marvel at the tranquil landscape that unfolds outside.\n\n1000 hrs: Disembark from the Deccan Odyssey and head to the majestic City Palace, one of the largest palace complexes in Rajasthan. With its impressive scalloped arches, fretted balconies, and ornate cupolas, the palace exudes royal grandeur. Don’t miss the stunning Crystal Gallery, home to exquisite artifacts that once belonged to the Maharajas.\n\n1330 hrs: Relish a delightful lunch at a city hotel, savoring the rich flavors of Rajasthani cuisine.\n\n1430 hrs: Continue your exploration with a walking tour through the Old City. Wander through the narrow lanes of Udaipur's bustling and colorful bazaar, where you’ll find everything from traditional handicrafts and jewelry to local spices. The old-world charm and vibrant atmosphere of this bazaar offer a truly authentic experience.\n\n1800 hrs: After a day filled with royal exploration, return to the Deccan Odyssey. Enjoy a relaxed evening with drinks, followed by a sumptuous dinner as the train prepares to continue its luxurious journey.\n\nBreakfast on Board | Lunch at City Hotel | Dinner on Board\nOvernight on Deccan Odyssey\n(Departure at 20:00 hrs)",
+                },
+                {
+                    title: "Vishwamitri (Vadodara) - Royal Heritage and Cultural Splendor",
+                    description:
+                        "Arrive in Vadodara – the Royal City of the Gaekwads.\n\nToday, the Deccan Odyssey arrives at Vadodara, the capital city of the Gaekwads, located along the scenic Vishwamitri River. Famous for its grand palaces, ornate temples, and rich history, Vadodara is a royal treasure trove that showcases the best of Gujarat’s cultural heritage. Get ready for an unforgettable experience in this regal city, steeped in both history and luxury.\n\n0830 hrs: After a sumptuous breakfast onboard, disembark and proceed to visit Champaner-Pavagadh Archaeological Park, a UNESCO World Heritage Site. This ancient city offers an exceptional blend of Hindu and Islamic architecture, with its well-preserved forts, temples, and historic stepwells. The Pavagadh Hill adds a mystical charm to this historical landscape.\n\n1000 hrs: Continue your journey through history at Pavagadh Archaeological Park, a site that will transport you to a bygone era. Explore the 16th-century remnants, including temples and gates that reflect the rich cultural amalgamation of Gujarat.\n\n1200 hrs: After the tour, board the Deccan Odyssey and head towards Vadodara, where you’ll be treated to luxury dining and breathtaking landscapes as the train journeys forward.\n\n1330 hrs: Enjoy a lavish lunch on board while savoring the comforts and opulence of the Deccan Odyssey.\n\n1530 hrs: Disembark at Maharaja Fateh Singh Museum, a true marvel of art and history. Housed in a stunning palace, the museum features an impressive collection of sculptures, paintings, and artifacts, many of which highlight the Gaekwad family’s patronage of the arts.\n\n1730 hrs: Visit Laxmi Vilas Palace, one of the largest private residences in India. Relish snacks and tea in this splendid setting while being entertained by a local folk performance. You’ll have the chance to taste some royal delicacies, prepared using traditional methods and passed down through generations of the Gaekwad family.\n\n1900 hrs: After a day immersed in royal splendor, return to the Deccan Odyssey, where you can unwind as the train begins its next leg towards Aurangabad.\n\nBreakfast, Lunch & Dinner on board | Tea & Snacks at Laxmi Vilas Palace\n\nOvernight on Deccan Odyssey\n(ETD at 20:00 hrs)",
+                },
+                {
+                    title: "Ellora caves - A Journey Through Ancient Rock-Cut Wonders",
+                    description:
+                        "Proceed to visit Ellora Caves, a UNESCO World Heritage Site.\n\nAfter a restful morning aboard the Deccan Odyssey, today promises to be an exciting exploration of one of India’s most iconic cultural landmarks: the Ellora Caves. Located near Aurangabad, these awe-inspiring rock-cut temples and monasteries offer a breathtaking glimpse into ancient India’s artistic and architectural brilliance.\n\n1230 hrs: Enjoy a delectable lunch on board as the train makes its way towards Aurangabad, where the day’s exploration will unfold.\n\n1330 hrs: After lunch, disembark from the Deccan Odyssey and embark on a scenic drive to Ellora Caves, an archaeological marvel that houses 34 rock-cut temples, dating back to the 4th-9th centuries. These caves, carved into the rugged hills, showcase stunning sculptures and intricate carvings dedicated to Buddhism, Hinduism, and Jainism – a testament to the spiritual and artistic confluence of ancient India.\n\n1500 hrs: Spend the afternoon discovering the timeless beauty of the Ellora Caves, revered as one of the finest examples of cave temple architecture in the world. The massive Kailasa Temple, a monolithic structure carved from a single rock, stands as the highlight of this UNESCO World Heritage Site.\n\n1800 hrs: After this enriching experience, return to the Deccan Odyssey and relax aboard as the train sets off toward Mumbai, your final destination. Relish your dinner in style as the luxurious journey continues.\n\nBreakfast, Lunch & Dinner on board\n\nOvernight on Deccan Odyssey\n(ETD at 19:00 hrs)",
+                },
+                {
+                    title: "Mumbai – Farewell to the Deccan Odyssey",
+                    description:
+                        "Disembark in Mumbai\n\nAs your luxury train journey aboard the Deccan Odyssey reaches its final chapter, the grandeur and memories of this unforgettable Indian Odyssey will stay with you forever.\n\nEarly this morning, after a sumptuous breakfast on board, the Deccan Odyssey will arrive at Chhatrapati Shivaji Terminus in Mumbai, marking the end of your exceptional journey through India’s heartland. This historic railway station, a UNESCO World Heritage Site, is a fitting departure point, symbolizing both the end of your royal journey and the timeless allure of India’s rich heritage.\n\nBid a fond farewell to the Deccan Odyssey, your home on wheels, where you’ve experienced unparalleled luxury, world-class service, and the soul-stirring beauty of India’s cultural and historical marvels. Your journey through the Golden Triangle, Rajasthan’s royal splendor, Udaipur’s picturesque lakes, the cultural jewels of Gujarat, and the UNESCO-listed Ellora Caves has come to an end, but the memories will stay with you long after.\n\nBreakfast on board\n\nAs you step off the Deccan Odyssey, your journey concludes, but your love for India’s splendor will continue to resonate with every moment you’ve experienced on this royal passage.",
+                },
+            ],
+            important_information: [
+                "All Timings / Departures may vary and subject to change as per the Indian Railways Norms.",
+                "Children below 5 years of age shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking.",
+                "In order to run a Journey we need minimum number of passengers. Deccan Odyssey Reserves the right to to cancel / postpone the departure if the minimum number of strength to operate the journey is not met.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "There is a dedicated team of butlers on board to attend to your every need. Each carriage is manned by a single butler, on call 24 hours, trained to meet the needs of our guests and comply with utmost speed and efficiency. Our butlers take pride in offering unique services to each of our guests ensuring a memorable stay on board.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.deccanodysseytrains.com/storage/slider/decccan-odyssey-banner.png",
+        name: "Indian Sojourn",
+        duration: "7 Nights • 8 Days",
+        slug: "indian-sojourn",
+        luxury: true,
+        tour: {
+            location: "Mumbai",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Embark on an unforgettable luxury train journey with the Deccan Odyssey on the Indian Sojourn Journey. Spanning 8 days and 7 nights, this carefully curated itinerary takes you on a majestic voyage through the royal heartlands of India, from the vibrant city of Mumbai to the historic capital of Delhi. As you step aboard the Deccan Odyssey, India’s finest luxury train, you’ll be welcomed into a world of royal charm and sophisticated indulgence, where every moment of your journey is designed for comfort and luxury. Enjoy unparalleled service, fine dining, and world-class amenities as you traverse India’s most iconic destinations, each with its own unique story to tell.\n\nOn this luxury tour across India, the Deccan Odyssey will whisk you through the grand palaces of Vadodara, the serene lakes of Udaipur, the vibrant blue city of Jodhpur, and the majestic forts and palaces of Jaipur. You will also visit the iconic Taj Mahal in Agra, explore the royal heritage of Sawai Madhopur, and end your journey in the historic city of Delhi. This journey offers a blend of luxury, history, and culture, immersing you in the opulence and splendor of India’s royal past.\n\nFrom historic palaces and UNESCO World Heritage sites to the enchanting landscapes of Rajasthan, the Deccan Odyssey provides an unmatched experience of India’s cultural richness, all while enveloping you in the finest comforts. Whether it’s the indulgence of gourmet meals, relaxing in opulent cabins, or exploring India’s royal heritage with expert-guided tours, the Indian Sojourn Journey on the Deccan Odyssey promises an unforgettable adventure for those seeking the ultimate in luxury and exploration.",
+            destinations_covered: [
+                {
+                    name: "Mumbai",
+                    description:
+                        "Welcome to Mumbai, India’s bustling metropolis and financial capital, where modern skyscrapers meet colonial-era charm. Known for its vibrant culture, historical landmarks, and world-class entertainment, Mumbai is the starting point of your Deccan Odyssey luxury train journey. Explore the city’s dynamic energy and rich history before embarking on a spectacular voyage across India’s finest destinations.",
+                },
+                {
+                    name: "Vishwamitri (Vadodara)",
+                    description:
+                        "Nestled along the Vishwamitri River, Vadodara (also known as Baroda) is the cultural heart of Gujarat, known for its royal heritage and magnificent architecture. Explore the stunning Laxmi Vilas Palace and Maharaja Fateh Singh Museum, as well as the UNESCO World Heritage Champaner-Pavagadh Archaeological Park. A visit to Vadodara offers an exquisite blend of history, art, and royal grandeur, making it an essential stop on your Deccan Odyssey journey.",
+                },
+                {
+                    name: "Udaipur",
+                    description:
+                        'Often referred to as the "City of Lakes," Udaipur is a jewel of Rajasthan, famed for its stunning palaces, tranquil lakes, and rich cultural heritage. The City Palace offers breathtaking views of the Lake Pichola, while the Old City is a maze of narrow lanes lined with vibrant bazaars. Experience the royal charm of this lakeside city as you step off the Deccan Odyssey and immerse yourself in Udaipur’s serene beauty and rich history.',
+                },
+                {
+                    name: "Jodhpur",
+                    description:
+                        'Known as the "Blue City" for its vivid blue-painted houses, Jodhpur is home to the formidable Mehrangarh Fort, a symbol of Rajasthan’s royal past. As the Deccan Odyssey arrives in this desert city, explore the imposing fort, vibrant markets, and historic havelis that make Jodhpur a cultural treasure. Your journey continues through the majestic landscapes of Marwar, offering a glimpse into Rajasthan’s regal history and architectural splendor.',
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        "The capital of Rajasthan, Jaipur, often called the “Pink City” for its rosy-hued architecture, is a must-visit for history lovers and culture seekers. Visit the iconic Amber Fort, the City Palace, and the architectural marvel of Hawa Mahal. As you explore Jaipur, immerse yourself in its royal past, where every corner tells the story of Rajasthan's opulent history, making it an unforgettable stop on your Deccan Odyssey journey.",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the iconic Taj Mahal, is a city of timeless beauty and Mughal grandeur. Marvel at the world’s most famous monument of love, explore the majestic Agra Fort, and learn about the intricate Pietra Dura inlay work that adorns Mughal masterpieces. As you step off the Deccan Odyssey, let the history and artistry of Agra transport you to a bygone era of royalty, love, and architectural brilliance",
+                },
+                {
+                    name: "Sawai Madhopur",
+                    description:
+                        "Sawai Madhopur is the gateway to the Ranthambore National Park, one of India’s most renowned wildlife reserves. Home to the majestic Bengal tiger, Ranthambore offers an exciting safari experience through its lush jungles. Witness not only tigers but also leopards, deer, and exotic birds, making Sawai Madhopur an unforgettable wildlife experience on your Deccan Odyssey adventure.",
+                },
+                {
+                    name: "Delhi",
+                    description:
+                        "The journey ends in Delhi, India’s vibrant capital and a city where history meets modernity. From the stunning Red Fort to the bustling Chandni Chowk, Delhi is a melting pot of cultures, religions, and history. As you disembark from the Deccan Odyssey, explore the grand monuments and dynamic streets of India’s capital, marking the conclusion of your royal journey through the cultural and historical heart of India.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Mumbai - Board the Deccan Odyssey ",
+                    description:
+                        "Welcome aboard the Deccan Odyssey, India’s finest luxury train!\n\nThis evening, your unforgettable journey begins as you assemble at Chhatrapati Shivaji Terminus, Mumbai, around 1530 hours for your registration and check-in process. Be greeted with a traditional Indian welcome, complete with a refreshing drink, setting the tone for the luxurious experience that awaits you.\n\nOnce you have completed all formalities, you will be escorted to your opulent cabins. As you settle into the comfort of your personal sanctuary, the Deccan Odyssey will begin its journey, departing Mumbai and heading towards Vadodara, the Royal city of the Gaekwads.\n\nIndulge in a luxurious dinner on board as the train smoothly glides through the landscape, and let the calm of the evening sweep over you. This marks the beginning of a magical, regal adventure, where history and comfort are seamlessly intertwined.\n\nDinner on board\nOvernight on Deccan Odyssey\n(ETD at 17:15 Hrs)",
+                },
+                {
+                    title: "Vishwamitri - The Royal City of Vadodara",
+                    description:
+                        "Today, the Deccan Odyssey arrives in the royal city of Vadodara, the capital of the Gaekwads, nestled along the seasonal Vishwamitri River. Known for its regal charm, Vadodara offers a unique glimpse into India’s royal heritage.\n\nAfter a delightful breakfast on board, disembark for an exciting exploration of Champaner. At 0830 Hrs, you will proceed to Pavagadh Archaeological Park, a UNESCO World Heritage Site, famed for its medieval architecture and historical significance.\n\nBy 1200 Hrs, you will leave for Vadodara and return to the Deccan Odyssey for a relaxing lunch on board as the train takes you deeper into the heart of Gujarat.\n\nIn the afternoon, explore the stunning Maharaja Fateh Singh Museum at 1530 Hrs, followed by a serene visit to the Laxmi Vilas Palace at 1730 Hrs. Here, you will enjoy tea and snacks while witnessing a traditional folk performance and savoring regional delicacies from the Royal kitchens.\n\nAfter a day steeped in royalty and culture, return to the Deccan Odyssey at 1900 Hrs as the train heads towards the beautiful city of Udaipur.\n\nBreakfast, Lunch & Dinner on board\nTea & Snacks at Laxmi Vilas Palace\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Udaipur - The Princely City",
+                    description:
+                        "Today, the Deccan Odyssey rolls into the enchanting city of Udaipur, often referred to as the Venice of the East, known for its stunning palaces, serene lakes, and picturesque views. The journey brings you to this princely city nestled amidst the Aravalli Hills, where your exploration of royal Rajasthan begins.\n\nAt 1000 Hrs, disembark from the train and proceed to visit the grand City Palace, the largest palace complex in Rajasthan. Known for its exquisite architecture, scalloped arches, fretted balconies, and cupolas, the City Palace offers a glimpse into the royal grandeur of Udaipur. While there, don’t miss the Crystal Gallery, housing a rare collection of crystal artifacts. After soaking in the regal ambiance, embark on a serene boat cruise on Lake Pichola, offering mesmerizing views of the surrounding palaces and hills.\n\nBy 1330 Hrs, enjoy a delectable lunch at a city hotel, where you can savor the local flavors. In the afternoon, at 1430 Hrs, experience the heart of Udaipur by taking a walking tour through the Old City. Wander through its lively, vibrant bazaars where the colorful streets still retain their traditional charm, showcasing local handicrafts, textiles, and art.\n\nReturn to the Deccan Odyssey by 1800 Hrs, where you can relax with a refreshing drink before enjoying a lavish dinner as the train heads towards Jodhpur.\n\nBreakfast on board | Lunch at a City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Jodhpur - Blue City of Rajasthan",
+                    description:
+                        "This morning, the Deccan Odyssey arrives at Jodhpur, the magnificent Blue City of Rajasthan, set against the backdrop of the Thar Desert. Jodhpur is known for its vibrant blue-painted houses, which surround the Mehrangarh Fort, one of the largest and most impressive forts in India.\n\nAt 1000 Hrs, disembark from the train and proceed for your sightseeing tour of Jodhpur. The Mehrangarh Fort, standing atop a 150-meter-high hill, offers panoramic views of the city and a fascinating insight into Rajasthan's royal history. The fort houses an exceptional museum, showcasing artifacts and armory that date back to the era of the Marwar rulers.\n\nBy 1330 Hrs, return to the Deccan Odyssey for a delicious lunch on board as the train continues its journey through Rajasthan. Afterward, at 1500 Hrs, enjoy a fun Tuk Tuk ride to the iconic Clock Tower. This is an excellent opportunity to witness the vibrant lifestyle of the locals as you weave through the bustling streets and markets of Old Jodhpur. The lively Clock Tower market is filled with colorful bazaars, selling spices, textiles, handicrafts, and more, offering an authentic taste of local life. You’ll also pass by ancient havelis that showcase the region’s rich architectural heritage.\n\nBy 1830 Hrs, return to the Deccan Odyssey, where you can unwind and enjoy a leisurely dinner before the train heads toward the Pink City of Jaipur.\n\nBreakfast, Lunch, and Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Jaipur - The Pink City and Amber Fort",
+                    description:
+                        "Today, the Deccan Odyssey arrives at the historic and vibrant city of Jaipur, often referred to as the Pink City for its charming pink-hued buildings. Known for its regal past, Jaipur is a city steeped in history and legendary triumphs of the Rajputs. Surrounded by the rugged Aravali Hills, Jaipur is dotted with magnificent forts, grand palaces, and lush gardens, many of which have witnessed royal processions and parades.\n\nAt 0830 Hrs, disembark at the station, where you’ll be warmly welcomed and introduced to the city’s regal essence. After a brief welcome ceremony, you’ll head toward Amber Fort at 0900 Hrs. Amber Fort, a UNESCO World Heritage site, stands majestically atop a hill, overlooking the town below. Its grandeur and architectural beauty, with a fusion of Mughal and Rajput styles, will transport you back to the royal era. The fort features spectacular courtyards, intricate carvings, and the famed Sheesh Mahal, or Mirror Palace.\n\nAt 1300 Hrs, enjoy a delicious lunch at a City Hotel, savoring authentic Rajasthani flavors. Post lunch, at 1430 Hrs, continue your exploration with a visit to City Palace, an architectural marvel that blends Mughal and Rajput elements, and explore its fascinating museum. Then, you’ll drive past the iconic Hawa Mahal, also known as the Palace of Winds, with its stunning latticework windows that once allowed royal ladies to observe the streets below without being seen.\n\nBy 1830 Hrs, return to the Deccan Odyssey, where you can relax and reflect on the day's experiences before enjoying a sumptuous dinner on board as the train sets off towards your next destination.\n\nBreakfast on board | Lunch at City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Agra– The Magnificent Taj Mahal and Agra Fort",
+                    description:
+                        "On this day, the Deccan Odyssey reaches the iconic city of Agra, home to the world’s most famous monument – the Taj Mahal. As the train arrives at Tundla Railway Station, prepare for an unforgettable journey through time as you explore the majestic Mughal architecture that defines this city, once the heart of the Mughal Empire.\n\nAt 0830 Hrs, disembark from the Deccan Odyssey and embark on a scenic drive towards Agra. At 0930 Hrs, you will witness the awe-inspiring Taj Mahal, Emperor Shah Jahan’s eternal symbol of love for his wife, Mumtaz Mahal. This UNESCO World Heritage site, with its intricate marble inlay work and symmetrical gardens, stands as one of the greatest architectural achievements in the world. Allow yourself to be mesmerized by the sheer beauty and grandeur of this iconic monument.\n\nAfter your Taj Mahal visit, at 1300 Hrs, enjoy a sumptuous lunch at a city hotel, savoring traditional Mughlai delicacies. Following lunch, at 1400 Hrs, your exploration continues with a visit to Agra Fort, another breathtaking example of Mughal architecture. The Agra Fort once served as the seat of the Mughal rulers and houses stunning structures like the Diwan-e-Am (Hall of Public Audience) and the Royal Pavilions. Immerse yourself in the grandeur of this fort, which holds the secrets of the Mughal dynasty's royal life.\n\nAt 1630 Hrs, you’ll visit Kalakriti, a cultural center where you’ll get to witness the intricate art of Pietra Dura – a stone inlay technique that has adorned the Taj Mahal and other Mughal masterpieces. Learn about this ancient craftsmanship that continues to be passed down through generations of skilled artisans.\n\nBy 1900 Hrs, return to the Deccan Odyssey for dinner, reflecting on the splendor of Agra's historical sites, as the train sets off for Sawai Madhopur, your next destination.\n\nBreakfast on board | Lunch at a City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Sawai Madhopur – Adventure at Ranthambore Tiger Reserve",
+                    description:
+                        "Today, the Deccan Odyssey brings you to Sawai Madhopur, a charming town in Rajasthan, which serves as the gateway to one of India's most famous wildlife sanctuaries, Ranthambore National Park. Known for its successful conservation efforts and high tiger population, Ranthambore is not only home to the majestic Bengal tiger but also boasts a diverse array of wildlife and bird species, making it a prime destination for nature lovers and wildlife enthusiasts.\n\nAfter a luxurious breakfast aboard the Deccan Odyssey, at 0830 Hrs, you will embark on a visit to Ranthambore Village, where you’ll get a glimpse of rural life amidst the rugged terrain that surrounds the park. It’s an excellent opportunity to observe the traditional lifestyle of this region while soaking in the beautiful surroundings.\n\nAt 1230 Hrs, return to the Deccan Odyssey for a leisurely lunch on board, as the train continues its journey through Rajasthan's scenic landscapes.\n\nIn the afternoon, at 1430 Hrs, disembark for the much-anticipated safari in Ranthambore National Park. This world-renowned sanctuary is home to a rich variety of wildlife, including not just the elusive Bengal tiger but also leopards, sloth bears, deer, and Nilgai antelope, as well as an impressive range of birdlife, such as the crested serpent eagle and jungle fowl. The safari will take you deep into the heart of the park, where you’ll have the opportunity to witness these magnificent creatures in their natural habitat.\n\nAt 1715 Hrs, return to the Deccan Odyssey for a relaxing evening. Unwind with drinks and enjoy the evening's entertainment as the train departs for Delhi, continuing your royal journey through India.\n\nBreakfast, Lunch, and Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 18:30 Hrs)",
+                },
+                {
+                    title: "Delhi – The Grand Conclusion of Your Indian Sojourn",
+                    description:
+                        "As the Deccan Odyssey completes its majestic journey, the final morning of your luxurious expedition begins. Early this morning, enjoy a relaxing breakfast on board, savoring the last moments of the unforgettable luxury and comfort that have been your constant companions during this enchanting journey through India.\n\nAt disembarkation time, you will arrive at Delhi Safdarjung Station, where your royal passage through India’s vibrant landscapes, fascinating heritage, and untamed wildlife comes to a close. Bid farewell to the Deccan Odyssey, your exquisite home-on-wheels, and reflect on the memories of the incredible cities, timeless architecture, regal forts, and wildlife safaris that you’ve encountered on this 8-day journey.\n\nYour Indian Sojourn has come to an end, leaving you with cherished memories of India’s rich heritage, majestic palaces, and pristine wildlife. We hope that your journey aboard Deccan Odyssey has been as magnificent as the country it traverses.\n\nBreakfast on board\nDisembark at Delhi Safdarjung Station.",
+                },
+            ],
+            important_information: [
+                "All Timings / Departures may vary and subject to change as per the Indian Railways Norms.",
+                "Children below 5 years of age shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking.",
+                "In order to run a Journey we need minimum number of passengers. Deccan Odyssey Reserves the right to to cancel / postpone the departure if the minimum number of strength to operate the journey is not met.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "There is a dedicated team of butlers on board to attend to your every need. Each carriage is manned by a single butler, on call 24 hours, trained to meet the needs of our guests and comply with utmost speed and efficiency. Our butlers take pride in offering unique services to each of our guests ensuring a memorable stay on board.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/05/30105455/Deccan-Odyssey-1600x900.jpg",
+        name: "Heritage Odyssey",
+        duration: "7 Nights • 8 Days",
+        slug: "heritage-odyssey",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "The Heritage Odyssey aboard the Deccan Odyssey is an unparalleled 7-night, 8-day voyage that offers an intimate and luxurious exploration of India’s rich history and cultural heritage. Renowned as one of the most luxurious trains in the world, the Deccan Odyssey is a moving palace that blends modern comfort with old-world charm. From the moment you board this iconic train, you’re transported into a realm of opulence and sophistication, with exquisitely designed cabins, state-of-the-art amenities, and impeccable service. The Deccan Odyssey has long been celebrated for providing an unforgettable travel experience, with each journey showcasing India’s grandeur, from its architectural marvels to its vibrant cultural landscapes. Whether you're relaxing in the regal dining car or sipping on a refreshing cocktail in the lounge, every aspect of the Deccan Odyssey is designed to pamper you and offer the highest standards of luxury.\n\nThis journey takes you through some of the most fascinating destinations in India, including Delhi, Agra, Sawai Madhopur, Udaipur, Jodhpur, Jaisalmer, and Jaipur. Each stop on this meticulously crafted itinerary reveals a new layer of India’s royal past, from the awe-inspiring Taj Mahal in Agra to the timeless beauty of Udaipur's lakes and palaces. Discover the charm of Sawai Madhopur, home to the Ranthambore National Park, the golden sands of Jaisalmer, and the stunning forts and palaces of Jodhpur and Jaipur. With the Heritage Odyssey, you not only explore India’s famous landmarks but also enjoy a luxurious journey that brings you close to the heart of this extraordinary nation, offering a rich cultural experience that is as educational as it is inspiring. Whether you're a seasoned traveler or visiting India for the first time, the Heritage Odyssey is the ultimate way to experience India’s cultural legacy in all its royal splendor.",
+            destinations_covered: [
+                {
+                    name: "Delhi",
+                    description:
+                        "Delhi, India’s vibrant capital, is a blend of rich history, culture, and modernity. Known for its magnificent monuments like the Red Fort, Qutub Minar, and India Gate, Delhi is where the past and present coexist. A hub of historical landmarks, bustling markets, and diverse cultures, Delhi serves as the perfect starting point for your luxury train journey aboard the Deccan Odyssey.",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the world-famous Taj Mahal, is a city where history and grandeur come alive. The Taj Mahal, one of the Seven Wonders of the World, stands as a timeless symbol of love, its white marble facade shimmering in the sunlight. Beyond this magnificent monument, Agra also boasts the majestic Agra Fort, an epitome of Mughal architecture, and a rich cultural legacy that resonates through its intricate marble inlay work and royal history. A visit to Agra is an unforgettable journey through India’s golden age of the Mughal Empire.",
+                },
+                {
+                    name: "Sawai Madhopur",
+                    description:
+                        "Sawai Madhopur is the gateway to the famous Ranthambore National Park, one of India’s premier wildlife sanctuaries. Known for its tiger conservation efforts, this charming town offers thrilling safari experiences, where you can witness majestic tigers in their natural habitat. Ranthambore’s ancient fort and lush jungle landscapes make it a captivating stop on your Deccan Odyssey adventure.",
+                },
+                {
+                    name: "Udaipur",
+                    description:
+                        "Udaipur, often called the City of Lakes, is a picturesque destination that captivates visitors with its romantic charm. Famous for its grand City Palace, serene Lake Pichola, and vibrant bazars, Udaipur embodies Rajasthan’s regal heritage. Explore the city’s magnificent palaces, tranquil lakes, and vibrant culture, making it a true gem of Rajasthan.",
+                },
+                {
+                    name: "Jodhpur",
+                    description:
+                        "Known as the Blue City, Jodhpur is famous for its stunning blue-painted houses and majestic Mehrangarh Fort. This vibrant city is a blend of desert charm, royal history, and bustling markets. With its striking architecture, including the Umaid Bhawan Palace and Clock Tower, Jodhpur offers a fascinating insight into Rajasthan’s royal past and vibrant present.",
+                },
+                {
+                    name: "Jaisalmer ",
+                    description:
+                        "Jaisalmer, the heart of the Thar Desert, is a city frozen in time, with its golden-hued architecture and enchanting Jaisalmer Fort. Founded in 1156, this desert city is known for its intricate havelis, vibrant bazaars, and camel rides on the dunes. Jaisalmer offers a surreal experience of Rajasthan’s rich history against the backdrop of vast, rolling sand dunes.",
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        "Jaipur, the Pink City, is a regal destination brimming with palaces, forts, and opulence. Famous for the majestic Amer Fort, City Palace, and the iconic Hawa Mahal, Jaipur offers a rich tapestry of Rajasthani heritage and royal splendor. A true cultural treasure, Jaipur’s vibrant markets and architectural gems make it one of the most sought-after destinations in India.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Delhi - Board the Deccan Odyssey ",
+                    description:
+                        "Welcome aboard the Deccan Odyssey, where your luxurious journey through India's heritage begins. This evening, you will assemble at Delhi's railway station at approximately 1700 hours for check-in formalities. Upon your arrival, you’ll be warmly welcomed in traditional Indian style with a refreshing drink, marking the beginning of your royal voyage.\n\nAfter completing the check-in process, you will be escorted to your opulent cabins where you can settle in and relax in style. As the evening sets in, the Deccan Odyssey will depart Delhi for Agra, home to the world-renowned Taj Mahal. Enjoy a delicious dinner onboard as the train rolls through the heart of India’s iconic landscapes, setting the stage for the cultural exploration that awaits you.\n\nDinner on board\nOvernight on Deccan Odyssey\n(ETD at 18:00 Hrs)\n",
+                },
+                {
+                    title: "Agra – Explore the Mughal Citadel",
+                    description:
+                        "This morning, after a hearty breakfast onboard, the Deccan Odyssey arrives at Agra, the Mughal citadel and home to one of the world’s most famous landmarks. At 0830 Hrs, you will deboard the train and drive to Tundla Railway Station, where your day of exploration begins.\n\nAt 0930 Hrs, prepare to be awed by the Taj Mahal, the magnificent symbol of eternal love built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. This UNESCO World Heritage site is widely regarded as one of the most beautiful architectural wonders in the world.\n\nAfter this unforgettable experience, enjoy a delightful lunch at a city hotel at 1300 Hrs, and then proceed to the Agra Fort at 1400 Hrs. A monumental example of Mughal architecture, Agra Fort served as the seat of Mughal power for generations. Don’t miss the Diwan-e-Am (Hall of Public Audience) and the Royal Pavilions during your visit.\n\nAt 1630 Hrs, explore Kalakriti, where you will witness the exquisite art of Pietra Dura, a famous inlay technique used to embellish the Taj Mahal. The craftsmanship is truly remarkable, and you'll gain insight into the intricate artistry behind the monument’s design.\n\nBy 1900 Hrs, return to the Deccan Odyssey for a sumptuous dinner onboard. As you relax, the train will continue its journey toward Sawai Madhopur, your next exciting destination.\n\nBreakfast on board | Lunch at a City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Sawai Madhopur - Explore Ranthambore National Park ",
+                    description:
+                        "Arrive at Sawai Madhopur in Rajasthan, the gateway to the renowned Ranthambore National Park, known for its rich wildlife and efforts to conserve the endangered Bengal tiger. The park, once a royal hunting ground, is now a sanctuary for tigers and a top destination for nature enthusiasts and wildlife photographers.\n\nAfter enjoying a delightful breakfast on board the Deccan Odyssey, you'll embark on an early morning safari at 0630 Hrs. As you venture deep into the park's dense jungle, you're likely to spot not just tigers, but also other fascinating wildlife like leopards, spotted deer, wild boar, and a variety of bird species. The experience is nothing short of thrilling as you ride through the heart of the park's natural beauty.\n\nAt 1130 Hrs, return to the Deccan Odyssey and savor a delicious lunch on board while the train sets off toward Udaipur. Prepare for a scenic journey ahead as the train heads toward the regal city of lakes.\n\nBreakfast on board | Lunch on board\nOvernight on Deccan Odyssey\n(ETD at 11:30 Hrs)",
+                },
+                {
+                    title: "Udaipur – The City of Lakes and Palaces",
+                    description:
+                        "The Deccan Odyssey arrives in Udaipur, the charming city nestled amidst the Aravali hills, renowned for its picturesque lakes, palaces, and vibrant culture. As the train rolls into the station, enjoy a leisurely breakfast on board, taking in the serene landscapes of this princely city.\n\nAt 1000 Hrs, disembark and begin your exploration with a visit to the iconic City Palace, the largest palace complex in Rajasthan. Admire its stunning architecture, with scalloped arches, ornate balconies, and intricate cupolas. Don't miss the Crystal Gallery, a breathtaking collection of rare and opulent artifacts. Afterward, enjoy a boat cruise on the tranquil waters of Lake Pichola, offering panoramic views of the palaces, temples, and ghats that dot the lake’s shores.\n\nAt 1330 Hrs, indulge in a sumptuous lunch at a city hotel. Later, at 1430 Hrs, proceed on a walking tour through Udaipur's bustling Old City. Here, vibrant bazaars overflow with local handicrafts, colorful textiles, and spices, all set against the backdrop of ancient havelis and temples that retain their old-world charm.\n\nReturn to the Deccan Odyssey at 1800 Hrs for a relaxed evening and dinner on board, as the train departs for Jodhpur.\n\nBreakfast on board | Lunch at a City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Jodhpur – The Blue City and Mehrangarh Fort",
+                    description:
+                        "After a relaxing breakfast on board, the Deccan Odyssey reaches Jodhpur, also known as the Blue City due to its famous blue-painted houses that surround the towering Mehrangarh Fort. Known for its rich history and imposing architecture, Jodhpur offers a captivating blend of tradition and modernity.\n\nAt 1000 Hrs, you will deboard the train and embark on a sightseeing tour of Jodhpur. Start with the magnificent Mehrangarh Fort, one of the largest and most well-preserved forts in India, offering panoramic views of the city and the Thar Desert. Wander through its beautifully decorated courtyards and admire the artifacts that tell the tale of Jodhpur’s royal past.\n\nAt 1330 Hrs, return to the Deccan Odyssey for a delightful lunch on board as the train heads towards the next stop. After lunch, at 1500 Hrs, step off the train for a fun-filled Tuk-Tuk ride to the Clock Tower. Experience the vibrant local life as you walk through the bustling Old Clock Tower market, where you can explore old havelis, colorful bazaars, and quaint shops selling handicrafts and spices. The lively market offers a glimpse into the daily lives of the city's residents.\n\nAfter a day full of history and culture, return to the Deccan Odyssey at 1830 Hrs and enjoy a relaxing dinner on board as the train continues its journey towards Jaisalmer.\n\nBreakfast, Lunch & Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Jaisalmer – The Golden City of the Thar Desert",
+                    description:
+                        'This morning, the Deccan Odyssey arrives in Jaisalmer, the "Golden City," located in the heart of the Thar Desert. Founded by Rawal Jaisal in 1156 A.D., Jaisalmer is a living museum of desert architecture, with its yellow sandstone buildings that seem to shimmer in the golden desert sunlight.\n\nAt 0830 Hrs, you will deboard the train and begin your sightseeing tour of this enchanting city. Your first stop is the Jaisalmer Fort, one of the largest living forts in the world. This stunning fortress, with its labyrinthine lanes, temples, and palaces, has stood as a witness to centuries of history and culture. After exploring the fort, continue your tour to the Nathmal Ki Haveli, an exquisite example of intricate architecture, with beautiful carvings and artwork that reflect the royal grandeur of Jaisalmer.\n\nAt 1330 Hrs, return to the Deccan Odyssey for a delicious lunch on board. After lunch, at 1500 Hrs, set off for the dunes on a thrilling desert excursion. Experience the vastness of the Thar Desert as you enjoy a sundowner while watching the sunset over the golden sand dunes—an unforgettable moment of serenity in the heart of the desert.\n\nReturn to the Deccan Odyssey at 1830 Hrs for a relaxing evening and a dinner on board as the train prepares to journey to Jaipur.\n\nBreakfast, Lunch & Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:30 Hrs)',
+                },
+                {
+                    title: "Jaipur – The Pink City, City of Victory",
+                    description:
+                        "Arriving in Jaipur, the Pink City and historic capital of Rajasthan, you'll be transported to an era of royal grandeur and architectural brilliance. Surrounded by the rugged Aravali hills, Jaipur is home to forts, palaces, mansions, and gardens that once witnessed royal parades and triumphs. Often referred to as the City of Victory, Jaipur’s magnificence lies in its rich history, vibrant culture, and architectural splendor.\n\nAt 0830 Hrs, disembark from the Deccan Odyssey at the station, where you will be welcomed with traditional Rajasthani hospitality. After a brief welcome ceremony, you will be driven to the majestic Amer Fort at 0900 Hrs. Perched on a hilltop, this magnificent fort is a stunning blend of Hindu and Mughal architecture. Explore its grand palaces, gardens, and courtyards, and admire the views of the surrounding landscape.\n\nAt 1300 Hrs, indulge in a delightful lunch at a City Hotel, and after this, proceed to visit the City Palace at 1430 Hrs. This exquisite palace complex, with its stunning courtyards, museums, and gardens, offers a glimpse into the royal lifestyle of the Rajputs. On your way, you will also drive past the iconic Hawa Mahal, the Palace of Winds, famous for its intricate pink sandstone facade and numerous windows.\n\nReturn to the Deccan Odyssey by 1830 Hrs, where you can relax and enjoy a dinner on board as the train prepares to depart for Delhi.\n\nBreakfast on board | Lunch at a City Hotel | Dinner on board\nOvernight on Deccan Odyssey\n(ETD at 20:00 Hrs)",
+                },
+                {
+                    title: "Disembark in Delhi – Farewell to the Deccan Odyssey",
+                    description:
+                        "As the Deccan Odyssey completes its magnificent journey across India, you will wake up to the final morning of your luxury train adventure. After enjoying a delicious breakfast on board, the train will arrive at Delhi Safdarjung Station.\n\nThis marks the end of your 8-day royal sojourn through India’s rich heritage and royal history. Step off the train with unforgettable memories of the stunning forts, palaces, temples, and desert landscapes that have painted the backdrop to your luxurious journey.\n\nAs you bid farewell to the Deccan Odyssey, the memories of Jaipur's palaces, Agra's Taj Mahal, Ranthambore's tigers, and the many majestic landmarks visited will remain with you long after the journey has ended.\n\nThank you for choosing this unparalleled experience across the cultural heart of India, where history, luxury, and tradition meet in the most spectacular way.\n\nBreakfast on board\nDisembark at Delhi Safdarjung Station",
+                },
+            ],
+            important_information: [
+                "All Timings / Departures may vary and subject to change as per the Indian Railways Norms.",
+                "Children below 5 years of age shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking.",
+                "In order to run a Journey we need minimum number of passengers. Deccan Odyssey Reserves the right to to cancel / postpone the departure if the minimum number of strength to operate the journey is not met.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "There is a dedicated team of butlers on board to attend to your every need. Each carriage is manned by a single butler, on call 24 hours, trained to meet the needs of our guests and comply with utmost speed and efficiency. Our butlers take pride in offering unique services to each of our guests ensuring a memorable stay on board.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url: "https://www.goldenchariot.org/assets/img/Home-bg1.webp",
+        name: "Jewels Of South",
+        duration: "5 Nights • 6 Days",
+        slug: "jewels-of-south",
+        luxury: true,
+        tour: {
+            location: "Bengaluru",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Embark on a luxurious 5-night, 6-day journey aboard the Golden Chariot, South India's premier luxury train. A perfect blend of royal heritage and modern comfort, the Golden Chariot is designed to provide an immersive travel experience. This train takes you through the cultural heart of South India, offering a unique opportunity to explore the region’s diverse history, vibrant traditions, and stunning architecture. Named after the famed Stone Chariot of Hampi, this train features opulent cabins named after the powerful dynasties that once ruled the region, offering a glimpse into India's royal past. With world-class amenities, including fine dining, a bar, a spa, and a fitness center, your journey will be nothing short of extraordinary.\n\nThe Jewels of South itinerary is a carefully crafted route that takes you through some of South India’s most iconic destinations, including Bengaluru, Mysore, Kanchipuram, Mahabalipuram, Thanjavur, Chettinad, Cochin, and Chertala. Each destination is handpicked to showcase the architectural marvels, rich cultural heritage, and vibrant traditions of South India. From the majestic Mysore Palace and the intricately carved temples of Kanchipuram to the coastal beauty of Cochin, this journey offers a blend of royal splendor and spiritual serenity. Whether you're marveling at the grandeur of the Brihadeeswarar Temple or enjoying a tranquil boat ride in the backwaters of Kerala, this journey offers a glimpse into the soul of South India.\n\nWith its luxurious onboard experience and thoughtfully curated excursions, the Golden Chariot promises an unforgettable exploration of South India’s historical treasures, making it an ideal choice for those seeking a sophisticated and immersive travel experience. Let the Jewels of South unfold before you as you indulge in the ultimate luxury train journey.",
+            destinations_covered: [
+                {
+                    name: "Bengaluru",
+                    description:
+                        "Bengaluru, often referred to as the Silicon Valley of India, is a bustling metropolis that blends modernity with traditional charm. Known for its vibrant tech scene, colonial architecture, and lush gardens, the city offers a mix of rich heritage and contemporary flair. Visitors can explore historic landmarks like Bangalore Palace and Cubbon Park, while also enjoying the city’s thriving dining and shopping scene. As the starting and ending point of the Golden Chariot's Jewels of South itinerary, Bengaluru serves as the perfect gateway to South India's treasures.",
+                },
+                {
+                    name: "Mysore",
+                    description:
+                        "The regal city of Mysore is a treasure trove of royal heritage and architectural grandeur. Known for the magnificent Mysore Palace, once home to the Wodeyar dynasty, the city exudes old-world charm and royal elegance. Visitors can also explore the Chamundeshwari Temple atop Chamundi Hill, and the vibrant Devaraja Market, famous for its aromatic spices and handicrafts. Mysore is an ideal stop on the Golden Chariot journey, offering a glimpse into the cultural richness of Karnataka.",
+                },
+                {
+                    name: "Kanchipuram",
+                    description:
+                        'Kanchipuram, often called the "City of a Thousand Temples," is one of India’s oldest and most significant religious centers. This historic city is renowned for its ancient Dravidian temples like Kailasanathar Temple and Varadaraja Perumal Temple, which showcase intricate architecture and spiritual significance. Kanchipuram is also famous for its silk sarees, a craft that has been perfected over centuries. On the Golden Chariot itinerary, Kanchipuram offers an exceptional dive into South India\'s spiritual and artistic heritage.',
+                },
+                {
+                    name: "Mahabalipuram",
+                    description:
+                        "Mahabalipuram, a UNESCO World Heritage site, is an ancient port town renowned for its rock-cut temples and sculptures. The Shore Temple, perched on the coastline, is a marvel of architectural design and stands as a testament to the Pallava dynasty's grandeur. The Five Rathas, monolithic temples carved from granite, and the Arjuna’s Penance relief are among Mahabalipuram’s iconic sites. This picturesque town offers an exceptional blend of history, art, and natural beauty, making it a must-visit on the Golden Chariot tour.",
+                },
+                {
+                    name: "Thanjavur",
+                    description:
+                        "Thanjavur, the heart of the Chola Empire, is known for its monumental architecture and rich cultural heritage. The Brihadeeswarar Temple, a UNESCO World Heritage site, is an awe-inspiring example of Dravidian architecture and one of India’s most important temples. Thanjavur is also famous for its classical dance, music, and exquisite Tanjore paintings. As a key stop on the Golden Chariot journey, Thanjavur offers a deep dive into the ancient traditions and grandeur of Tamil Nadu’s royal past.",
+                },
+                {
+                    name: "Chettinad/Karaikudi",
+                    description:
+                        "The Chettinad region, with Karaikudi as its heart, is famous for its distinctive Chettinad cuisine, a spicy and aromatic culinary tradition that uses local spices and ingredients. The area is also home to beautiful Chettinad mansions, which feature ornate woodwork, intricate tile designs, and vast courtyards. Visitors can explore the ancient Athangudi tile factory and experience the slow-paced rural life, making it a unique cultural stop on the Golden Chariot journey, offering a taste of Tamil Nadu’s rich heritage.",
+                },
+                {
+                    name: "Cochin",
+                    description:
+                        "Cochin, or Kochi, is a captivating blend of history, culture, and natural beauty. A bustling port city on the Arabian Sea, Cochin’s Fort Kochi area is home to colonial-era buildings, the iconic Chinese fishing nets, and the historic St. Francis Church. The city’s Mattancherry Palace, with its exquisite murals, showcases the influence of Portuguese, Dutch, and Indian cultures. Cochin’s vibrant arts scene, along with its delicious seafood, makes it an unforgettable stop on the Golden Chariot journey through South India.",
+                },
+                {
+                    name: "Chertala/Maraikulam",
+                    description:
+                        "Located along Kerala’s stunning backwaters, Chertala and Maraikulam offer a tranquil experience surrounded by lush greenery and shimmering waterways. A houseboat cruise here is a perfect way to experience Kerala’s natural beauty, with its tranquil waters, verdant paddy fields, and picturesque landscapes. Visitors can also explore traditional Kerala villages and enjoy authentic Kerala cuisine. These serene stops on the Golden Chariot itinerary allow travelers to immerse themselves in the peaceful rhythms of rural Kerala, making it an ideal contrast to the region’s cultural and architectural landmarks.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Bengaluru to Mysore",
+                    description:
+                        "08:30 Hrs: Registration and Check-In\nBegin your luxurious journey by completing the check-in process at the Yashwantpur Railway Station in Bengaluru. Here, you’ll be welcomed aboard the Golden Chariot with traditional hospitality, setting the tone for your royal journey through South India.\n\n09:45 Hrs: Departure from Yashwantpur Station\nThe train departs for Mysore, your first stop on this 6-day cultural odyssey. As the train rolls through the scenic landscapes of Karnataka, relax and enjoy the unparalleled comfort of the Golden Chariot.\n\n14:15 Hrs: Arrival in Mysore\nAfter a leisurely lunch onboard, the train arrives at Mysore. Prepare for an afternoon of exploration as the city, famous for its regal past and architectural grandeur, awaits.\n\n15:00 Hrs: Visit Mysore Palace\nYour first sightseeing stop is the majestic Mysore Palace, an iconic example of Indo-Saracenic architecture. Explore the opulent rooms, exquisite courtyards, and the rich history of the Wadiyar dynasty that once ruled this princely city. The palace is adorned with stunning frescoes, intricate carvings, and grand halls that echo stories of royal splendor.\n\n17:30 Hrs: Return to the Golden Chariot\nAfter soaking in the beauty of Mysore Palace, return to the Golden Chariot for a relaxing evening. As the train departs for Chengalpattu (CGL), enjoy the serene surroundings and luxury of the train, including exquisite dining and impeccable service.\n\nDinner onboard\nIndulge in a sumptuous dinner onboard, served in the train’s elegant Ruchi Restaurant, offering a variety of South Indian and international delicacies.",
+                },
+                {
+                    title: "Kanchipuram - Mahabalipuram",
+                    description:
+                        'Breakfast Onboard\nWake up to a delicious breakfast aboard the Golden Chariot as the train arrives at Chengalpattu Railway Station, your gateway to the historic cities of Kanchipuram and Mahabalipuram. Enjoy the scenic views and the comfort of the train as it makes its way through the lush South Indian countryside.\n\nMorning: Optional Excursion to Kanchipuram\nAfter breakfast, you have the option to embark on a fascinating excursion to Kanchipuram, one of the seven Moksha-puris (sacred cities in India). Known as the "City of a Thousand Temples," Kanchipuram is famous for its ancient temples and its traditional silk weaving. Visit the Kailasanatha Temple, Ekambareswarar Temple, and the Vaikuntha Perumal Temple, which showcase the rich architectural and spiritual history of the region.\n\nLunch Onboard\nAfter your visit to Kanchipuram, return to the Golden Chariot for a relaxing lunch onboard. The well-curated menu features a mix of South Indian specialties and international favorites, prepared by expert chefs to delight your taste buds.\n\nAfternoon: Visit to Mahabalipuram Monuments\nIn the afternoon, the train takes you to Mahabalipuram, a UNESCO World Heritage site famous for its ancient rock-cut temples, sculptures, and the iconic Shore Temple overlooking the Bay of Bengal. Explore the remarkable Pancha Rathas (Five Chariots), intricately carved stone monoliths, and the Arjuna’s Penance, a giant bas-relief depicting the story of Arjuna’s penance. The architecture and artistry here are some of the finest examples of early Dravidian art.\n\nDinner at a Beachfront Hotel\nAs the day draws to a close, indulge in a sumptuous dinner at a beachfront hotel in Mahabalipuram. Enjoy the serene ambiance and coastal breeze as you savor a delicious spread of local seafood and South Indian cuisine.\n\nReturn to the Golden Chariot and Depart for Thanjavur\nAfter an unforgettable evening, return to the Golden Chariot, where you can unwind and relax as the train departs for Thanjavur, your next destination.',
+                },
+                {
+                    title: "Thanjavur - Chettinad/Karaikudi",
+                    description:
+                        "Breakfast Onboard\nStart your day with a delightful breakfast aboard the Golden Chariot, as the train arrives at Thanjavur, a city renowned for its rich cultural heritage and historical significance. Enjoy a leisurely morning as the train journeys towards the fascinating region of Chettinad.\n\nMorning: Visit to Thanjavur\nAt 09:00 hrs, the train stops, and you deboard to visit the magnificent Brihadeeswarar Temple in Thanjavur, a UNESCO World Heritage site. This architectural marvel, also known as the Big Temple, is a stunning example of Dravidian architecture, with its massive dome and intricate carvings. Admire the grand gopuram (gateway), and the stunning frescoes within, before continuing your journey to Chettinad.\n\nLunch Onboard\nAfter exploring Thanjavur, return to the Golden Chariot for lunch onboard. Enjoy an array of gourmet dishes, with South Indian delicacies prepared using the finest local ingredients, offering an authentic culinary experience.\n\nAfternoon: Visit to Chettinad/Karaikudi\nAfter lunch, the train proceeds to Chettinad, known for its palatial mansions and exquisite Athangudi tiles. These intricately designed tiles are famous for their vibrant colors and patterns, and you will have the opportunity to visit the Athangudi Tile Factory to see the craftsmanship up close. Chettinad is also known for its unique style of architecture, characterized by grand mansions with ornate wooden ceilings, detailed carvings, and expansive courtyards. Visit some of the iconic Chettinad mansions, which offer a glimpse into the region’s opulent past.\n\nReturn to the Golden Chariot and Dinner Onboard\nAfter an enriching cultural experience, return to the Golden Chariot for a leisurely evening. Relax as the train continues its journey to Cochin. Dinner is served aboard, offering a variety of delectable dishes from Indian and international cuisines, ensuring your day ends on a high note.\n\nTrain Departs for Cochin\nAs you enjoy your dinner, the Golden Chariot embarks on its onward journey to Cochin, the next exciting destination on your Jewels of South itinerary.",
+                },
+                {
+                    title: "Cochin",
+                    description:
+                        "Breakfast Onboard\nEnjoy a delicious breakfast aboard the Golden Chariot as the train arrives at Cochin Harbour Terminus, one of India’s most vibrant coastal cities, located in the state of Kerala. Cochin, often referred to as Kochi, has a unique blend of historical influences from the Portuguese, Dutch, and British colonial periods, which is evident in its architecture and cultural heritage.\n\nMorning: Visit to Matancherry Palace and Cultural Performances\nAfter breakfast, disembark the Golden Chariot and proceed to Matancherry Palace, also known as the Dutch Palace. This palace is renowned for its beautiful Kerala murals that depict Hindu temple art and scenes from Indian mythology. The palace’s stunning architecture and the serene atmosphere offer a window into the history of Cochin. Following the palace tour, enjoy an unforgettable Kathakali dance performance, a classical Indian dance form from Kerala, which narrates stories through expressive gestures, intricate makeup, and vibrant costumes.\n\nLunch Onboard\nAfter your cultural immersion, return to the train for a delightful lunch onboard, where you can savor an array of dishes, including local Kerala specialties like Appam, Stew, and Puttu, made with fresh, seasonal ingredients.\n\nAfternoon: Optional Activities in Cochin\nPost-lunch, you have the option to explore more of Cochin. Visit the iconic Chinese Fishing Nets, where fishermen still use traditional methods passed down through generations. Then, head to St. Francis Church, one of the oldest European churches in India, where Vasco da Gama, the famous Portuguese explorer, was originally buried. The church’s tranquil atmosphere and historical significance make it an essential part of any Cochin exploration.\n\nDinner Onboard and Train Departs for Kumarakom\nAfter your enriching visit to Cochin, return to the Golden Chariot for dinner onboard. As the evening sets in, the train proceeds to the picturesque Kumarakom in Kerala. Enjoy a relaxing dinner as the train journeys to this charming backwater region, known for its tranquil canals and scenic beauty.",
+                },
+                {
+                    title: "Chertala/Maraikulam",
+                    description:
+                        "Breakfast Onboard\nBegin your day with a leisurely breakfast aboard the Golden Chariot as the train arrives at Chertala/Maraikulam, two serene towns nestled in the heart of Kerala’s backwater region. This day promises to immerse you in the tranquil beauty of Kerala’s picturesque backwaters, an experience unlike any other.\n\nMorning: Houseboat Cruise on Kerala’s Backwaters\nAfter breakfast, disembark and embark on a traditional Kerala houseboat cruise. Known as Kettuvallams, these houseboats are crafted from eco-friendly materials and are equipped with all the modern comforts, making for a peaceful and luxurious experience. Glide through the vast network of backwaters, passing lush coconut groves, paddy fields, and quaint villages. Enjoy the serenity of the waterways, dotted with traditional fishing boats and the occasional sight of local fishermen at work. This is your chance to witness the idyllic rural life of Kerala, surrounded by unspoiled natural beauty.\n\nLunch at an Exclusive Venue\nMidway through your houseboat cruise, enjoy a delicious Kerala-style lunch at an exclusive venue, offering an authentic culinary experience. Savor fresh seafood, local delicacies like Karimeen (Pearl Spot Fish), Avial, and Sadhya, a traditional Kerala feast served on a banana leaf. This meal will immerse you in the flavors of the region, making the experience even more memorable.\n\nReturn to the Train by Evening\nAfter a leisurely and scenic afternoon, return to the Golden Chariot by evening. Relax and reflect on the day’s experience as the train continues its journey through the lush landscapes of Kerala.\n\nDinner Onboard\nAs night falls, enjoy a gourmet dinner onboard the Golden Chariot, where the team of chefs prepares a delectable spread featuring both international and South Indian flavors. Savor the finest dishes while you unwind, looking forward to the next leg of your journey through the enchanting landscapes of Kerala.",
+                },
+                {
+                    title: "Bengaluru",
+                    description:
+                        "Breakfast Onboard\nStart your final day aboard the Golden Chariot with a delightful breakfast as you prepare for your arrival into Bengaluru. Indulge in a selection of both continental and South Indian delicacies, setting the tone for your exploration of this dynamic and cosmopolitan city.\n\nDeboard at Bengaluru (YPR)\nBy late morning, the Golden Chariot reaches its final destination at Yeshwantpur Railway Station (YPR) in Bengaluru, marking the end of your unforgettable journey through South India. You will disembark, taking with you memories of grand temples, breathtaking landscapes, rich cultural experiences, and the warm hospitality that made this tour truly special.\n\nAs you step off the train, you can explore more of Bengaluru, also known as India’s Silicon Valley—a city renowned for its technology, vibrant culture, and colonial architecture. Alternatively, you may choose to relax before your onward travel, with the option to head to the airport or your hotel in the city.\n\nEnd of the Jewels of South Tour\nThis marks the end of your luxury journey through the heart of South India, where centuries-old traditions meet modern opulence. Thank you for traveling with Golden Chariot, and we hope to welcome you aboard for another incredible voyage soon.",
+                },
+            ],
+            important_information: [
+                "Itinerary, destinations and scheduled departures may change without prior notice.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR Single child (5 years - 12 years) sharing cabin with adults - 50% of the adult fare, subject to sharing of double bed with two full paid adults. This is subject to availability of double bed at the time of booking.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://akm-img-a-in.tosshub.com/aajtak/images/story/202103/golden_cheriot-sixteen_nine.jpg?size=1200:675",
+        name: "Pride of Karnataka",
+        duration: "5 Nights • 6 Days",
+        slug: "pride-of-karnataka",
+        luxury: true,
+        tour: {
+            location: "Bengaluru",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                'The Golden Chariot luxury train offers an unparalleled experience, combining opulence with the rich heritage of Karnataka. The 5-night, 6-day itinerary, "Pride of Karnataka," invites you to explore some of the most iconic and historically significant destinations in the state. Traveling aboard this majestic train, you’ll be immersed in the royal comforts of a bygone era while visiting Karnataka’s stunning temples, ancient ruins, and lush landscapes. The train’s regal interiors and modern amenities ensure an exquisite travel experience, blending traditional Indian hospitality with world-class luxury. This curated journey takes you to places that speak to the heart of India’s architectural splendor, natural beauty, and cultural richness.\n\nOn this extraordinary journey, you will visit Bengaluru, the vibrant capital of Karnataka, before venturing to Nanjangud, known for its historical temples. Explore the opulent Mysore Palace in Mysore, marvel at the Hoysala architecture in Halebidu, and relax in the coffee plantations of Chikmagalur. A visit to the majestic Hampi in Hospet, a UNESCO World Heritage Site, reveals the grandeur of the Vijayanagara Empire, while the tour concludes with the laid-back beaches and Portuguese-influenced culture of Goa. Each stop on the Golden Chariot’s "Pride of Karnataka" itinerary promises to captivate you with its distinct charm, from ancient temples to natural wonders and coastal beauty.\n\nAboard the Golden Chariot, every moment of your journey is designed to offer a seamless blend of luxury, history, and comfort. The train boasts well-appointed cabins, two elegant restaurants, a spa and fitness center, and a bar serving premium drinks. With exceptional service, rich cultural experiences, and personalized itineraries, the Pride of Karnataka promises an unforgettable exploration of Karnataka’s finest treasures, making it the perfect choice for discerning travelers seeking both adventure and relaxation.',
+            destinations_covered: [
+                {
+                    name: "Bengaluru",
+                    description:
+                        'Bengaluru, the vibrant capital of Karnataka, is a dynamic metropolis blending modern innovation with rich historical heritage. Known as the "Silicon Valley of India," Bengaluru is also home to stunning gardens, palaces, and lakes that reflect its royal past. The city offers a perfect starting point for travelers looking to explore the grandeur of southern India, with its thriving culture, arts scene, and iconic landmarks like the Bangalore Palace and Cubbon Park.',
+                },
+                {
+                    name: "Nanjangud ",
+                    description:
+                        'Nanjangud, often referred to as the "Varanasi of the South," is a town steeped in history and devotion. Famous for the Srikanteshwara Temple, one of the oldest and most revered pilgrimage centers in India, Nanjangud offers a peaceful retreat into South India\'s spiritual heritage. Its ancient temples and rich culture provide a perfect gateway for exploring the lesser-known, yet equally captivating, destinations of Karnataka.',
+                },
+                {
+                    name: "Mysore",
+                    description:
+                        'Mysore, a city known for its royal splendor and historical charm, is home to the majestic Mysore Palace, an architectural marvel and a symbol of the Wodeyar dynasty\'s grandeur. Known as the "City of Palaces," Mysore offers visitors an enchanting journey through its gardens, museums, and temples. With a legacy of art, silk weaving, and the famous Mysore Dasara festival, Mysore encapsulates the rich cultural heritage of Karnataka.',
+                },
+                {
+                    name: "Halebidu",
+                    description:
+                        "Halebidu, the ancient capital of the Hoysala dynasty, is a treasure trove of stunning Hoysala architecture. The Hoysaleswara Temple, with its intricate carvings and sculptures, is a masterpiece of medieval Indian art. Known for its artistic finesse, Halebidu is a must-visit for history enthusiasts, offering a glimpse into the cultural and architectural brilliance of Karnataka's royal past.",
+                },
+                {
+                    name: "Chikamgaluru",
+                    description:
+                        'Nestled in the lush hills of the Western Ghats, Chikmagalur is a serene haven famous for its sprawling coffee plantations and scenic landscapes. This tranquil town, often referred to as the "Coffee Land of Karnataka," is perfect for nature lovers and those seeking a peaceful escape. With its cool climate, picturesque views, and historical temples, Chikmagalur is a perfect blend of nature and culture.',
+                },
+                {
+                    name: "Hospet",
+                    description:
+                        "Hospet, located near the UNESCO World Heritage site of Hampi, is a gateway to the magnificent ruins of the Vijayanagara Empire. Known for its historical significance and proximity to the iconic Virupaksha Temple and Stone Chariot, Hospet offers a fascinating journey into India’s glorious past. The vibrant markets and serene landscapes make Hospet an ideal base for exploring the awe-inspiring monuments and temples of Hampi.",
+                },
+                {
+                    name: "Goa",
+                    description:
+                        "Goa, the land of golden beaches, palm trees, and vibrant culture, is one of India’s most celebrated tourist destinations. With its Portuguese colonial heritage, Goa offers a unique blend of scenic beauty and cultural richness. From the serene beaches of the north to the lively markets and churches in the south, Goa is a tropical paradise known for its laid-back vibe, nightlife, and rich history.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Bengaluru to Nanjangud – Wildlife Safari in Bandipur",
+                    description:
+                        "Your luxurious journey aboard the Golden Chariot begins with check-in at Yashwantpur Railway Station in Bengaluru from 08:30 hrs onwards. After completing registration formalities, you will be warmly welcomed with a refreshing drink as you board one of India’s most opulent trains, the Golden Chariot. The train departs at 09:45 hrs, embarking on a fascinating adventure that will transport you through Karnataka's cultural and natural wonders.\n\nEnjoy a sumptuous lunch onboard as the train heads toward Nanjangud, where you will disembark at 13:30 hrs for a short drive to Bandipur Wildlife Sanctuary. Situated on the borders of the Nilgiri Hills, this wildlife haven is known for its lush greenery and diverse fauna, including tigers, elephants, and leopards. Embark on a thrilling evening safari from 16:30 hrs to 18:30 hrs, where you’ll have the chance to spot wildlife in their natural habitat. The sanctuary is also a birdwatcher’s paradise, with numerous species of birds making it their home.\n\nAfter your safari adventure, return to the Golden Chariot by 20:15 hrs, where a lavish dinner onboard awaits. As the train continues its journey towards Mysore, unwind in the comfort of your luxurious cabin, reflecting on the day’s experience. The train will arrive in Mysore later in the evening, where you will spend the night on board.",
+                },
+                {
+                    title: "Mysore – Royal Heritage and History",
+                    description:
+                        "Start your day with a delectable breakfast onboard as the Golden Chariot arrives in the historic city of Mysore, Karnataka's cultural gem. Known for its regal history, Mysore is a city that effortlessly blends grandeur with heritage, and today you'll delve into its rich past. At 09:30 hrs, disembark to visit the iconic Mysore Palace, a stunning example of Indo-Saracenic architecture, which once served as the residence of the Wadiyar dynasty. The palace is renowned for its opulent interiors, intricate carvings, and a golden throne that leaves visitors in awe. Explore the sprawling grounds, ornate courtyards, and the mesmerizing Durbar Hall that has witnessed royal ceremonies for centuries.\n\nAfter this royal exploration, return to the train for lunch, and at 14:00 hrs, if you wish, you may opt for a visit to Srirangapatnam, a small island town steeped in history. Known for its association with the legendary warrior Tipu Sultan, the town boasts architectural wonders such as the Tipu Sultan's Summer Palace and Ranganathaswamy Temple, making it an excellent addition for history enthusiasts.\n\nFollowing your optional excursion, return to the Golden Chariot for a delicious dinner onboard as the train departs for Banavar at 20:00 hrs for watering and fuelling. Relax in the comfort of your cabin as the train travels towards its next destination, soaking in the luxury and scenic vistas of South India.",
+                },
+                {
+                    title: "Halebidu and Chikmagalur – Heritage Temples and Coffee Estates",
+                    description:
+                        "After a delightful breakfast onboard, the Golden Chariot will arrive at Banavar Railway Station, setting the stage for a day steeped in history and natural beauty. First, travel to Halebidu, a town renowned for its spectacular Hoysala architecture. Visit the Hoysaleswara Temple, a stunning example of intricate stone carvings and architectural brilliance from the 12th century. This UNESCO World Heritage site, with its ornate sculptures depicting mythological tales, offers an intimate glimpse into the region's rich cultural heritage.\n\nAfter exploring Halebidu’s architectural marvels, return to the Golden Chariot for a sumptuous lunch onboard as the train proceeds towards Chikmagalur, a scenic hill station nestled in the Western Ghats. Upon arrival, enjoy a visit to one of Chikmagalur’s famous coffee plantations, where you can learn about the art of coffee cultivation. Walk through the lush green estates and witness the meticulous process behind one of India’s most beloved beverages.\n\nIn the evening, indulge in cultural activities that showcase the local traditions and vibrant heritage of Karnataka. Enjoy a delicious dinner at Chikmagalur, a perfect way to savor regional delicacies while soaking in the surrounding beauty of the hills. Later, return to the Golden Chariot as it journeys towards Hospet, ready to take you to the next chapter of your South Indian adventure.",
+                },
+                {
+                    title: "Hospet – Exploring the Ancient Ruins of Hampi",
+                    description:
+                        "Enjoy a delightful breakfast onboard as the Golden Chariot arrives in Hospet, the gateway to the ancient kingdom of Vijayanagar. From here, embark on a captivating visit to the Hampi ruins, one of India’s most iconic UNESCO World Heritage Sites. Known for its awe-inspiring temples, palaces, and majestic ruins, Hampi was once the thriving capital of the Vijayanagara Empire in the 14th century. Explore the intricately carved structures, including the Virupaksha Temple, Vittala Temple, and the Stone Chariot, each bearing testament to the grandeur of India’s medieval architecture and the region’s rich history.\n\nAfter immersing yourself in the ancient splendor of Hampi, return to the Golden Chariot for a delicious lunch onboard as the train continues its journey. The rest of the afternoon is yours to enjoy at leisure – relax, take in the passing scenery, or simply unwind as you look forward to the next leg of your journey.\n\nIn the evening, enjoy a delectable dinner onboard, with the train now en route to Goa. A place famous for its sun-kissed beaches, Portuguese architecture, and vibrant culture, Goa awaits with its laid-back charm and coastal beauty.",
+                },
+                {
+                    title: "Goa – A Journey Through Colonial Charm",
+                    description:
+                        "The Golden Chariot arrives at Karmali in Goa, where the day begins with a sumptuous breakfast onboard. Disembark at 09:00 hrs and step into the colonial charm of North Goa, famous for its magnificent churches, forts, and vibrant history. Your first stop will be the Basilica of Bom Jesus, a UNESCO World Heritage Site that houses the mortal remains of St. Francis Xavier, a revered missionary. You will also visit the Se Cathedral, the largest church in Asia, and the Church of St. Cajetan, known for its stunning Baroque architecture. As you explore the spiritual and architectural splendor of these iconic structures, you’ll witness the rich legacy of Portuguese rule in Goa.\n\nReturn to the Golden Chariot by 12:00 noon, and indulge in a leisurely lunch onboard as the train continues its journey to Madgaon, located in the southern part of Goa.\n\nIn the evening, experience an unforgettable Gala Dinner at a luxurious hotel in South Goa. Enjoy an evening filled with Goan music, dance, and a feast of local delicacies, celebrating the essence of Goa’s vibrant culture. After this memorable experience, relax as the Golden Chariot departs for Bengaluru at 22:30 hrs, marking the end of your luxurious exploration of the coastal paradise.",
+                },
+                {
+                    title: "Bengaluru – The Grand Finale",
+                    description:
+                        "After a delightful breakfast onboard, the Golden Chariot reaches its final destination, Bengaluru, where your royal journey comes to an end. Disembark at Yashwantpur Railway Station (YPR), marking the conclusion of an unforgettable 5-night, 6-day adventure through the heart of Karnataka and Goa.\n\nAs you step off the train, you’ll carry with you the memories of the stunning landscapes, majestic temples, historical landmarks, and luxurious experiences that have defined your Golden Chariot journey. With the charm of South India now etched in your mind, bid farewell to the splendid train that has redefined luxury travel, promising an unparalleled way to experience the diverse cultural richness of this remarkable region.",
+                },
+            ],
+            important_information: [
+                "Itinerary, destinations and scheduled departures may change without prior notice.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR Single child (5 years - 12 years) sharing cabin with adults - 50% of the adult fare, subject to sharing of double bed with two full paid adults. This is subject to availability of double bed at the time of booking.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://static.toiimg.com/thumb/72145261.cms?resizemode=75&width=1200&height=900",
+        name: "Glimpses of Karnataka",
+        duration: "3 Nights • 4 Days",
+        slug: "glimpses-of-karnataka",
+        luxury: true,
+        tour: {
+            location: "Bengaluru",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "The Golden Chariot is a royal train journey that embodies the opulence, culture, and history of South India. Named after the famous chariot in the Stone Chariot Temple at Hampi, this luxury train offers a seamless blend of modern comforts with the grandeur of Indian heritage. Launched in 2008, the Golden Chariot brings alive the fascinating narratives of the region’s dynasties through its meticulously designed interiors, reflecting the spirit of South India’s royalty. With lavish cabins, world-class facilities, and exceptional service, it’s a luxurious way to explore the cultural gems of Karnataka.\n\nOn the Glimpses of Karnataka itinerary, the Golden Chariot takes you on a 4-day journey through the heart of Karnataka, revealing its historical wonders, cultural heritage, and vibrant landscapes. Starting from Bengaluru, the vibrant tech capital of India, this tour is designed to take travelers through some of Karnataka’s most captivating destinations like Nanjangud, Mysore, and Hospet. Whether it’s the temples of Nanjangud, the regal Mysore Palace, or the ancient ruins of Hampi, each stop on this itinerary offers a unique experience that showcases Karnataka’s rich cultural tapestry.\n\nIdeal for travelers seeking an in-depth exploration of Karnataka’s heritage, this itinerary allows you to experience both the luxury of the Golden Chariot and the grandeur of ancient history. The Glimpses of Karnataka promises a perfect blend of culture, history, and unparalleled comfort, making it a must-do for those looking to witness the majestic landscapes and traditions of one of India’s most culturally rich states. This journey also offers an opportunity to visit UNESCO World Heritage Sites like the Hampi ruins, which offer travelers a glimpse into India’s royal past.",
+            destinations_covered: [
+                {
+                    name: "Bengaluru",
+                    description:
+                        "Known as the Silicon Valley of India, Bengaluru is a perfect blend of technology, history, and culture. The city is renowned for its modern architecture, bustling markets, and lush green spaces. As the starting and ending point of the Golden Chariot journey, Bengaluru offers a unique contrast of rapid urban growth alongside preserved colonial charm, making it an ideal gateway to explore the richness of Karnataka.",
+                },
+                {
+                    name: "Nanjangud",
+                    description:
+                        "Nestled on the banks of the Kabini River, Nanjangud is an ancient temple town with deep spiritual significance. The town is renowned for the Srikanteshwara Temple, dedicated to Lord Shiva, which draws pilgrims from across the country. A visit to Nanjangud offers travelers a peaceful retreat into South India's religious and architectural heritage, setting the tone for a journey into Karnataka’s cultural treasures.",
+                },
+                {
+                    name: "Mysore",
+                    description:
+                        "Mysore, often called the “City of Palaces,” is a royal destination that stands as a testament to Karnataka's majestic history. With its iconic Mysore Palace, magnificent gardens, and royal structures, Mysore offers a deep dive into the opulent past of India’s royal families. Famous for its traditional silk and sandalwood, the city provides a perfect blend of history, art, and culture, making it an essential stop on any Karnataka journey.",
+                },
+                {
+                    name: "Hospet",
+                    description:
+                        "Located near the historical ruins of Hampi, Hospet is a charming town that acts as the gateway to one of India’s most famous UNESCO World Heritage Sites. Known for its proximity to the stunning temples, ruins, and bouldered landscapes of Hampi, Hospet offers a glimpse into the grandeur of the Vijayanagara Empire. Visitors can explore ancient monuments, intricately carved temples, and awe-inspiring landscapes, making it a must-see destination for history enthusiasts.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Bengaluru to Nanjangud - Explore Temples & Safari Adventure",
+                    description:
+                        'Your Golden Chariot journey begins with a grand welcome at Yeshwanthpur Railway Station (YPR) in Bengaluru, where you’ll check in at 08:30 AM. After a traditional reception, the luxury train departs Bengaluru at 09:45 AM, setting the stage for a memorable voyage. Enjoy the comfort and elegance of the Golden Chariot as you make your way to Nanjangud, known for its rich religious heritage and stunning architecture.\n\nLunch is served onboard as the train arrives in Nanjangud at 1:30 PM. Known as the "Kashi of the South," Nanjangud is home to the famed Nanjundeshwara Temple, a significant pilgrimage site dedicated to Lord Shiva. The temple’s intricate carvings, towering gopurams, and sacred atmosphere make it a perfect introduction to the region\'s spiritual depth.\n\nIn the afternoon, embark on an exciting safari at the Bandipur Wildlife Sanctuary (from 4:30 PM to 6:30 PM). Bandipur is a haven for wildlife enthusiasts, offering the chance to see a variety of animals in their natural habitat, including tigers, elephants, and a rich diversity of birds. After this exciting adventure, return to the Golden Chariot by 8:15 PM for a sumptuous dinner as the train proceeds towards Mysore, where you’ll spend the night aboard.\n\nThis day blends the sacred and natural wonders of Karnataka, giving you a glimpse into its spiritual heritage and wildlife richness, all while indulging in the unparalleled luxury of the Golden Chariot.',
+                },
+                {
+                    title: "Mysore - Royal Palaces & Historic Sites",
+                    description:
+                        "Wake up refreshed aboard the Golden Chariot and enjoy a delicious breakfast onboard as you arrive in Mysore, the City of Palaces. Known for its regal heritage and grand architecture, Mysore is a key destination in Southern India’s royal history.\n\nAfter breakfast, head out for a visit to the magnificent Mysore Palace (also known as Amba Vilas Palace), one of the most iconic landmarks of South India. This stunning palace, once the residence of the Wodeyar dynasty, is a remarkable blend of Hindu, Mughal, Rajput, and Gothic styles. Its intricate carvings, ornate furnishings, and expansive courtyards tell the story of a bygone royal era. The grand Durbar Hall and the stunning illumination of the palace at night are especially impressive, making it a must-see.\n\nAfter your palace visit, return to the Golden Chariot for a delightful lunch onboard. In the afternoon, you have the option to explore Srirangapatnam, an island fortress steeped in history. The town was once the capital of the Sultan of Mysore, Tipu Sultan, and is home to many historical sites, including Tipu Sultan’s Summer Palace and Ranganathaswamy Temple.\n\nIn the evening, enjoy a hearty dinner onboard as the Golden Chariot continues its journey to Hospet (Departure at 8:00 PM), with a stop for watering and fueling along the way. The evening onboard promises luxury, comfort, and relaxation as you continue your exploration of Karnataka's royal past and rich history.",
+                },
+                {
+                    title: "Hospet - Discover the Majestic Hampi",
+                    description:
+                        "Begin your day with a delightful breakfast onboard as the Golden Chariot arrives in Hospet, a key gateway to one of India’s most remarkable UNESCO World Heritage Sites—Hampi. Known for its mesmerizing ruins, Hampi was once the thriving capital of the Vijayanagara Empire and is now an open-air museum showcasing a rich tapestry of history and architecture.\n\nAfter breakfast, embark on a guided excursion to explore the Hampi ruins, where you’ll be transported back in time to witness the grandeur of this ancient city. Stroll through the majestic Virupaksha Temple, the intricate stone carvings of Vittala Temple, and the beautiful Stone Chariot that gave the Golden Chariot its name. The site is a testament to the creativity and engineering brilliance of the Vijayanagara Empire, with sprawling temples, royal complexes, and intricately carved structures that remain standing after centuries.\n\nReturn to the train for a sumptuous lunch onboard as you relax and reflect on your cultural journey. In the afternoon, enjoy the freedom to unwind or explore the local area at your leisure.\n\nLater in the evening, indulge in a delicious dinner onboard, savoring gourmet meals prepared by expert chefs. As night falls, the train departs for Bengaluru, the bustling capital of Karnataka, where your journey will conclude, but the memories of Hampi’s ancient wonders will stay with you long after.",
+                },
+                {
+                    title: "Bengaluru - The End of a Regal Journey",
+                    description:
+                        "On the final day of your unforgettable journey aboard the Golden Chariot, you’ll wake up to a sumptuous breakfast served onboard as the train rolls into Bengaluru (Yashwantpur Railway Station). After enjoying a leisurely meal, it’s time to bid farewell to the opulent comforts of the Golden Chariot.\n\nThe train arrives at Bengaluru, the vibrant capital of Karnataka, known for its dynamic blend of modernity and tradition. As you disembark, you’ll be filled with lasting memories of your immersive journey through the heart of Karnataka, from the rich cultural heritage of Mysore and the awe-inspiring Hampi ruins to the peaceful charm of Nanjangud and the regal atmosphere of the Golden Chariot.\n\nWith your departure from the train, your journey through Southern India’s glorious past comes to an end, but the experiences, sights, and stories from this journey will remain etched in your mind. We hope to welcome you aboard again soon for another spectacular adventure across India.",
+                },
+            ],
+            important_information: [
+                "Itinerary, destinations and scheduled departures may change without prior notice.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR Single child (5 years - 12 years) sharing cabin with adults - 50% of the adult fare, subject to sharing of double bed with two full paid adults. This is subject to availability of double bed at the time of booking.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://blog.irctcbuddhisttrain.com/wp-content/themes/Buddha/assets/images/buddhist-banner1-for-blog.jpg",
+        name: "Buddhist Circuit Tourist Train",
+        duration: "7 Nights • 8 Days",
+        slug: "buddhist-circuit-tourist-train",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "The Buddhist Circuit Tourist Train offers a profound spiritual journey to some of the holiest destinations associated with Lord Buddha’s life. This 8-day pilgrimage, covering key sites such as Bodhgaya, Sarnath, Kushinagar, and Lumbini, allows travelers to immerse themselves in the sacred landscape where the Buddha was born, attained enlightenment, preached his first sermon, and ultimately achieved Nirvana. The tour offers an unparalleled opportunity to experience the profound history and philosophy of Buddhism while enjoying modern comforts aboard one of India’s most unique and culturally rich trains.\n\nAs the birthplace of Buddhism, India holds the rich legacy of Lord Buddha’s life, with each destination on this Buddhist circuit representing a significant milestone in his journey to enlightenment. The Buddhist Circuit Tourist Train ensures that every pilgrim and traveler is able to visit these sacred sites with ease and comfort. From the serenity of Bodhgaya, where Buddha attained enlightenment under the Bodhi tree, to the spiritual ambiance of Sarnath, where he delivered his first sermon, this well-curated itinerary encapsulates the essence of Buddha’s teachings and their impact on the world.\n\nThe Buddhist Circuit Tourist Train offers a luxurious and comfortable ride, with modern amenities designed to complement the spiritual aspect of the journey. With multiple accommodation options, including First AC and AC 2-tier cabins, the train ensures a comfortable and rejuvenating journey. Enjoy sumptuous meals onboard, well-maintained facilities, and insightful cultural and religious experiences as you travel through the spiritual heartland of India. Whether you're a Buddhist pilgrim or a traveler seeking spiritual enlightenment, this immersive experience promises to be life-changing and memorable.",
+            destinations_covered: [
+                {
+                    name: "Delhi",
+                    description:
+                        "Delhi, the vibrant capital of India, is a fusion of historical significance and modern splendor. As the gateway to the Buddhist Circuit, Delhi is a city that offers rich historical landmarks, including India Gate, Qutub Minar, and Lotus Temple. For Buddhist pilgrims, Delhi holds special importance as the starting point of the Mahaparinirvan Express, leading travelers on a spiritual journey to sacred destinations like Bodhgaya, Lumbini, and more. With its blend of ancient history and modern-day energy, Delhi offers a dynamic beginning to this sacred pilgrimage.",
+                },
+                {
+                    name: "Gaya",
+                    description:
+                        "Located in the eastern state of Bihar, Gaya is one of the most revered cities in Buddhist history. It is home to Bodhgaya, where Lord Buddha attained enlightenment under the Bodhi Tree. Gaya is not only significant for Buddhist pilgrims but also boasts of rich Hindu traditions, being one of the major sites for Pind Daan rituals. The city offers a peaceful atmosphere for reflection and spiritual rejuvenation, making it a must-visit destination on the Buddhist Circuit Tour.",
+                },
+                {
+                    name: "Bodhgaya",
+                    description:
+                        "Bodhgaya is the epicenter of Buddhism, where Lord Buddha achieved enlightenment. Revered as one of the holiest Buddhist pilgrimage sites, the Mahabodhi Temple stands at the spot where Buddha meditated under the Bodhi Tree. This UNESCO World Heritage site draws thousands of pilgrims from around the globe, seeking spiritual solace and wisdom. A visit to Bodhgaya offers an immersive experience into Buddhist culture, history, and spiritual practices, making it a pivotal stop on the Buddhist Circuit Tour.",
+                },
+                {
+                    name: "Nalanda",
+                    description:
+                        "A UNESCO World Heritage site, Nalanda was once one of the greatest ancient centers of learning in the world. Home to the renowned Nalanda University, which attracted scholars from across Asia, Nalanda represents the zenith of ancient Buddhist education. The ruins of the university, along with the Nalanda Museum, provide an insightful look into the intellectual vibrancy that once thrived in this region. As part of the Buddhist Circuit, Nalanda offers a glimpse into Buddhism’s rich academic legacy.",
+                },
+                {
+                    name: "Rajgir",
+                    description:
+                        "Located in the scenic hills of Bihar, Rajgir is a key site in the Buddhist, Jain, and Hindu traditions. This tranquil town was a favorite retreat for Lord Buddha, who spent a considerable amount of time here meditating and delivering sermons. Key highlights include the Bimbisara Jail, Venuvana, and the Gridhakuta Hill, where Buddha delivered the famous Lotus Sutra. The serene surroundings make Rajgir an ideal place for spiritual introspection.",
+                },
+                {
+                    name: "Varanasi",
+                    description:
+                        "Known as the spiritual capital of India, Varanasi is one of the oldest continuously inhabited cities in the world. It is an iconic pilgrimage destination for Hindus and Buddhists alike. Varanasi is renowned for its Ghats along the Ganges River, where pilgrims perform sacred rituals. In addition to its spiritual significance, Varanasi is a place of profound learning and culture. The Buddhist Circuit journey takes you to Sarnath, where Buddha gave his first sermon, linking Varanasi to both ancient and modern Buddhist traditions.",
+                },
+                {
+                    name: "Sarnath",
+                    description:
+                        "Just a short distance from Varanasi, Sarnath is one of the most important Buddhist sites in India. It was here that Lord Buddha delivered his first sermon after attaining enlightenment at Bodhgaya. The site features the Dhamekh Stupa, Mulgandha Kuti Vihar, and the Sarnath Museum, where relics of ancient Buddhist art and sculptures can be found. Sarnath serves as a reminder of the Buddha’s teachings on the Four Noble Truths and the Eightfold Path, offering a profound experience for those on the Buddhist pilgrimage.",
+                },
+                {
+                    name: "Nautanwa",
+                    description:
+                        "Nautanwa is a significant border town, situated close to Lumbini in Nepal, where Buddha was born. The town serves as the entry point to Nepal for pilgrims traveling on the Buddhist Circuit. Its proximity to Lumbini makes it an essential stop for those wishing to visit the birthplace of Lord Buddha. Nautanwa reflects the region's spiritual and cultural importance and serves as a transition from India to Nepal for the continuing Buddhist pilgrimage.",
+                },
+                {
+                    name: "Lumbini",
+                    description:
+                        "Lumbini, located in Nepal, is the birthplace of Lord Buddha and one of the most sacred sites in Buddhism. Visitors can explore the Maya Devi Temple, where the Buddha was born, along with the Ashoka Pillar and the peaceful Lumbini Garden. As part of the Buddhist Circuit, Lumbini offers pilgrims a profound connection to the origins of Buddhism and a chance to meditate in the serene surroundings where the Buddha began his journey towards enlightenment.",
+                },
+                {
+                    name: "Kushinagar",
+                    description:
+                        "Kushinagar is the site where Lord Buddha attained Parinirvana, the final stage of nirvana after his death. It is one of the most important Buddhist pilgrimage sites in India. The Mahaparinirvana Temple and Rambhar Stupa mark the spot where the Buddha passed away, and pilgrims often visit to pay their respects. The tranquil atmosphere in Kushinagar makes it a fitting destination for those seeking a deeper understanding of Buddha’s life and teachings.",
+                },
+                {
+                    name: "Gorakhpur",
+                    description:
+                        "Situated in the heart of Uttar Pradesh, Gorakhpur is the gateway to Kushinagar. While the city is more famous for its historical and religious significance in Hinduism, it serves as an important transit hub for Buddhist pilgrims traveling to Kushinagar. It is a major center for travelers, providing essential services and accommodations for those on their way to Kushinagar or other Buddhist destinations.",
+                },
+                {
+                    name: "Balrampur",
+                    description:
+                        "Balrampur, a quaint town in Uttar Pradesh, lies close to Sravasti, one of the Buddha's prominent places of residence during his life. Sravasti was the site where Buddha performed several miracles and spent 24 rainy seasons. Balrampur serves as the base for travelers heading to Sravasti, making it a significant point on the Buddhist Circuit. It offers pilgrims a peaceful setting to reflect on Buddha’s teachings before heading to Sravasti to witness its historical and spiritual sites.",
+                },
+                {
+                    name: "Sravasti",
+                    description:
+                        "Located in Uttar Pradesh, Sravasti is one of the holiest cities in Buddhism. It was here that Buddha performed numerous miracles and preached extensively to his disciples. Notable sites include the Jetavana Vihara, Pakki Kuti, and Sehat Mahet, which mark places where Buddha spent a significant portion of his life. As part of the Buddhist Circuit, Sravasti provides an enriching experience for pilgrims seeking to walk in the footsteps of Buddha.",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the Taj Mahal, is a must-visit destination for anyone traveling through India. While Agra is primarily famous for its Mughal architecture, especially the Taj Mahal, the city is also an important cultural center for pilgrims exploring Buddhist sites. The stunning beauty of the Taj Mahal adds an extra layer of awe to the final leg of the Buddhist Circuit Tour, offering travelers a glimpse of India’s rich history and cultural heritage.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Departure from Delhi to Gaya",
+                    description:
+                        "13:30 hrs: Assemble at Safdarjung Railway Station, Delhi, where you will receive a traditional welcome and an insightful briefing about the Buddhist Circuit Tourist Train journey. This is the perfect time to meet fellow travelers, get acquainted with the itinerary, and understand the significance of the sacred places you'll be visiting.\n\n14:30 hrs: The Buddhist Circuit Tourist Train departs from Delhi, heading towards Gaya. Settle comfortably into your well-appointed coach, where you’ll enjoy modern amenities tailored to ensure a relaxing and memorable journey. Take this time to explore the luxurious features of the train, including the dining car, library, and spa facilities, ensuring a peaceful start to your pilgrimage.\n\n20:00 hrs: Dinner will be served onboard, featuring a selection of scrumptious delicacies prepared to perfection. Relish traditional and international dishes designed to satisfy your palate while you enjoy the serene ambiance of the train.\n\nOvernight: Stay onboard the train as it travels towards Gaya, the city where Lord Buddha attained enlightenment. Rest comfortably as the train journey sets the tone for the profound spiritual experiences that lie ahead.",
+                },
+                {
+                    title: "Gaya to Bodhgaya – The Land of Enlightenment",
+                    description:
+                        "06:30 hrs: Start your day early and wake up to the scenic views as the train continues its journey. Enjoy a refreshing cup of tea onboard while taking in the tranquil landscapes. Afterward, freshen up and indulge in a hearty breakfast onboard, prepared to perfection, amidst the regal comfort of the Buddhist Circuit Tourist Train.\n\n08:30 hrs: Upon arrival at Gaya Railway Station, disembark and board your coach for a short transfer to Bodhgaya, the sacred site where Lord Buddha attained enlightenment. This is the first of many spiritual experiences you'll have on this remarkable journey.\n\n10:00 hrs: Upon reaching Bodhgaya, check in to your hotel where you can relax and rejuvenate. After a leisurely rest, enjoy a scrumptious lunch at the hotel, offering you a chance to savor local flavors before embarking on the next stage of your pilgrimage.\n\n14:30 hrs: The sightseeing tour of Bodhgaya begins with a visit to the Mahabodhi Temple, a UNESCO World Heritage Site and one of the holiest Buddhist temples. Explore the Niranjana River, where Buddha is said to have bathed before meditating under the Bodhi tree. Continue the spiritual journey by visiting the Thai Temple, Japanese Temple, and the Buddha Statue, all of which showcase incredible architectural beauty and are imbued with centuries of Buddhist history.\n\n19:30 hrs: After a day of spiritual exploration, return to your hotel to relax. Enjoy a delicious dinner at the hotel, and reflect on the profound experiences of the day. Overnight stay at the hotel in Bodhgaya, where you can rest and prepare for the next chapter of your sacred journey.",
+                },
+                {
+                    title: "Rajgir & Nalanda – The Spiritual Heart of Ancient India",
+                    description:
+                        '05:30 hrs: Start your day early with a wholesome breakfast at the hotel, energizing you for an immersive journey through the historical and spiritual treasures of Bihar.\n\n07:00 hrs: After breakfast, check out from your hotel and embark on a coach journey to Rajgir, a place of immense importance in Buddhist history. Rajgir is where Lord Buddha delivered many profound discourses and meditated in solitude, making it a significant stop on this pilgrimage tour.\n\n09:30 hrs: Upon arrival in Rajgir, begin your sightseeing tour. Explore Bimbisara Jail, where King Bimbisara, one of the earliest patrons of Buddhism, was imprisoned. Then head towards Gridhakuta Hill, known as the "Vultures Peak," where Buddha is believed to have given many of his sermons. Continue to Venuvan, a tranquil bamboo garden where Buddha often meditated.\n\n12:30 hrs: After your spiritual journey through Rajgir, return to the hotel for a delightful lunch, which will fuel you for the afternoon’s exploration.\n\n13:30 hrs: Next, proceed to Nalanda, the ancient seat of learning and one of the world’s first residential universities. Explore the ruins of Nalanda University, which once housed thousands of scholars from across the world. Visit the Nalanda Museum, where you can see artifacts from this intellectual hub that flourished from the 5th to the 12th century.\n\n17:00 hrs: After your enriching tour of Nalanda, return to Gaya Railway Station to board the Buddhist Circuit Tourist Train for the next leg of your journey.\n\n19:30 hrs: Arrive at Gaya Railway Station and settle in for a relaxing dinner on board. As you dine, the train will begin its journey to Varanasi, the spiritual capital of India, where you will soon explore the vibrant heart of the Buddhist pilgrimage circuit.',
+                },
+                {
+                    title: "Varanasi & Sarnath – The Heart of Buddhist Legacy",
+                    description:
+                        "05:00 hrs: Start your day with an early morning tea onboard, as you gaze out the window and watch the sunrise over the scenic countryside. Savor a delectable breakfast onboard, preparing yourself for a day full of spiritual and historical exploration.\n\n06:00 hrs: Upon your arrival at Varanasi Railway Station, disembark the train and embark on a short journey to Sarnath, just 10 km away. Sarnath is one of the most sacred Buddhist sites in the world, where Lord Buddha gave his first sermon after attaining enlightenment.\n\nExplore the awe-inspiring Dhamekh Stupa, the towering monument marking the spot where Buddha delivered his first teachings to his disciples. Visit the Sarnath Museum to admire the rich Buddhist artifacts and sculptures, including the famous Ashokan Pillar—a symbol of the Mauryan dynasty’s commitment to Buddhism. You’ll also visit the Mulgandha Kuti Vihar, a serene temple adorned with beautiful frescoes that depict important moments in the life of Lord Buddha.\n\n12:30 hrs: After a spiritually uplifting morning, check in at a local hotel for a comforting lunch. Enjoy some rest and freshen up before your next adventure.\n\n17:00 hrs: In the evening, head to the River Ganges Ghat, where the sacred river flows through the city of Varanasi. Experience the spiritual atmosphere of the evening Aarti ceremony, where priests perform a ritual of fire and song to honor the Ganges. This mesmerizing experience offers a profound connection to India’s spiritual traditions.\n\n19:00 hrs: After attending the Aarti, return to the train at the railway station and board the Buddhist Circuit Tourist Train.\n\n20:00 hrs: Enjoy a delicious dinner onboard, reflecting on the day's experiences, as the train departs for Nautanwa, your gateway to Lumbini, Nepal—the birthplace of Lord Buddha. Relax and rest during the overnight journey as the train heads towards one of the holiest sites in Buddhism.",
+                },
+                {
+                    title: "Lumbini – The Birthplace of Lord Buddha",
+                    description:
+                        "06:00 hrs: Start your day early with a refreshing cup of tea onboard as you gaze at the serene landscape passing by. Savor a wholesome breakfast on board, preparing for a day of spiritual discovery.\n\n07:00 hrs: The train arrives at Nautanwa Railway Station, the gateway to Lumbini, Nepal, the birthplace of Lord Buddha. Please have your passport and visa ready for the border crossing. (Visa fees and passport-size photographs may be required, so be sure to keep them handy.) Upon arrival, embark on a scenic journey by coach to Lumbini.\n\n11:30 hrs: Arrive in Lumbini and enjoy a smooth check-in at your hotel. Take some time to relax and unwind after your journey. Then, delight in a delicious lunch served at the hotel.\n\n15:30 hrs: In the afternoon, set out for a profound sightseeing tour of Lumbini, a UNESCO World Heritage Site and one of the holiest places in the world for Buddhists. Visit the Maya Devi Temple, the sacred site believed to be the exact spot where Queen Maya Devi gave birth to Prince Siddhartha, who later became Lord Buddha. You’ll also visit the Ashoka Pillar, an ancient stone pillar erected by the Indian Emperor Ashoka in 249 BCE to mark the significance of Lumbini as a Buddhist pilgrimage destination.\n\n19:30 hrs: After a day of deep reflection and spiritual exploration, return to your hotel to enjoy a sumptuous dinner. Reflect on your journey and immerse yourself in the serene beauty of Lumbini before retiring for the night.\n\nOvernight stay at the hotel in Lumbini.",
+                },
+                {
+                    title: "Kushinagar – The Place of Buddha's Nirvana",
+                    description:
+                        "05:00 hrs: Rise early to begin another inspiring day. Enjoy a delicious breakfast at the hotel, preparing you for a spiritually enriching journey to Kushinagar, one of the most important Buddhist pilgrimage sites.\n\n06:15 hrs: After breakfast, check-out from the hotel and begin your coach journey to Kushinagar, the place where Lord Buddha attained Mahaparinirvana (final Nirvana). The peaceful surroundings here make it a serene place to reflect on the Buddha's life and teachings.\n\n12:30 hrs: Upon arrival in Kushinagar, proceed to the hotel for a well-deserved lunch. After resting for a short while, you’ll be ready to embark on your sightseeing tour.\n\n13:30 hrs: Begin your sightseeing tour of Kushinagar, which includes visits to the revered Mahaparinirvan Temple, where Lord Buddha is said to have entered Nirvana. Explore the Rambhar Stupa, a monument marking the site of Buddha’s cremation. Visit the Mata Kutir Temple, believed to be the location where Lord Buddha's mother, Queen Maya, lived after giving birth to him. These sacred landmarks offer a peaceful atmosphere to honor the Buddha’s profound legacy.\n\n17:30 hrs: After a soul-stirring day of exploration, you’ll board your coach to Gorakhpur, where the train awaits.\n\n19:00 hrs: Arrive at Gorakhpur Railway Station, where you will board the train for your next destination. After a warm welcome on board, you can unwind and enjoy a delightful dinner as the train departs for Balrampur, the gateway to Sravasti.\n\nOvernight on the train, en route to Sravasti.",
+                },
+                {
+                    title: "Sravasti – The Land of Buddha’s Sermons",
+                    description:
+                        "04:00 hrs: Arrive early in the morning at Balrampur Railway Station, the starting point for your exploration of Sravasti, one of the most significant places in Buddhist history.\n\n05:30 hrs: Enjoy a refreshing early morning tea aboard the train as you prepare for the day's activities. The peaceful ambiance offers the perfect setting to begin your spiritual journey.\n\n06:30 hrs: Disembark from the train and board the coach for your drive to Sravasti, located just 15 km away. This was the place where Lord Buddha spent a considerable amount of time and delivered many important sermons.\n\n07:30 hrs: Upon arrival in Sravasti, check into your hotel and enjoy a hearty breakfast to fuel up for the day’s sightseeing. Freshen up and get ready for an insightful exploration of the sacred sites in this historical city.\n\n09:30 hrs: Embark on your sightseeing tour, starting with Jetvana Vihara, the most significant Buddhist monastery in Sravasti where Buddha is believed to have spent 24 rainy seasons. Visit the Pakki Kuti, the ruins of the ancient monastic structure, and Sehat Mahet, a site of great archaeological and religious importance. Each of these sites offers a deeper connection to Lord Buddha’s teachings and his time in Sravasti.\n\n13:00 hrs: After an enriching morning, enjoy a relaxing lunch at the hotel, reflecting on the profound spiritual experiences of the day.\n\n15:00 hrs: After lunch, you’ll proceed to Balrampur Railway Station to board the train for the onward journey. This will be your final leg of the day’s journey, as you head towards Agra, home of the majestic Taj Mahal.\n\n16:00 hrs: Arrive at Balrampur Railway Station and board the train, where you’ll be escorted to your respective cabins for a comfortable ride to Agra (approximately 450 km away). Sit back, relax, and enjoy your dinner on board as the train continues its journey through the Indian countryside.\n\nOvernight on board the train to Agra.",
+                },
+                {
+                    title: "Agra – The Eternal Beauty of the Taj Mahal ",
+                    description:
+                        "07:00 hrs: Begin your final day of the Buddhist Circuit Tourist Train journey with a refreshing early morning tea aboard the train. Take in the peaceful surroundings and prepare yourself for the last leg of your spiritual and cultural journey. Enjoy a scrumptious breakfast as you get ready to explore the magnificent city of Agra.\n\n08:00 hrs: Arrive at Agra Railway Station, home to one of the most iconic landmarks in the world – the Taj Mahal. After disembarking, embark on a guided sightseeing tour of Agra. Your visit to the Taj Mahal, a UNESCO World Heritage site and one of the Seven Wonders of the World, is sure to be a highlight of your journey. Marvel at the architectural brilliance and the mesmerizing beauty of this symbol of eternal love, built by Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.\n\n12:30 hrs: After a fulfilling exploration of the Taj Mahal, you’ll proceed to Agra Cantt. Railway Station to continue your journey. The spiritual odyssey may be drawing to a close, but the memories of this majestic site will remain with you forever.\n\n14:15 hrs: Board the train once again for the final leg of the trip, heading back to New Delhi (220 km away). Enjoy a delicious lunch on board as the train moves forward, allowing you to relax and reflect on the journey you’ve just experienced.\n\n16:00 hrs: Take some time to savor a cup of evening tea on board, watching the scenic landscapes unfold as the train nears its final destination.\n\n18:00 hrs: Arrive at Delhi Safdarjung Railway Station, where the Buddhist Circuit Tourist Train journey concludes. Disembark with a deep sense of fulfillment, carrying the stories and teachings of Lord Buddha along with you as you return to New Delhi.\n\nEnd of the tour.",
+                },
+            ],
+            important_information: [
+                "Itinerary, destinations and scheduled departures may change without prior notice.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "All our journeys require a minimum number of passengers to operate. Should this not be accomplished, we will offer you an alternate departure date or an alternate journey or a refund. In the unlikely eventuality of this occurring, 30 days advance intimation can be given.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR Single child (5 years - 12 years) sharing cabin with adults - 50% of the adult fare, subject to sharing of double bed with two full paid adults. This is subject to availability of double bed at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://metrorailnews.in/wp-content/uploads/2023/08/Untitled-design-2023-08-23T173704.539.png",
+        name: "The Indian Panorama on Maharajas’ Express",
+        duration: "6 Nights • 7 Days",
+        slug: "the-indian-panorama-on-maharajas-express",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Welcome aboard the Maharajas' Express, recognized as the \"World's Leading Luxury Train\" at the World Travel Awards for seven consecutive years (2012-2018). This magnificent train offers a once-in-a-lifetime journey that redefines the concept of luxury travel. Whether you’re traveling through the royal landscapes of Rajasthan or exploring iconic destinations like the Taj Mahal and Ranthambore National Park, the Maharajas' Express immerses you in the rich cultural heritage of Incredible India. As the train takes you on an seven-day journey, you’ll witness centuries-old forts, opulent palaces, and gleaming marble monuments while experiencing a level of comfort and elegance that epitomizes royal living.\n\nThe Maharajas' Express is not just a means of transport; it is an experience in itself. From the moment you step aboard, you are transported into a world of luxury and grandeur, where every detail is designed to make you feel like royalty. The train features lavish interiors adorned with rich fabrics and peacock motifs, while the cabins, starting from cozy 112-square-feet rooms, offer modern amenities such as king-sized beds, LCD TVs, and private bathrooms. For those seeking the pinnacle of indulgence, the Presidential Suite offers two bedrooms, a private living area, and a bathtub, stretching across an entire carriage.\n\nAs the train chugs through Rajasthan’s parched desert landscape, travelers will enjoy attentive service from a staff-to-guest ratio of roughly 3:4, with world-class dining experiences in two dedicated restaurants, bars, and lounges. The Maharajas' Express provides not just a journey but a journey fit for royalty, allowing you to truly immerse yourself in the essence of India’s rich cultural tapestry. With 23 carriages and a capacity for just 88 guests, there is plenty of space to relax and enjoy the regal experience that awaits you. Whether it’s the rich gold-hued linens in your cabin or the fine dining prepared by onboard chefs, every moment spent aboard the Maharajas' Express will be a memory to cherish forever.",
+            destinations_covered: [
+                {
+                    name: "JAIPUR",
+                    description:
+                        'Known as the "Pink City," Jaipur is a royal destination filled with grandeur and architectural marvels. Explore the stunning Amber Fort, the opulent City Palace, and the majestic Hawa Mahal, all embodying the rich culture and history of Rajasthan\'s royal heritage.',
+                },
+                {
+                    name: "RANTHAMBORE",
+                    description:
+                        "Ranthambore is famous for its National Park, one of India’s largest and most renowned tiger reserves. A thrilling safari here offers the chance to spot tigers, leopards, and other wildlife amid the rugged landscapes, while the Ranthambore Fort adds a historical touch to this natural wonder.",
+                },
+                {
+                    name: "FATEHPUR SIKRI",
+                    description:
+                        "A UNESCO World Heritage site, Fatehpur Sikri is a magnificent abandoned Mughal city that reflects the grandeur of Emperor Akbar’s reign. The Buland Darwaza, Diwan-i-Khas, and other structures showcase the architectural brilliance of the Mughal era.",
+                },
+                {
+                    name: "AGRA",
+                    description:
+                        "Home to the world-famous Taj Mahal, Agra is a city steeped in Mughal history. The Agra Fort and Itmad-ud-Daulah's Tomb further enrich the cultural and architectural landscape of this timeless city, making it one of India's most iconic destinations.",
+                },
+                {
+                    name: "ORCHHA",
+                    description:
+                        "A charming town on the banks of the Betwa River, Orchha is renowned for its historic Orchha Fort, beautiful temples, and palaces. The town offers a peaceful glimpse into India’s medieval architecture and royal past, alongside scenic rural landscapes.",
+                },
+                {
+                    name: "KHAJURAHO",
+                    description:
+                        "Famous for its UNESCO-listed Khajuraho Temples, this town showcases intricate carvings that depict divine, royal, and everyday life. The temples, with their stunning architecture and erotic sculptures, are a testament to India's ancient craftsmanship and artistic heritage.",
+                },
+                {
+                    name: "VARANASI",
+                    description:
+                        "One of the oldest living cities in the world, Varanasi is the spiritual heart of India. Known for its sacred Ganges River ghats, Sarnath Ruins, and the mesmerizing Evening Aarti, Varanasi is a city where centuries-old traditions come alive in a captivating display of culture and devotion.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Delhi - Jaipur (Sunday)",
+                    description:
+                        "07:30 – Board the Maharajas' Express at Delhi Safdarjung Railway Station\nWelcome aboard the luxurious Maharajas' Express. Check-in and settle into your cabin as the train departs for Jaipur.\n\n09:00 – Breakfast Onboard\nEnjoy a gourmet breakfast as the train makes its way to Jaipur.\n\n12:00 – Tour Briefing Onboard\nLearn about the day's itinerary, including your visit to Amber Fort and other highlights of Jaipur.\n\n13:00 – Lunch Onboard\nSavor a delicious multi-course lunch while traveling towards Jaipur.\n\n15:30 – Arrive in Jaipur & Visit Amber Fort\nExplore the magnificent Amber Fort, a 16th-century hilltop fortress known for its stunning architecture and history.\n\n20:00 – Return to Maharajas' Express & Dinner Onboard\nReturn to the comfort of the train and enjoy a luxurious dinner onboard.\n\nOvernight at Jaipur\nRelax in your opulent cabin for a restful night aboard the Maharajas' Express.",
+                },
+                {
+                    title: "Jaipur (Monday)",
+                    description:
+                        "09:00 – Visit the City Palace Museum\nExplore the grandeur of City Palace, a magnificent example of Rajasthani and Mughal architecture. Visit the City Palace Galleries, housing royal artifacts, art collections, and historical exhibits.\n\n13:00 – Return to Maharajas' Express for Lunch\nHead back to the comforts of the train and indulge in a lavish lunch onboard, enjoying world-class cuisine.\n\n14:30 – Relax Onboard or Optional Activities\nTake some time to relax in your cabin or enjoy optional activities, such as a spa treatment, a visit to a local bazaar, or a lecture on Rajasthan’s royal history.\n\n18:00 – Dinner at Hotel Rambagh Palace\nExperience a regal dinner at the Rambagh Palace, a former royal residence now converted into a luxury hotel. Relish exquisite cuisine in an opulent setting.\n\n21:30 – Return to Maharajas' Express\nReturn to the comforts of the train for a restful evening as you prepare for the journey ahead.\n\n23:00 – Maharajas' Express Departs for Sawai Madhopur (Ranthambore)\nThe train departs from Jaipur, continuing its royal journey towards Sawai Madhopur, the gateway to Ranthambore National Park.",
+                },
+                {
+                    title: "Ranthambore - Fatehpur Sikri (Tuesday)",
+                    description:
+                        "06:30 – Game Drive at Ranthambore National Park\nStart the day with an early morning safari in Ranthambore National Park, known for its rich wildlife, including tigers. Explore the rugged beauty of the park, capturing unforgettable moments in the wild.\n\n09:45 – Return to Maharajas' Express & Breakfast Onboard\nAfter the safari, return to the comforts of the Maharajas' Express and enjoy a delicious breakfast while the train continues its journey.\n\n10:15 – Maharajas' Express Departs for Fatehpur Sikri\nRelax and enjoy the scenic ride as the train heads towards Fatehpur Sikri, a UNESCO World Heritage site.\n\n13:30 – Lunch Onboard\nIndulge in a multi-course lunch onboard, offering a blend of regional and international flavors to suit your taste.\n\n14:45 – Arrive at Fatehpur Sikri\nExplore the deserted Mughal city of Fatehpur Sikri, known for its stunning architecture and historical significance. Visit the impressive Buland Darwaza, Diwan-i-Khas, and other Mughal-era structures.\n\n18:00 – Return to Maharajas' Express & Depart for Agra\nAfter your visit to Fatehpur Sikri, return to the luxury of the train as it makes its way to Agra, home to the magnificent Taj Mahal.\n\n19:30 – Dinner Onboard\nEnjoy a royal dinner on the train, savoring exquisite dishes from around the world as you relax and unwind.\n\n20:00 – Arrive in Agra\nThe train arrives in Agra, where you’ll spend the night, with a restful evening ahead to prepare for tomorrow's iconic visit to the Taj Mahal.",
+                },
+                {
+                    title: "Agra (Wednesday)",
+                    description:
+                        "06:30 – Visit the Taj Mahal\nStart your day with an early morning visit to the Taj Mahal, one of the Seven Wonders of the World. Marvel at the breathtaking beauty and intricate architecture of this eternal symbol of love.\n\n09:00 – Breakfast at Taj Khema\nAfter exploring the Taj, enjoy a delightful breakfast at the Taj Khema, a beautiful venue offering stunning views of the monument.\n\n11:00 – Return to Maharajas' Express\nReturn to the luxurious Maharajas' Express and relax in the comfort of your cabin as the train prepares for its next journey.\n\n13:00 – Lunch Onboard\nSavor a delicious multi-course lunch onboard, with a range of exquisite dishes from around the world.\n\nAfternoon – Leisure Time or Optional Activities\nSpend the afternoon at leisure, either relaxing in your cabin or choosing from optional activities such as a spa treatment, shopping, or a guided lecture on the region’s history.\n\n19:30 – Dinner Onboard\nEnjoy a royal dinner on the train, featuring gourmet selections and a relaxing ambiance as the Maharajas' Express prepares to depart for Orchha.",
+                },
+                {
+                    title: "Orchha - Khajuraho (Thursday)",
+                    description:
+                        "06:30 – Arrive in Orchha & Visit Orchha Fort\nThe train arrives in Orchha early in the morning. Disembark for a visit to the majestic Orchha Fort and take a fascinating village tour by TukTuks, exploring the local culture and rural life.\n\n09:45 – Return to Maharajas' Express & Breakfast Onboard\nReturn to the comforts of the Maharajas' Express for a gourmet breakfast onboard as the train proceeds to Khajuraho.\n\n10:00 – Maharajas' Express Departs for Khajuraho\nSit back and relax as the luxurious train takes you to Khajuraho, a UNESCO World Heritage site known for its stunning temples and intricate carvings.\n\n13:00 – Lunch Onboard\nEnjoy a delicious multi-course lunch served onboard as you journey towards Khajuraho.\n\n15:00 – Visit the Khajuraho Temples\nArrive in Khajuraho and proceed to visit the famous Western Group of Temples. Admire the exquisite sculptures and learn about the history and architecture of these ancient temples, renowned for their intricate erotic carvings.\n\n18:30 – Return to Maharajas' Express & Relax Onboard\nAfter the temple tour, return to the train. Relax and unwind in the comfort of your cabin or choose optional activities available on board.\n\n19:30 – Indian Evening & Dinner Onboard\nExperience an \"Indian Evening\" onboard, with cultural performances showcasing India's rich heritage. Enjoy a royal dinner to complete your evening.\n\n22:00 – Maharajas' Express Departs for Varanasi\nThe train departs for Varanasi, as you settle in for a relaxing night onboard.",
+                },
+                {
+                    title: "Varanasi (Friday)",
+                    description:
+                        "08:00 – Breakfast Onboard\nEnjoy a leisurely breakfast onboard as you take in the scenic countryside views while traveling towards Varanasi, the spiritual heart of India.\n\n11:35 – Arrive in Varanasi & Lunch at Hotel Taj Ganges\nThe Maharajas' Express arrives in Varanasi. Disembark and head to the elegant Hotel Taj Ganges for a sumptuous lunch in a refined setting.\n\n13:30 – Visit Sarnath Ruins & Silk Weaving Centre\nAfter lunch, visit the Sarnath Ruins, where Lord Buddha delivered his first sermon. Then, explore the Silk Weaving Centre to witness the intricate craftsmanship behind Varanasi’s famous silk sarees.\n\n16:30 – Boat Ride on the Ganges & Evening Aarti\nExperience the serene beauty of the Ganges River with a boat ride. Witness the captivating evening Aarti ceremony at the ghats, where the holy river is illuminated by traditional rituals.\n\n20:00 – Return to Maharajas' Express\nAfter the spiritual experience, return to the comforts of the Maharajas' Express and unwind in the plush surroundings.\n\n20:30 – Dinner Onboard\nSavor a lavish dinner onboard as you reflect on the day’s experiences.\n\n21:30 – Maharajas' Express Departs for Delhi\nThe train departs from Varanasi, heading back to Delhi for the final leg of the royal journey.",
+                },
+                {
+                    title: "Delhi (Saturday) – Farewell to the Royal Journey",
+                    description:
+                        "09:00 – Breakfast Onboard\nEnjoy a relaxing breakfast onboard as the Maharajas' Express arrives into Delhi, taking in the scenic countryside one last time.\n\n12:30 – Disembark & Farewell\nAs the train pulls into Delhi, disembark with fond memories of a once-in-a-lifetime journey. Bid farewell to the Maharajas' Express and its dedicated team, marking the end of your royal adventure across India.",
+                },
+            ],
+            important_information: [
+                "Itinerary, sightseeing, timings and scheduled destinations may change without prior notice due to local/ weather conditions.",
+                "Maharajas' Express reservation includes accommodation in double or twin-bedded cabins with en-suite bathroom and is inclusive of meals, soft beverages, house pour brands of wines, beer and spirit.",
+                "This luxury train tariff also includes the butler service, paramedic services, guided off-tour excursions as illustrated in the journeys, inclusive of entrance fees, still camera fee, transport and services of a guide and porterage at stations.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR..Single child (5 - 12 years) - 50% of the adult fare, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. Please note that we do not have the facility for interconnecting cabins except in the Presidential Suite car. Child policy is subject to change and must be confirmed at the time of booking.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.deccanodysseytrains.com/storage/photogallery/202486566015.jpg",
+        name: "Maharashtra Splendour",
+        duration: "7 Nights • 8 Days",
+        slug: "maharashtra-splendour",
+        luxury: true,
+        tour: {
+            location: "Mumbai",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Step aboard the Deccan Odyssey, India's most luxurious train, for an unforgettable 8-day adventure through the heart of Maharashtra. This regal journey is a seamless fusion of opulence, history, and cultural immersion. Launched in 2004, the Deccan Odyssey has set a new benchmark in luxury travel, offering travelers the opportunity to traverse India's stunning landscapes in the lap of comfort. The train's elegant interiors are a tribute to the grandeur of ancient forts and palaces, with each cabin thoughtfully designed to offer modern amenities while preserving the region's rich heritage. With its impeccable service, world-class cuisine, and guided excursions, the Deccan Odyssey ensures every moment of your journey is nothing short of extraordinary.\n\nThe Maharashtra Splendour tour takes you on a captivating exploration of Maharashtra's most iconic destinations. Starting from Mumbai, this journey delves into the historical and cultural richness of the region, offering exclusive experiences along the way. Explore the awe-inspiring Ajanta and Ellora Caves, UNESCO World Heritage Sites that house ancient rock-cut temples and exquisite artwork. Discover the charm of Nashik, the wine capital of India, where a private vineyard tour and wine tasting await. In Kolhapur, witness the grandeur of the New Palace and be mesmerized by the traditional martial art form of 'Mardani Khel'. The scenic beauty and colonial allure of Goa beckon, with a visit to a 400-year-old Portuguese villa, while the serene and spiritual town of Sindhudurg offers a peaceful retreat.\n\nEach stop on the Maharashtra Splendour journey allows you to uncover the jewels of ancient Indian architecture, indulge in local delicacies, and experience the heart of India's cultural heritage. Whether you are savoring a traditional Goan meal, walking through centuries-old caves, or exploring the architectural wonders of the Maratha Empire, the Deccan Odyssey offers a journey that’s as rich and varied as the history of Maharashtra itself.\n\nIn the Deccan Odyssey, every detail has been meticulously crafted to ensure an unparalleled journey, blending the old-world charm of the Deccan Plateau with the comforts of modern luxury. From the moment you step aboard, you’ll find yourself transported into a world where history, culture, and luxury collide in the most spectacular way.",
+            destinations_covered: [
+                {
+                    name: "Nashik",
+                    description:
+                        'Nestled on the banks of the Godavari River, Nashik is one of India\'s holiest cities, often referred to as the "Wine Capital of India." Known for its spiritual significance, it is home to many ancient temples, ghats, and an emerging wine industry. Nashik offers a unique blend of history, culture, and scenic beauty, with vineyards offering exquisite wines and peaceful walks along the river.',
+                },
+                {
+                    name: "Aurangabad (Ellora Caves)",
+                    description:
+                        "Aurangabad, a city steeped in history, is the gateway to the magnificent Ellora Caves, a UNESCO World Heritage Site. Carved into the side of a basaltic hill, Ellora boasts 34 rock-cut shrines, representing the best of Buddhist, Jain, and Hindu architecture. This remarkable site is a testament to India's artistic brilliance and spiritual diversity, attracting visitors from around the world.",
+                },
+                {
+                    name: "Ajanta Caves",
+                    description:
+                        "A UNESCO World Heritage Site, the Ajanta Caves are a mesmerizing collection of ancient Buddhist temples carved into the cliffs of the Waghora River. Dating back to the 2nd century BCE, these 30 rock-hewn caves are adorned with exquisite murals and sculptures that depict Buddhist religious art, making it one of the finest examples of ancient Indian craftsmanship and spirituality.",
+                },
+                {
+                    name: "Kolhapur",
+                    description:
+                        "Kolhapur, known for its rich cultural heritage and historic landmarks, is a city where legends of valor and devotion come to life. Famous for its magnificent Mahalakshmi Temple, the city is also known for its unique craftsmanship, including the famous Kolhapuri chappals. A blend of ancient architecture, royal history, and local traditions, Kolhapur offers an immersive cultural experience.",
+                },
+                {
+                    name: "Goa",
+                    description:
+                        "Goa, India’s smallest state, is renowned for its stunning beaches, colonial-era architecture, and vibrant culture. Once a Portuguese colony, it is a place where the rhythms of the sea meet the rich history of churches, spice plantations, and the colorful streets of Fontainhas, the Latin Quarter. Goa offers the perfect blend of relaxation, adventure, and heritage, making it a must-visit destination.",
+                },
+                {
+                    name: "Sindhudurg",
+                    description:
+                        "Sindhudurg, a coastal gem located in the Konkan region, is home to pristine beaches, lush landscapes, and historic forts. Sindhudurg Fort, perched on a rocky island, offers a glimpse into the region’s past, while the local villages like Pinguli showcase the traditional Thakar folk arts. Sindhudurg is the perfect place to experience both nature’s tranquility and the rich cultural history of Maharashtra’s coastal life.",
+                },
+                {
+                    name: "Mumbai",
+                    description:
+                        "Mumbai, the bustling financial capital of India, is a city that never sleeps. From the grand architecture of Chhatrapati Shivaji Terminus to the vibrant street life and the soothing sea breeze along Marine Drive, Mumbai offers an eclectic mix of old-world charm and modern dynamism. As the starting and concluding point of the Deccan Odyssey, it is the perfect introduction and farewell to your luxury journey through Maharashtra.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Mumbai - – Onboard the Deccan Odyssey",
+                    description:
+                        "This evening, your Maharashtra Splendour journey begins with a royal welcome at Chhatrapati Shivaji Terminus in Mumbai, a UNESCO World Heritage site and a stunning example of colonial-era architecture. Assemble at the station at approximately 15:30 hours, where you will complete the registration process and check-in formalities. As you arrive, be greeted with a traditional Indian welcome—complete with a fragrant garland, tikka, and a refreshing welcome drink, setting the tone for an unforgettable adventure through Maharashtra's heartland.\n\nAfter completing the check-in process, you'll be escorted to your luxurious cabin aboard the Deccan Odyssey. The train's opulent interiors, reminiscent of India's regal past, will quickly transport you to a world of elegance and comfort. Once settled, the train will depart from Mumbai, embarking on a scenic journey toward Nashik, a town known for its vineyards and historical significance.\n\nAs the Deccan Odyssey smoothly traverses the beautiful landscapes of Maharashtra, enjoy a delectable dinner on board, prepared by expert chefs using the finest ingredients. Relax, unwind, and prepare for the exciting explorations that lie ahead on this extraordinary journey.\nOvernight on Deccan Odyssey\n(ETD at 1715 Hrs)",
+                },
+                {
+                    title: "Nashik– Vineyard Tour & Godavari Ghats",
+                    description:
+                        "This morning, the Deccan Odyssey brings you to the holy city of Nashik, often referred to as the Wine Capital of India. Nashik is a blend of spiritual significance and growing prominence in the global wine scene. The city is known not only for its historical temples but also for its lush vineyards, where India’s finest wines are crafted.\n\n09:00 Hrs: Disembark the train and spend the morning strolling along the Godavari Ghats, where you can soak in the peaceful atmosphere and witness the daily rituals that take place along the riverbanks. As you walk, explore the bustling market by the Ghats, where local vendors sell everything from fresh vegetables and lentils to dried seafood and cow dung cakes. It's an immersive experience, capturing the essence of Nashik’s cultural vibrancy.\n\n12:00 Hrs: After your morning exploration, you'll leave for the world-renowned Sula Vineyards, one of India’s most prestigious wineries, for an exclusive tour. This 1,500-acre vineyard is renowned for producing some of the country’s finest wines.\n\n12:45 Hrs: Take a leisurely walk through the vines laden with Chenin, Chardonnay, and Shiraz grapes, the signature varietals of the region. Learn about the traditional winemaking techniques employed at the vineyard, including the age-old ‘méthode traditionnelle’ used to craft their celebrated sparkling wines.\n\n14:00 Hrs: Indulge in a delightful lunch at Sula Vineyards, where you'll savor local flavors paired with exquisite wines. Enjoy the stunning vineyard views and relax amidst the serene surroundings.\n\nAfter a refreshing lunch, return to the Deccan Odyssey and continue your journey towards Aurangabad.\n\nAs the train departs from Nashik at 18:30, you'll have time to unwind and reflect on the day's experiences. Enjoy a delicious dinner on board, prepared with the finest ingredients. Rest for the night aboard the luxurious train as it makes its way to the historic city of Aurangabad, where more adventures await.\n\nOvernight on the Deccan Odyssey.",
+                },
+                {
+                    title: "Aurangabad – Ellora Caves",
+                    description:
+                        "After breakfast on board, the Deccan Odyssey arrives in Aurangabad, where you'll embark on a scenic drive to the spectacular Ellora Caves. Ellora is one of the most important archaeological and religious sites in India, offering a fascinating glimpse into the rich cultural history of the region.\n\n08:30 Hrs: Disembark from the train and board your transport for the drive to the Ellora Caves. Carved into the side of a basaltic hill, these magnificent caves are a testament to the craftsmanship and devotion of the ancient artists.\n\n09:30 Hrs: Explore the Ellora Caves, which consist of 34 rock-cut shrines that date back to the 4th and 5th centuries AD. The site represents an artistic and spiritual amalgamation of Buddhist, Jain, and Hindu architecture, showcasing intricately carved temples, monasteries, and sculptures. Ellora is known for its monumental Kailasa Temple, a single monolithic structure carved out of a single rock, which stands as one of the most impressive pieces of ancient Indian architecture.\n\n12:30 Hrs: Return to the station and re-board the Deccan Odyssey.\n\n13:00 Hrs: Relish a delicious lunch on board, and enjoy the comfort of your luxurious cabin as the train begins its onward journey.\n\nIn the evening, unwind with refreshing cocktails prepared by our bartender as you enjoy the scenic vistas from the train. A lavish dinner on board will follow, where you can indulge in gourmet cuisine prepared by our talented chefs.\n\nThe Deccan Odyssey will now proceed towards Jalgaon, setting the stage for your upcoming visit to the ancient Ajanta Caves.\n\nOvernight on Deccan Odyssey.",
+                },
+                {
+                    title: "Jalgaon – Ajanta Caves",
+                    description:
+                        "The Deccan Odyssey arrives at Jalgaon Railway Station this morning, where after a delightful breakfast on board, you’ll disembark for a visit to the Ajanta Caves, another UNESCO World Heritage site and an extraordinary feat of ancient craftsmanship.\n\n08:00 Hrs: Disembark from the train and embark on a scenic drive to the Ajanta Caves, nestled in a gorge along the Waghora River. The 30 rock-hewn Buddhist caves here are masterpieces of ancient art and architecture, adorned with intricate sculptures and vibrant frescoes that narrate the life of Buddha and depict scenes from the Jataka tales. These caves, carved into the hillsides between the 2nd century BC and 6th century AD, provide an invaluable glimpse into early Buddhist culture and the fusion of Buddhist and Hindu artistic traditions.\n\n10:00 Hrs: Explore the Ajanta Caves, where you’ll witness the grandeur of ancient paintings, which are still remarkably preserved. The intricate wall paintings and sculptures are a testament to the advanced artistic skills and spiritual devotion of the time.\n\n14:00 Hrs: After your immersive visit, return to the railway station and re-board the Deccan Odyssey for a sumptuous lunch on board.\n\nThe rest of the afternoon is at leisure, giving you the opportunity to relax and enjoy the luxury of the Deccan Odyssey. You can indulge in activities available on board, whether it's watching a movie in the lounge, learning the rules of Carrom—a popular Indian board game—or unwinding with a massage at the onboard spa.\n\nAs the train continues its journey to Kolhapur, relax and watch the ever-changing rural landscapes of India unfold from your window, before enjoying a sundowner and a gourmet dinner on board.\n\nOvernight on Deccan Odyssey.",
+                },
+                {
+                    title: "Kolhapur",
+                    description:
+                        "After a leisurely breakfast on board, relax and enjoy the ever-changing scenery of Maharashtra’s hinterlands as the Deccan Odyssey rolls into Kolhapur, a city rich in history, culture, and mythology. Kolhapur, known for its vibrant folk traditions and exceptional craftsmanship, is also home to ancient temples and royal landmarks.\n\n12:45 Hrs: Disembark from the train for an insightful city tour of Kolhapur. Your first stop will be the New Palace Museum, a 19th-century structure built in beautiful basalt and sandstone, reflecting the grandeur of the Maratha dynasty. The octagonal palace, surrounded by verdant gardens, houses a fascinating collection of artifacts, royal portraits, and memorabilia from the region’s regal past.\n\n13:00 Hrs: Next, explore the bustling local markets, where you can shop for Kolhapuri chappals, the traditional handcrafted leather sandals that are famous worldwide for their intricate design and durability. Don’t miss the opportunity to pick up a pair as a unique souvenir from this culturally rich city.\n\n15:45 Hrs: Proceed to a specially arranged venue where you’ll be served a refreshing tea. Following this, experience Lavanya Sandhya, a vibrant folk performance showcasing the region’s rich musical and dance traditions. It’s an immersive cultural experience that will leave you with a deeper appreciation of Kolhapur’s artistic heritage.\n\n17:15 Hrs: Continue your tour with a visit to the Mahalakshmi Temple, a 1300-year-old shrine dedicated to Goddess Lakshmi, also known as Shakti Peth. The temple is one of the most revered pilgrimage sites in India and holds great religious significance. While there, witness a Mardani Khel (traditional martial arts) performance, adding an exciting dimension to your cultural exploration.\n\n18:50 Hrs: After your enriching day in Kolhapur, return to the Deccan Odyssey and enjoy a sumptuous dinner on board. As you settle in, the train departs for your next exciting destination—Goa, India’s premier holiday hotspot.\n\nOvernight on Deccan Odyssey.",
+                },
+                {
+                    title: "Goa– Beaches, Heritage and Spice Plantations",
+                    description:
+                        "This morning, the Deccan Odyssey arrives in Goa, India’s smallest state known for its golden beaches, vibrant culture, and Portuguese-influenced architecture. A place where the air is infused with the scent of the sea and the rhythm of gentle waves, Goa offers a perfect blend of natural beauty and colonial charm.\n\n08:30 Hrs: Disembark from the train and drive to Fontainhas, the Latin Quarter in Panjim, which stands as a testament to Goa’s colonial past. As you wander through this charming neighborhood, you’ll encounter well-preserved Portuguese-style homes with tiled roofs in shades of blue, red, and yellow. Enjoy a UNESCO World Heritage Walk, navigating through the winding alleys and discovering the historic, picturesque houses and their quaint verandas, where time seems to stand still.\n\n12:15 Hrs: Next, indulge in a delicious lunch and embark on a spice plantation tour. Goa’s fertile soil is perfect for cultivating spices like black pepper, cardamom, and turmeric. During the tour, you will witness the growing of various spices and herbs and learn about their culinary and medicinal uses. It’s an aromatic journey through the spice gardens of Goa that will leave you with an appreciation for the region’s natural bounty.\n\n15:30 Hrs: After the tour, enjoy some leisure time at one of the nearby beaches, where you can relax, take a swim, or simply unwind on the soft sand while soaking in the sun. Goa’s laid-back vibe is the perfect setting for rejuvenation.\n\n18:30 Hrs: As the evening approaches, return to the Deccan Odyssey and savor a delectable dinner on board. The train will then depart for Sindhudurg, traveling through the picturesque Konkan Coast, known for its scenic beauty with the Arabian Sea to the west and the majestic Sahyadri Hills to the east. This is one of India’s most scenic railway routes, promising an unforgettable journey.\n\nOvernight on Deccan Odyssey.\n\n(Departure at 19:30)",
+                },
+                {
+                    title: "Sindhudurg– Pinguli Village & Sawantwadi Palace",
+                    description:
+                        "This morning, the Deccan Odyssey arrives at Sindhudurg, a place known for its historic fort on a rocky island off the coast of Malvan. The island's coastal beauty, combined with its rich Maratha heritage, makes this destination a hidden gem in Maharashtra's vast landscape.\n\n08:30 Hrs: Disembark from the train and embark on a scenic drive to Pinguli Village, a charming locality where you will witness the traditional Thakar folk arts and crafts at the local museum. The village is also known for its intricate woodcraft and local craftsmanship that have been passed down through generations, providing a rare glimpse into the region's artistic heritage.\n\n09:15 Hrs: Continue your exploration with a visit to the Sawantwadi Palace, a magnificent example of Goan-Portuguese architecture. Once the residence of the royal Sawantwadi family, the palace offers a blend of regal elegance and history, with exquisite artifacts and artworks displayed within its walls. This grand heritage site provides a perfect setting for you to experience the royal grandeur of the region.\n\n12:00 Hrs: Enjoy a delicious lunch at the Sawantwadi Palace, where the traditional flavors of Maharashtrian cuisine are served with hospitality that is bound to leave a lasting impression. Relish local delicacies that reflect the essence of this culturally rich state.\n\n16:00 Hrs: After lunch, you will return to the Sindhudurg Railway Station and board the Deccan Odyssey once again.\n\n18:00 Hrs: As the Deccan Odyssey departs, sit back and unwind while the train makes its way back to Mumbai. Enjoy a relaxing dinner on board and reminisce about the wonderful journey that brought you through the historical landscapes of Maharashtra.\n\nBreakfast & Dinner on board | Lunch at Sawantwadi Palace\n\nOvernight on Deccan Odyssey.",
+                },
+                {
+                    title: "Mumbai– Journey Concludes",
+                    description:
+                        "Early this morning, as you enjoy your final breakfast on board, the Deccan Odyssey arrives at Chhatrapati Shivaji Terminus in Mumbai, marking the end of your unforgettable journey through Maharashtra.\n\nAfter breakfast, disembark from the train and bid farewell to the Deccan Odyssey. Your regal voyage through the majestic landscapes, rich history, and vibrant cultures of Maharashtra has come to a close, leaving you with cherished memories of India's splendid heritage.\n\nAs you step off the train and into the bustling heart of Mumbai, take a moment to reflect on the treasures you've encountered and the experiences you've gathered along this luxurious journey.\n\nBreakfast on board\n\nDisembark at Chhatrapati Shivaji Terminus, Mumbai.",
+                },
+            ],
+            important_information: [
+                "All Timings / Departures may vary and subject to change as per the Indian Railways Norms.",
+                "Children below 5 years of age shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking.",
+                "In order to run a Journey we need minimum number of passengers. Deccan Odyssey Reserves the right to to cancel / postpone the departure if the minimum number of strength to operate the journey is not met.",
+                "In accordance with Indian Law, smoking is not permissible on board the train. Smoking is also prohibited in all public places such as restaurants, airports, stations, shopping malls, hotels, public areas etc.",
+                "There is a dedicated team of butlers on board to attend to your every need. Each carriage is manned by a single butler, on call 24 hours, trained to meet the needs of our guests and comply with utmost speed and efficiency. Our butlers take pride in offering unique services to each of our guests ensuring a memorable stay on board.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://palaceonwheels.rajasthan.gov.in/images/gallery/18.jpg",
+        name: "Palace on Wheels",
+        duration: "7 Nights • 8 Days",
+        slug: "palace-on-wheels",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "The Palace on Wheels, launched in 1982, is considered India's first luxury heritage train.The Palace on Wheels is a joint Initiative between Rajasthan Tourism Development Corporation and Indian Railways. Apart from that, the concept of the Palace on Wheels train was taken from the royal background of the coaches. The coaches were originally designed to be the personal coaches of the rulers of the states of Rajputana, including Baroda and Nizam. The Palace on Wheels offers a complete luxury experience with opulent cabins, dining areas, and outstanding hospitality and service.\n\nThe Palace on Wheels luxury train is recognized as the summary of the luxury train journeys that offer an adventure journey through Rajasthan. Apart from that, from the amazing streets of Jaipur to witness the breathtaking views of the Taj Mahal in Agra, guests can immerse themselves in these historical landmarks with the Palace on Wheels luxury train travel India. The Palace on Wheels has everything from delicious cuisines to cabins, which are decorated in Rajasthani style. Every saloon of Palace on Wheels train has been crafted around the theme of each state in Rajasthan, giving a glimpse of the rich flavors of Rajasthani royalty and making this journey enchantingly interesting.\n\nAdditionally, In recognition of its excellence, the Palace on Wheels was ranked #1 in Condé Nast Traveler's 2024 Readers' Choice Awards, underscoring its status as the world's best luxury train. This prestigious honor ensures that every journey aboard the Palace on Wheels is not just a trip, but a memorable adventure into the heart of Rajasthan's royal splendor.",
+            destinations_covered: [
+                {
+                    name: "Jaipur",
+                    description:
+                        "The tour starts from very famous Hawa Mahal followed by Albert Hall Museum, Jantar Mantar and City Palace, home to erstwhile Rajputana Rulers and now maintained as a museum. Lunch will be served at Amber Fort followed by an elephant ride to fort. You will experience the prestigious fusion of Mughal and Rajput architecture and capture the moments. You can also shop from beautiful city which is also considered as a paradise for shoppers.",
+                },
+                {
+                    name: "Ranthambhore - Sawai Madhopur",
+                    description:
+                        "Ranthambore National Park- The land of huge Bengal Tigers and surrounded with 1000 years old Ranthambore Fort. The park is spread in 392 sq. kms and serve as a major hotspot of tigers. You will also experience a wavy terrain of Aravali and Vindhyachal ranges with freely roaming tigers during day time and can experience close quarters with wildlife. Apart from tigers, Ranthambore National Park is a home to large number of wild species including birds which you can spot easily. After completing close counters with nature.",
+                },
+                {
+                    name: "Chittorgarh",
+                    description:
+                        "Chittorgarh fort- One of the largest forts in India and a great symbol of bravery and sacrifice. This fort has the most awe-inspiring and romantic history of 5th to 8th century. The fort comprises the area of 680 acres which can be accessed through seven different gates. Some important places include Vijay Stambh, Rana Kumbha palace and Padamini`s palace, along with many kunds and temples. The light and sound show amplifies the glory and royalty of this palace.",
+                },
+                {
+                    name: "Udaipur",
+                    description:
+                        "The tour commences from the wonderful 'City of Lakes' called Udaipur, named after the famous ruler Rana Udai Singh. Romantic and with a rich history Udaipur offers a tapestry of unique experiences. Start by visiting the beautiful Saheliyon Ki Bari, the royal maids’ garden that is so serene and begin by a tour of the splendid City Palace where you will see the magnificence of the Rajput architecture of the many artifacts. After a delicious lunch at the island palace of Jag Mandir, the guests are treated to a short boat trip on Lake Pichola, taking advantage of the mesmerizing aerial views of the city. Later, explore the bustling markets of Udaipur known for their local crafts and beautiful souvenirs. Udaipur offers an enchanting sightseeing, shopping and cultural immersion filled with timeless charm and scenery surrounded by opportunities for sightseeing and shopping.",
+                },
+                {
+                    name: "Jaisalmer",
+                    description:
+                        "Jaisalmer Known as the jewel of the desert, resides in the heart of Thar Desert, the golden city of Rajasthan founded by Rawal Jaisal in AD 1156 has its own breathtaking charm. The western citadel engraved with the yellow sandstone fort is an eye-catching beauty. The lunch will be served in hotel/on board and then you can go for camel rides to explore the golden dunes of Thar. In the evening there is a cultural program and then dinner at the Khuri Resort. This experience will fascinate you with the desert’s unique beauty.",
+                },
+                {
+                    name: "Jodhpur",
+                    description:
+                        "Arriving in Jodhpur, the 'Blue City' of Rajasthan, the journey becomes exciting. Rao Jodha founded the city, known for its ancient history, in 1459, and the idea enthralled with its vivid blue hues and royal luxury. Mandor, an old town near Jodhpur, opens with a grand fanfare by the Royal Brass Band of Mehrangarh Fort, transporting visitors back in time to the very essence of a royal paradise. Iconic UNESCO World Heritage Sites in Jodhpur include Mehrangarh Fort with its awe-inspiring collection of preserved artifacts and equally breathtaking views of the city. In addition to Umaid Bhawan Palace, a rare 20th century palace with elaborate Rajput architecture, and Jaswant Thada renowned for its serene marble splendour. We’ll spend the afternoon soaking in city regal charm of the city.",
+                },
+                {
+                    name: "Bharatpur",
+                    description:
+                        "The city of birds with one of the finest bird sanctuaries will lift your spirit. Bharatpur, the capital of erstwhile Maharaja Suraj Mal offers a wealth of experience. UNESCO world heritage site Keoladeo Ghana National Park of Bharatpur is the nesting place to a large number of migratory Siberian cranes, Ergets, water fowls and many other species. The bird sanctuary receives migratory birds from distant parts of the world including China and Siberia. ",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Whenever we think about the love, the first thing that comes to our mind is the monument of eternal love, Taj Mahal. It is one of the seven wonders of India built by Mughal Emperor Shah Jahan for her beloved empress which made it the greatest gesture of love to mankind. One visit is made to the Taj Mahal and then on to the Agra Fort, another UNESCO World Heritage Site, another great example of Mughal architecture and history. After this, A delicious lunch at five-star hotel will be served. After lunch, you can explore the local market of Agra for some good products. Dinner will be served on the board and here ends your memorable journey with a return to Delhi, where the journey started.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Delhi - Embark on Your Regal Journey",
+                    description:
+                        "Your majestic journey aboard the Palace on Wheels begins with a grand and ceremonial welcome at Safdarjung Railway Station, New Delhi. The air is filled with the melodious sound of shehnai, as you are greeted with a traditional tikka, fragrant garland, and a refreshing welcome drink. Feel the aura of royalty as you enter the train, your personal palace on wheels, where luxury and elegance await you at every turn.\n\nAs you settle into your opulent cabin, designed with meticulous attention to detail, take the opportunity to explore the train and relax in the inviting lounges. Savor a delightful drink at the bar before indulging in a delicious dinner served onboard, featuring an array of exquisite cuisines. With the sounds of shehnai still resonating in your ears, your unforgettable journey through the royal heart of India has just begun.",
+                },
+                {
+                    title: "Jaipur - Explore the Pink City ",
+                    description:
+                        "Today, step into the royal splendor of Jaipur, the enchanting Pink City, and a jewel in Rajasthan's crown. Known for its captivating blend of Mughal and Rajput architecture, Jaipur is a city that speaks of regal glory and artistic brilliance. Your journey begins with a visit to the stunning Hawa Mahal, often called the \"Palace of Winds,\" followed by the Albert Hall Museum, Jantar Mantar, and the majestic City Palace—once the home of the Rajputana rulers and now a treasure trove of history.\n\nYour adventure continues with a lunch at the Amber Fort, where you will savor traditional flavors while immersed in the fort's royal ambiance. After lunch, embark on a regal elephant ride to the fort's entrance, where you can marvel at the harmonious fusion of Mughal and Rajput architecture. As you explore the vibrant markets of Jaipur, you’ll find yourself captivated by the city's rich culture, colorful textiles, and exquisite jewelry—perfect souvenirs from a city that is truly a paradise for shoppers. Jaipur’s artistic perfection, royal heritage, and timeless beauty will leave you enchanted.",
+                },
+                {
+                    title: "Sawai Madhopur - Chittorgarh",
+                    description:
+                        "Beyond the brilliance of architecture, there is a place where royalty echoes louder and that place is Sawai Madhopur of Rajasthan. Sawai Madhopur will be your next destination named after Maharaja Sawai Madho Singh I. This city resides in close proximity with Ranthambore National Park and offer great glimpse of royalty.\n\nBefore moving forward, prepare yourself to experience the haven of diverse wildlife where tigers reign the territory and show their regal presence in the territory. The city is deeply connected with vibrant forests and whispers the language of ancient history with its 10th century fort standing in the city.\n\nChittorgarh is a place where valour and glory echoes loudly and it can easily captivate you with its unwavering devotion. The history of Chittorgarh remarks stirring chapters in India, being one of the most powerful and contested seats of power in India. This place remains very sacred for Rajputs as it represents their unwavering spirit in tough times when others lost their momentum. This place got recognition in 2013 when included in the list of UNESCO world Heritage Site.\n\nThe Bhimlat Kund of Chittorgarh find its traces from Mahabharata, as it is believed that the construction of Bhimlat Kund was attributed by Bhima when he got stuck and with all his might, he created this reservoir. Chittorgarh is one of those places that will remain in your hearts forever and whispering stories of valor and courage.",
+                },
+                {
+                    title: "Udaipur - The City of Lakes",
+                    description:
+                        "Now, your journey will take a slight turn to beauty as we head towards Udaipur. The city was named after Rana Udai Singh and is renowned for its numerous lakes that enchants its charm. The stunning views and locations make Udaipur, one of the most romantic cities, intertwined with legendary love stories of ancient time rulers.\n\nAlong with its romance, the city also offers great splendors of architecture that again shows the brilliance of bygone architecture. This city is a perfect place to collect multiple souvenirs with its rich history that serving as a reminder of the royalty that once graced the land.\n\nThe Jag Mandir in Udaipur will surely captivate you with its majestic view surrounded by clear blue water which seems unreal but a real masterpiece of Indian architecture. You will reach there through ferry which itself will be an artistic adventure for you that will not only amaze you about the bygone era but also questions many scientific theories. The Jag Mandir is so precisely designed that it seems to be heavenly from a significant height as if its belongs to your dream.\n\nA Brush with colorful thoughts and a cruise of beauty\nAfter a fulfilling lunch, we offer you an opportunity to showcase your colorful thoughts through brush and colors. You can get the opportunity to join painting classes under the guidance of a professional painter. This activity will not only introduce you to an artform but also immerse you in the world of natural colors.\n\nTo further enhance your experience, We will take you on a boat ride across lake pichola to a 5 star hotel for a delightful lunch. Here, you can savor delicious food while enjoying the scenic beauty of the lake. However, your destination will be Jag Mandir which is a historical marvel located right at the center of the lake. But the experience of savoring delicious lunch in the lake will undoubtedly become a cherished memory.",
+                },
+                {
+                    title: "Jaisalmer - The Golden City",
+                    description:
+                        "Your romanticized mood will take a royal turn once we enter in Jaisalmer- “Golden City”. This city was named after Rawal Jaisal who found it in 1156 and the name of the city translates itself as “the hill fort of Jaisal” representing the magnificent structure that will be the part of crown jewel.\n\nThis city located in the heart of India's only desert- Thar Desert, which is also the largest sand desert region of the world. Even after so much of sand dunes around, Jaisalmer shines with its stunning architecture. After sunsets, the sandstone forts of Jaisalmer glorify its magic. After witnessing this view, you will actually understand why Jaisalmer is known as the Golden City.\n\nOnce you step into Jaisalmer, prepare to travel back to the journey of bygone period as the city exudes of rustic charm with roads lined with mansions and havelis. Many of them are already included in the list of World Heritage Site and these architectural feature intricate marvels of detailing of every corner that glorifies the rich past of this place.\n\nA royal night under Bigger Fort\nTo give you the real essence of Jaisalmer, we will organize a special dinner under desert sky at “Sun Dew”. With ascending darkness, the elegance of Jaisalmer Fort begins glorifying and slightly turn into Golden Fort after illumination. The golden sight of sandstone bathed in warm hue will be breathtaking. Dining under the open sky with the glowing fort in the background will create an unforgettable experience.",
+                },
+                {
+                    title: "Jodhpur - The Blue City",
+                    description:
+                        "The feeling of royalty will reach to its peak as you arrive Jodhpur, the “Blue City”. The city was founded by Rao Jodha,Rajput king in 1459 and considered to be the second largest city of Rajasthan.\n\nThe sense of this place begins as you approach the town of Mandor. The Royal Brass Band of Mehrangarh Fort will make your arrival even more special, offering glimpse of royal entries from bygone era. The vibrant melodies of your arrival will set a perfect tone for exploration of royal paradise.\n\nJodhpur is renowned for its magnificent forts and palaces which stands as a testament of unmatched power of past. However, the beauty of Jodhpur goes beyond the royal architecture as the ordinary houses of Jodhpur will give you a glimpse of delicate stonework and exquisite craftmanship. The design of carved windows gives a great testament of rich architectural heritage. The indigo hue that washes over the city is captivating and contributes to jodhpur’s title of “Blue City of India”. This touch of indigo enhance the charm of city and making it irresistibly appealing.\n\nPrepare yourself for vibrant fusion of artistry and history in Jodhpur experience an unforgettable part of your memory.",
+                },
+                {
+                    title: "Bharatpur - Agra",
+                    description:
+                        "The journey of royal adventure will take an exciting turn as you enter Bharatpur, a city of architectural brilliance. The city founded by Jat King Maharaja Suraj Mal in the 17th century and at that time, the city was completely fortified and known as “Lohagarh” (The Iron Fort). The resilience of its military and its architecture helped the city to withstand numerous foreign attacks.\n\nLohagarh is a masterpiece in its defensive techniques as the stratified and tough walls of the fort are enough to resist enemy`s attacks. Also, the periphery of the fort surrounded with heavy jaw crocodiles makes the enemy rethink before attack. These are some of the most important things that makes Lohagarh “The Invincible Garh” of bygone era. Lohagarh is a perfect fusion of strategical military resilience and exquisite craftmanship. The fort has two entry gates with Northern gate named as Ashtadhatu which is engraved with pictures of elephants while the southern gate is named as Chowburja which is a four pillared gate. Moreover, the artilleries, armors, artefacts and weapons are so delicately preserved that they will give you an eye catching moment.\n\nThe expedition to Keoladeo National Park which is also a UNESCO world heritage site has so much things to offer. The park is home to vibrant migratory birds from across the world including China and Siberia. You will surely get captivated with the majesty of Siberian Cranes, Kingfishers, Storks, bee-eaters, Herons and other birds migrated in different seasons. Bharatpur is one of the rarest kingdoms which is ruled by the Jat kings and Maharaja Suraj Mal played an important role in the formation of Bharatpur. Your journey of exploration will be followed by a breakfast at Mahal Khas that has its own rich history of 198 years. This place was once the residence of Maharaja Suraj Mal makes it even more special. Today, Mahal Khas is owned by Mr. Bhagat Singh who opened this place for delicious saviors even after such historical significance to fuel your journey with historic landmarks.\n\nNow after covering all the historical landmarks in Bharatpur, the journey will turn towards Agra which is again a historically significant center. Located on the banks of Yamuna, the city was formed by Sultan Sikandar Lodi in 1504 erstwhile ruler of Delhi. But according to many experts, Agra got its soul after Mughal artistry and splendid masterpieces. Agra is the most prominent center of Mughal architecture, home to one of the most iconic structures i.e. Taj Mahal. This monument was built by Emperor Shah Jahan in the memory of Mumtaz Mahal to embody his love and artistry. The architecture includes white marble engraved with precious stones and artistry that will leave you surprised. As you will start exploring this architecture, you will get captivated in the story of eternal love that Taj Mahal represents.\n\nAgra, the city fused with architectural wonders and historically significant places will surely become an undetachable part of your memory. Prepare yourself to see the legacy of Mughal era and their architecture included in the most iconic city of India.",
+                },
+                {
+                    title: "Delhi – Disembarkation",
+                    description:
+                        "Here is the end of unforgettable journey – the Palace on Wheels schedule is described in detail as above. This journey was started with so much of curiosity and aspirations through train journey. The train will arrive Delhi at 7:00AM and we hope that by the time train will reach to its final destination, you will be filled with so much of unforgettable memories and experiences. The final breakfast will be served at 7:30 AM and it will be to check out. We thank you for your cooperation and support with the staff and hope to meet again for more memories. Best wishes and Travel Safely!",
+                },
+            ],
+            important_information: [
+                "One cabin has an occupancy of 2 pax only and usage of bar facilities is chargeable as per actuals.",
+                "The Itinerary and Tariffs are subject to changes depending on the condition without any prior notices.",
+                "The tariff for children aged up to 5 years will not be charged. The tariff for children aged above 5 years but less than 12 years shall be charged at 50%, in the same cabin with the parents.",
+                "En Route Termination of Tour: In case of termination of the tour by the guest, for any reason, no refund or adjustment for future travel will be admissible. The amount for the unused portion of the tour shall be treated as forfeited.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.the-maharajas.com/assets/img/parallax01.jpg?v=1.0",
+        name: "Treasures of India",
+        duration: "3 Nights • 4 Days",
+        slug: "treasures-of-india",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Step aboard the Maharajas' Express, the epitome of royal luxury, and embark on a breathtaking 4-day journey across India’s iconic heritage destinations. Recognized as the \"World's Leading Luxury Train\" at the World Travel Awards, this exclusive train offers an unforgettable experience that immerses you in the cultural treasures of Agra, Ranthambore, and Jaipur. From the gleaming marble of the Taj Mahal to the untamed beauty of Ranthambore National Park, every moment promises opulence and adventure.\n\nAs you glide through Rajasthan’s regal landscapes aboard the Maharajas' Express, you'll experience India like never before — in the lap of luxury. The train, designed to offer world-class comfort, boasts lavish interiors, bespoke dining, and exceptional service. Whether you’re marveling at the grandeur of Amber Fort, savoring gourmet meals prepared by onboard chefs, or unwinding in your spacious, elegantly appointed cabin, every moment aboard the Maharajas' Express is a testament to the royal heritage and luxury of India. Prepare to create lifelong memories as you explore the vibrant heart of this incredible country.",
+            destinations_covered: [
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the world-renowned Taj Mahal, is a city steeped in romance and history. This UNESCO World Heritage site, built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, is a testament to India's rich Mughal heritage. Explore the grandeur of this marble marvel along with the mighty Agra Fort, and immerse yourself in the magnificence of this timeless destination.",
+                },
+                {
+                    name: "Ranthambore ",
+                    description:
+                        "Ranthambore, renowned for its majestic tigers and vibrant wildlife, offers a breathtaking experience within the sanctuary of Ranthambore National Park. The park, nestled in the heart of Rajasthan, is a haven for nature lovers and wildlife enthusiasts. Embark on an exhilarating safari to spot the elusive tigers, leopards, and various bird species amidst the rugged terrains and ancient ruins.",
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        "The capital of Rajasthan, Jaipur, also known as the \"Pink City,\" is a fascinating blend of royal history and vibrant culture. The city's opulent palaces, including the iconic Amber Fort, the City Palace, and the Hawa Mahal, offer glimpses into the grandeur of India's royal past. Known for its rich architecture, bustling bazaars, and colorful streets, Jaipur embodies the regal charm of Rajasthan.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Delhi - Agra (Sunday)",
+                    description:
+                        "09:00 – Welcome and check-in at Delhi Safdarjung Railway Station. Begin your royal journey aboard the Maharajas' Express.\n09:15 – Breakfast on-board as the train departs from Delhi, setting the stage for an unforgettable journey.\n10:35 – Maharajas’ Express proceeds towards Agra, offering you a comfortable ride through the heart of India’s cultural landscape.\n12:00 – Tour briefing on-board to help you prepare for the exciting day ahead.\n13:30 – Relish a delectable lunch served on-board, showcasing the finest culinary delights of India.\n15:00 – The train arrives in Agra, where you’ll disembark for a visit to the world-renowned Taj Mahal. Experience the architectural marvel, a symbol of eternal love, as you stroll through its magnificent marble grounds.\n18:30 – Return to the Maharajas' Express and unwind in the lap of luxury. You may choose to relax or indulge in optional activities available on-board.\n19:30 – Enjoy a sumptuous dinner served aboard, complete with world-class service.\nOvernight – Stay comfortably aboard the Maharajas' Express as it remains stationed in Agra for the night.\n\n\n",
+                },
+                {
+                    title: "Agra and Ranthambore (Monday)",
+                    description:
+                        "06:00 – Begin your day with a visit to the impressive Agra Fort, a UNESCO World Heritage site that showcases Mughal architecture at its finest. Wander through its grand halls and serene gardens.\n08:00 – Return to the Maharajas’ Express and relax in the comfort of your luxurious cabin.\n08:10 – Breakfast on-board as the train departs for Sawai Madhopur, home to the renowned Ranthambore National Park.\n13:00 – Enjoy a gourmet lunch on-board, prepared by expert chefs to delight your senses.\n14:30 – Disembark for an exciting game drive at Ranthambore National Park, one of India’s premier wildlife sanctuaries. Keep your eyes peeled for tigers, leopards, and other wildlife amidst the park’s lush jungle and historic ruins.\n17:30 – Return to the comforts of the Maharajas' Express after your thrilling safari experience.\n18:00 – The train will proceed to Jaipur, offering a relaxing atmosphere to enjoy the remainder of your evening.\n19:30 – Dinner will be served on-board, allowing you to unwind and savor an exquisite meal while continuing your journey toward the vibrant city of Jaipur.",
+                },
+                {
+                    title: "Jaipur (Tuesday)",
+                    description:
+                        '07:00 – Enjoy a sumptuous breakfast on-board as the Maharajas\' Express arrives into Jaipur, the "Pink City" known for its royal heritage and architectural splendor.\n08:30 – Disembark and proceed for a visit to the magnificent Amber Fort, an imposing structure perched on a hilltop, offering breathtaking views of the surrounding landscapes. Explore its opulent chambers, stunning courtyards, and intricate mirror work.\n13:00 – Return to the train for a leisurely lunch on-board. Afterward, you can relax or choose from a variety of optional activities on board.\n18:00 – This evening, enjoy a royal dining experience with an exclusive dinner at the iconic Hotel Rambagh Palace, a historic palace-turned-hotel that has hosted numerous dignitaries and celebrities over the years.\n21:30 – Return to the Maharajas’ Express for the comfort and elegance of your private cabin, reflecting on your grand experiences in Jaipur.\n22:30 – As the train departs for Delhi, you can unwind and enjoy the final leg of your journey while looking forward to the upcoming adventures.',
+                },
+                {
+                    title: "Delhi (Wednesday)",
+                    description:
+                        "07:30 – Enjoy a final breakfast on-board as the Maharajas’ Express approaches Delhi, marking the end of your unforgettable royal journey.\n09:35 – Arrive at Delhi Safdarjung Railway Station, where you will disembark and bid farewell to the Maharajas' Express. As the train departs, you take with you cherished memories of a luxurious voyage through some of India’s most iconic destinations.\nEnd of the Journey – Your journey comes to an end, but the memories of palaces, forts, wildlife safaris, and royal experiences will remain with you long after you step off the train.",
+                },
+            ],
+            important_information: [
+                "Itinerary, sightseeing, timings and scheduled destinations may change without prior notice due to local/ weather conditions.",
+                "Maharajas' Express reservation includes accommodation in double or twin-bedded cabins with en-suite bathroom and is inclusive of meals, soft beverages, house pour brands of wines, beer and spirit.",
+                "This luxury train tariff also includes the butler service, paramedic services, guided off-tour excursions as illustrated in the journeys, inclusive of entrance fees, still camera fee, transport and services of a guide and porterage at stations.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR..Single child (5 - 12 years) - 50% of the adult fare, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. Please note that we do not have the facility for interconnecting cabins except in the Presidential Suite car. Child policy is subject to change and must be confirmed at the time of booking.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://www.themaharajasexpressindia.com/images/maharajaexpress-banner-3.jpg",
+        name: "The Indian Splendour",
+        duration: "6 Nights • 7 Days",
+        slug: "the-indian-splendour",
+        luxury: true,
+        tour: {
+            location: "Delhi",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Welcome Aboard The Indian Splendour – A Journey Through Royal India\nStep into a world of regal magnificence aboard the Maharajas' Express, India’s most luxurious train, where history, culture, and elegance converge to offer an unparalleled travel experience. Recognized as the “World’s Leading Luxury Train” for seven consecutive years, this opulent train is your gateway to discovering the splendor of India’s royal heritage. Embark on a seven-day journey that takes you from the vibrant streets of Delhi to the shimmering landscapes of Mumbai, exploring the jewels of India such as the Taj Mahal, Jaipur’s Amber Fort, and the wild beauty of Ranthambore National Park.\n\nAs you travel through Rajasthan's vast desert landscapes and India's heartland, the Maharajas' Express envelops you in unmatched luxury. Every aspect of your journey is designed to indulge your senses—from the exquisite décor, featuring peacock motifs and rich fabrics, to the thoughtfully appointed cabins, where modern comforts meet timeless elegance. Whether you’re enjoying fine dining in the two gourmet restaurants, sipping cocktails in the bar, or unwinding in the lavish Presidential Suite, every moment spent aboard this majestic train is a celebration of luxury and heritage.\n\nThis extraordinary voyage takes you beyond the tourist spots to the soul of India’s royal past. From the stately forts of Bikaner and Jodhpur to the serene lakes of Udaipur, each destination on your route reveals a unique facet of India’s opulent legacy. With meticulously curated excursions, you’ll witness ancient monuments, vibrant markets, and tranquil palaces—all while being pampered in the style of Indian royalty. Whether you're taking a boat ride on Lake Pichola, visiting the magnificent Mehrangarh Fort, or embarking on a tiger safari in Ranthambore, The Indian Splendour promises to leave you with cherished memories of a truly regal journey through the heart of India.\n\n",
+            destinations_covered: [
+                {
+                    name: "Agra",
+                    description:
+                        "Agra, home to the world-renowned Taj Mahal, is a city where history and beauty converge. As one of India's most iconic destinations, it offers visitors a glimpse of Mughal grandeur and architectural brilliance. Beyond the Taj, the Agra Fort and Fatehpur Sikri invite you to discover India’s rich royal past.",
+                },
+                {
+                    name: "Ranthambore ",
+                    description:
+                        "Ranthambore National Park, a paradise for wildlife lovers, is one of India’s largest and most famous tiger reserves. The park’s rugged landscapes, ancient ruins, and the elusive tiger make it an enchanting destination for an unforgettable safari experience in the heart of Rajasthan.",
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        "Jaipur, the Pink City, captivates visitors with its majestic forts, opulent palaces, and vibrant bazaars. A harmonious blend of history, culture, and architectural wonders like Amber Fort, City Palace, and Hawa Mahal, Jaipur is a true testament to Rajasthan's royal heritage.",
+                },
+                {
+                    name: "Bikaner",
+                    description:
+                        "Bikaner, a desert gem in Rajasthan, is home to the splendid Junagarh Fort, an architectural marvel showcasing the region’s royal heritage. The city is famous for its unique blend of Mughal and Rajput architecture and the exotic charm of the sand dunes. The warmth of Bikaner’s culture, coupled with a barbecue evening under the stars, offers an unforgettable desert experience as part of the Maharajas' Express journey.",
+                },
+                {
+                    name: "Jodhpur",
+                    description:
+                        'Often called the "Blue City" for its vibrant blue-painted buildings, Jodhpur is a city steeped in history and grandeur. The towering Mehrangarh Fort, with its intricate architecture and panoramic views, offers a glimpse into the rich legacy of the Marwar rulers. A stroll through the Old Clock Tower Market and a visit to the historic Umaid Bhawan Palace further enhance the city’s royal allure, making it a must-visit stop on your luxurious journey.',
+                },
+                {
+                    name: "Udaipur",
+                    description:
+                        'Known as the "City of Lakes," Udaipur is a haven of royal elegance, with its stunning palaces, serene lakes, and captivating temples. A boat ride on Lake Pichola offers mesmerizing views of the City Palace and the Jag Mandir, transporting you back to the opulent days of Rajasthan’s kings and queens. Udaipur’s regal charm and rich history make it a perfect start to your royal journey on the Maharajas\' Express.',
+                },
+                {
+                    name: "Mumbai",
+                    description:
+                        "The dynamic metropolis of Mumbai is India’s financial hub and the gateway to the world. From the Gateway of India to the colonial marvels of Chhatrapati Shivaji Maharaj Terminus (CSMT), Mumbai is a city of contrasts, where the old-world charm meets modern luxury, and dreams turn into reality.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: " Delhi (Sunday)– Embarkation",
+                    description:
+                        "Morning:\n\n09:00: Welcome and check-in at Delhi Safdarjung Railway Station, where your royal journey begins aboard the Maharajas' Express.\n09:15: Enjoy a sumptuous breakfast on board as the train departs towards Agra, offering panoramic views of the Indian countryside.\nMidday:\n\n10:35: The Maharajas' Express makes its way to Agra, the city of the iconic Taj Mahal.\n12:00: Enjoy a brief tour briefing on board to prepare for your visit to one of the Seven Wonders of the World.\n13:30: Lunch is served on board, featuring an array of fine cuisines as the train travels towards Agra.\nAfternoon:\n\n15:00: Arrive in Agra and proceed for your guided visit to the Taj Mahal, the exquisite white marble monument built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.\n18:30: Return to the comforts of the Maharajas' Express. Relax on board or take part in optional activities provided during the journey.\nEvening:\n\n19:30: Savor a delightful dinner on board, featuring a blend of Indian and international flavors, as the train remains parked at Agra for an overnight stay.\nOvernight: The Maharajas' Express stays in Agra for the night, offering you an opportunity to unwind in the luxury of your cabin.",
+                },
+                {
+                    title: "Agra and Ranthambore (Monday)",
+                    description:
+                        "Morning:\n\n06:00: Start your day with a visit to the Agra Fort, a UNESCO World Heritage Site that showcases the grandeur of Mughal architecture, with stunning views of the Taj Mahal from its ramparts.\n08:00: Return to the Maharajas' Express for a relaxing breakfast on board as the train departs Agra and heads towards Sawai Madhopur.\nMidday:\n\n08:10: Breakfast is served on board as the Maharajas' Express proceeds towards Ranthambore.\n13:00: Lunch on board as the train continues its journey through the scenic landscapes of Rajasthan.\nAfternoon:\n\n14:30: Arrive at Ranthambore National Park for an exhilarating game drive, where you'll have the chance to spot tigers, leopards, and a variety of wildlife in their natural habitat.\n17:30: Return to the Maharajas' Express for some relaxation before your next destination.\nEvening:\n\n18:00: The train departs for Jaipur, the Pink City, as you enjoy the luxurious comforts on board.\n19:30: Dinner is served on board, offering a blend of gourmet Indian and international delicacies, as the train proceeds toward your next royal destination.\nOvernight: The Maharajas' Express continues its journey towards Jaipur, where you will experience the royal charm of Rajasthan.",
+                },
+                {
+                    title: "Jaipur (Tuesday)",
+                    description:
+                        "Morning:\n\n02:00: The Maharajas' Express arrives in Jaipur, the Pink City, known for its majestic palaces and forts.\n07:00: Enjoy a delicious breakfast on board as you prepare for a day of royal exploration.\nMidday:\n\n08:30: Proceed for a guided visit to the stunning Amber Fort, a majestic hilltop fortress that reflects Rajasthan’s rich royal heritage. Explore its intricate architecture, courtyards, and panoramic views of the surrounding landscape.\n13:00: Return to the comforts of the Maharajas' Express and indulge in a sumptuous lunch on board, prepared by the expert chefs.\nAfternoon:\n\n13:30: Relax on board as the train continues its royal journey towards Bikaner. You may also opt for some additional activities or unwind in your lavish cabin.\nEvening:\n\n18:00: The highlight of your evening awaits as you are escorted to the Hotel Rambagh Palace for an exclusive dinner, where you’ll savor world-class cuisine in one of Jaipur's most opulent venues.\n21:30: Return to the comforts of the Maharajas' Express after your royal dinner experience.\nNight:\n\n23:00: The Maharajas' Express departs for Bikaner, continuing your luxurious journey across Rajasthan’s regal landscapes.\nOvernight: Rest in the opulence of the Maharajas' Express, as the train moves toward your next destination, Bikaner.",
+                },
+                {
+                    title: "Bikaner (Wednesday)",
+                    description:
+                        "Morning:\n\n06:45: The Maharajas' Express arrives in Bikaner, an ancient desert city known for its royal forts and palaces.\n08:00: Enjoy a leisurely breakfast on board, while soaking in the tranquil surroundings of the desert.\nMidday:\n\n09:30: Relax on board or choose from a selection of optional activities as you prepare for a royal adventure in Bikaner.\n13:00: Savor a delicious lunch on board as the train continues its royal journey.\nAfternoon:\n\n14:30: Proceed to visit the Junagarh Fort, one of Rajasthan’s most remarkable forts, known for its stunning architecture and intricate carvings. Explore its grand halls, temples, and museums.\nEvening:\n\n17:30: Enjoy an unforgettable experience at the sand dunes, where you will be treated to sundowners, cocktails, a barbecue dinner, and mesmerizing folk dances, offering a taste of Rajasthan’s vibrant cultural heritage.\nNight:\n\n20:30: Return to the luxurious comforts of the Maharajas' Express after a captivating evening under the stars.\n21:30: The Maharajas' Express departs for Jodhpur, the Blue City, where more regal experiences await.\nOvernight: Relax as the train continues its journey, heading to Jodhpur, while you enjoy world-class hospitality aboard the Maharajas' Express.",
+                },
+                {
+                    title: "Jodhpur (Thursday)",
+                    description:
+                        "Morning:\n\n05:00: The Maharajas' Express arrives in Jodhpur, also known as the Blue City, famous for its stunning architecture and vibrant blue-painted houses.\n08:00: Enjoy a lavish breakfast on board, and unwind as the day unfolds at a leisurely pace.\nMidday:\n\n09:00: Relax on board, or opt for optional activities to explore the city at your own pace.\n13:00: Savor a gourmet lunch while enjoying the ever-changing landscape as the train continues its royal journey.\nAfternoon:\n\n14:30: Disembark to visit the majestic Mehrangarh Fort, one of India’s largest and most impressive forts, perched atop a hill with sweeping views of the city. Explore its intricate palaces, galleries, and museums.\nAfter the fort visit, enjoy a Tuk Tuk ride followed by a walking tour of the iconic Old Clock Tower market, where you can experience the bustling local life and shop for Rajasthani handicrafts.\nEvening:\n\n17:30: Indulge in an exclusive cocktail dinner at Khaas Bagh, a heritage hotel that reflects the charm and elegance of Rajasthan.\nNight:\n\n20:30: Return to the comforts of the Maharajas' Express and relax as the train begins its journey toward the romantic city of Udaipur.\nOvernight: As you drift into a peaceful sleep, the Maharajas' Express continues its luxurious journey toward Udaipur, where new royal experiences await.",
+                },
+                {
+                    title: "Udaipur (Friday)",
+                    description:
+                        "Morning:\n\n08:00: Start your day with a delightful breakfast on-board, while the Maharajas' Express prepares to arrive in the beautiful city of Udaipur, often referred to as the \"Venice of the East\" for its stunning lakes and palaces.\n09:45: Upon arrival, embark on a boat ride on Lake Pichola, gliding past the picturesque surroundings and offering spectacular views of the iconic City Palace and the Jag Mandir.\nMidday:\n\n11:30: Visit the City Palace, a magnificent blend of Rajasthani and Mughal architecture, where you will also explore the exquisite Crystal Gallery that houses rare and precious artifacts.\n13:30: Relish a lavish lunch at Satkar Hall, located within the opulent Fateh Prakash Palace, a heritage hotel that offers a regal dining experience.\nAfternoon:\n\n15:00: After lunch, return to the Maharajas' Express for some leisure time on board, where you can relax or choose from a selection of optional activities designed to enrich your royal journey.\nEvening:\n\n19:00: Experience an Indian evening onboard, a special cultural event that will transport you into the heart of India’s traditions, followed by a gourmet dinner.\nNight:\n\n21:25: As the evening winds down, the Maharajas' Express departs from Udaipur, heading toward your final destination, Mumbai. Indulge in the ultimate luxury as you journey toward the vibrant metropolis on India’s west coast.\nOvernight: Rest in the comfort of your opulent cabin, as the train makes its way to Mumbai, bringing an end to an unforgettable journey across Rajasthan and beyond.",
+                },
+                {
+                    title: "Mumbai (Saturday)– Disembarkation",
+                    description:
+                        "Morning:\n\n08:00: Enjoy a relaxing breakfast on-board as the Maharajas' Express makes its way through the scenic countryside, providing you a final glimpse of India's beautiful landscapes before reaching your last stop—Mumbai.\nMidday:\n\n13:30: Indulge in a sumptuous lunch on-board, savoring the last culinary delights prepared by the train’s expert chefs, while you reflect on the remarkable experiences of your royal journey through India.\nAfternoon:\n\n16:20: Arrive into Mumbai (Chhatrapati Shivaji Maharaj Terminus - CSMT), where your incredible voyage aboard the Maharajas' Express comes to a close.\nAs you disembark, you’ll be greeted by the bustling energy of Mumbai, the city of dreams, but your heart will carry the memories of the luxury and opulence experienced aboard the world's leading luxury train.\nEnd of Journey:\n\nBid a fond farewell to the Maharajas' Express and the fellow travelers who have shared this extraordinary adventure. Your journey may have ended, but the regal memories and the stories of India’s rich heritage will stay with you forever!",
+                },
+            ],
+            important_information: [
+                "Itinerary, sightseeing, timings and scheduled destinations may change without prior notice due to local/ weather conditions.",
+                "Maharajas' Express reservation includes accommodation in double or twin-bedded cabins with en-suite bathroom and is inclusive of meals, soft beverages, house pour brands of wines, beer and spirit.",
+                "This luxury train tariff also includes the butler service, paramedic services, guided off-tour excursions as illustrated in the journeys, inclusive of entrance fees, still camera fee, transport and services of a guide and porterage at stations.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR..Single child (5 - 12 years) - 50% of the adult fare, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. Please note that we do not have the facility for interconnecting cabins except in the Presidential Suite car. Child policy is subject to change and must be confirmed at the time of booking.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
+            ],
+        },
+    },
+    {
+        img_url:
+            "https://media.cnn.com/api/v1/images/stellar/prod/151207154747-maharajas-express-luxury-train.jpg?q=w_1110,c_fill",
+        name: "The Heritage of India",
+        duration: "6 Nights • 7 Days",
+        slug: "the-heritage-of-india",
+        luxury: true,
+        tour: {
+            location: "Mumbai",
+            country: "india",
+            min_age: "10+",
+            tour_details:
+                "Welcome aboard the Maharajas' Express, recognized as the \"World's Leading Luxury Train\" at the World Travel Awards for seven consecutive years (2012-2018). This magnificent train offers a once-in-a-lifetime journey that redefines the concept of luxury travel. Whether you’re traveling through the royal landscapes of Rajasthan or exploring iconic destinations like the Taj Mahal and Ranthambore National Park, the Maharajas' Express immerses you in the rich cultural heritage of Incredible India. As the train takes you on an seven-day journey, you’ll witness centuries-old forts, opulent palaces, and gleaming marble monuments while experiencing a level of comfort and elegance that epitomizes royal living.\n\nThe Maharajas' Express is not just a means of transport; it is an experience in itself. From the moment you step aboard, you are transported into a world of luxury and grandeur, where every detail is designed to make you feel like royalty. The train features lavish interiors adorned with rich fabrics and peacock motifs, while the cabins, starting from cozy 112-square-feet rooms, offer modern amenities such as king-sized beds, LCD TVs, and private bathrooms. For those seeking the pinnacle of indulgence, the Presidential Suite offers two bedrooms, a private living area, and a bathtub, stretching across an entire carriage.\n\nAs the train chugs through Rajasthan’s parched desert landscape, travelers will enjoy attentive service from a staff-to-guest ratio of roughly 3:4, with world-class dining experiences in two dedicated restaurants, bars, and lounges. The Maharajas' Express provides not just a journey but a journey fit for royalty, allowing you to truly immerse yourself in the essence of India’s rich cultural tapestry. With 23 carriages and a capacity for just 88 guests, there is plenty of space to relax and enjoy the regal experience that awaits you. Whether it’s the rich gold-hued linens in your cabin or the fine dining prepared by onboard chefs, every moment spent aboard the Maharajas' Express will be a memory to cherish forever.",
+            destinations_covered: [
+                {
+                    name: "Udaipur",
+                    description:
+                        'Known as the "City of Lakes," Udaipur is a haven of royal elegance, with its stunning palaces, serene lakes, and captivating temples. A boat ride on Lake Pichola offers mesmerizing views of the City Palace and the Jag Mandir, transporting you back to the opulent days of Rajasthan’s kings and queens. Udaipur’s regal charm and rich history make it a perfect start to your royal journey on the Maharajas\' Express.',
+                },
+                {
+                    name: "Jodhpur",
+                    description:
+                        'Often called the "Blue City" for its vibrant blue-painted buildings, Jodhpur is a city steeped in history and grandeur. The towering Mehrangarh Fort, with its intricate architecture and panoramic views, offers a glimpse into the rich legacy of the Marwar rulers. A stroll through the Old Clock Tower Market and a visit to the historic Umaid Bhawan Palace further enhance the city’s royal allure, making it a must-visit stop on your luxurious journey.',
+                },
+                {
+                    name: "Bikaner",
+                    description:
+                        "Bikaner, a desert gem in Rajasthan, is home to the splendid Junagarh Fort, an architectural marvel showcasing the region’s royal heritage. The city is famous for its unique blend of Mughal and Rajput architecture and the exotic charm of the sand dunes. The warmth of Bikaner’s culture, coupled with a barbecue evening under the stars, offers an unforgettable desert experience as part of the Maharajas' Express journey.",
+                },
+                {
+                    name: "Jaipur",
+                    description:
+                        'Known as the "Pink City," Jaipur is a royal destination filled with grandeur and architectural marvels. Explore the stunning Amber Fort, the opulent City Palace, and the majestic Hawa Mahal, all embodying the rich culture and history of Rajasthan\'s royal heritage.',
+                },
+                {
+                    name: "Ranthambore",
+                    description:
+                        "Ranthambore is famous for its National Park, one of India’s largest and most renowned tiger reserves. A thrilling safari here offers the chance to spot tigers, leopards, and other wildlife amid the rugged landscapes, while the Ranthambore Fort adds a historical touch to this natural wonder.",
+                },
+                {
+                    name: "Fatehpur Sikri",
+                    description:
+                        "A UNESCO World Heritage site, Fatehpur Sikri is a magnificent abandoned Mughal city that reflects the grandeur of Emperor Akbar’s reign. The Buland Darwaza, Diwan-i-Khas, and other structures showcase the architectural brilliance of the Mughal era.",
+                },
+                {
+                    name: "Agra",
+                    description:
+                        "Home to the world-famous Taj Mahal, Agra is a city steeped in Mughal history. The Agra Fort and Itmad-ud-Daulah's Tomb further enrich the cultural and architectural landscape of this timeless city, making it one of India's most iconic destinations.",
+                },
+            ],
+            itinerary_outline: [
+                {
+                    title: "Mumbai - Udaipur (Sunday)",
+                    description:
+                        "08:30 – Welcome & Registration at Hotel Taj Mahal Palace\nStart your journey with a warm welcome at the luxurious Hotel Taj Mahal Palace in Mumbai. Check-in, followed by a briefing on your upcoming royal adventure aboard the Maharajas' Express.\n\n09:45 – Transfer to Chhatrapati Shivaji Maharaj Terminus (CSMT)\nProceed to the iconic Chhatrapati Shivaji Maharaj Terminus (CSMT) Railway Station, where the grandeur of the Maharajas' Express awaits. Experience the grandeur of Mumbai’s railway heritage as you board the luxurious train.\n\n10:50 – Maharajas' Express Departs for Udaipur\nSit back and relax as the Maharajas' Express begins its journey towards Udaipur, crossing the scenic landscapes of India’s royal heartland.\n\n13:00 – Lunch Onboard\nEnjoy a delectable multi-course lunch onboard, prepared by world-class chefs, as the train chugs along the Indian countryside.\n\n19:00 – Dinner Onboard\nIndulge in a royal dinner onboard, featuring a selection of gourmet dishes. Savor the rich flavors of India in the elegant dining cars as the Maharajas' Express continues its majestic journey towards Udaipur.\n\nOvernight – Onboard the Maharajas' Express\nSettle into the comfort of your luxurious cabin and enjoy a restful night as you sleep like royalty aboard this luxury hotel on wheels.",
+                },
+                {
+                    title: "Udaipur (Monday)– Royal Waterways & Palaces",
+                    description:
+                        "08:00 – Breakfast Onboard\nStart your day with a lavish breakfast onboard, prepared with fresh, local ingredients. Relax as the Maharajas' Express journeys toward the serene city of Udaipur.\n\n09:30 – Boat Ride on Lake Pichola & Visit City Palace\nUpon arrival in Udaipur, enjoy a private boat ride on the famous Lake Pichola, surrounded by the picturesque Aravalli Hills. Take in the stunning views of the City Palace from the water before proceeding to explore this majestic structure. The City Palace, a blend of Rajasthani and Mughal architectural styles, offers panoramic views of the city and the lake.\n\nAfterward, visit the Crystal Gallery, home to a unique collection of rare crystal artefacts, including chandeliers, furniture, and decorative pieces. Feel the charm of royal Rajasthan as you step into the rich history of Udaipur.\n\n13:00 – Exclusive Lunch at Satkar Hall, Fateh Prakash Palace\nFor lunch, indulge in an exquisite meal at the Satkar Hall of Fateh Prakash Palace, a heritage hotel that offers a regal dining experience. The grandeur of the surroundings and the rich flavors of royal Rajasthani cuisine will make this meal truly memorable.\n\n15:00 – Relax Onboard or Choose Optional Activities\nAfter lunch, return to the comfort of the Maharajas' Express. Relax in your luxurious cabin or enjoy optional activities like a traditional cultural performance or a relaxing spa treatment onboard.\n\n19:30 – Dinner Onboard\nAs the sun sets, enjoy a royal dinner onboard the train, featuring a gourmet selection of dishes from across India and the world, served in the elegant dining car.\n\n21:25 – Maharajas’ Express Proceeds to Jodhpur\nAfter dinner, unwind as the Maharajas' Express continues its majestic journey to Jodhpur, the Blue City, known for its palaces and forts.\n\nOvernight – Onboard the Maharajas' Express",
+                },
+                {
+                    title: "Jodhpur (Tuesday)– Blue City & Royal Heritage",
+                    description:
+                        "07:00 – Breakfast Onboard\nEnjoy a relaxed breakfast as the Maharajas' Express moves through the scenic countryside, heading towards the historic city of Jodhpur.\n\n09:00 – Leisure Onboard or Optional Activities\nSpend the morning at leisure onboard. You can choose from a range of optional activities, such as a cultural performance, a spa treatment, or simply unwind and enjoy the luxurious facilities aboard the train.\n\n10:30 – Arrival in Jodhpur\nArrive in Jodhpur, the Blue City of India, famous for its grand fortresses and vibrant blue-painted homes.\n\n13:00 – Lunch Onboard\nReturn to the comfort of the Maharajas' Express for a sumptuous lunch onboard. Savor the finest dishes prepared by world-class chefs as you relax in the elegant dining car.\n\n14:30 – Visit Mehrangarh Fort & Old Clock Tower Market\nAfter lunch, step off the train to explore the majestic Mehrangarh Fort, one of India's largest and most impressive forts. Perched on a hill, the fort offers panoramic views of the city and houses a museum showcasing royal artifacts.\nNext, take a Tuk Tuk ride through the vibrant streets of Jodhpur, followed by a walking tour of the Old Clock Tower Market, where you can experience the bustling local life and shop for handicrafts, spices, and textiles.\n\n17:30 – Exclusive Cocktail Dinner at Khaas Bagh\nEnjoy a royal cocktail dinner at Khaas Bagh, a beautiful heritage hotel with an aristocratic ambiance. Relish the finest cocktails and a selection of appetizers in this regal setting.\n\n21:00 – Return to Maharajas' Express\nAfter a day filled with history, culture, and royal experiences, return to the comforts of the Maharajas' Express as it continues its journey to Bikaner.\n\nOvernight – Onboard the Maharajas' Express.",
+                },
+                {
+                    title: "Bikaner (Wednesday)– Royal Forts & Desert Dunes",
+                    description:
+                        "08:00 – Breakfast Onboard\nEnjoy a relaxed breakfast as the Maharajas' Express moves through the picturesque countryside, heading towards Bikaner, a city famous for its historic forts and palaces.\n\n09:00 – Arrival in Bikaner\nArrive in Bikaner and take some time to relax onboard the Maharajas' Express or opt for optional activities. You may choose to explore the surroundings at leisure or enjoy a cultural performance in the comfort of your luxurious train.\n\n13:00 – Lunch Onboard\nIndulge in a gourmet lunch onboard, served in the opulent dining car. The diverse flavors and royal Rajasthani dishes will delight your palate.\n\n14:30 – Visit to Junagarh Fort\nAfter lunch, visit the grand Junagarh Fort, one of the few forts in Rajasthan that is not built on a hilltop. The fort complex, with its palaces, temples, and courtyards, offers a glimpse into the royal lifestyle of the Rajputs. Admire the intricate architecture and historic splendor of this iconic fort.\n\n17:30 – Exclusive Sundowners at Sand Dunes\nProceed for a short drive to the majestic sand dunes of the Thar Desert. Enjoy an unforgettable evening with cocktails and a barbecue dinner under the stars, accompanied by live folk dance performances. This exclusive experience on the desert sands offers a true taste of Rajasthan’s royal hospitality.\n\n20:30 – Return to Maharajas' Express\nAfter an evening of sumptuous food, cocktails, and entertainment, return to the comfort of the Maharajas' Express for a restful night.\n\n21:45 – Maharajas’ Express Proceeds to Jaipur\nAs the evening winds down, the Maharajas' Express begins its journey towards Jaipur, the Pink City, known for its majestic palaces and vibrant culture.\n\nOvernight – Onboard the Maharajas' Express",
+                },
+                {
+                    title: "Jaipur (Thursday)– Amber Fort & Royal Lunch",
+                    description:
+                        "07:00 – Breakfast Onboard\nEnjoy a relaxed breakfast as the Maharajas' Express travels through the scenic countryside en route to Jaipur, the Pink City, known for its grandeur and royal history.\n\n08:30 – Arrival in Jaipur & Visit Amber Fort\nArrive in Jaipur and proceed for a visit to the majestic Amber Fort, a UNESCO World Heritage Site. Explore the fort’s intricate architecture, majestic courtyards, and panoramic views of the surrounding area. Take a royal elephant ride or jeep ride up to the fort, relishing the regal experience.\n\n13:00 – Lunch at Rambagh Palace Hotel\nAfter your fort visit, head to the stunning Rambagh Palace, a former royal residence, for an exclusive lunch. Dine like royalty in this heritage hotel, enjoying the opulence and grandeur that echoes the splendor of Jaipur’s royal heritage.\n\n16:00 – Return to Maharajas' Express\nAfter lunch, return to the comfort of the Maharajas' Express. Relax onboard and enjoy the luxurious amenities or opt for optional activities available to you.\n\n19:30 – Dinner Onboard\nIndulge in a lavish dinner onboard, where you can savor gourmet dishes prepared by expert chefs in the elegant dining cars, as the train prepares for the next leg of the journey.\n\n23:00 – Maharajas’ Express Departs for Sawai Madhopur (Ranthambore)\nAfter dinner, settle in and unwind as the Maharajas' Express departs for Sawai Madhopur, the gateway to the famous Ranthambore National Park, known for its rich wildlife, especially the Bengal tigers.\n\nOvernight – Onboard the Maharajas' Express",
+                },
+                {
+                    title: " Ranthambore and Fatehpur Sikri (Friday)",
+                    description:
+                        "06:30 – Early Morning Safari at Ranthambore National Park\nStart your day early with an exciting safari through the Ranthambore National Park, one of India’s most famous wildlife sanctuaries. Known for its Bengal tigers, the park is also home to various species of birds and other wildlife. Enjoy a thrilling game drive as you explore this natural habitat and spot animals in their natural surroundings.\n\n09:45 – Return to Maharajas' Express & Breakfast Onboard\nAfter your adventurous safari, return to the comforts of the Maharajas' Express for a hearty breakfast onboard, where you can relax and refresh.\n\n10:15 – Proceed to Fatehpur Sikri\nThe train now begins its journey towards Fatehpur Sikri, the deserted Mughal city and UNESCO World Heritage Site, known for its stunning architecture and historical significance.\n\n13:30 – Lunch Onboard\nEnjoy a delicious lunch onboard as the Maharajas' Express continues its journey through the Indian countryside.\n\n14:45 – Arrive in Fatehpur Sikri & Visit the Mughal City\nUpon arrival, explore the deserted Mughal city of Fatehpur Sikri. Once the capital of the Mughal Empire, the city is an architectural masterpiece, featuring magnificent structures such as Jama Masjid, Buland Darwaza, and Panch Mahal. Walk through this ancient city and admire its well-preserved ruins.\n\n18:00 – Return to Maharajas' Express\nAfter your visit, return to the train and unwind as you enjoy the luxurious amenities onboard.\n\n19:30 – Indian Evening & Dinner Onboard\nThe evening will feature an Indian Evening filled with traditional music and dance. Afterward, enjoy a delectable dinner served onboard, showcasing a wide variety of Indian and international cuisine.\n\n20:00 – Arrival in Agra & Overnight at Agra\nThe Maharajas' Express arrives in Agra, home to the iconic Taj Mahal. Relax and enjoy a restful night at this heritage city.\n\nOvernight – Onboard Maharajas' Express",
+                },
+                {
+                    title: "Agra and Delhi (Saturday)– The Taj Mahal & Departure",
+                    description:
+                        "06:30 – Visit the Taj Mahal\nStart your final day with a visit to one of the world’s most iconic landmarks, the Taj Mahal. This magnificent white marble mausoleum, built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal, is a symbol of eternal love. Explore the stunning gardens, the main dome, and intricate carvings as you experience the grandeur of this UNESCO World Heritage Site.\n\n10:00 – Return to Maharajas' Express & Breakfast Onboard\nAfter your visit, return to the comforts of the Maharajas' Express. Enjoy a relaxed breakfast onboard as the train makes its way back towards Delhi, soaking in the scenic countryside views.\n\n10:30 – Proceed to Delhi\nThe Maharajas' Express departs from Agra and proceeds towards Delhi, marking the final leg of your luxurious journey across India.\n\n13:00 – Lunch Onboard\nRelish a gourmet lunch onboard as you travel towards the bustling capital city of India, Delhi, while reflecting on the royal experiences of the past days.\n\n14:40 – Disembark in Delhi & Farewell\nUpon arrival at Delhi, disembark from the Maharajas' Express and bid farewell to this unforgettable journey. The memories of exploring India’s royal heritage in the lap of luxury will stay with you long after you’ve left the train.\n\nEnd of Journey.",
+                },
+            ],
+            important_information: [
+                "Itinerary, sightseeing, timings and scheduled destinations may change without prior notice due to local/ weather conditions.",
+                "Maharajas' Express reservation includes accommodation in double or twin-bedded cabins with en-suite bathroom and is inclusive of meals, soft beverages, house pour brands of wines, beer and spirit.",
+                "This luxury train tariff also includes the butler service, paramedic services, guided off-tour excursions as illustrated in the journeys, inclusive of entrance fees, still camera fee, transport and services of a guide and porterage at stations.",
+                "Children below 5 years shall be allowed free, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. OR..Single child (5 - 12 years) - 50% of the adult fare, subject to sharing of double bed with parents. This is subject to availability of double bed at the time of booking. Please note that we do not have the facility for interconnecting cabins except in the Presidential Suite car. Child policy is subject to change and must be confirmed at the time of booking.",
+                "We regret that the dimensions of the carriages and design of the train are not suitable for wheelchair bound passengers. We also recommend that guests with limited mobility and other such constraints should be accompanied by an able-bodied passenger. However, our valets will be available to provide additional assistance. Kindly specify any special requirements at the time of booking.",
             ],
         },
     },

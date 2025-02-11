@@ -104,6 +104,7 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                     src={
                         "https://images.pexels.com/photos/8199708/pexels-photo-8199708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     }
+                    alt={"A group of students"}
                     className="hidden md:block w-1/2 max-h-[30rem] object-cover justify-center self-center"
                 />
             </div>
@@ -157,8 +158,11 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         Tours, MICE Groups
                     </p> */}
                 <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value={`item-1`} className="border-none">
-                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                    <AccordionItem
+                        value={`item-1`}
+                        className="border-b border-gray-200"
+                    >
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
                             <span className="text-sm text-black pr-2">
                                 Do you offer customized itineraries for senior
                                 citizens or retirees looking for a more relaxed
@@ -181,8 +185,11 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value={`item-2`} className="border-none">
-                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                    <AccordionItem
+                        value={`item-2`}
+                        className="border-b border-gray-200"
+                    >
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
                             <span className="text-sm text-black pr-2">
                                 How do you accommodate travelers with physical
                                 disabilities or mobility challenges?
@@ -204,8 +211,11 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value={`item-3`} className="border-none">
-                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                    <AccordionItem
+                        value={`item-3`}
+                        className="border-b border-gray-200"
+                    >
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
                             <span className="text-sm text-black pr-2">
                                 Do you have packages specifically for university
                                 or student groups?
@@ -227,8 +237,11 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value={`item-4`} className="border-none">
-                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                    <AccordionItem
+                        value={`item-4`}
+                        className="border-b border-gray-200"
+                    >
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
                             <span className="text-sm text-black pr-2">
                                 What type of services do you provide for MICE
                                 (Meetings, Incentives, Conferences, and Events)
@@ -252,8 +265,11 @@ const StudentTravel: React.FC<StudentTravelProps> = ({}) => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value={`item-5`} className="border-none">
-                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                    <AccordionItem
+                        value={`item-5`}
+                        className="border-b border-gray-200"
+                    >
+                        <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
                             <span className="text-sm text-black pr-2">
                                 Can you help organize incentive tours for
                                 corporate groups looking to reward their

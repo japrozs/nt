@@ -41,7 +41,7 @@ export default function Home() {
                     </h1>
                     <p className="px-5 md:px-0 text-sm md:text-base md:max-w-[35rem] mx-auto font-medium text-white md:text-gray-100 mt-3.5">
                         With over 25 years of experience and offices across
-                        India, the USA, UAE, Saudi Arabia, and Egypt, we offer
+                        India, USA, UAE, Saudi Arabia, and Egypt, we offer
                         expert travel solutions and tailor-made services,
                         wherever you are.
                     </p>
@@ -228,6 +228,7 @@ export default function Home() {
                     <img
                         src="/img/udaivilas.webp"
                         className="mx-auto h-72 w-auto rounded-md"
+                        alt={"Beach chairs at a resort"}
                     />
                 </div>
             </div>

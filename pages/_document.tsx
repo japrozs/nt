@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from "next/document";
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "sonner";
 
 export default function Document() {
@@ -128,6 +129,7 @@ export default function Document() {
             <body className="antialiased">
                 <Main />
                 <Toaster />
+                <Analytics />
                 <NextScript />
             </body>
         </Html>

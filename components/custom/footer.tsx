@@ -69,8 +69,25 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     Students
                 </a>
                 <span className="text-gray-500">•</span>
-                <a className="text-gray-300 font-medium text-sm hover:text-blue-500">
+                <a
+                    href="/"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
                     For agents
+                </a>
+                <span className="text-gray-500">•</span>
+                <a
+                    href="tandc"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
+                    T&C's
+                </a>
+                <span className="text-gray-500">•</span>
+                <a
+                    href="/privacy-policy"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500 cursor-pointer"
+                >
+                    Privacy Policy
                 </a>
             </div>
         </div>
