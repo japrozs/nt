@@ -101,7 +101,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
                                         "Contact form sent successfully"
                                     );
                                 } else {
-                                    toast.error("Could not send form");
+                                    toast.error("Could not submit form");
                                 }
                             }}
                         >

@@ -153,7 +153,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                                 passHref
                                             >
                                                 <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
-                                                    Luxury
+                                                    Luxury Trains
                                                 </NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>
@@ -256,7 +256,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                         passHref
                                     >
                                         <NavigationMenuLink className="block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
-                                            Luxury
+                                            Luxury Trains
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>

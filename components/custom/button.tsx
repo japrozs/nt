@@ -48,8 +48,8 @@ export const Button: React.FC<ButtonProps> = ({
                     ? `${
                           color
                               ? color
-                              : "bg-primary-color border-primary-color text-black"
-                      } hover:opacity-90`
+                              : "bg-blue-500 border-blue-500 text-white"
+                      } ${!disabled && "hover:opacity-90"}`
                     : "bg-white border-gray-300 hover:bg-gray-50"
             } focus:ring-2 ${
                 disabled && "opacity-40 disabled"
@@ -58,7 +58,13 @@ export const Button: React.FC<ButtonProps> = ({
         >
             {loading ? (
                 <>
-                    <Spinner className="w-6 h-6 text-gray-200 fill-navy" />
+                    <Spinner
+                        className={`w-5 h-5 ${
+                            colored
+                                ? "text-transparent fill-white"
+                                : "text-gray-200 fill-navy"
+                        }`}
+                    />
                 </>
             ) : (
                 <>
