@@ -41,384 +41,662 @@ const FAQ: React.FC<FAQProps> = ({}) => {
             </div>
             <div className="mx-auto max-w-[76rem] gap-x-10 my-10 px-3 md:px-10 flex flex-col md:flex-row md:items-start">
                 <div className="w-full">
-                    <h1 className="text-5xl md:text-4xl mb-4 mx-auto text-navy modesto w-full md:max-w-3xl">
-                        FOR INDIAN DESTINATIONS
-                    </h1>
-                    <Accordion type="single" collapsible className="w-full">
-                        <AccordionItem
-                            value={`item-1`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    What makes your itineraries unique compared
-                                    to other travel companies offering tours to
-                                    India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We specialize in curated,
-                                    off-the-beaten-path itineraries that
-                                    showcase the rich cultural, natural, and
-                                    historical diversity of India. Our trips are
-                                    carefully designed to cater to different
-                                    types of travelers, from adventure
-                                    enthusiasts to those looking for luxury
-                                    experiences. Plus, we provide local insight
-                                    and authentic experiences that go beyond
-                                    typical tourist spots.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem
-                            value={`item-2`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    How can American travel agents book trips
-                                    for their clients in India through your
-                                    company?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Since we have an office based in the USA,
-                                    American travel agents can easily book
-                                    directly through our local team, providing
-                                    you with seamless service, timely
-                                    communication, and competitive rates. Our
-                                    local office ensures that agents can
-                                    coordinate bookings and handle inquiries
-                                    without the need for international calls or
-                                    delays.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem
-                            value={`item-3`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    What types of itineraries do you offer for
-                                    Indian destinations?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We offer a wide range of itineraries,
-                                    including wildlife safaris, cultural tours,
-                                    heritage trails, luxury experiences,
-                                    spiritual journeys, and adventure
-                                    expeditions. Our 28 featured itineraries
-                                    span across iconic destinations like Delhi,
-                                    Jaipur, Agra, Kerala, Rajasthan, and remote,
-                                    offbeat locations such as Spiti Valley,
-                                    Ladakh, and the North-East.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem
-                            value={`item-4`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    Are your tours customizable for clients with
-                                    specific interests or needs?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Yes, absolutely! Our itineraries can be
-                                    fully customized to suit the specific
-                                    interests and preferences of your clients.
-                                    Whether they are looking for family-friendly
-                                    tours, honeymoon packages, wellness
-                                    retreats, or luxury stays, we can tailor the
-                                    experience to match their needs.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem
-                            value={`item-5`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    What kind of support can American travel
-                                    agents expect from your team?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We provide end-to-end support, including
-                                    detailed itinerary planning, personalized
-                                    consultations, and on-the-ground assistance
-                                    throughout the tour. Our team in the USA is
-                                    available for immediate assistance, and our
-                                    team in India ensures that everything runs
-                                    smoothly during the tour, from
-                                    transportation to accommodations and
-                                    excursions.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem
-                            value={`item-6`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    What is the typical group size for your
-                                    tours?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We offer both private and small group tours.
-                                    Group tours typically range from 6 to 12
-                                    people, ensuring an intimate and
-                                    personalized experience, while private tours
-                                    can be arranged for families, friends, or
-                                    corporate groups. We believe in offering a
-                                    more tailored, comfortable travel experience
-                                    rather than overcrowded buses.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                    <div className="md:mb-10">
+                        <h1 className="text-5xl md:text-4xl mb-4 mx-auto text-navy modesto w-full md:max-w-3xl">
+                            FOR INDIAN DESTINATIONS
+                        </h1>
+                        <Accordion type="single" collapsible className="w-full">
+                            <AccordionItem
+                                value={`item-1`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What makes your itineraries unique
+                                        compared to other travel companies
+                                        offering tours to India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We specialize in curated,
+                                        off-the-beaten-path itineraries that
+                                        showcase the rich cultural, natural, and
+                                        historical diversity of India. Our trips
+                                        are carefully designed to cater to
+                                        different types of travelers, from
+                                        adventure enthusiasts to those looking
+                                        for luxury experiences. Plus, we provide
+                                        local insight and authentic experiences
+                                        that go beyond typical tourist spots.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-2`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How can American travel agents book
+                                        trips for their clients in India through
+                                        your company?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Since we have an office based in the
+                                        USA, American travel agents can easily
+                                        book directly through our local team,
+                                        providing you with seamless service,
+                                        timely communication, and competitive
+                                        rates. Our local office ensures that
+                                        agents can coordinate bookings and
+                                        handle inquiries without the need for
+                                        international calls or delays.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-3`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What types of itineraries do you offer
+                                        for Indian destinations?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We offer a wide range of itineraries,
+                                        including wildlife safaris, cultural
+                                        tours, heritage trails, luxury
+                                        experiences, spiritual journeys, and
+                                        adventure expeditions. Our 28 featured
+                                        itineraries span across iconic
+                                        destinations like Delhi, Jaipur, Agra,
+                                        Kerala, Rajasthan, and remote, offbeat
+                                        locations such as Spiti Valley, Ladakh,
+                                        and the North-East.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-4`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Are your tours customizable for clients
+                                        with specific interests or needs?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes, absolutely! Our itineraries can be
+                                        fully customized to suit the specific
+                                        interests and preferences of your
+                                        clients. Whether they are looking for
+                                        family-friendly tours, honeymoon
+                                        packages, wellness retreats, or luxury
+                                        stays, we can tailor the experience to
+                                        match their needs.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-5`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What kind of support can American travel
+                                        agents expect from your team?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We provide end-to-end support, including
+                                        detailed itinerary planning,
+                                        personalized consultations, and
+                                        on-the-ground assistance throughout the
+                                        tour. Our team in the USA is available
+                                        for immediate assistance, and our team
+                                        in India ensures that everything runs
+                                        smoothly during the tour, from
+                                        transportation to accommodations and
+                                        excursions.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-6`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What is the typical group size for your
+                                        tours?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We offer both private and small group
+                                        tours. Group tours typically range from
+                                        6 to 12 people, ensuring an intimate and
+                                        personalized experience, while private
+                                        tours can be arranged for families,
+                                        friends, or corporate groups. We believe
+                                        in offering a more tailored, comfortable
+                                        travel experience rather than
+                                        overcrowded buses.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-7`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    How do you ensure the safety and comfort of
-                                    travelers in India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Traveler safety is our top priority. We only
-                                    work with trusted, certified drivers and
-                                    guides who are experienced in handling
-                                    international tourists. We ensure that
-                                    accommodations meet international standards,
-                                    and we take care of every detail—from
-                                    airport transfers to emergency contacts—so
-                                    your clients feel comfortable throughout
-                                    their journey.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-7`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How do you ensure the safety and comfort
+                                        of travelers in India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Traveler safety is our top priority. We
+                                        only work with trusted, certified
+                                        drivers and guides who are experienced
+                                        in handling international tourists. We
+                                        ensure that accommodations meet
+                                        international standards, and we take
+                                        care of every detail—from airport
+                                        transfers to emergency contacts—so your
+                                        clients feel comfortable throughout
+                                        their journey.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-8`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    What is the process for American agents to
-                                    receive commissions or discounts for
-                                    bookings?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We offer competitive commissions for every
-                                    booking made through your agency. Our
-                                    commissions are structured to reward both
-                                    agents and their clients, with special
-                                    offers available for group bookings. You’ll
-                                    receive clear details on commission rates
-                                    and payout processes upon partnership
-                                    initiation.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-8`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What is the process for American agents
+                                        to receive commissions or discounts for
+                                        bookings?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We offer competitive commissions for
+                                        every booking made through your agency.
+                                        Our commissions are structured to reward
+                                        both agents and their clients, with
+                                        special offers available for group
+                                        bookings. You’ll receive clear details
+                                        on commission rates and payout processes
+                                        upon partnership initiation.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-9`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    Do you offer any special promotions or
-                                    discounts for American clients?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Yes! We offer seasonal promotions,
-                                    early-bird discounts, and special offers for
-                                    group bookings. We also provide customized
-                                    packages for specific events such as
-                                    festivals, weddings, and corporate retreats
-                                    in India. These can be shared with your
-                                    clients to enhance the appeal of our tours.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-9`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Do you offer any special promotions or
+                                        discounts for American clients?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes! We offer seasonal promotions,
+                                        early-bird discounts, and special offers
+                                        for group bookings. We also provide
+                                        customized packages for specific events
+                                        such as festivals, weddings, and
+                                        corporate retreats in India. These can
+                                        be shared with your clients to enhance
+                                        the appeal of our tours.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-10`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    Can American travel agents visit India to
-                                    inspect the tours themselves?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We welcome American agents to visit India
-                                    for familiarization trips (FAM trips). These
-                                    trips allow you to experience our
-                                    itineraries firsthand and provide a better
-                                    understanding of the destinations and
-                                    services we offer. Contact our office to
-                                    learn more about our FAM trip opportunities.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-10`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Can American travel agents visit India
+                                        to inspect the tours themselves?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We welcome American agents to visit
+                                        India for familiarization trips (FAM
+                                        trips). These trips allow you to
+                                        experience our itineraries firsthand and
+                                        provide a better understanding of the
+                                        destinations and services we offer.
+                                        Contact our office to learn more about
+                                        our FAM trip opportunities.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-11`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    How do you handle customer service while
-                                    travelers are in India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Our team in India is available 24/7 for
-                                    on-ground support. We provide your clients
-                                    with local assistance in case of any
-                                    emergencies, travel changes, or adjustments.
-                                    Our dedicated customer service ensures that
-                                    any issues are resolved quickly, making
-                                    their trip as smooth as possible.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-11`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How do you handle customer service while
+                                        travelers are in India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Our team in India is available 24/7 for
+                                        on-ground support. We provide your
+                                        clients with local assistance in case of
+                                        any emergencies, travel changes, or
+                                        adjustments. Our dedicated customer
+                                        service ensures that any issues are
+                                        resolved quickly, making their trip as
+                                        smooth as possible.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-12`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    Are there any special visa or entry
-                                    requirements for U.S. citizens traveling to
-                                    India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    U.S. citizens need a valid visa to enter
-                                    India. We provide detailed information and
-                                    assistance on visa application processes. We
-                                    also offer recommendations for obtaining an
-                                    e-Visa, which simplifies the process for
-                                    most travelers.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-12`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Are there any special visa or entry
+                                        requirements for U.S. citizens traveling
+                                        to India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        U.S. citizens need a valid visa to enter
+                                        India. We provide detailed information
+                                        and assistance on visa application
+                                        processes. We also offer recommendations
+                                        for obtaining an e-Visa, which
+                                        simplifies the process for most
+                                        travelers.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-13`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    How do you handle group tours, especially
-                                    for corporate clients or large families?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We specialize in organizing group tours,
-                                    whether for corporate retreats, family
-                                    vacations, or large educational groups. From
-                                    custom itineraries to group-friendly
-                                    accommodations and transportation, we ensure
-                                    that every aspect of the trip is organized,
-                                    making it hassle-free for the American
-                                    agent.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-13`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How do you handle group tours,
+                                        especially for corporate clients or
+                                        large families?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We specialize in organizing group tours,
+                                        whether for corporate retreats, family
+                                        vacations, or large educational groups.
+                                        From custom itineraries to
+                                        group-friendly accommodations and
+                                        transportation, we ensure that every
+                                        aspect of the trip is organized, making
+                                        it hassle-free for the American agent.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-14`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    Can you cater to clients interested in
-                                    luxury and high-end travel experiences in
-                                    India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    Yes, we offer premium travel experiences
-                                    that include luxury accommodations, private
-                                    guides, gourmet dining, and exclusive
-                                    activities. We collaborate with five-star
-                                    hotels, boutique properties, and luxury
-                                    resorts to ensure an unforgettable high-end
-                                    experience for your clients.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
+                            <AccordionItem
+                                value={`item-14`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Can you cater to clients interested in
+                                        luxury and high-end travel experiences
+                                        in India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes, we offer premium travel experiences
+                                        that include luxury accommodations,
+                                        private guides, gourmet dining, and
+                                        exclusive activities. We collaborate
+                                        with five-star hotels, boutique
+                                        properties, and luxury resorts to ensure
+                                        an unforgettable high-end experience for
+                                        your clients.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
 
-                        <AccordionItem
-                            value={`item-15`}
-                            className="border-b border-gray-200"
-                        >
-                            <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
-                                <span className="text-sm text-black pr-2">
-                                    How do you ensure responsible and
-                                    sustainable tourism practices in India?
-                                </span>
-                                <div className="ml-auto mr-0"></div>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                <p className="text-gray-800 text-smol font-medium px-2 py-3">
-                                    We are committed to responsible tourism,
-                                    working with eco-friendly accommodations and
-                                    supporting conservation efforts in national
-                                    parks and wildlife sanctuaries. We encourage
-                                    our travelers to respect local cultures,
-                                    minimize their environmental footprint, and
-                                    contribute to local communities through
-                                    sustainable practices.
-                                </p>
-                            </AccordionContent>
-                        </AccordionItem>
-                    </Accordion>
+                            <AccordionItem
+                                value={`item-15`}
+                                className="border-b border-gray-200"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5  rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How do you ensure responsible and
+                                        sustainable tourism practices in India?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We are committed to responsible tourism,
+                                        working with eco-friendly accommodations
+                                        and supporting conservation efforts in
+                                        national parks and wildlife sanctuaries.
+                                        We encourage our travelers to respect
+                                        local cultures, minimize their
+                                        environmental footprint, and contribute
+                                        to local communities through sustainable
+                                        practices.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    </div>
+                    <div className="md:mb-10">
+                        <h1 className="text-5xl md:text-4xl mb-4 mx-auto text-navy modesto w-full md:max-w-3xl">
+                            FOR "HOTEL PRICE KILLER"
+                        </h1>
+                        <Accordion type="single" collapsible className="w-full">
+                            <AccordionItem
+                                value={`item-1`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What is Hotel Price Killer?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Hotel Price Killer is a unique service
+                                        by Noble Travels that guarantees to beat
+                                        the hotel rates you find online. Simply
+                                        submit the price you found on popular
+                                        booking sites like Booking.com, Expedia,
+                                        or Agoda, and we’ll work to get you an
+                                        even better deal using our exclusive
+                                        travel industry rates.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+
+                            <AccordionItem
+                                value={`item-2`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How does it work?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <ul className="px-6 py-3 list-disc space-y-1.5">
+                                        <li className="text-gray-800 text-smol font-medium">
+                                            Search for your hotel on your
+                                            favorite travel site (e.g.,
+                                            Booking.com, Expedia).
+                                        </li>
+                                        <li className="text-gray-800 text-smol font-medium">
+                                            Submit the hotel name, location,
+                                            travel dates, and the price you
+                                            found using our form.
+                                        </li>
+                                        <li className="text-gray-800 text-smol font-medium">
+                                            Our team checks our special rates
+                                            and replies within 1–2 hours with a
+                                            better price.
+                                        </li>
+                                    </ul>
+                                </AccordionContent>
+                            </AccordionItem>
+
+                            <AccordionItem
+                                value={`item-3`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Is there any cost to use this service?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        No, the Hotel Price Killer service is
+                                        completely free of charge. You only pay
+                                        for the hotel booking if you decide to
+                                        accept our offer.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+
+                            <AccordionItem
+                                value={`item-4`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How are you able to offer cheaper rates?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We have <b>exclusive partnerships</b>{" "}
+                                        with hotels worldwide and access to
+                                        <b>wholesale rates</b> that are not
+                                        available to the general public. This
+                                        allows us to pass on these savings to
+                                        you.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+
+                            <AccordionItem
+                                value={`item-5`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What booking sites do you compare
+                                        against?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We can beat rates from all major booking
+                                        platforms, including Booking.com,
+                                        Expedia, Agoda, Hotels.com, Trivago, and
+                                        many more...
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-6`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How long does it take to get a reply?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        We aim to reply within 1–2 hours during
+                                        business hours. If you submit your
+                                        request after hours, you’ll receive a
+                                        response the next business day.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-7`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Can I submit multiple hotel prices at
+                                        once?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes, you can submit multiple hotel
+                                        prices. Simply fill out the form for
+                                        each hotel, and we’ll get back to you
+                                        with our best rates.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-8`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        What if you can’t beat the price?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        If we cannot beat the price, we’ll let
+                                        you know, and you are free to book with
+                                        your original source. However, we
+                                        usually find better deals more than 90%
+                                        of the time.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-9`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Is my information secure?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Absolutely. All your information is
+                                        handled securely and is only used for
+                                        the purpose of finding you the best
+                                        hotel rate. We do not share or sell your
+                                        data.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-10`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        How do I book the hotel if I like your
+                                        price?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        If you like our rate, we will send you a
+                                        booking confirmation link where you can
+                                        securely complete your reservation
+                                        through Noble Travels.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-11`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Can I use this service for group
+                                        bookings?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes! We also handle group bookings. Just
+                                        mention the number of rooms and guests
+                                        when you submit the form.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem
+                                value={`item-12`}
+                                className="border-none"
+                            >
+                                <AccordionTrigger className="group flex items-center w-full text-left px-3 py-2.5 border-b border-dashed border-gray-300 rounded-lg font-semibold hover:no-underline">
+                                    <span className="text-sm text-black pr-2">
+                                        Does the price I submit have to be
+                                        available online?
+                                    </span>
+                                    <div className="ml-auto mr-0"></div>
+                                </AccordionTrigger>
+                                <AccordionContent>
+                                    <p className="text-gray-800 text-smol font-medium px-2 py-3">
+                                        Yes, the price you submit must be
+                                        publicly available and visible on any
+                                        online travel site at the time of
+                                        submission. This helps us validate the
+                                        rate and confidently offer you a better
+                                        deal.
+                                    </p>
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    </div>
                 </div>
                 <div className="w-full mt-14 md:mt-0">
                     <h1 className="text-5xl md:text-4xl mb-2.5 mx-auto text-navy modesto w-full md:max-w-3xl">
