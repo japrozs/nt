@@ -56,7 +56,7 @@ export default function TestimonialSlider({
 
                                         {/* Content */}
                                         <div className="relative z-10">
-                                            <BiSolidQuoteLeft className="mx-auto text-3xl text-gray-300 mb-2" />
+                                            <BiSolidQuoteLeft className="mx-auto text-3xl text-emerald-500 mb-2" />
                                             <p className="mb-5 leading-[1.4] text-xl font-bold">
                                                 {testimonial.quote}
                                             </p>

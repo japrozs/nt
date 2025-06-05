@@ -21,6 +21,10 @@ import {
 import { Checkbox } from "@headlessui/react";
 import { MdCheck } from "react-icons/md";
 import TestimonialSlider from "@/components/custom/testimonial-slider";
+import LogoSlider from "@/components/custom/logo-slider";
+import { Popper } from "@/components/custom/popper";
+import { RiQuestionLine } from "react-icons/ri";
+import { Link } from "react-scroll";
 
 interface HotelPriceKillerProps {}
 
@@ -130,6 +134,82 @@ const HotelPriceKiller: React.FC<HotelPriceKillerProps> = ({}) => {
                     </h1>
                 </div>
             </div>
+            <div className="flex flex-col md:flex-row md:items-stretch items-center justify-center space-y-8 md:space-y-0  md:space-x-8">
+                <div className="overflow-hidden max-w-[20rem]">
+                    <img
+                        className="size-64 mx-auto"
+                        src="https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SearchDesktop.svg"
+                    />
+                    <p className="mt-[-30px] text-lg font-bold text-center">
+                        Search Online
+                    </p>
+                    <p className="text-sm text-gray-500 font-medium text-center">
+                        Search for your hotel on any travel website (e.g.,
+                        Booking.com, Expedia, Agoda, or any other site
+                        globally).
+                    </p>
+                </div>
+                <div className="overflow-hidden max-w-[20rem]">
+                    <img
+                        className="size-64 mx-auto"
+                        src="https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/CompareDesktop.svg"
+                    />
+                    <div className="mt-[-30px] flex justify-center items-center mx-auto">
+                        <p className="text-lg font-bold">Submit a rate</p>
+                        <Popper
+                            panelShadow
+                            button={({ open }) => (
+                                <RiQuestionLine
+                                    className={`transition-all cursor-help ml-2 text-lg text-gray-400 hover:text-blue-600`}
+                                />
+                            )}
+                            panel={() => (
+                                <div className="bg-white py-2.5 px-3 w-64">
+                                    <p className="text-sm font-medium text-gray-700">
+                                        <span className="text-black font-semibold">
+                                            Important
+                                        </span>{" "}
+                                        – The price you want us to beat must be
+                                        currently available and visible online
+                                        at the time of submission.
+                                    </p>
+                                </div>
+                            )}
+                        />
+                    </div>
+                    <p className="text-sm text-gray-500 font-medium text-center">
+                        Submit the hotel name, location, travel dates, and the
+                        price you found using our form.
+                    </p>
+                    <Link
+                        to="submit-rate"
+                        smooth={true}
+                        duration={300}
+                        offset={-25}
+                    >
+                        <button className="text-sm mx-auto mt-3 bg-blue-700/90 hover:bg-blue-700 transition flex items-center text-white rounded-full py-1.5 px-4 font-medium">
+                            Submit a rate
+                        </button>
+                    </Link>
+                </div>
+                <div className="overflow-hidden max-w-[20rem]">
+                    <img
+                        className="size-64 mx-auto"
+                        src="https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SaveDesktop.svg"
+                    />
+                    <p className="mt-[-30px] text-lg font-bold text-center">
+                        Get a better offer
+                    </p>
+                    <p className="text-sm text-gray-500 font-medium text-center">
+                        Our team checks our special rates and replies within 1–2
+                        hours with a better price. The price you want us to beat
+                        must be currently available and visible online.
+                    </p>
+                </div>
+            </div>
+            <div className="my-10">
+                <LogoSlider />
+            </div>
             <div className="flex flex-col items-center md:flex-row md:items-center md:space-x-10 max-w-6xl mx-auto py-10 px-4">
                 {/* Left - Steps */}
                 <div className="md:w-6/12">
@@ -228,7 +308,10 @@ const HotelPriceKiller: React.FC<HotelPriceKillerProps> = ({}) => {
                     </div>
                 </div>
             </div> */}
-            <div className="border-y border-gray-200 border-dashed">
+            <div
+                id="submit-rate"
+                className="border-y border-gray-200 border-dashed"
+            >
                 <div className="w-full md:max-w-6xl mx-auto p-4 md:p-10">
                     <p className="text-2xl font-bold mb-1">
                         Submit your rate now

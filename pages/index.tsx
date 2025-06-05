@@ -173,7 +173,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <hr className="broder-gray-600 border-dashed" />
+            <hr className="border-dashed" />
             <div className="text-center my-10">
                 <p className="text-5xl md:text-6xl modesto text-navy">
                     CHECKOUT
