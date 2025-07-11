@@ -49,6 +49,13 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                 </a>
                 <span className="text-gray-500">•</span>
                 <a
+                    href="/about"
+                    className="text-gray-300 font-medium text-sm hover:text-blue-500"
+                >
+                    About
+                </a>
+                <span className="text-gray-500">•</span>
+                <a
                     href="/accessibility"
                     className="text-gray-300 font-medium text-sm hover:text-blue-500"
                 >

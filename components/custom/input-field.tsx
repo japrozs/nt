@@ -20,7 +20,7 @@ export const InputField: React.FC<InputFieldProps> = ({
     return (
         <div className={"mt-3"}>
             <label
-                className={"text-sm text-slate-600 font-medium text-opacity-60"}
+                className={"text-sm text-slate-700 font-medium text-opacity-60"}
                 htmlFor={field.name}
             >
                 {label}

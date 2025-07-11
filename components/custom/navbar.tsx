@@ -95,17 +95,6 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                 <NavigationMenu>
                                     <NavigationMenuList className="flex space-x-3">
                                         <NavigationMenuItem>
-                                            <Link
-                                                href="/about"
-                                                legacyBehavior
-                                                passHref
-                                            >
-                                                <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
-                                                    About
-                                                </NavigationMenuLink>
-                                            </Link>
-                                        </NavigationMenuItem>
-                                        <NavigationMenuItem>
                                             <NavigationMenuTrigger className="h-9 px-4 py-2 rounded-md text-gray-100 data-[state=open]:text-blue-500 text-sm font-medium hover:bg-white/5 submenu-trigger">
                                                 Destinations
                                             </NavigationMenuTrigger>
@@ -143,6 +132,20 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                             >
                                                 <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
                                                     All Tours
+                                                </NavigationMenuLink>
+                                            </Link>
+                                        </NavigationMenuItem>
+                                        <NavigationMenuItem>
+                                            <Link
+                                                href="/hpk"
+                                                legacyBehavior
+                                                passHref
+                                            >
+                                                <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
+                                                    Hotel Price Killer{" "}
+                                                    <span className="ml-1.5 text-[0.625rem] py-0.5 px-1 rounded-lg border border-emerald-500 bg-emerald-900 text-emerald-500 font-bold">
+                                                        NEW
+                                                    </span>
                                                 </NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>
@@ -203,9 +206,12 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                         <NavigationMenu className="w-full">
                             <NavigationMenuList className="mt-3 flex-col space-y-2 pb-4 items-start">
                                 <NavigationMenuItem>
-                                    <Link href="/about" legacyBehavior passHref>
-                                        <NavigationMenuLink className="block h-9 pl-5 pr-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
-                                            About
+                                    <Link href="/hpk" legacyBehavior passHref>
+                                        <NavigationMenuLink className="inline-block h-9 px-4 py-2 rounded-md text-gray-100 hover:text-blue-500 text-sm font-medium hover:bg-white/5">
+                                            Hotel Price Killer{" "}
+                                            <span className="ml-1.5 text-[0.625rem] py-0.5 px-1 rounded-lg border border-emerald-500 bg-emerald-900 text-emerald-500 font-bold">
+                                                NEW
+                                            </span>
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>

@@ -17,9 +17,9 @@ interface PopperProps {
 export const Popper: React.FC<PopperProps> = ({
     button,
     panel,
-    panelShadow,
+    panelShadow: _panelShadow,
 }) => {
-    const [isShowing, setIsShowing] = useState(false);
+    const [isShowing, _setIsShowing] = useState(false);
 
     return (
         <HoverCard>
