@@ -445,7 +445,7 @@ const HotelPriceKiller: React.FC<HotelPriceKillerProps> = ({}) => {
                             console.log("res.data :: ", res.data);
                             if (res.data.status == "OK") {
                                 toast.success(
-                                    "Thank you! Our team will get back to you within 1-2 hours"
+                                    "Thank you! We are working to beat that price. Expect a reply soon."
                                 );
                                 resetForm();
                             } else {
